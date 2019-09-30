@@ -1,10 +1,10 @@
 object frmExemplo: TfrmExemplo
   Left = 300
   Top = 1
-  Width = 751
-  Height = 734
   HorzScrollBar.Visible = False
   VertScrollBar.Visible = False
+  ClientHeight = 695
+  ClientWidth = 735
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -14,8 +14,8 @@ object frmExemplo: TfrmExemplo
   OldCreateOrder = False
   OnCreate = FormCreate
   DesignSize = (
-    743
-    707)
+    735
+    695)
   PixelsPerInch = 96
   TextHeight = 13
   object wbBanner: TWebBrowser
@@ -116,7 +116,7 @@ object frmExemplo: TfrmExemplo
         end
         object btnCancelar: TButton
           Left = 209
-          Top = 155
+          Top = 191
           Width = 200
           Height = 30
           Caption = '&9. Cancelar NFSe'
@@ -131,7 +131,7 @@ object frmExemplo: TfrmExemplo
         end
         object btnConsultarNFSe: TButton
           Left = 209
-          Top = 121
+          Top = 156
           Width = 200
           Height = 30
           Caption = '&8. Consultar NFSe'
@@ -165,7 +165,6 @@ object frmExemplo: TfrmExemplo
           Width = 403
           Height = 21
           DropDownCount = 10
-          ItemHeight = 13
           TabOrder = 9
           OnDropDown = cbListaCertificadosDropDown
         end
@@ -226,6 +225,21 @@ object frmExemplo: TfrmExemplo
           ShowHint = True
           TabOrder = 11
           TabStop = True
+        end
+        object btnConsultarNotasTomadas: TButton
+          Left = 209
+          Top = 120
+          Width = 200
+          Height = 30
+          Caption = '&12. Consultar Notas Tomadas'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -11
+          Font.Name = 'MS Sans Serif'
+          Font.Style = [fsBold]
+          ParentFont = False
+          TabOrder = 12
+          OnClick = btnConsultarNotasTomadasClick
         end
       end
       object gbConfigProxyNFSe: TGroupBox

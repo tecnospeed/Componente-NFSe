@@ -7,7 +7,7 @@ uses
   Dialogs, spdNFSe, spdNFSeException, IniFiles,
   MSXML5_TLB, spdCustomNFSe, spdNFSeUtils, StrUtils,
   spdNFSeDataset, spdNFSeXsdUtils, ComCtrls, StdCtrls, ExtCtrls, CheckLst, Grids,
-  DBGrids, spdProxyNFSe, OleCtrls, SHDocVw, uCancelamento,uConsNFSEporRPS,
+  DBGrids, spdProxyNFSe, OleCtrls, SHDocVw, uCancelamento,uConsNFSEporRPS, uConsNFSETomadas,
   NFSeConverterX_TLB, spdNFSeTypes, spdNFSeGov;
 
 //******************************************************************************************************
@@ -24,6 +24,14 @@ const
   CONSULTARNFSEPORRPS_TIPO = 'ConsultarNfsePorRps_Tipo';
   CONSULTARNFSE_NUMERONFSE = 'ConsultarNfse_NumeroNfse';
   CANCELARNFSE_CHAVE = 'CancelarNfse_Chave';
+  CONSULTARNOTASTOMADAS_NOMECIDADE = 'ConsultarNotasTomadas_NomeCidade';
+  CONSULTARNOTASTOMADAS_DOCUMENTOTOMADOR = 'ConsultarNotasTomadas_DocumentoTomador';
+  CONSULTARNOTASTOMADAS_IMTOMADOR = 'ConsultarNotasTomadas_IMTomador';
+  CONSULTARNOTASTOMADAS_DOCUMENTOPRESTADOR = 'ConsultarNotasTomadas_DocumentoPrestador';
+  CONSULTARNOTASTOMADAS_IMPRESTADOR = 'ConsultarNotasTomadas_IMPrestador';
+  CONSULTARNOTASTOMADAS_DATAINICIAL = 'ConsultarNotasTomadas_DataInicial';
+  CONSULTARNOTASTOMADAS_DATAFINAL = 'ConsultarNotasTomadas_DataFinal';
+  CONSULTARNOTASTOMADAS_PAGINA = 'ConsultarNotasTomadas_Pagina';
 
 type
   TfrmExemplo = class(TForm)
@@ -101,6 +109,7 @@ type
     btnEnviarRPS: TButton;
     rbTipoEnvioSin: TRadioButton;
     rbTipoEnvioAss: TRadioButton;
+    btnConsultarNotasTomadas: TButton;
 
     {DECLARAÇÕES RELACIONADAS AO ENVIO POR PROXYNFSe}
     {Abre o arquivo NFSeConfig.ini}
@@ -119,6 +128,8 @@ type
     procedure btnConsultarNFSeporRPSClick(Sender: TObject);
     {Consulta uma NFSe}
     procedure btnConsultarNFSeClick(Sender: TObject);
+    {Consulta as Notas Tomadas}
+    procedure btnConsultarNotasTomadasClick(Sender: TObject);
     {Cancela determinada NFSe}
     procedure btnCancelarClick(Sender: TObject);
 
@@ -979,6 +990,57 @@ begin
         mmCSV.Text := spdNFSeConverterX.ConverterRetConsultarNFSePorRPS(_XML,'');
         _Ret := spdNFSeConverterX.ConverterRetConsultarNFSePorRpsTipo(_XML);
         getRetornoConsultaNFSe(_Ret);
+
+      end;
+      rgImpressao.ItemIndex := 1;
+    finally
+      _FormDados.Free;
+      (Sender as TWinControl).Enabled := True;
+    end;
+  except
+    raise;
+  end;
+end;
+
+procedure TfrmExemplo.btnConsultarNotasTomadasClick(Sender: TObject);
+var
+  _XML, _Extras: string;
+  _FormDados: TFrmConsNFSETomadas;
+begin
+  CheckConfig;
+  try
+    _FormDados := TFrmConsNFSETomadas.Create(nil);
+    try
+      (Sender as TWinControl).Enabled := False;
+      _FormDados.edtNomeCidade.Text   := LerIni(CONSULTARNOTASTOMADAS_NOMECIDADE);
+      _FormDados.edtDocumentoTomador.Text   := LerIni(CONSULTARNOTASTOMADAS_DOCUMENTOTOMADOR);
+      _FormDados.edtIMTomador.Text   := LerIni(CONSULTARNOTASTOMADAS_IMTOMADOR);
+      _FormDados.edtDocumentoPrestador.Text   := LerIni(CONSULTARNOTASTOMADAS_DOCUMENTOPRESTADOR);
+      _FormDados.edtIMPrestador.Text   := LerIni(CONSULTARNOTASTOMADAS_IMPRESTADOR);
+      _FormDados.edtDataInicial.Text   := LerIni(CONSULTARNOTASTOMADAS_DATAINICIAL);
+      _FormDados.edtDataFinal.Text   := LerIni(CONSULTARNOTASTOMADAS_DATAFINAL);
+      _FormDados.edtPagina.Text   := LerIni(CONSULTARNOTASTOMADAS_PAGINA);
+      _FormDados.ShowModal;
+      _Extras := '';
+      if (_FormDados.ModalResult = mrok) and
+        PedirParametrosExtras(_Extras, 'ConsultarNotasTomadas') then
+      begin
+        _XML := ProxyNFSe.ConsultarNotasTomadas(_FormDados.edtNomeCidade.Text,
+          _FormDados.edtDocumentoTomador.Text, _FormDados.edtIMTomador.Text, _FormDados.edtDocumentoPrestador.Text,
+          _FormDados.edtIMPrestador.Text, _FormDados.edtDataInicial.Text, _FormDados.edtDataFinal.Text, _FormDados.edtPagina.Text,
+          _Extras);
+        FormatReturnXML(_XML);
+
+        GravarIni(CONSULTARNOTASTOMADAS_NOMECIDADE, _FormDados.edtNomeCidade.Text);
+        GravarIni(CONSULTARNOTASTOMADAS_DOCUMENTOTOMADOR, _FormDados.edtDocumentoTomador.Text);
+        GravarIni(CONSULTARNOTASTOMADAS_IMTOMADOR, _FormDados.edtIMTomador.Text);
+        GravarIni(CONSULTARNOTASTOMADAS_DOCUMENTOPRESTADOR, _FormDados.edtDocumentoPrestador.Text);
+        GravarIni(CONSULTARNOTASTOMADAS_IMPRESTADOR, _FormDados.edtIMPrestador.Text);
+        GravarIni(CONSULTARNOTASTOMADAS_DATAINICIAL, _FormDados.edtDataInicial.Text);
+        GravarIni(CONSULTARNOTASTOMADAS_DATAFINAL, _FormDados.edtDataFinal.Text);
+        GravarIni(CONSULTARNOTASTOMADAS_PAGINA, _FormDados.edtPagina.Text);
+
+        mmCSV.Clear;
 
       end;
       rgImpressao.ItemIndex := 1;
