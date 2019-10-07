@@ -14,6 +14,7 @@ Object={BEC61919-E6C4-11D1-BE7D-C63815000000}#1.0#0; FLEXWIZ.OCX
 Object={831FDD16-0C5C-11D2-A9FC-0000F8754DA1}#2.0#0; MSCOMCTL.OCX
 Form=frmPrincipal.frm
 Form=frmConsultaLote.frm
+Form=frmConsultaNotasTomadas.frm
 Startup="FrmPrincipal"
 ExeName32="Exemplo.exe"
 Command32=""

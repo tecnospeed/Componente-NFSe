@@ -18,14 +18,14 @@ Begin VB.Form FrmPrincipal
       Caption         =   "Enviar Email"
       Height          =   255
       Left            =   9600
-      TabIndex        =   62
+      TabIndex        =   63
       Top             =   5040
       Width           =   1575
    End
    Begin VB.Frame Frame4 
       Height          =   2175
       Left            =   9360
-      TabIndex        =   47
+      TabIndex        =   48
       Top             =   2760
       Width           =   2055
       Begin VB.CommandButton cmdExportarPDF 
@@ -41,7 +41,7 @@ Begin VB.Form FrmPrincipal
          EndProperty
          Height          =   375
          Left            =   120
-         TabIndex        =   51
+         TabIndex        =   52
          Top             =   1680
          Width           =   1815
       End
@@ -58,7 +58,7 @@ Begin VB.Form FrmPrincipal
          EndProperty
          Height          =   375
          Left            =   120
-         TabIndex        =   50
+         TabIndex        =   51
          Top             =   1200
          Width           =   1815
       End
@@ -75,7 +75,7 @@ Begin VB.Form FrmPrincipal
          EndProperty
          Height          =   375
          Left            =   120
-         TabIndex        =   49
+         TabIndex        =   50
          Top             =   720
          Width           =   1815
       End
@@ -92,7 +92,7 @@ Begin VB.Form FrmPrincipal
          EndProperty
          Height          =   375
          Left            =   120
-         TabIndex        =   48
+         TabIndex        =   49
          Top             =   240
          Width           =   1815
       End
@@ -101,14 +101,14 @@ Begin VB.Form FrmPrincipal
       Caption         =   "Impressão"
       Height          =   975
       Left            =   9360
-      TabIndex        =   44
+      TabIndex        =   45
       Top             =   1560
       Width           =   2055
       Begin VB.OptionButton optNFSe 
          Caption         =   "printNFSe"
          Height          =   255
          Left            =   480
-         TabIndex        =   46
+         TabIndex        =   47
          Top             =   600
          Width           =   1000
       End
@@ -116,7 +116,7 @@ Begin VB.Form FrmPrincipal
          Caption         =   "printRPS"
          Height          =   255
          Left            =   480
-         TabIndex        =   45
+         TabIndex        =   46
          Top             =   240
          Width           =   975
       End
@@ -154,14 +154,14 @@ Begin VB.Form FrmPrincipal
          Caption         =   "Configurações"
          Height          =   3375
          Left            =   -74880
-         TabIndex        =   23
+         TabIndex        =   24
          Top             =   360
          Width           =   9015
          Begin VB.CommandButton btnLogoTipo 
             Caption         =   "..."
             Height          =   375
             Left            =   8520
-            TabIndex        =   38
+            TabIndex        =   39
             Top             =   1320
             Width           =   375
          End
@@ -169,7 +169,7 @@ Begin VB.Form FrmPrincipal
             Caption         =   "..."
             Height          =   375
             Left            =   8520
-            TabIndex        =   37
+            TabIndex        =   38
             Top             =   600
             Width           =   375
          End
@@ -184,7 +184,7 @@ Begin VB.Form FrmPrincipal
          Begin VB.TextBox txtSubTituloRPS 
             Height          =   285
             Left            =   4560
-            TabIndex        =   29
+            TabIndex        =   30
             Text            =   "RECIBO PROVISÓRIO DE SERVIÇO - RPS"
             Top             =   2760
             Width           =   3855
@@ -192,7 +192,7 @@ Begin VB.Form FrmPrincipal
          Begin VB.TextBox txtSubTituloNFSe 
             Height          =   285
             Left            =   120
-            TabIndex        =   28
+            TabIndex        =   29
             Text            =   "NOTA FISCAL DE SERVIÇOS ELETRÔNICA - NFS-e"
             Top             =   2760
             Width           =   4095
@@ -200,7 +200,7 @@ Begin VB.Form FrmPrincipal
          Begin VB.TextBox txtSecRepNFSe 
             Height          =   285
             Left            =   4560
-            TabIndex        =   27
+            TabIndex        =   28
             Text            =   "SECRETARIA MUNICIPAL DE FINANÇAS PÚBLICAS"
             Top             =   2040
             Width           =   3855
@@ -208,7 +208,7 @@ Begin VB.Form FrmPrincipal
          Begin VB.TextBox txtTituloRPSNFSe 
             Height          =   285
             Left            =   120
-            TabIndex        =   26
+            TabIndex        =   27
             Text            =   "PREFEITURA MUNICIPAL DE EXEMPLO"
             Top             =   2040
             Width           =   4095
@@ -216,14 +216,14 @@ Begin VB.Form FrmPrincipal
          Begin VB.TextBox txtLogoEmitente 
             Height          =   285
             Left            =   120
-            TabIndex        =   25
+            TabIndex        =   26
             Top             =   1320
             Width           =   8295
          End
          Begin VB.TextBox txtBrasaoCidade 
             Height          =   285
             Left            =   120
-            TabIndex        =   24
+            TabIndex        =   25
             Text            =   "Templates\Impressao\SaoPaulo\Brasao.jpg"
             Top             =   600
             Width           =   8295
@@ -232,7 +232,7 @@ Begin VB.Form FrmPrincipal
             Caption         =   "Subtítulo para o RPS:"
             Height          =   255
             Left            =   4560
-            TabIndex        =   35
+            TabIndex        =   36
             Top             =   2520
             Width           =   3255
          End
@@ -240,7 +240,7 @@ Begin VB.Form FrmPrincipal
             Caption         =   "SubTítulo para a NFSe:"
             Height          =   255
             Left            =   120
-            TabIndex        =   34
+            TabIndex        =   35
             Top             =   2520
             Width           =   3255
          End
@@ -248,7 +248,7 @@ Begin VB.Form FrmPrincipal
             Caption         =   "Secretaria responsável pela NFSe:"
             Height          =   255
             Left            =   4560
-            TabIndex        =   33
+            TabIndex        =   34
             Top             =   1800
             Width           =   4335
          End
@@ -256,7 +256,7 @@ Begin VB.Form FrmPrincipal
             Caption         =   "Título do RPS/NFSe:"
             Height          =   255
             Left            =   120
-            TabIndex        =   32
+            TabIndex        =   33
             Top             =   1800
             Width           =   3495
          End
@@ -264,7 +264,7 @@ Begin VB.Form FrmPrincipal
             Caption         =   "Logotipo Emitente"
             Height          =   255
             Left            =   120
-            TabIndex        =   31
+            TabIndex        =   32
             Top             =   1080
             Width           =   2535
          End
@@ -272,7 +272,7 @@ Begin VB.Form FrmPrincipal
             Caption         =   "Brasão da Cidade"
             Height          =   255
             Left            =   120
-            TabIndex        =   30
+            TabIndex        =   31
             Top             =   360
             Width           =   1335
          End
@@ -280,7 +280,7 @@ Begin VB.Form FrmPrincipal
       Begin VB.Frame Frame6 
          Height          =   3375
          Left            =   -74880
-         TabIndex        =   43
+         TabIndex        =   44
          Top             =   360
          Width           =   9015
          Begin VB.CommandButton btnCopiaXML 
@@ -288,14 +288,14 @@ Begin VB.Form FrmPrincipal
             Enabled         =   0   'False
             Height          =   375
             Left            =   6120
-            TabIndex        =   60
+            TabIndex        =   61
             Top             =   2880
             Width           =   2775
          End
          Begin MSFlexGridLib.MSFlexGrid fgParametros 
             Height          =   1695
             Left            =   2640
-            TabIndex        =   59
+            TabIndex        =   60
             Top             =   1080
             Width           =   6255
             _ExtentX        =   11033
@@ -329,14 +329,14 @@ Begin VB.Form FrmPrincipal
             EndProperty
             Height          =   375
             Left            =   120
-            TabIndex        =   56
+            TabIndex        =   57
             Top             =   2880
             Width           =   2415
          End
          Begin VB.ListBox lsComandos 
             Height          =   1620
             Left            =   120
-            TabIndex        =   55
+            TabIndex        =   56
             Top             =   1080
             Width           =   2415
          End
@@ -353,14 +353,14 @@ Begin VB.Form FrmPrincipal
             EndProperty
             Height          =   375
             Left            =   2640
-            TabIndex        =   53
+            TabIndex        =   54
             Top             =   480
             Width           =   1695
          End
          Begin VB.TextBox txtCidadeComandos 
             Height          =   285
             Left            =   120
-            TabIndex        =   52
+            TabIndex        =   53
             Top             =   480
             Width           =   2415
          End
@@ -368,7 +368,7 @@ Begin VB.Form FrmPrincipal
             Caption         =   "Parâmetros:"
             Height          =   255
             Left            =   2640
-            TabIndex        =   58
+            TabIndex        =   59
             Top             =   840
             Width           =   975
          End
@@ -376,7 +376,7 @@ Begin VB.Form FrmPrincipal
             Caption         =   "Comandos:"
             Height          =   255
             Left            =   120
-            TabIndex        =   57
+            TabIndex        =   58
             Top             =   840
             Width           =   975
          End
@@ -384,7 +384,7 @@ Begin VB.Form FrmPrincipal
             Caption         =   "Cidade:"
             Height          =   255
             Left            =   120
-            TabIndex        =   54
+            TabIndex        =   55
             Top             =   240
             Width           =   1335
          End
@@ -393,42 +393,42 @@ Begin VB.Form FrmPrincipal
          Caption         =   "Configurações"
          Height          =   3375
          Left            =   120
-         TabIndex        =   14
+         TabIndex        =   15
          Top             =   360
          Width           =   2895
          Begin VB.CheckBox ckAvancado 
             Caption         =   "Modo &Avançado"
             Height          =   375
             Left            =   120
-            TabIndex        =   36
+            TabIndex        =   37
             Top             =   2880
             Width           =   2535
          End
          Begin VB.TextBox txtCidade 
             Height          =   285
             Left            =   120
-            TabIndex        =   18
+            TabIndex        =   19
             Top             =   600
             Width           =   2655
          End
          Begin VB.TextBox txtCNPJ 
             Height          =   285
             Left            =   120
-            TabIndex        =   17
+            TabIndex        =   18
             Top             =   1200
             Width           =   2655
          End
          Begin VB.TextBox txtIM 
             Height          =   285
             Left            =   120
-            TabIndex        =   16
+            TabIndex        =   17
             Top             =   1800
             Width           =   2655
          End
          Begin VB.TextBox txtProtocolo 
             Height          =   285
             Left            =   120
-            TabIndex        =   15
+            TabIndex        =   16
             Top             =   2400
             Width           =   2655
          End
@@ -436,7 +436,7 @@ Begin VB.Form FrmPrincipal
             Caption         =   "Cidade:"
             Height          =   255
             Left            =   120
-            TabIndex        =   22
+            TabIndex        =   23
             Top             =   360
             Width           =   1095
          End
@@ -444,7 +444,7 @@ Begin VB.Form FrmPrincipal
             Caption         =   "CNPJ"
             Height          =   255
             Left            =   120
-            TabIndex        =   21
+            TabIndex        =   22
             Top             =   960
             Width           =   855
          End
@@ -452,7 +452,7 @@ Begin VB.Form FrmPrincipal
             Caption         =   "Inscrição Municipal"
             Height          =   255
             Left            =   120
-            TabIndex        =   20
+            TabIndex        =   21
             Top             =   1560
             Width           =   1695
          End
@@ -460,7 +460,7 @@ Begin VB.Form FrmPrincipal
             Caption         =   "Número do Protocolo"
             Height          =   255
             Left            =   120
-            TabIndex        =   19
+            TabIndex        =   20
             Top             =   2160
             Width           =   1935
          End
@@ -472,11 +472,28 @@ Begin VB.Form FrmPrincipal
          TabIndex        =   2
          Top             =   360
          Width           =   6015
+         Begin VB.CommandButton cmdConsultarNotasTomadas 
+            Caption         =   "&10. Consultar Notas Tomadas"
+            BeginProperty Font 
+               Name            =   "MS Sans Serif"
+               Size            =   8.25
+               Charset         =   0
+               Weight          =   700
+               Underline       =   0   'False
+               Italic          =   0   'False
+               Strikethrough   =   0   'False
+            EndProperty
+            Height          =   375
+            Left            =   3120
+            TabIndex        =   5
+            Top             =   2760
+            Width           =   2775
+         End
          Begin VB.OptionButton optEnvioAss 
             Caption         =   "Assíncrono"
             Height          =   255
             Left            =   120
-            TabIndex        =   65
+            TabIndex        =   66
             Top             =   3000
             Value           =   -1  'True
             Width           =   1215
@@ -485,7 +502,7 @@ Begin VB.Form FrmPrincipal
             Caption         =   "Síncrono"
             Height          =   195
             Left            =   120
-            TabIndex        =   64
+            TabIndex        =   65
             Top             =   2760
             Width           =   1095
          End
@@ -502,7 +519,7 @@ Begin VB.Form FrmPrincipal
             EndProperty
             Height          =   375
             Left            =   120
-            TabIndex        =   12
+            TabIndex        =   13
             Top             =   840
             Width           =   2775
          End
@@ -519,7 +536,7 @@ Begin VB.Form FrmPrincipal
             EndProperty
             Height          =   375
             Left            =   120
-            TabIndex        =   11
+            TabIndex        =   12
             Top             =   1320
             Width           =   2775
          End
@@ -536,7 +553,7 @@ Begin VB.Form FrmPrincipal
             EndProperty
             Height          =   375
             Left            =   120
-            TabIndex        =   10
+            TabIndex        =   11
             Top             =   1800
             Width           =   2775
          End
@@ -553,7 +570,7 @@ Begin VB.Form FrmPrincipal
             EndProperty
             Height          =   375
             Left            =   120
-            TabIndex        =   9
+            TabIndex        =   10
             Top             =   2280
             Width           =   2775
          End
@@ -570,7 +587,7 @@ Begin VB.Form FrmPrincipal
             EndProperty
             Height          =   375
             Left            =   1440
-            TabIndex        =   8
+            TabIndex        =   9
             Top             =   2760
             Width           =   1455
          End
@@ -587,7 +604,7 @@ Begin VB.Form FrmPrincipal
             EndProperty
             Height          =   375
             Left            =   3120
-            TabIndex        =   7
+            TabIndex        =   8
             Top             =   840
             Width           =   2775
          End
@@ -604,7 +621,7 @@ Begin VB.Form FrmPrincipal
             EndProperty
             Height          =   375
             Left            =   3120
-            TabIndex        =   6
+            TabIndex        =   7
             Top             =   1320
             Width           =   2775
          End
@@ -621,7 +638,7 @@ Begin VB.Form FrmPrincipal
             EndProperty
             Height          =   375
             Left            =   3120
-            TabIndex        =   5
+            TabIndex        =   6
             Top             =   1800
             Width           =   2775
          End
@@ -653,7 +670,7 @@ Begin VB.Form FrmPrincipal
          End
          Begin MSComDlg.CommonDialog cdCarregarTX2 
             Left            =   5400
-            Top             =   2880
+            Top             =   0
             _ExtentX        =   847
             _ExtentY        =   847
             _Version        =   393216
@@ -663,7 +680,7 @@ Begin VB.Form FrmPrincipal
             Caption         =   "Certificado:"
             Height          =   255
             Left            =   120
-            TabIndex        =   13
+            TabIndex        =   14
             Top             =   240
             Width           =   1695
          End
@@ -698,7 +715,7 @@ Begin VB.Form FrmPrincipal
       Height          =   4695
       Index           =   0
       Left            =   0
-      TabIndex        =   39
+      TabIndex        =   40
       Top             =   5160
       Width           =   11415
       _ExtentX        =   20135
@@ -733,7 +750,7 @@ Begin VB.Form FrmPrincipal
          Left            =   -74880
          MultiLine       =   -1  'True
          ScrollBars      =   3  'Both
-         TabIndex        =   63
+         TabIndex        =   64
          Top             =   360
          Width           =   11175
       End
@@ -742,7 +759,7 @@ Begin VB.Form FrmPrincipal
          Left            =   -74880
          MultiLine       =   -1  'True
          ScrollBars      =   3  'Both
-         TabIndex        =   42
+         TabIndex        =   43
          Top             =   360
          Width           =   11175
       End
@@ -751,7 +768,7 @@ Begin VB.Form FrmPrincipal
          Left            =   -74880
          MultiLine       =   -1  'True
          ScrollBars      =   3  'Both
-         TabIndex        =   41
+         TabIndex        =   42
          Top             =   360
          Width           =   11175
       End
@@ -761,7 +778,7 @@ Begin VB.Form FrmPrincipal
          Left            =   120
          MultiLine       =   -1  'True
          ScrollBars      =   3  'Both
-         TabIndex        =   40
+         TabIndex        =   41
          Top             =   360
          Width           =   11175
       End
@@ -780,7 +797,7 @@ Begin VB.Form FrmPrincipal
       ForeColor       =   &H000000FF&
       Height          =   375
       Left            =   9480
-      TabIndex        =   61
+      TabIndex        =   62
       Top             =   1200
       Visible         =   0   'False
       Width           =   2055
@@ -807,9 +824,9 @@ Private Declare Function ShellExecute Lib "shell32.dll" Alias "ShellExecuteA" (B
 Function get_ini(seção$, Chave$) As String
     arquiv$ = ArqINI
     Returns$ = Space$(280)
-    x% = GetPrivateProfileString(ByVal seção$, ByVal Chave$, _
+    X% = GetPrivateProfileString(ByVal seção$, ByVal Chave$, _
     "", Returns$, Len(Returns$), ByVal arquiv$)
-    get_ini = Left$(Returns$, x%)
+    get_ini = Left$(Returns$, X%)
 End Function
 
  ' Função para escrever no arquivo Ini.
@@ -1234,6 +1251,23 @@ Private Sub ConfigurarImpressao(aXML As String)
             spdProxyNFSe.ComponenteNFSe.Impressao_Next
         Loop
     End If
+End Sub
+
+Private Sub cmdConsultarNotasTomadas_Click()
+    frmConsultaNotasTomadas.Show
+End Sub
+
+Public Sub ConsultarNotasTomadas()
+    On Error GoTo Erro
+    Dim XML_ As String
+    
+    XML_ = spdProxyNFSe.ConsultarNotasTomadas(frmConsultaNotasTomadas.txtCidade.Text, frmConsultaNotasTomadas.txtDocumentoTomador.Text, frmConsultaNotasTomadas.txtInscricaoMunicipalTomador.Text, frmConsultaNotasTomadas.txtCnpjPrestador.Text, frmConsultaNotasTomadas.txtInscricaoMunicipalPrestador.Text, frmConsultaNotasTomadas.txtDataInicial.Text, frmConsultaNotasTomadas.txtDataFinal.Text, frmConsultaNotasTomadas.txtPagina.Text, frmConsultaNotasTomadas.txtParamsExtras.Text)
+    mmXMLFormatado.Text = spdProxyNFSe.ComponenteNFSe.ReformatXML(XML_)
+    mmXML.Text = XML_
+    
+    optNFSe.Value = True
+Erro:
+    If Err Then TrataErro
 End Sub
 
 Private Sub cmdEditarDocumento_Click()
