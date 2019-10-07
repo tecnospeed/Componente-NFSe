@@ -34,6 +34,8 @@
             this.tcDados = new System.Windows.Forms.TabControl();
             this.tpProxyNFSe = new System.Windows.Forms.TabPage();
             this.gbOperacoes = new System.Windows.Forms.GroupBox();
+            this.rbEnvioAssincrono = new System.Windows.Forms.RadioButton();
+            this.rbEnvioSincrono = new System.Windows.Forms.RadioButton();
             this.btnConsultarNFSeporRPS = new System.Windows.Forms.Button();
             this.btnGerarXMLViaTX2 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
@@ -108,8 +110,7 @@
             this.rbPrintNFSe = new System.Windows.Forms.RadioButton();
             this.rbPrintRPS = new System.Windows.Forms.RadioButton();
             this.labelAmbProd = new System.Windows.Forms.Label();
-            this.rbEnvioSincrono = new System.Windows.Forms.RadioButton();
-            this.rbEnvioAssincrono = new System.Windows.Forms.RadioButton();
+            this.btnConsultarNotasTomadas = new System.Windows.Forms.Button();
             this.tcDados.SuspendLayout();
             this.tpProxyNFSe.SuspendLayout();
             this.gbOperacoes.SuspendLayout();
@@ -164,6 +165,7 @@
             // 
             // gbOperacoes
             // 
+            this.gbOperacoes.Controls.Add(this.btnConsultarNotasTomadas);
             this.gbOperacoes.Controls.Add(this.rbEnvioAssincrono);
             this.gbOperacoes.Controls.Add(this.rbEnvioSincrono);
             this.gbOperacoes.Controls.Add(this.btnConsultarNFSeporRPS);
@@ -183,6 +185,28 @@
             this.gbOperacoes.TabIndex = 1;
             this.gbOperacoes.TabStop = false;
             this.gbOperacoes.Text = "Operações";
+            // 
+            // rbEnvioAssincrono
+            // 
+            this.rbEnvioAssincrono.AutoSize = true;
+            this.rbEnvioAssincrono.Checked = true;
+            this.rbEnvioAssincrono.Location = new System.Drawing.Point(9, 222);
+            this.rbEnvioAssincrono.Name = "rbEnvioAssincrono";
+            this.rbEnvioAssincrono.Size = new System.Drawing.Size(79, 17);
+            this.rbEnvioAssincrono.TabIndex = 12;
+            this.rbEnvioAssincrono.TabStop = true;
+            this.rbEnvioAssincrono.Text = "Assíncrono";
+            this.rbEnvioAssincrono.UseVisualStyleBackColor = true;
+            // 
+            // rbEnvioSincrono
+            // 
+            this.rbEnvioSincrono.AutoSize = true;
+            this.rbEnvioSincrono.Location = new System.Drawing.Point(9, 205);
+            this.rbEnvioSincrono.Name = "rbEnvioSincrono";
+            this.rbEnvioSincrono.Size = new System.Drawing.Size(69, 17);
+            this.rbEnvioSincrono.TabIndex = 11;
+            this.rbEnvioSincrono.Text = "Síncrono";
+            this.rbEnvioSincrono.UseVisualStyleBackColor = true;
             // 
             // btnConsultarNFSeporRPS
             // 
@@ -707,9 +731,9 @@
             // 
             // tcCSV
             // 
-            this.tcCSV.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.tcCSV.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.tcCSV.Controls.Add(this.tbXMLFormatado);
             this.tcCSV.Controls.Add(this.tpXML);
             this.tcCSV.Controls.Add(this.tbCSV);
@@ -733,9 +757,9 @@
             // 
             // rtbXMLFormatado
             // 
-            this.rtbXMLFormatado.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.rtbXMLFormatado.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.rtbXMLFormatado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rtbXMLFormatado.ForeColor = System.Drawing.Color.Blue;
             this.rtbXMLFormatado.Location = new System.Drawing.Point(0, 0);
@@ -758,9 +782,9 @@
             // 
             // rtbXML
             // 
-            this.rtbXML.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.rtbXML.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.rtbXML.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rtbXML.ForeColor = System.Drawing.Color.Blue;
             this.rtbXML.Location = new System.Drawing.Point(0, 0);
@@ -782,9 +806,9 @@
             // 
             // rtbCSV
             // 
-            this.rtbCSV.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.rtbCSV.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.rtbCSV.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rtbCSV.ForeColor = System.Drawing.Color.Blue;
             this.rtbCSV.Location = new System.Drawing.Point(-3, 0);
@@ -806,9 +830,9 @@
             // 
             // rtbTipado
             // 
-            this.rtbTipado.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.rtbTipado.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.rtbTipado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rtbTipado.ForeColor = System.Drawing.Color.Blue;
             this.rtbTipado.Location = new System.Drawing.Point(-4, 0);
@@ -947,27 +971,16 @@
             this.labelAmbProd.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.labelAmbProd.Visible = false;
             // 
-            // rbEnvioSincrono
+            // btnConsultarNotasTomadas
             // 
-            this.rbEnvioSincrono.AutoSize = true;
-            this.rbEnvioSincrono.Location = new System.Drawing.Point(9, 205);
-            this.rbEnvioSincrono.Name = "rbEnvioSincrono";
-            this.rbEnvioSincrono.Size = new System.Drawing.Size(69, 17);
-            this.rbEnvioSincrono.TabIndex = 11;
-            this.rbEnvioSincrono.Text = "Síncrono";
-            this.rbEnvioSincrono.UseVisualStyleBackColor = true;
-            // 
-            // rbEnvioAssincrono
-            // 
-            this.rbEnvioAssincrono.AutoSize = true;
-            this.rbEnvioAssincrono.Checked = true;
-            this.rbEnvioAssincrono.Location = new System.Drawing.Point(9, 222);
-            this.rbEnvioAssincrono.Name = "rbEnvioAssincrono";
-            this.rbEnvioAssincrono.Size = new System.Drawing.Size(79, 17);
-            this.rbEnvioAssincrono.TabIndex = 12;
-            this.rbEnvioAssincrono.TabStop = true;
-            this.rbEnvioAssincrono.Text = "Assíncrono";
-            this.rbEnvioAssincrono.UseVisualStyleBackColor = true;
+            this.btnConsultarNotasTomadas.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnConsultarNotasTomadas.Location = new System.Drawing.Point(215, 205);
+            this.btnConsultarNotasTomadas.Name = "btnConsultarNotasTomadas";
+            this.btnConsultarNotasTomadas.Size = new System.Drawing.Size(199, 29);
+            this.btnConsultarNotasTomadas.TabIndex = 13;
+            this.btnConsultarNotasTomadas.Text = "&10. Consultar Notas Tomadas";
+            this.btnConsultarNotasTomadas.UseVisualStyleBackColor = true;
+            this.btnConsultarNotasTomadas.Click += new System.EventHandler(this.btnConsultarNotasTomadas_Click);
             // 
             // frmMain
             // 
@@ -1093,6 +1106,7 @@
         private System.Windows.Forms.RichTextBox rtbTipado;
         private System.Windows.Forms.RadioButton rbEnvioAssincrono;
         private System.Windows.Forms.RadioButton rbEnvioSincrono;
+        private System.Windows.Forms.Button btnConsultarNotasTomadas;
     }
 }
 

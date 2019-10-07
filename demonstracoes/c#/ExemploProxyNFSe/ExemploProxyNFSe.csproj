@@ -48,6 +48,12 @@
     <Compile Include="FrmConsNFSERPS.Designer.cs">
       <DependentUpon>FrmConsNFSERPS.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmConsNotasTomadas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsNotasTomadas.Designer.cs">
+      <DependentUpon>FrmConsNotasTomadas.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +72,9 @@
     <EmbeddedResource Include="FrmConsNFSERPS.resx">
       <SubType>Designer</SubType>
       <DependentUpon>FrmConsNFSERPS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsNotasTomadas.resx">
+      <DependentUpon>FrmConsNotasTomadas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmMain.resx">
       <SubType>Designer</SubType>

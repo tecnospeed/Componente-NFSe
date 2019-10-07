@@ -997,6 +997,35 @@ namespace NFSeX_Exemplo
                     cbCertificados.Items.Add(_cert);
                 }
             }
-        }   
+        }
+
+        private void btnConsultarNotasTomadas_Click(object sender, EventArgs e)
+        {
+            FrmConsNotasTomadas FConsultarNotasTomadas = new FrmConsNotasTomadas();
+            try
+            {
+                rbPrintNFSe.Checked = true;
+                string _resposta;
+                DialogResult dr = new DialogResult();
+                CheckConfig();
+                dr = FConsultarNotasTomadas.ShowDialog();
+                string _Extras = "";
+                if ((dr == DialogResult.OK) && (PedirParametrosExtras(ref _Extras)))
+                {
+                    _resposta = ProxyNFSe.ConsultarNotasTomadas(FConsultarNotasTomadas.edCidade.Text,
+                        FConsultarNotasTomadas.edDocumentoTomador.Text, FConsultarNotasTomadas.edInscricaoMunicipalTomador.Text,
+                        FConsultarNotasTomadas.edCnpjPrestador.Text, FConsultarNotasTomadas.edInscricaoMunicipalPrestador.Text,
+                        FConsultarNotasTomadas.edDataInicial.Text, FConsultarNotasTomadas.edDataFinal.Text,
+                        FConsultarNotasTomadas.edPagina.Text, FConsultarNotasTomadas.edParametrosExtras.Text);
+
+                    MostrarXML(_resposta);
+
+                }
+            }
+            catch (Exception ex)
+            {
+                TratarExcecao(ex);
+            }
+        }
     }
 }
