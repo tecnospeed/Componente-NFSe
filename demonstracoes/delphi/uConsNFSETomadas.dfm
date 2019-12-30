@@ -45,16 +45,17 @@ object FrmConsNFSETomadas: TFrmConsNFSETomadas
     object lblDocumentoPrestador: TLabel
       Left = 8
       Top = 155
-      Width = 103
+      Width = 159
       Height = 13
-      Caption = 'Documento Prestador'
+      Caption = 'Documento Prestador Consulente'
+      OnClick = lblDocumentoPrestadorClick
     end
     object lblIMPrestador: TLabel
       Left = 9
       Top = 198
-      Width = 149
+      Width = 166
       Height = 13
-      Caption = 'Incri'#231#227'o Municipal do Prestador'
+      Caption = 'Inc. Mun. do Prestador/Consulente'
     end
     object lblDataInicial: TLabel
       Left = 9
