@@ -1,14 +1,14 @@
 unit uExemploProxyNFSe;
-
+
 interface
 
 uses
   Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
-  Dialogs, spdNFSe, spdNFSeException, IniFiles,
-  MSXML5_TLB, spdCustomNFSe, spdNFSeUtils, StrUtils,
-  spdNFSeDataset, spdNFSeXsdUtils, ComCtrls, StdCtrls, ExtCtrls, CheckLst, Grids,
-  DBGrids, spdProxyNFSe, OleCtrls, SHDocVw, uCancelamento,uConsNFSEporRPS, uConsNFSETomadas,
-  NFSeConverterX_TLB, spdNFSeTypes, spdNFSeGov;
+  Dialogs, spdNFSe, spdNFSeException, IniFiles, MSXML5_TLB, spdCustomNFSe,
+  spdNFSeUtils, StrUtils, spdNFSeDataset, spdNFSeXsdUtils, ComCtrls, StdCtrls,
+  ExtCtrls, CheckLst, Grids, DBGrids, spdProxyNFSe, OleCtrls, SHDocVw,
+  uCancelamento, uConsNFSEporRPS, uConsNFSETomadas, NFSeConverterX_TLB,
+  spdNFSeTypes, spdNFSeGov, spdNFSeConverterAdapter;
 
 //******************************************************************************************************
 //
@@ -35,81 +35,75 @@ const
 
 type
   TfrmExemplo = class(TForm)
-    pcDados: TPageControl;
-    tsProxyNFSe: TTabSheet;
-    tsComandos: TTabSheet;
     OpnDlgTx2: TOpenDialog;
-    wbBanner: TWebBrowser;
     pcMensagens: TPageControl;
     tsXML: TTabSheet;
     tsXMLFormatado: TTabSheet;
     mmXMLFormatado: TMemo;
     mmXML: TMemo;
+    NFSe: TspdNFSe;
+    ProxyNFSe: TspdProxyNFSe;
+    svDlgExportar: TSaveDialog;
+    OpnDlgLogoTipo: TOpenDialog;
+    OpnDlgBrasao: TOpenDialog;
+    spdNFSeConverterX: TspdNFSeConverterX;
+    tsCSV: TTabSheet;
+    mmCSV: TMemo;
+    tsFormatado: TTabSheet;
+    mmTipado: TMemo;
+    pcDados: TPageControl;
+    tsProxyNFSe: TTabSheet;
     gbOperacoesProxyNFSe: TGroupBox;
+    Label7: TLabel;
+    lblAmbiente: TLabel;
     btnConfigArquivoINI: TButton;
     btnLoadConfig: TButton;
-    btnGerarXMLviaTX2: TButton;
-    btnAssinarXML: TButton;
+    btnGerarXMLeEnviarRPS: TButton;
     btnCancelar: TButton;
     btnConsultarNFSe: TButton;
     btnConsultarLoteRPS: TButton;
+    cbListaCertificados: TComboBox;
+    btnConsultarNFSeporRPS: TButton;
+    rbTipoEnvioSin: TRadioButton;
+    rbTipoEnvioAss: TRadioButton;
+    btnConsultarNotasTomadas: TButton;
     gbConfigProxyNFSe: TGroupBox;
     edtCidade: TLabeledEdit;
     edtCNPJ: TLabeledEdit;
     edtInscMunicipal: TLabeledEdit;
     edtNumProtocolo: TLabeledEdit;
-    NFSe: TspdNFSe;
-    ProxyNFSe: TspdProxyNFSe;
-    svDlgExportar: TSaveDialog;
+    ckbModoAvancado: TCheckBox;
     tsConfiguraImpressao: TTabSheet;
-    OpnDlgLogoTipo: TOpenDialog;
-    OpnDlgBrasao: TOpenDialog;
     gbConfiguracoes: TGroupBox;
-    Label3: TLabel;
-    edtBrasaoCidade: TEdit;
     Label4: TLabel;
     edtLogoEmitente: TEdit;
-    Label5: TLabel;
-    edtTituloImpressao: TEdit;
     btnLogoTipoEmitente: TButton;
-    btnBrasaoCidade: TButton;
-    pImpressao: TPanel;
-    rgImpressao: TRadioGroup;
     gbOperacaoImpressao: TGroupBox;
     btnEditarDocumento: TButton;
     btnImprimir: TButton;
     btnExportar: TButton;
     btnVisualizar: TButton;
     ckbEnviarEmailPDF: TCheckBox;
-    ckbModoAvancado: TCheckBox;
+    rgImpressao: TRadioGroup;
+    tsComandos: TTabSheet;
     gbComandos: TGroupBox;
+    Label1: TLabel;
+    Label2: TLabel;
     edtComandoCidade: TLabeledEdit;
     btnComandoLoadConfig: TButton;
     lbComandos: TListBox;
-    Label1: TLabel;
-    Label2: TLabel;
     sgParametros: TStringGrid;
     btnComandoCopiarParametro: TButton;
     btnComandoExecutar: TButton;
-    Label7: TLabel;
-    cbListaCertificados: TComboBox;
-    edtSecretaria: TEdit;
-    lblSecretaria: TLabel;
-    lblSubtituloNFSe: TLabel;
-    edtSubtituloNFSe: TEdit;
-    lblSubtituloRPS: TLabel;
-    edtSubtituloRPS: TEdit;
-    lblAmbiente: TLabel;
-    btnConsultarNFSeporRPS: TButton;
-    spdNFSeConverterX: TspdNFSeConverterX;
-    tsCSV: TTabSheet;
-    mmCSV: TMemo;
-    tsFormatado: TTabSheet;
-    mmTipado: TMemo;
-    btnEnviarRPS: TButton;
-    rbTipoEnvioSin: TRadioButton;
-    rbTipoEnvioAss: TRadioButton;
-    btnConsultarNotasTomadas: TButton;
+    Label3: TLabel;
+    tsConverter: TTabSheet;
+    btnConverterEnvio: TButton;
+    btnConverterEnvioSincrono: TButton;
+    btnConverterConsultaLote: TButton;
+    btnConverterConsultaNFSePorRPS: TButton;
+    btnConverterConsultaNFse: TButton;
+    btnConverterCancelamentoNFSe: TButton;
+    btnConverterConsultaNFSeTomadas: TButton;
 
     {DECLARAÇÕES RELACIONADAS AO ENVIO POR PROXYNFSe}
     {Abre o arquivo NFSeConfig.ini}
@@ -117,7 +111,7 @@ type
     {Executa a ação LoadConfig}
     procedure btnLoadConfigClick(Sender: TObject);
     {Gera o XML apartir do arquivo TX2}
-    procedure btnGerarXMLviaTX2Click(Sender: TObject);
+    procedure btnGerarXMLeEnviarRPSClick(Sender: TObject);
     {Envia o lote RPS}
     procedure btnEnviarRPSClick(Sender: TObject);
     {Assina o arquivo RPS}
@@ -154,8 +148,6 @@ type
     procedure btnExportarClick(Sender: TObject);
     {Visualizar documento de impressão}
     procedure btnVisualizarClick(Sender: TObject);
-    {Executa o Dialog para busca do brasão da cidade}
-    procedure btnBrasaoCidadeClick(Sender: TObject);
     {Executa o Dialog para busca do logtipo emitente}
     procedure btnLogoTipoEmitenteClick(Sender: TObject);
     {Ativa a aba de envio por comandos e os parâmetros extras}
@@ -167,8 +159,15 @@ type
     procedure mmXMLKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
     procedure mmCSVKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
     procedure mmTipadoKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
+    procedure btnConverterEnvioClick(Sender: TObject);
+    procedure btnConverterEnvioSincronoClick(Sender: TObject);
+    procedure btnConverterConsultaLoteClick(Sender: TObject);
+    procedure btnConverterConsultaNFSePorRPSClick(Sender: TObject);
+    procedure btnConverterConsultaNFseClick(Sender: TObject);
+    procedure btnConverterCancelamentoNFSeClick(Sender: TObject);
+    procedure btnConverterConsultaNFSeTomadasClick(Sender: TObject);
   private
-    fLogEnvio : String;
+    fLogEnvio: string;
     {Lê configurações do exemplo de um arquivo .ini}
     function LerIni(const aName: string): string;
     {Escreve configurações do exemplo em um arquivo .ini}
@@ -192,23 +191,24 @@ type
     @param aCaminhoTX2 Caminho completo onde se encontra o arquivo TX2}
     function ObterCamposVaziosTx2(const aCaminhoTX2: string): TStringList;
     {Evento utilizado para capturar o nome do log assim que ele é gerado}
-    procedure OnLog(const aNome, aID, aFileName: String);
+    procedure OnLog(const aNome, aID, aFileName: string);
     {Exibe em tela os campos carregados nas propriedades do NFeConverter}
-    procedure getRetornoEnvio(const aRet : IspdRetEnvioNFSe);
+    procedure getRetornoEnvio(const aRet: IspdRetEnvioNFSe);
     {Exibe em tela os campos carregados nas propriedades do NFeConverter}
-    procedure getRetornoEnvioSincrno(const aRet : IspdRetEnvioSincronoNFSe);
+    procedure getRetornoEnvioSincrno(const aRet: IspdRetEnvioSincronoNFSe);
     {Exibe em tela os campos carregados nas propriedades do NFeConverter}
-    procedure getRetornoConsultaLoteNFSe(const aRet : IspdRetConsultaLoteNFSe);
+    procedure getRetornoConsultaLoteNFSe(const aRet: IspdRetConsultaLoteNFSe);
     {Exibe em tela os campos carregados nas propriedades do NFeConverter}
-    procedure getRetornoConsultaNFSe(const aRet : IspdRetConsultaNFSe);
+    procedure getRetornoConsultaNFSe(const aRet: IspdRetConsultaNFSe);
     {Exibe em tela os campos carregados nas propriedades do NFeConverter}
-    procedure getRetornoCancelamento(const aRet : IspdRetCancelaNFSe);
+    procedure getRetornoCancelamento(const aRet: IspdRetCancelaNFSe);
     {Se estiver no modo avançado solicita os parâmetros extras das operações}
     function PedirParametrosExtras(var aParametrosExtras: string; const aOperacao: string): boolean;
     {Realiza o envio de RPS no modo síncrono}
     procedure EnvioSincrono;
     {Realiza o envio de RPS no modo assíncrono}
     procedure EnvioAssincrono;
+    procedure getRetornoConsultaLoteNFSeTomadas(const aRet: IspdRetConsultaLoteNFSeTomadas);
   public
     { Public declarations }
   end;
@@ -220,18 +220,19 @@ implementation
 
 {$R *.dfm}
 
-uses ShellApi, spdNFSeXmlUtils;
+uses
+  ShellApi, spdNFSeXmlUtils;
 
 
 {IMPLEMENTAÇÃO UTILIZANDO COMPONENTE ProxyNFSe}
 
 procedure TFrmExemplo.CheckConfig;
 var
-  _Cidade, _CNPJ : string;
-  _bConfig : Boolean;
+  _Cidade, _CNPJ: string;
+  _bConfig: Boolean;
 begin
   _Cidade := trim(NFSe.Cidade);
-  _CNPJ := trim(NFSe.CNPJ);  
+  _CNPJ := trim(NFSe.CNPJ);
 
   _bConfig := (_Cidade <> '') and (_CNPJ <> '');
 
@@ -264,7 +265,7 @@ end;
 
 procedure TfrmExemplo.mmCSVKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
 var
-  C : String;
+  C: string;
 begin
   if ssCtrl in Shift then
   begin
@@ -278,7 +279,7 @@ end;
 
 procedure TfrmExemplo.mmTipadoKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
 var
-  C : String;
+  C: string;
 begin
   if ssCtrl in Shift then
   begin
@@ -292,7 +293,7 @@ end;
 
 procedure TfrmExemplo.mmXMLFormatadoKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
 var
-  C : String;
+  C: string;
 begin
   if ssCtrl in Shift then
   begin
@@ -306,7 +307,7 @@ end;
 
 procedure TfrmExemplo.mmXMLKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
 var
-  C : String;
+  C: string;
 begin
   if ssCtrl in Shift then
   begin
@@ -354,7 +355,6 @@ end;
 
 procedure TfrmExemplo.btnLoadConfigClick(Sender: TObject);
 begin
-  NFSe.ConfigurarSoftwareHouse('09186683000198', '0000000000000000');
   NFSe.LoadConfig;
 
   spdNFSeConverterX.DiretorioEsquemas := NFSe.DiretorioEsquemas;
@@ -367,44 +367,35 @@ begin
   edtInscMunicipal.Text := NFSe.InscricaoMunicipal;
   cbListaCertificados.Text := NFSe.NomeCertificado.Text;
 
-  edtBrasaoCidade.Text := ProxyNFSe.ComponenteNFSe.DiretorioTemplates +
-    'Impressao\' + NFSe.ColecaoAtiva.Name + '\Brasao.jpg';
-  edtLogoEmitente.Text := ProxyNFSe.ComponenteNFSe.DiretorioTemplates +
-    'Impressao\LogoEmit.jpg';
+  edtLogoEmitente.Text := ProxyNFSe.ComponenteNFSe.DiretorioTemplates + 'Impressao\LogoEmit.jpg';
 
   lblAmbiente.Visible := (NFSe.Ambiente = akProducao);
 
   edtNumProtocolo.Text := LerIni(PROTOCOLO);
 
-  {Exemplo de configuração do método ConfigurarSoftwareHouse do componente NFSe e converterX}
+  {Exemplo de configuração do componente NFSe e converterX}
 end;
 
-procedure TfrmExemplo.btnGerarXMLviaTX2Click(Sender: TObject);
+procedure TfrmExemplo.btnGerarXMLeEnviarRPSClick(Sender: TObject);
 var
   _XML, _AvisoCamposVazios, _Extras: string;
   _CamposVazios: TStringList;
   _Gerar: Boolean;
 begin
+  // devem ser feitos os passos abaixo para emitir uma nota
   CheckConfig;
-  OpnDlgTx2.InitialDir := '..\..\NFSe\Utils\ExemplosTX2\Padrão Município\';
-  OpnDlgTx2.FileName := ProxyNFSe.ComponenteNFSe.Cidade + '.tx2';
+  OpnDlgTx2.FileName := 'TecnoNFSe.tx2';
   if OpnDlgTx2.Execute then
   begin
     _Gerar := True;
-
-    // Verificar se deve gerar XML mesmo com campos vazios no arquivo TX2
+    // paso 1 - Verificar se deve gerar XML mesmo com campos vazios no arquivo TX2
     _CamposVazios := ObterCamposVaziosTx2(OpnDlgTx2.FileName);
     (Sender as TWinControl).Enabled := False;
     try
       if _CamposVazios.Count > 0 then
       begin
-        _AvisoCamposVazios :=
-          'Os campos abaixo estão com seu conteúdo em branco no arquivo TX2:'#13#13 +
-          _CamposVazios.Text + #13 +
-          'Isso pode causar um erro de esquema no XML de envio.'#13 +
-          'Deseja gerar o XML mesmo assim?';
-        _Gerar := (MessageBox(Handle, PChar(_AvisoCamposVazios) , 'Aviso',
-          MB_YESNO + MB_ICONQUESTION + MB_DEFBUTTON2) = IDYES);
+        _AvisoCamposVazios := 'Os campos abaixo estão com seu conteúdo em branco no arquivo TX2:'#13#13 + _CamposVazios.Text + #13 + 'Isso pode causar um erro de esquema no XML de envio.'#13 + 'Deseja gerar o XML mesmo assim?';
+        _Gerar := (MessageBox(Handle, PChar(_AvisoCamposVazios), 'Aviso', MB_YESNO + MB_ICONQUESTION + MB_DEFBUTTON2) = IDYES);
       end;
 
       if _Gerar and PedirParametrosExtras(_Extras, 'GerarXml') then
@@ -416,8 +407,25 @@ begin
           else
             _Extras := ';EnvioSincrono=true'
         end;
+        //passo 2 - Geração do XML
+        _XML := spdNFSeConverterX.ConverterEnvioNFSe(OpnDlgTx2.FileName, _Extras);
 
-        _XML :=  spdNFSeConverterX.ConverterEnvioNFSe(OpnDlgTx2.FileName, _Extras);
+        // passo 3 - Assinatura
+        _Extras := '';
+        if PedirParametrosExtras(_Extras, 'Assinar') then
+        begin
+          _XML := ProxyNFSe.Assinar(_XML, _Extras);
+          FormatReturnXML(_XML);
+        end;
+
+        // passo 4 - Envio
+        if (NFSe.Ambiente = akProducao) and (Application.MessageBox('O componente está configurado ' + 'para enviar em ambiente de produção, deseja continuar?', 'Atenção!', MB_YESNO + MB_ICONWARNING) = IDNO) then
+          exit;
+
+        if rbTipoEnvioSin.Checked then
+          EnvioSincrono
+        else
+          EnvioAssincrono;
 
         mmXMLFormatado.Font.Color := clBlue;
         mmXML.Lines.Text := _XML;
@@ -453,8 +461,7 @@ end;
 procedure TfrmExemplo.btnConsultarLoteRPSClick(Sender: TObject);
 var
   _XML, _Extras: string;
-  _Ret : IspdRetConsultaLoteNFSe;
-
+  _Ret: IspdRetConsultaLoteNFSe;
 begin
   CheckConfig;
   try
@@ -463,13 +470,25 @@ begin
       _Extras := '';
       if PedirParametrosExtras(_Extras, 'ConsultarLote') then
       begin
-        _XML := ProxyNFSe.ConsultarLote(edtNumProtocolo.Text, _Extras);
+        if Pos('ConsultarSituacaoLoteRPS', NFSe.ListarComandos) > 0 then
+        begin
+        //situação lote
+          NFSe.Comando('ConsultarSituacaoLoteRPS').Parametros['Protocolo'] := edtNumProtocolo.Text;
+          _XML := NFSe.Executar('ConsultarSituacaoLoteRPS');
+          _Ret := spdNFSeConverterX.ConverterRetConsultarLoteNFSeTipo(_XML);
+          if _Ret.Status <> 1 then  //Realizar a consulta de lote após a consulta de situação somente se o lote tenha sido processado (Status erro ou Sucesso)
+            _XML := ProxyNFSe.ConsultarLote(edtNumProtocolo.Text, _Extras);
+        end
+        else
+        begin
+          _XML := ProxyNFSe.ConsultarLote(edtNumProtocolo.Text, _Extras);
+        end;
         FormatReturnXML(_XML);
         rgImpressao.ItemIndex := 1;
 
         mmCSV.Clear;
 
-        mmCSV.Text := spdNFSeConverterX.ConverterRetConsultarLoteNFSe(_XML,'');
+        mmCSV.Text := spdNFSeConverterX.ConverterRetConsultarLoteNFSe(_XML, '');
         _Ret := spdNFSeConverterX.ConverterRetConsultarLoteNFSeTipo(_XML);
 
         getRetornoConsultaLoteNFSe(_Ret)
@@ -485,8 +504,8 @@ end;
 
 procedure TfrmExemplo.btnConsultarNFSeClick(Sender: TObject);
 var
-  _XML, _NumNota, _Extras: String;
-   _Ret : IspdRetConsultaNFSe;
+  _XML, _NumNota, _Extras: string;
+  _Ret: IspdRetConsultaNFSe;
 begin
   CheckConfig;
   try
@@ -494,8 +513,7 @@ begin
       (Sender as TWinControl).Enabled := False;
       _NumNota := LerIni(CONSULTARNFSE_NUMERONFSE);
       _Extras := '';
-      if InputQuery('Digite o Número da NFSe', '', _NumNota) and
-        PedirParametrosExtras(_Extras, 'ConsultarNfse') then
+      if InputQuery('Digite o Número da NFSe', '', _NumNota) and PedirParametrosExtras(_Extras, 'ConsultarNfse') then
       begin
         _XML := ProxyNFSe.ConsultarNota(_NumNota, _Extras);
         FormatReturnXML(_XML);
@@ -505,7 +523,7 @@ begin
 
         mmCSV.Clear;
 
-        mmCSV.Text := spdNFSeConverterX.ConverterRetConsultarNFSe(_XML,'');
+        mmCSV.Text := spdNFSeConverterX.ConverterRetConsultarNFSe(_XML, '');
         _Ret := spdNFSeConverterX.ConverterRetConsultarNFSeTipo(_XML);
 
         getRetornoConsultaNFSe(_Ret);
@@ -521,8 +539,9 @@ end;
 
 procedure TfrmExemplo.btnCancelarClick(Sender: TObject);
 var
-  _XML, _Extras: String;
-  _Ret : IspdRetCancelaNFSe;
+  _XML, _Extras: string;
+  _Ret: IspdRetCancelaNFSe;
+  _RetConsulta: IspdRetConsultaNFSe;
 begin
   CheckConfig;
   try
@@ -531,24 +550,37 @@ begin
       frmCancelamento.edtChaveCancelamento.Text := LerIni(CANCELARNFSE_CHAVE);
       frmCancelamento.ShowModal;
       _Extras := '';
-      if (frmCancelamento.ModalResult = mrOk) and
-        PedirParametrosExtras(_Extras, 'CancelarNfse') then
+      if (frmCancelamento.ModalResult = mrOk) and PedirParametrosExtras(_Extras, 'CancelarNfse') then
       begin
-        _XML := ProxyNFSe.CancelarNota(
-          frmCancelamento.edtChaveCancelamento.Text, _Extras);
+        _XML := ProxyNFSe.CancelarNota(frmCancelamento.edtChaveCancelamento.Text, _Extras);
 
         FormatReturnXML(_XML);
 
         GravarIni(CANCELARNFSE_CHAVE, frmCancelamento.edtChaveCancelamento.Text);
 
         mmCSV.Clear;
-        mmCSV.Text := spdNFSeConverterX.ConverterRetCancelarNFSe(_XML,'');
+        mmCSV.Text := spdNFSeConverterX.ConverterRetCancelarNFSe(_XML, '');
         _Ret := spdNFSeConverterX.ConverterRetCancelarNFSeTipo(_XML);
         getRetornoCancelamento(_Ret);
+
+        if _Ret.Status = 0 then //Após cancelamento realizado com sucesso, consultar NFSe para obter o XML de impressão da nota cancelada.
+        begin
+          _XML := ProxyNFSe.ConsultarNota(frmCancelamento.edtChaveCancelamento.Text, _Extras);
+          FormatReturnXML(_XML);
+          rgImpressao.ItemIndex := 1;
+
+          mmCSV.Clear;
+
+          mmCSV.Text := spdNFSeConverterX.ConverterRetConsultarNFSe(_XML, '');
+          _RetConsulta := spdNFSeConverterX.ConverterRetConsultarNFSeTipo(_XML);
+
+          getRetornoConsultaNFSe(_RetConsulta);
+        end;
+
       end;
     finally
       (Sender as TWinControl).Enabled := True;
-       _Ret := nil;
+      _Ret := nil;
     end;
   except
     raise;
@@ -581,11 +613,11 @@ begin
     _arrParametros.CommaText := _paramentros;
 
     sgParametros.RowCount := 2;
-    For _cont := 1 to _arrParametros.Count do
+    for _cont := 1 to _arrParametros.Count do
     begin
       sgParametros.RowCount := _arrParametros.Count + 1;
-      sgParametros.Cells[0,_cont] := _arrParametros[_cont-1];
-      sgParametros.Cells[1,_cont] := '';
+      sgParametros.Cells[0, _cont] := _arrParametros[_cont - 1];
+      sgParametros.Cells[1, _cont] := '';
     end;
   finally
     _arrParametros.Free;
@@ -603,10 +635,10 @@ begin
 
     if not AnsiSameText(_nomeComando, 'ConsultaSequenciaLote') then
     begin
-      for _cont := 1 to sgParametros.RowCount-1 do
+      for _cont := 1 to sgParametros.RowCount - 1 do
       begin
-        _nomeParametro := sgParametros.Cells[0,_cont];
-        _valorParametro := sgParametros.Cells[1,_cont];
+        _nomeParametro := sgParametros.Cells[0, _cont];
+        _valorParametro := sgParametros.Cells[1, _cont];
         NFSe.Comando(_nomeComando).Parametros[_nomeParametro] := _valorParametro;
       end;
     end;
@@ -620,7 +652,7 @@ end;
 
 procedure TfrmExemplo.btnComandoCopiarParametroClick(Sender: TObject);
 begin
-  sgParametros.Cells[1,1] := mmXML.Text;
+  sgParametros.Cells[1, 1] := mmXML.Text;
 end;
 
 
@@ -628,13 +660,13 @@ end;
 
 procedure TfrmExemplo.FormatReturnXML(aXML: string);
 begin
-    mmXMLFormatado.Clear;
-    mmXML.Clear;
-    mmXMLFormatado.Font.Color := clBlue;
+  mmXMLFormatado.Clear;
+  mmXML.Clear;
+  mmXMLFormatado.Font.Color := clBlue;
 
-    mmXML.Lines.Text := aXML;
-    aXML := ProxyNFSe.ComponenteNFSe.ExtractEscapedContent(aXML);
-    mmXMLFormatado.Lines.Text := ReformatXml(aXML);
+  mmXML.Lines.Text := aXML;
+  aXML := ProxyNFSe.ComponenteNFSe.ExtractEscapedContent(aXML);
+  mmXMLFormatado.Lines.Text := ReformatXml(aXML);
 end;
 
 function TfrmExemplo.getModoImpressao: TspdModoImpressaoNFSe;
@@ -702,9 +734,8 @@ end;
 
 procedure TfrmExemplo.btnEnviarRPSClick(Sender: TObject);
 begin
-  if (NFSe.Ambiente = akProducao) and (Application.MessageBox('O componente está configurado ' +
-    'para enviar em ambiente de produção, deseja continuar?', 'Atenção!',
-    MB_YESNO + MB_ICONWARNING) = IDNO) then exit;
+  if (NFSe.Ambiente = akProducao) and (Application.MessageBox('O componente está configurado ' + 'para enviar em ambiente de produção, deseja continuar?', 'Atenção!', MB_YESNO + MB_ICONWARNING) = IDNO) then
+    exit;
 
   CheckConfig;
   try
@@ -733,16 +764,12 @@ begin
 
   Application.Icon.LoadFromFile(ExtractFilePath(Application.ExeName) + 'nfse.ico');
   frmExemplo.Caption := 'Tecnospeed NFSe - Versão: ' + ProxyNFSe.ComponenteNFSe.Versao;
-  btnComandoLoadConfig.Hint := 'Carregado do arquivo: "' +  ExtractFilePath(Application.ExeName) + 'nfseConfig.ini"';
-  sgParametros.Cells[0,0] := 'NomeParametro';
-  sgParametros.Cells[1,0] := 'ValorParametro';
-  {$IFDEF Win32}
-  wbBanner.Navigate('http://www.tecno-services.com/imagens/BannerNFe.gif');
-  {$ENDIF}
+  btnComandoLoadConfig.Hint := 'Carregado do arquivo: "' + ExtractFilePath(Application.ExeName) + 'nfseConfig.ini"';
+  sgParametros.Cells[0, 0] := 'NomeParametro';
+  sgParametros.Cells[1, 0] := 'ValorParametro';
   tsComandos.TabVisible := False;
   pcDados.TabIndex := 0;
 
-  edtBrasaoCidade.Text := ProxyNFSe.ComponenteNFSe.DiretorioTemplates + 'Impressao\Brasão Tecnospeed.jpg';
   edtLogoEmitente.Text := ProxyNFSe.ComponenteNFSe.DiretorioTemplates + 'Impressao\LogoEmit.jpg';
 end;
 
@@ -756,13 +783,7 @@ begin
   with ProxyNFSe.ComponenteNFSe do
   begin
     Impressao.CriarDatasets(aXML);
-    Impressao.Configurar('BrasaoMunicipio',edtBrasaoCidade.Text);
-    Impressao.Configurar('LogotipoEmitente',edtLogoEmitente.Text);
-    Impressao.Configurar('Titulo', edtTituloImpressao.Text);
-    Impressao.Configurar('SecretariaResponsavel', edtSecretaria.Text);
-    Impressao.Configurar('SubtituloNFSe', edtSubtituloNFSe.Text);
-    Impressao.Configurar('SubtituloRPS', edtSubtituloRPS.Text);
-    Impressao.Configurar('ArquivoMunicipios', NFSe.DiretorioTemplates + '\Impressao\municipios.txt');
+    Impressao.Configurar('LogotipoEmitente', edtLogoEmitente.Text);
   end;
 
   if ProxyNFSe.ComponenteNFSe.ConfiguracoesImpressao.ModoImpressao = printRPS then
@@ -786,9 +807,9 @@ end;
 
 function TfrmExemplo.ObterCamposVaziosTx2(const aCaminhoTX2: string): TStringList;
 var
-  _file, _CamposVazios : TStringList;
-  _i, _pos : integer;
-  _conteudo, _campo : string;
+  _file, _CamposVazios: TStringList;
+  _i, _pos: integer;
+  _conteudo, _campo: string;
 begin
   _file := TStringList.Create;
   _CamposVazios := TStringList.Create;
@@ -800,10 +821,10 @@ begin
       _pos := Pos('=', _file[_i]);
       if _pos > 0 then
       begin
-        _conteudo := copy(_file[_i], _pos+1, 1);
+        _conteudo := copy(_file[_i], _pos + 1, 1);
         if (trim(_conteudo) = '') then
         begin
-          _campo := copy(_file[_i], 1, _pos-1);
+          _campo := copy(_file[_i], 1, _pos - 1);
           _CamposVazios.Add(_campo);
         end;
       end;
@@ -822,7 +843,7 @@ begin
     Usuario := 'testenfse@gmail.com'; // CONFIGURAR USUARIO
     Senha := 'tecnospeed'; // CONFIGURAR SENHA
     EmailRemetente := ''; // CONFIGURAR EMAIL DO REMETENTE, exemplo: jose@gmail.com
-    EmailDestinatario := InputBox('Envio de Email', 'Informe o email destinatário', 'email@servidor.com') ; // CONFIGURAR EMAIL(S) DO(s) TOMADOR DE SERVIÇO(S), exemplo: fulano@yahoo.com.br
+    EmailDestinatario := InputBox('Envio de Email', 'Informe o email destinatário', 'email@servidor.com'); // CONFIGURAR EMAIL(S) DO(s) TOMADOR DE SERVIÇO(S), exemplo: fulano@yahoo.com.br
     Autenticacao := true; // Verificar se o servidor de smtp necessita ser autenticado.
     Assunto := 'Teste envio de email';
     Mensagem := 'Esta mensagem é um teste';
@@ -846,8 +867,8 @@ end;
 procedure TfrmExemplo.EnvioAssincrono;
 var
   _protocolo, _Extras: string;
-  _XML : TStringList;
-  _Ret : IspdRetEnvioNFSe;
+  _XML: TStringList;
+  _Ret: IspdRetEnvioNFSe;
 begin
   _XML := TStringList.Create;
   try
@@ -860,7 +881,7 @@ begin
         mmXMLFormatado.Clear;
 
         _XML.LoadFromFile(fLogEnvio);
-        mmCSV.Text := spdNFSeConverterX.ConverterRetEnvioNFSe(_XML.Text,'');
+        mmCSV.Text := spdNFSeConverterX.ConverterRetEnvioNFSe(_XML.Text, '');
         _Ret := spdNFSeConverterX.ConverterRetEnvioNFSeTipo(_XML.Text);
 
         getRetornoEnvio(_Ret);
@@ -875,9 +896,7 @@ begin
         begin
           edtNumProtocolo.Text := '';
           mmXMLFormatado.Font.Color := clRed;
-          mmXMLFormatado.Text := 'Envio de RPS sem sucesso.'  +
-            ' A resposta do servidor está gravada no arquivo de log localizado em: '+
-            copy(_protocolo, 4, (length(_protocolo )-2));
+          mmXMLFormatado.Text := 'Envio de RPS sem sucesso.' + ' A resposta do servidor está gravada no arquivo de log localizado em: ' + copy(_protocolo, 4, (length(_protocolo) - 2));
         end;
       end;
     finally
@@ -892,9 +911,8 @@ end;
 procedure TfrmExemplo.EnvioSincrono;
 var
   _XML, _Extras: string;
-  _Ret : IspdRetEnvioSincronoNFSe;
-  _LogXml : TStringList;
-
+  _Ret: IspdRetEnvioSincronoNFSe;
+  _LogXml: TStringList;
 begin
   _LogXml := TStringList.Create;
 
@@ -911,7 +929,7 @@ begin
 
         _LogXml.LoadFromFile(fLogEnvio);
 
-        mmCSV.Text := spdNFSeConverterX.ConverterRetEnvioSincronoNFSe(_LogXml.Text,'');
+        mmCSV.Text := spdNFSeConverterX.ConverterRetEnvioSincronoNFSe(_LogXml.Text, '');
         _Ret := spdNFSeConverterX.ConverterRetEnvioSincronoNFSeTipo(_LogXml.Text);
 
         getRetornoEnvioSincrno(_Ret);
@@ -919,9 +937,7 @@ begin
         if Pos('-1;', mmXML.Text) > 0 then
         begin
           mmXMLFormatado.Font.Color := clRed;
-          mmXMLFormatado.Text := 'Envio de RPS no modo Síncrono sem sucesso.'  +
-            ' A resposta do servidor está gravada no arquivo de log localizado em: '+
-            copy(mmXML.Text, 4, (length(mmXML.Text )-2));
+          mmXMLFormatado.Text := 'Envio de RPS no modo Síncrono sem sucesso.' + ' A resposta do servidor está gravada no arquivo de log localizado em: ' + copy(mmXML.Text, 4, (length(mmXML.Text) - 2));
         end;
       end;
     finally
@@ -931,14 +947,6 @@ begin
   except
     raise;
   end;
-end;
-
-procedure TfrmExemplo.btnBrasaoCidadeClick(Sender: TObject);
-begin
-  OpnDlgBrasao.InitialDir := ExtractFileDir(edtBrasaoCidade.Text);
-  OpnDlgBrasao.FileName := ExtractFileName(edtBrasaoCidade.Text);
-  if OpnDlgBrasao.Execute then
-    edtBrasaoCidade.Text := OpnDlgBrasao.FileName;
 end;
 
 procedure TfrmExemplo.btnLogoTipoEmitenteClick(Sender: TObject);
@@ -951,6 +959,8 @@ end;
 
 procedure TfrmExemplo.ckbModoAvancadoClick(Sender: TObject);
 begin
+  ShowMessage('Recursos avançados do componente NFSe, usar somente com orientação da consultoria !!!');
+
   if tsComandos.TabVisible then
     tsComandos.TabVisible := False
   else
@@ -961,7 +971,7 @@ procedure TfrmExemplo.btnConsultarNFSeporRPSClick(Sender: TObject);
 var
   _XML, _NumNota, _Extras: string;
   _FormDados: TFrmConsNFSEporRPS;
-  _Ret : IspdRetConsultaNFSe;
+  _Ret: IspdRetConsultaNFSe;
 begin
   CheckConfig;
   try
@@ -969,25 +979,23 @@ begin
     try
       (Sender as TWinControl).Enabled := False;
       _NumNota := '';
-      _FormDados.edNumRPS.Text   := LerIni(CONSULTARNFSEPORRPS_NUMERO);
+      _FormDados.edNumRPS.Text := LerIni(CONSULTARNFSEPORRPS_NUMERO);
       _FormDados.edSerieRPS.Text := LerIni(CONSULTARNFSEPORRPS_SERIE);
-      _FormDados.edTPRps.Text    := LerIni(CONSULTARNFSEPORRPS_TIPO);
+      _FormDados.edTPRps.Text := LerIni(CONSULTARNFSEPORRPS_TIPO);
       _FormDados.ShowModal;
       _Extras := '';
-      if (_FormDados.ModalResult = mrok) and
-        PedirParametrosExtras(_Extras, 'ConsultarNfsePorRps') then
+      if (_FormDados.ModalResult = mrok) and PedirParametrosExtras(_Extras, 'ConsultarNfsePorRps') then
       begin
-        _XML := ProxyNFSe.ConsultarNFSePorRPS(_FormDados.edNumRPS.Text,
-          _FormDados.edSerieRPS.Text, _FormDados.edTPRps.Text, _Extras);
+        _XML := ProxyNFSe.ConsultarNFSePorRPS(_FormDados.edNumRPS.Text, _FormDados.edSerieRPS.Text, _FormDados.edTPRps.Text, _Extras);
         FormatReturnXML(_XML);
 
         GravarIni(CONSULTARNFSEPORRPS_NUMERO, _FormDados.edNumRPS.Text);
-        GravarIni(CONSULTARNFSEPORRPS_SERIE,  _FormDados.edSerieRPS.Text);
-        GravarIni(CONSULTARNFSEPORRPS_TIPO,   _FormDados.edTPRps.Text);
+        GravarIni(CONSULTARNFSEPORRPS_SERIE, _FormDados.edSerieRPS.Text);
+        GravarIni(CONSULTARNFSEPORRPS_TIPO, _FormDados.edTPRps.Text);
 
         mmCSV.Clear;
 
-        mmCSV.Text := spdNFSeConverterX.ConverterRetConsultarNFSePorRPS(_XML,'');
+        mmCSV.Text := spdNFSeConverterX.ConverterRetConsultarNFSePorRPS(_XML, '');
         _Ret := spdNFSeConverterX.ConverterRetConsultarNFSePorRpsTipo(_XML);
         getRetornoConsultaNFSe(_Ret);
 
@@ -1006,29 +1014,26 @@ procedure TfrmExemplo.btnConsultarNotasTomadasClick(Sender: TObject);
 var
   _XML, _Extras: string;
   _FormDados: TFrmConsNFSETomadas;
+  _RetConsultaTomadas: IspdRetConsultaLoteNFSeTomadas;
 begin
   CheckConfig;
   try
     _FormDados := TFrmConsNFSETomadas.Create(nil);
     try
       (Sender as TWinControl).Enabled := False;
-      _FormDados.edtNomeCidade.Text   := LerIni(CONSULTARNOTASTOMADAS_NOMECIDADE);
-      _FormDados.edtDocumentoTomador.Text   := LerIni(CONSULTARNOTASTOMADAS_DOCUMENTOTOMADOR);
-      _FormDados.edtIMTomador.Text   := LerIni(CONSULTARNOTASTOMADAS_IMTOMADOR);
-      _FormDados.edtDocumentoPrestador.Text   := LerIni(CONSULTARNOTASTOMADAS_DOCUMENTOPRESTADOR);
-      _FormDados.edtIMPrestador.Text   := LerIni(CONSULTARNOTASTOMADAS_IMPRESTADOR);
-      _FormDados.edtDataInicial.Text   := LerIni(CONSULTARNOTASTOMADAS_DATAINICIAL);
-      _FormDados.edtDataFinal.Text   := LerIni(CONSULTARNOTASTOMADAS_DATAFINAL);
-      _FormDados.edtPagina.Text   := LerIni(CONSULTARNOTASTOMADAS_PAGINA);
+      _FormDados.edtNomeCidade.Text := LerIni(CONSULTARNOTASTOMADAS_NOMECIDADE);
+      _FormDados.edtDocumentoTomador.Text := LerIni(CONSULTARNOTASTOMADAS_DOCUMENTOTOMADOR);
+      _FormDados.edtIMTomador.Text := LerIni(CONSULTARNOTASTOMADAS_IMTOMADOR);
+      _FormDados.edtDocumentoPrestador.Text := LerIni(CONSULTARNOTASTOMADAS_DOCUMENTOPRESTADOR);
+      _FormDados.edtIMPrestador.Text := LerIni(CONSULTARNOTASTOMADAS_IMPRESTADOR);
+      _FormDados.edtDataInicial.Text := LerIni(CONSULTARNOTASTOMADAS_DATAINICIAL);
+      _FormDados.edtDataFinal.Text := LerIni(CONSULTARNOTASTOMADAS_DATAFINAL);
+      _FormDados.edtPagina.Text := LerIni(CONSULTARNOTASTOMADAS_PAGINA);
       _FormDados.ShowModal;
       _Extras := '';
-      if (_FormDados.ModalResult = mrok) and
-        PedirParametrosExtras(_Extras, 'ConsultarNotasTomadas') then
+      if (_FormDados.ModalResult = mrok) and PedirParametrosExtras(_Extras, 'ConsultarNotasTomadas') then
       begin
-        _XML := ProxyNFSe.ConsultarNotasTomadas(_FormDados.edtNomeCidade.Text,
-          _FormDados.edtDocumentoTomador.Text, _FormDados.edtIMTomador.Text, _FormDados.edtDocumentoPrestador.Text,
-          _FormDados.edtIMPrestador.Text, _FormDados.edtDataInicial.Text, _FormDados.edtDataFinal.Text, _FormDados.edtPagina.Text,
-          _Extras);
+        _XML := ProxyNFSe.ConsultarNotasTomadas(_FormDados.edtNomeCidade.Text, _FormDados.edtDocumentoTomador.Text, _FormDados.edtIMTomador.Text, _FormDados.edtDocumentoPrestador.Text, _FormDados.edtIMPrestador.Text, _FormDados.edtDataInicial.Text, _FormDados.edtDataFinal.Text, _FormDados.edtPagina.Text, _Extras);
         FormatReturnXML(_XML);
 
         GravarIni(CONSULTARNOTASTOMADAS_NOMECIDADE, _FormDados.edtNomeCidade.Text);
@@ -1042,6 +1047,10 @@ begin
 
         mmCSV.Clear;
 
+        mmCSV.Text := spdNFSeConverterX.ConverterRetConsultarLoteNFSeTomadas(mmXML.Text, '');
+        _RetConsultaTomadas := spdNFSeConverterX.ConverterRetConsultarLoteNFSeTomadasTipo(mmXML.Text);
+        getRetornoConsultaLoteNFSeTomadas(_RetConsultaTomadas);
+
       end;
       rgImpressao.ItemIndex := 1;
     finally
@@ -1053,11 +1062,11 @@ begin
   end;
 end;
 
-procedure TfrmExemplo.OnLog(const aNome, aID, aFileName: String);
+procedure TfrmExemplo.OnLog(const aNome, aID, aFileName: string);
 begin
   fLogEnvio := '';
 
-  if (AnsiContainsText(aNome,'resposta')) then
+  if (AnsiContainsText(aNome, 'resposta')) then
     fLogEnvio := aFileName;
 end;
 
@@ -1065,133 +1074,136 @@ end;
 { ; |  Tratamento de retornos utilizando o NFSeConverter  | ;}
 { ; ======================================================= ;}
 
-procedure TfrmExemplo.getRetornoEnvio(const aRet : IspdRetEnvioNFSe);
+procedure TfrmExemplo.getRetornoEnvio(const aRet: IspdRetEnvioNFSe);
 begin
-   mmTipado.Clear;
+  mmTipado.Clear;
 
-   case aRet.Status of
-     0 : mmTipado.Lines.Add('Status: SUCESSO');
-     1 : mmTipado.Lines.Add('Status: EM PROCESSAMENTO');
-     2 : mmTipado.Lines.Add('Status: ERRO');
-   end;
+  case aRet.Status of
+    0:
+      mmTipado.Lines.Add('Status: SUCESSO');
+    1:
+      mmTipado.Lines.Add('Status: EM PROCESSAMENTO');
+    2:
+      mmTipado.Lines.Add('Status: ERRO');
+  end;
 
-   mmTipado.Lines.Add('Motivo: ' + aRet.Motivo);
-   mmTipado.Lines.Add('Protocolo: ' + aRet.NumeroProtocolo);
+  mmTipado.Lines.Add('Motivo: ' + aRet.Motivo);
+  mmTipado.Lines.Add('Protocolo: ' + aRet.NumeroProtocolo);
 end;
 
 procedure TfrmExemplo.getRetornoEnvioSincrno(const aRet: IspdRetEnvioSincronoNFSe);
 var
-  i : integer;
+  i: integer;
 begin
   mmTipado.Clear;
 
   if aRet.Status = 1 then
     mmTipado.Lines.Add('Status: EMPROCESSAMENTO')
+  else if aRet.Status = 2 then
+  begin
+    mmTipado.Lines.Add('Status: ERRO');
+    mmTipado.Lines.Add('Motivo: ' + aRet.Motivo);
+  end
   else
-	  if aRet.Status = 2 then
+  begin
+    for i := 0 to aRet.ListaDeNFes.Count - 1 do
     begin
-      mmTipado.Lines.Add('Status: ERRO');
-      mmTipado.Lines.Add('Motivo: ' + aRet.Motivo);
-    end
-    else
-    begin
-      for i := 0 to aRet.ListaDeNFes.Count - 1 do
-      begin
-        mmTipado.Lines.Add('Status: SUCESSO');
+      mmTipado.Lines.Add('Status: SUCESSO');
 
-        mmTipado.Lines.Add('CNPJ: ' + aRet. ListaDeNFes.Item(i).Cnpj);
-        mmTipado.Lines.Add('Inscricao Municipal: ' + aRet.ListaDeNFes.Item(i).InscMunicipal);
-        mmTipado.Lines.Add('Serie do RPS: ' + aRet.ListaDeNFes.Item(i).SerieRps);
-        mmTipado.Lines.Add('Número do RPS: ' + aRet.ListaDeNFes.Item(i).NumeroRps);
-        mmTipado.Lines.Add('Número da NFS-e: ' + aRet.ListaDeNFes.Item(i).NumeroNFSe);
-        mmTipado.Lines.Add('Data de Emissão: ' + aRet.ListaDeNFes.Item(i).DataEmissaoNFSe);
-        mmTipado.Lines.Add('Código de Verificação: ' + aRet.ListaDeNFes.Item(i).CodVerificacao);
-        mmTipado.Lines.Add('Situação: ' + aRet.ListaDeNFes.Item(i).Situacao);
-        mmTipado.Lines.Add('Data De Cancelamento: ' + aRet.ListaDeNFes.Item(i).DataCancelamento);
-        mmTipado.Lines.Add('Chave de Cancelamento: ' + aRet.ListaDeNFes.Item(i).ChaveCancelamento);
-        mmTipado.Lines.Add('Tipo: ' + aRet.ListaDeNFes.Item(i).Tipo);
-        mmTipado.Lines.Add('Motivo: ' + aRet.ListaDeNFes.Item(i).Motivo);
-        mmTipado.Lines.Add('XML: ' + aRet.ListaDeNFes.Item(i).Xml);
+      mmTipado.Lines.Add('CNPJ: ' + aRet.ListaDeNFes.Item(i).Cnpj);
+      mmTipado.Lines.Add('Inscricao Municipal: ' + aRet.ListaDeNFes.Item(i).InscMunicipal);
+      mmTipado.Lines.Add('Serie do RPS: ' + aRet.ListaDeNFes.Item(i).SerieRps);
+      mmTipado.Lines.Add('Número do RPS: ' + aRet.ListaDeNFes.Item(i).NumeroRps);
+      mmTipado.Lines.Add('Número da NFS-e: ' + aRet.ListaDeNFes.Item(i).NumeroNFSe);
+      mmTipado.Lines.Add('Data de Emissão: ' + aRet.ListaDeNFes.Item(i).DataEmissaoNFSe);
+      mmTipado.Lines.Add('Código de Verificação: ' + aRet.ListaDeNFes.Item(i).CodVerificacao);
+      mmTipado.Lines.Add('Situação: ' + aRet.ListaDeNFes.Item(i).Situacao);
+      mmTipado.Lines.Add('Data De Cancelamento: ' + aRet.ListaDeNFes.Item(i).DataCancelamento);
+      mmTipado.Lines.Add('Chave de Cancelamento: ' + aRet.ListaDeNFes.Item(i).ChaveCancelamento);
+      mmTipado.Lines.Add('Tipo: ' + aRet.ListaDeNFes.Item(i).Tipo);
+      mmTipado.Lines.Add('Motivo: ' + aRet.ListaDeNFes.Item(i).Motivo);
+      mmTipado.Lines.Add('XML: ' + aRet.ListaDeNFes.Item(i).Xml);
 
-        mmTipado.Lines.Add('');
-        mmTipado.Lines.Add('================================================');
-        mmTipado.Lines.Add('');
-      end;
+      mmTipado.Lines.Add('');
+      mmTipado.Lines.Add('================================================');
+      mmTipado.Lines.Add('');
     end;
+  end;
 end;
 
 procedure TfrmExemplo.getRetornoConsultaLoteNFSe(const aRet: IspdRetConsultaLoteNFSe);
 var
-  i : integer;
+  i: integer;
 begin
   mmTipado.Clear;
 
   if aRet.Status = 1 then
     mmTipado.Lines.Add('Status: EMPROCESSAMENTO')
-   else
-	 if aRet.Status = 2 then
-   begin
+  else if aRet.Status = 2 then
+  begin
     mmTipado.Lines.Add('Status: ERRO');
     mmTipado.Lines.Add('Motivo: ' + aRet.Motivo);
-   end
+  end
   else
-   begin
+  begin
     for i := 0 to aRet.ListaDeNFes.Count - 1 do
-     begin
-        mmTipado.Lines.Add('Status: SUCESSO');
+    begin
+      mmTipado.Lines.Add('Status: SUCESSO');
 
-        mmTipado.Lines.Add('CNPJ: ' + aRet.ListaDeNFes.Item(i).Cnpj);
-        mmTipado.Lines.Add('Inscricao Municipal: ' + aRet.ListaDeNFes.Item(i).InscMunicipal);
-        mmTipado.Lines.Add('Serie do RPS: ' + aRet.ListaDeNFes.Item(i).SerieRps);
-        mmTipado.Lines.Add('Número do RPS: ' + aRet.ListaDeNFes.Item(i).NumeroRps);
-        mmTipado.Lines.Add('Número da NFS-e: ' + aRet.ListaDeNFes.Item(i).NumeroNFSe);
-        mmTipado.Lines.Add('Data de Emissão: ' + aRet.ListaDeNFes.Item(i).DataEmissaoNFSe);
-        mmTipado.Lines.Add('Código de Verificação: ' + aRet.ListaDeNFes.Item(i).CodVerificacao);
-        mmTipado.Lines.Add('Situação: ' + aRet.ListaDeNFes.Item(i).Situacao);
-        mmTipado.Lines.Add('Data De Cancelamento: ' + aRet.ListaDeNFes.Item(i).DataCancelamento);
-        mmTipado.Lines.Add('Chave de Cancelamento: ' + aRet.ListaDeNFes.Item(i).ChaveCancelamento);
-        mmTipado.Lines.Add('Tipo: ' + aRet.ListaDeNFes.Item(i).Tipo);
-        mmTipado.Lines.Add('Motivo: ' + aRet.ListaDeNFes.Item(i).Motivo);
-        mmTipado.Lines.Add('XML: ' + aRet.ListaDeNFes.Item(i).Xml);
+      mmTipado.Lines.Add('CNPJ: ' + aRet.ListaDeNFes.Item(i).Cnpj);
+      mmTipado.Lines.Add('Inscricao Municipal: ' + aRet.ListaDeNFes.Item(i).InscMunicipal);
+      mmTipado.Lines.Add('Serie do RPS: ' + aRet.ListaDeNFes.Item(i).SerieRps);
+      mmTipado.Lines.Add('Número do RPS: ' + aRet.ListaDeNFes.Item(i).NumeroRps);
+      mmTipado.Lines.Add('Número da NFS-e: ' + aRet.ListaDeNFes.Item(i).NumeroNFSe);
+      mmTipado.Lines.Add('Data de Emissão: ' + aRet.ListaDeNFes.Item(i).DataEmissaoNFSe);
+      mmTipado.Lines.Add('Código de Verificação: ' + aRet.ListaDeNFes.Item(i).CodVerificacao);
+      mmTipado.Lines.Add('Situação: ' + aRet.ListaDeNFes.Item(i).Situacao);
+      mmTipado.Lines.Add('Data De Cancelamento: ' + aRet.ListaDeNFes.Item(i).DataCancelamento);
+      mmTipado.Lines.Add('Chave de Cancelamento: ' + aRet.ListaDeNFes.Item(i).ChaveCancelamento);
+      mmTipado.Lines.Add('Tipo: ' + aRet.ListaDeNFes.Item(i).Tipo);
+      mmTipado.Lines.Add('Motivo: ' + aRet.ListaDeNFes.Item(i).Motivo);
+      mmTipado.Lines.Add('XML: ' + aRet.ListaDeNFes.Item(i).Xml);
 
-        mmTipado.Lines.Add('');
-        mmTipado.Lines.Add('================================================');
-        mmTipado.Lines.Add('');
+      mmTipado.Lines.Add('');
+      mmTipado.Lines.Add('================================================');
+      mmTipado.Lines.Add('');
 
-     end;
     end;
+  end;
 end;
 
 procedure TfrmExemplo.getRetornoConsultaNFSe(const aRet: IspdRetConsultaNFSe);
 begin
-   mmTipado.Clear;
+  mmTipado.Clear;
 
-    if aRet.Status = 2 then
-     begin
-       mmTipado.Lines.Add('Status: ERRO');
-       mmTipado.Lines.Add('Motivo: ' + aRet.Motivo);
-     end
-    else
-      begin
-        case aRet.Status of
-           0 : mmTipado.Lines.Add('Status: SUCESSO');
-           1 : mmTipado.Lines.Add('Status: EM PROCESSAMENTO');
-        end;
+  if aRet.Status = 2 then
+  begin
+    mmTipado.Lines.Add('Status: ERRO');
+    mmTipado.Lines.Add('Motivo: ' + aRet.Motivo);
+  end
+  else
+  begin
+    case aRet.Status of
+      0:
+        mmTipado.Lines.Add('Status: SUCESSO');
+      1:
+        mmTipado.Lines.Add('Status: EM PROCESSAMENTO');
+    end;
 
-        mmTipado.Lines.Add('CNPJ: ' + aRet.Cnpj);
-        mmTipado.Lines.Add('Inscricao Municipal: ' + aRet.InscMunicipal);
-        mmTipado.Lines.Add('Serie do RPS: ' + aRet.SerieRps);
-        mmTipado.Lines.Add('Número do RPS: ' + aRet.NumeroRps);
-        mmTipado.Lines.Add('Número da NFS-e: ' + aRet.NumeroNFSe);
-        mmTipado.Lines.Add('Data de Emissão: ' + aRet.DataEmissaoNFSe);
-        mmTipado.Lines.Add('Código de Verificação: ' + aRet.CodVerificacao);
-        mmTipado.Lines.Add('Situação: ' + aRet.Situacao);
-        mmTipado.Lines.Add('Data De Cancelamento: ' + aRet.DataCancelamento);
-        mmTipado.Lines.Add('Chave de Cancelamento: ' + aRet.ChaveCancelamento);
-        mmTipado.Lines.Add('Tipo: ' + aRet.Tipo);
-        mmTipado.Lines.Add('Motivo: ' + aRet.Motivo);
-        mmTipado.Lines.Add('XML: ' + aRet.Xml);
-      end;
+    mmTipado.Lines.Add('CNPJ: ' + aRet.Cnpj);
+    mmTipado.Lines.Add('Inscricao Municipal: ' + aRet.InscMunicipal);
+    mmTipado.Lines.Add('Serie do RPS: ' + aRet.SerieRps);
+    mmTipado.Lines.Add('Número do RPS: ' + aRet.NumeroRps);
+    mmTipado.Lines.Add('Número da NFS-e: ' + aRet.NumeroNFSe);
+    mmTipado.Lines.Add('Data de Emissão: ' + aRet.DataEmissaoNFSe);
+    mmTipado.Lines.Add('Código de Verificação: ' + aRet.CodVerificacao);
+    mmTipado.Lines.Add('Situação: ' + aRet.Situacao);
+    mmTipado.Lines.Add('Data De Cancelamento: ' + aRet.DataCancelamento);
+    mmTipado.Lines.Add('Chave de Cancelamento: ' + aRet.ChaveCancelamento);
+    mmTipado.Lines.Add('Tipo: ' + aRet.Tipo);
+    mmTipado.Lines.Add('Motivo: ' + aRet.Motivo);
+    mmTipado.Lines.Add('XML: ' + aRet.Xml);
+  end;
 end;
 
 procedure TfrmExemplo.getRetornoCancelamento(const aRet: IspdRetCancelaNFSe);
@@ -1199,32 +1211,30 @@ begin
   mmTipado.Clear;
 
   if aRet.Status = 2 then
-    begin
-      mmTipado.Lines.Add('Status: ERRO');
-      mmTipado.Lines.Add('Motivo: ' + aRet.Motivo);
-    end
+  begin
+    mmTipado.Lines.Add('Status: ERRO');
+    mmTipado.Lines.Add('Motivo: ' + aRet.Motivo);
+  end
   else
-    begin
-      case aRet.Status of
-        0 : mmTipado.Lines.Add('Status: SUCESSO');
-        1 : mmTipado.Lines.Add('Status: EM PROCESSAMENTO');
-      end;
-      mmTipado.Lines.Add('Data do Cancelamento: ' + aRet.DataCancelamento);
+  begin
+    case aRet.Status of
+      0:
+        mmTipado.Lines.Add('Status: SUCESSO');
+      1:
+        mmTipado.Lines.Add('Status: EM PROCESSAMENTO');
     end;
+    mmTipado.Lines.Add('Data do Cancelamento: ' + aRet.DataCancelamento);
+  end;
 
 end;
 
-function TfrmExemplo.PedirParametrosExtras(var aParametrosExtras: string;
-  const aOperacao: string): boolean;
+function TfrmExemplo.PedirParametrosExtras(var aParametrosExtras: string; const aOperacao: string): boolean;
 begin
   Result := True;
   if ckbModoAvancado.Checked then
   begin
     aParametrosExtras := LerIni(aOperacao + '_Extras');
-    Result := InputQuery('Informe os parâmetros extras:',
-      'Informe os parâmetros extras separados por ponto-e-vírgula, caso sejam necessários. '#13+
-      'Em caso contrário, apenas clique em OK.',
-      aParametrosExtras);
+    Result := InputQuery('Informe os parâmetros extras:', '(Como vc marcou o modo avançado) Informe os parâmetros extras separados por ponto-e-vírgula, caso sejam necessários. '#13 + 'Em caso contrário, apenas clique em OK.', aParametrosExtras);
     if Result then
       GravarIni(aOperacao + '_Extras', aParametrosExtras);
   end
@@ -1232,4 +1242,133 @@ begin
     aParametrosExtras := '';
 end;
 
+procedure TfrmExemplo.getRetornoConsultaLoteNFSeTomadas(const aRet: IspdRetConsultaLoteNFSeTomadas);
+var
+  i: integer;
+begin
+  mmTipado.Clear;
+
+  if aRet.Status = 1 then
+    mmTipado.Lines.Add('Status: EMPROCESSAMENTO')
+  else if aRet.Status = 2 then
+  begin
+    mmTipado.Lines.Add('Status: ERRO');
+    mmTipado.Lines.Add('Motivo: ' + aRet.Motivo);
+  end
+  else
+  begin
+    for i := 0 to aRet.ListaDeNFes.Count - 1 do
+    begin
+      mmTipado.Lines.Add('Status: SUCESSO');
+
+      mmTipado.Lines.Add('CNPJ: ' + aRet.ListaDeNFes.Item(i).Cnpj);
+      mmTipado.Lines.Add('Inscricao Municipal: ' + aRet.ListaDeNFes.Item(i).InscMunicipal);
+      mmTipado.Lines.Add('Serie do RPS: ' + aRet.ListaDeNFes.Item(i).SerieRps);
+      mmTipado.Lines.Add('Número do RPS: ' + aRet.ListaDeNFes.Item(i).NumeroRps);
+      mmTipado.Lines.Add('Número da NFS-e: ' + aRet.ListaDeNFes.Item(i).NumeroNFSe);
+      mmTipado.Lines.Add('Data de Emissão: ' + aRet.ListaDeNFes.Item(i).DataEmissaoNFSe);
+      mmTipado.Lines.Add('Data de Autorização: ' + aRet.ListaDeNFes.Item(i).DataAutorizacao);
+      mmTipado.Lines.Add('Código de Verificação: ' + aRet.ListaDeNFes.Item(i).CodVerificacao);
+      mmTipado.Lines.Add('Situação: ' + aRet.ListaDeNFes.Item(i).Situacao);
+      mmTipado.Lines.Add('Data De Cancelamento: ' + aRet.ListaDeNFes.Item(i).DataCancelamento);
+      mmTipado.Lines.Add('Chave de Cancelamento: ' + aRet.ListaDeNFes.Item(i).ChaveCancelamento);
+      mmTipado.Lines.Add('Tipo: ' + aRet.ListaDeNFes.Item(i).Tipo);
+      mmTipado.Lines.Add('Motivo: ' + aRet.ListaDeNFes.Item(i).Motivo);
+      mmTipado.Lines.Add('ValorServicos: ' + aRet.ListaDeNFes.Item(i).ValorServicos);
+      mmTipado.Lines.Add('ValorDeducoes: ' + aRet.ListaDeNFes.Item(i).ValorDeducoes);
+      mmTipado.Lines.Add('ValorPis: ' + aRet.ListaDeNFes.Item(i).ValorPis);
+      mmTipado.Lines.Add('ValorCofins: ' + aRet.ListaDeNFes.Item(i).ValorCofins);
+      mmTipado.Lines.Add('ValorInss: ' + aRet.ListaDeNFes.Item(i).ValorInss);
+      mmTipado.Lines.Add('ValorIr: ' + aRet.ListaDeNFes.Item(i).ValorIr);
+      mmTipado.Lines.Add('ValorCsll: ' + aRet.ListaDeNFes.Item(i).ValorCsll);
+      mmTipado.Lines.Add('AliquotaIss: ' + aRet.ListaDeNFes.Item(i).AliquotaIss);
+      mmTipado.Lines.Add('ValorIss: ' + aRet.ListaDeNFes.Item(i).ValorIss);
+      mmTipado.Lines.Add('IssRetido: ' + aRet.ListaDeNFes.Item(i).IssRetido);
+      mmTipado.Lines.Add('XML: ' + aRet.ListaDeNFes.Item(i).Xml);
+      mmTipado.Lines.Add('Data de Autorização: ' + aRet.ListaDeNFes.Item(i).DataAutorizacao);
+      mmTipado.Lines.Add('');
+      mmTipado.Lines.Add('================================================');
+      mmTipado.Lines.Add('');
+
+    end;
+  end;
+end;
+
+procedure TfrmExemplo.btnConverterEnvioClick(Sender: TObject);
+var
+  _RetEnvioNFSe: IspdRetEnvioNFSe;
+begin
+  mmCSV.Clear;
+
+  mmCSV.Text := spdNFSeConverterX.ConverterRetEnvioNFSe(mmXML.Text, '');
+  _RetEnvioNFSe := spdNFSeConverterX.ConverterRetEnvioNFSeTipo(mmXML.Text);
+  getRetornoEnvio(_RetEnvioNFSe);
+end;
+
+procedure TfrmExemplo.btnConverterEnvioSincronoClick(Sender: TObject);
+var
+  _RetEnvioSincronoNFSe: IspdRetEnvioSincronoNFSe;
+begin
+  mmCSV.Clear;
+
+  mmCSV.Text := spdNFSeConverterX.ConverterRetEnvioSincronoNFSe(mmXML.Text, '');
+  _RetEnvioSincronoNFSe := spdNFSeConverterX.ConverterRetEnvioSincronoNFSeTipo(mmXML.Text);
+  getRetornoEnvioSincrno(_RetEnvioSincronoNFSe);
+end;
+
+procedure TfrmExemplo.btnConverterConsultaLoteClick(Sender: TObject);
+var
+  _RetConsultaLote: IspdRetConsultaLoteNFSe;
+begin
+  mmCSV.Clear;
+
+  mmCSV.Text := spdNFSeConverterX.ConverterRetConsultarLoteNFSe(mmXML.Text, '');
+  _RetConsultaLote := spdNFSeConverterX.ConverterRetConsultarLoteNFSeTipo(mmXML.Text);
+  getRetornoConsultaLoteNFSe(_RetConsultaLote);
+end;
+
+procedure TfrmExemplo.btnConverterConsultaNFSePorRPSClick(Sender: TObject);
+var
+  _RetConsultaNFSe: IspdRetConsultaNFSe;
+begin
+  mmCSV.Clear;
+
+  mmCSV.Text := spdNFSeConverterX.ConverterRetConsultarNFSePorRPS(mmXML.Text, '');
+  _RetConsultaNFSe := spdNFSeConverterX.ConverterRetConsultarNFSePorRpsTipo(mmXML.Text);
+  getRetornoConsultaNFSe(_RetConsultaNFSe);
+end;
+
+procedure TfrmExemplo.btnConverterConsultaNFseClick(Sender: TObject);
+var
+  _RetConsultaNFSe: IspdRetConsultaNFSe;
+begin
+  mmCSV.Clear;
+
+  mmCSV.Text := spdNFSeConverterX.ConverterRetConsultarNFSe(mmXML.Text, '');
+  _RetConsultaNFSe := spdNFSeConverterX.ConverterRetConsultarNFSeTipo(mmXML.Text);
+  getRetornoConsultaNFSe(_RetConsultaNFSe);
+end;
+
+procedure TfrmExemplo.btnConverterCancelamentoNFSeClick(Sender: TObject);
+var
+  _RetCancelarNFse: IspdRetCancelaNFSe;
+begin
+  mmCSV.Clear;
+
+  mmCSV.Text := spdNFSeConverterX.ConverterRetCancelarNFSe(mmXML.Text, '');
+  _RetCancelarNFse := spdNFSeConverterX.ConverterRetCancelarNFSeTipo(mmXML.Text);
+  getRetornoCancelamento(_RetCancelarNFse);
+end;
+
+procedure TfrmExemplo.btnConverterConsultaNFSeTomadasClick(Sender: TObject);
+begin
+  mmCSV.Clear;
+
+  mmCSV.Text := spdNFSeConverterX.ConverterRetConsultarLoteNFSeTomadas(mmXML.Text, '');
+  _RetConsultaTomadas := spdNFSeConverterX.ConverterRetConsultarLoteNFSeTomadasTipo(mmXML.Text);
+  getRetornoConsultaLoteNFSeTomadas(_RetConsultaTomadas);
+end;
+
 end.
+
+

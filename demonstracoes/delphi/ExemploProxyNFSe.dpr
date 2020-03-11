@@ -14,6 +14,6 @@ begin
   Application.CreateForm(TfrmExemplo, frmExemplo);
   Application.CreateForm(TfrmCancelamento, frmCancelamento);
   Application.CreateForm(TFrmConsNFSEporRPS, FrmConsNFSEporRPS);
-  Application.CreateForm(TFrmConsNFSETomadas, FrmConsNFSETomadas);
+  //Application.CreateForm(TFrmConsNFSETomadas, FrmConsNFSETomadas);
   Application.Run;
 end.

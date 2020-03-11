@@ -3,7 +3,7 @@ object FrmConsNFSETomadas: TFrmConsNFSETomadas
   Top = 289
   Caption = 'Consulta NFSe Tomadas'
   ClientHeight = 420
-  ClientWidth = 204
+  ClientWidth = 212
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -48,7 +48,6 @@ object FrmConsNFSETomadas: TFrmConsNFSETomadas
       Width = 159
       Height = 13
       Caption = 'Documento Prestador Consulente'
-      OnClick = lblDocumentoPrestadorClick
     end
     object lblIMPrestador: TLabel
       Left = 9
@@ -60,16 +59,16 @@ object FrmConsNFSETomadas: TFrmConsNFSETomadas
     object lblDataInicial: TLabel
       Left = 9
       Top = 241
-      Width = 53
+      Width = 110
       Height = 13
-      Caption = 'Data Inicial'
+      Caption = 'Data Inicial yyyy-mm-dd'
     end
     object lblDataFinal: TLabel
       Left = 9
       Top = 284
-      Width = 48
+      Width = 105
       Height = 13
-      Caption = 'Data Final'
+      Caption = 'Data Final yyyy-mm-dd'
     end
     object lblPagina: TLabel
       Left = 9

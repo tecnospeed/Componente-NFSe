@@ -1,10 +1,10 @@
 object frmExemplo: TfrmExemplo
-  Left = 300
+  Left = 301
   Top = 1
+  Width = 636
+  Height = 690
   HorzScrollBar.Visible = False
   VertScrollBar.Visible = False
-  ClientHeight = 695
-  ClientWidth = 735
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -12,39 +12,135 @@ object frmExemplo: TfrmExemplo
   Font.Name = 'MS Sans Serif'
   Font.Style = []
   OldCreateOrder = False
+  Position = poScreenCenter
   OnCreate = FormCreate
-  DesignSize = (
-    735
-    695)
   PixelsPerInch = 96
   TextHeight = 13
-  object wbBanner: TWebBrowser
-    Left = -27
-    Top = -17
-    Width = 791
-    Height = 141
-    TabOrder = 1
-    ControlData = {
-      4C000000C1510000930E00000000000000000000000000000000000000000000
-      000000004C000000000000000000000001000000E0D057007335CF11AE690800
-      2B2E126208000000000000004C0000000114020000000000C000000000000046
-      8000000000000000000000000000000000000000000000000000000000000000
-      00000000000000000100000000000000000000000000000000000000}
+  object pcMensagens: TPageControl
+    Left = 0
+    Top = 258
+    Width = 628
+    Height = 405
+    ActivePage = tsFormatado
+    Align = alClient
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'MS Sans Serif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    object tsXML: TTabSheet
+      Caption = 'XML Formatado (Somente Visualiza'#231#227'o)'
+      DesignSize = (
+        620
+        377)
+      object mmXMLFormatado: TMemo
+        Left = 2
+        Top = 2
+        Width = 616
+        Height = 373
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlue
+        Font.Height = -13
+        Font.Name = 'MS Sans Serif'
+        Font.Style = []
+        ParentFont = False
+        ScrollBars = ssBoth
+        TabOrder = 0
+        WordWrap = False
+        OnKeyDown = mmXMLFormatadoKeyDown
+      end
+    end
+    object tsXMLFormatado: TTabSheet
+      Caption = 'XML'
+      ImageIndex = 1
+      DesignSize = (
+        620
+        377)
+      object mmXML: TMemo
+        Left = 2
+        Top = 2
+        Width = 616
+        Height = 373
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlue
+        Font.Height = -13
+        Font.Name = 'MS Sans Serif'
+        Font.Style = []
+        ParentFont = False
+        ScrollBars = ssBoth
+        TabOrder = 0
+        WordWrap = False
+        OnKeyDown = mmXMLKeyDown
+      end
+    end
+    object tsCSV: TTabSheet
+      Caption = 'CSV'
+      ImageIndex = 2
+      DesignSize = (
+        620
+        377)
+      object mmCSV: TMemo
+        Left = 2
+        Top = 2
+        Width = 616
+        Height = 373
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlue
+        Font.Height = -13
+        Font.Name = 'MS Sans Serif'
+        Font.Style = []
+        ParentFont = False
+        ScrollBars = ssBoth
+        TabOrder = 0
+        WordWrap = False
+        OnKeyDown = mmCSVKeyDown
+      end
+    end
+    object tsFormatado: TTabSheet
+      Caption = 'Campos Formatados'
+      DesignSize = (
+        620
+        377)
+      object mmTipado: TMemo
+        Left = 2
+        Top = 2
+        Width = 616
+        Height = 373
+        Anchors = [akLeft, akTop, akRight, akBottom]
+        Font.Charset = DEFAULT_CHARSET
+        Font.Color = clBlue
+        Font.Height = -13
+        Font.Name = 'MS Sans Serif'
+        Font.Style = []
+        ParentFont = False
+        ScrollBars = ssBoth
+        TabOrder = 0
+        WordWrap = False
+        OnKeyDown = mmTipadoKeyDown
+      end
+    end
   end
   object pcDados: TPageControl
     Left = 0
-    Top = 88
-    Width = 612
+    Top = 0
+    Width = 628
     Height = 258
-    ActivePage = tsProxyNFSe
-    TabOrder = 0
+    ActivePage = tsConverter
+    Align = alTop
+    TabOrder = 1
     object tsProxyNFSe: TTabSheet
-      Caption = 'Envio de Notas pelo Componente ProxyNFSe'
+      Caption = 'Testando autoriza'#231#227'o e consultas'
       object gbOperacoesProxyNFSe: TGroupBox
-        Left = 192
-        Top = 1
-        Width = 412
-        Height = 229
+        Left = 191
+        Top = 0
+        Width = 429
+        Height = 230
+        Align = alClient
         Caption = 'Opera'#231#245'es'
         TabOrder = 0
         object Label7: TLabel
@@ -53,6 +149,20 @@ object frmExemplo: TfrmExemplo
           Width = 53
           Height = 13
           Caption = 'Certificado:'
+        end
+        object lblAmbiente: TLabel
+          Left = 272
+          Top = 199
+          Width = 120
+          Height = 13
+          Caption = 'Amb. de PRODU'#199#195'O'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clRed
+          Font.Height = -11
+          Font.Name = 'MS Sans Serif'
+          Font.Style = [fsBold]
+          ParentFont = False
+          Visible = False
         end
         object btnConfigArquivoINI: TButton
           Left = 5
@@ -84,12 +194,12 @@ object frmExemplo: TfrmExemplo
           TabOrder = 1
           OnClick = btnLoadConfigClick
         end
-        object btnGerarXMLviaTX2: TButton
+        object btnGerarXMLeEnviarRPS: TButton
           Left = 5
           Top = 121
           Width = 200
           Height = 30
-          Caption = '&3. Gerar XML via TX2'
+          Caption = '&3. Gerar XML e Enviar RPS'
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clWindowText
           Font.Height = -11
@@ -97,59 +207,29 @@ object frmExemplo: TfrmExemplo
           Font.Style = [fsBold]
           ParentFont = False
           TabOrder = 2
-          OnClick = btnGerarXMLviaTX2Click
-        end
-        object btnAssinarXML: TButton
-          Left = 5
-          Top = 155
-          Width = 200
-          Height = 30
-          Caption = '&4. Assinar XML'
-          Font.Charset = DEFAULT_CHARSET
-          Font.Color = clWindowText
-          Font.Height = -11
-          Font.Name = 'MS Sans Serif'
-          Font.Style = [fsBold]
-          ParentFont = False
-          TabOrder = 3
-          OnClick = btnAssinarXMLClick
+          OnClick = btnGerarXMLeEnviarRPSClick
         end
         object btnCancelar: TButton
           Left = 209
-          Top = 191
+          Top = 121
           Width = 200
           Height = 30
-          Caption = '&9. Cancelar NFSe'
+          Caption = '&7. Cancelar NFSe'
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clWindowText
           Font.Height = -11
           Font.Name = 'MS Sans Serif'
           Font.Style = [fsBold]
           ParentFont = False
-          TabOrder = 8
+          TabOrder = 6
           OnClick = btnCancelarClick
         end
         object btnConsultarNFSe: TButton
           Left = 209
-          Top = 156
+          Top = 88
           Width = 200
           Height = 30
-          Caption = '&8. Consultar NFSe'
-          Font.Charset = DEFAULT_CHARSET
-          Font.Color = clWindowText
-          Font.Height = -11
-          Font.Name = 'MS Sans Serif'
-          Font.Style = [fsBold]
-          ParentFont = False
-          TabOrder = 7
-          OnClick = btnConsultarNFSeClick
-        end
-        object btnConsultarLoteRPS: TButton
-          Left = 209
-          Top = 55
-          Width = 200
-          Height = 30
-          Caption = '&6. Consultar Lote RPS'
+          Caption = '&6. Consultar NFSe'
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clWindowText
           Font.Height = -11
@@ -157,6 +237,21 @@ object frmExemplo: TfrmExemplo
           Font.Style = [fsBold]
           ParentFont = False
           TabOrder = 5
+          OnClick = btnConsultarNFSeClick
+        end
+        object btnConsultarLoteRPS: TButton
+          Left = 5
+          Top = 157
+          Width = 200
+          Height = 30
+          Caption = '&4. Consultar Lote RPS'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -11
+          Font.Name = 'MS Sans Serif'
+          Font.Style = [fsBold]
+          ParentFont = False
+          TabOrder = 3
           OnClick = btnConsultarLoteRPSClick
         end
         object cbListaCertificados: TComboBox
@@ -165,30 +260,16 @@ object frmExemplo: TfrmExemplo
           Width = 403
           Height = 21
           DropDownCount = 10
-          TabOrder = 9
+          ItemHeight = 13
+          TabOrder = 7
           OnDropDown = cbListaCertificadosDropDown
         end
         object btnConsultarNFSeporRPS: TButton
           Left = 209
-          Top = 88
+          Top = 55
           Width = 200
           Height = 30
-          Caption = '&7. Consultar NFSe por RPS'
-          Font.Charset = DEFAULT_CHARSET
-          Font.Color = clWindowText
-          Font.Height = -11
-          Font.Name = 'MS Sans Serif'
-          Font.Style = [fsBold]
-          ParentFont = False
-          TabOrder = 6
-          OnClick = btnConsultarNFSeporRPSClick
-        end
-        object btnEnviarRPS: TButton
-          Left = 82
-          Top = 190
-          Width = 123
-          Height = 30
-          Caption = '&5. Enviar RPS'
+          Caption = '&5. Consultar NFSe por RPS'
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clWindowText
           Font.Height = -11
@@ -196,11 +277,11 @@ object frmExemplo: TfrmExemplo
           Font.Style = [fsBold]
           ParentFont = False
           TabOrder = 4
-          OnClick = btnEnviarRPSClick
+          OnClick = btnConsultarNFSeporRPSClick
         end
         object rbTipoEnvioSin: TRadioButton
           Left = 6
-          Top = 188
+          Top = 210
           Width = 68
           Height = 17
           Hint = 
@@ -209,11 +290,11 @@ object frmExemplo: TfrmExemplo
           Caption = 'S'#237'ncrono'
           ParentShowHint = False
           ShowHint = True
-          TabOrder = 10
+          TabOrder = 8
         end
         object rbTipoEnvioAss: TRadioButton
-          Left = 6
-          Top = 207
+          Left = 94
+          Top = 210
           Width = 72
           Height = 17
           Hint = 
@@ -223,30 +304,31 @@ object frmExemplo: TfrmExemplo
           Checked = True
           ParentShowHint = False
           ShowHint = True
-          TabOrder = 11
+          TabOrder = 9
           TabStop = True
         end
         object btnConsultarNotasTomadas: TButton
           Left = 209
-          Top = 120
+          Top = 157
           Width = 200
           Height = 30
-          Caption = '&12. Consultar Notas Tomadas'
+          Caption = '&Consultar Notas Tomadas'
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clWindowText
           Font.Height = -11
           Font.Name = 'MS Sans Serif'
           Font.Style = [fsBold]
           ParentFont = False
-          TabOrder = 12
+          TabOrder = 10
           OnClick = btnConsultarNotasTomadasClick
         end
       end
       object gbConfigProxyNFSe: TGroupBox
         Left = 0
-        Top = 1
+        Top = 0
         Width = 191
-        Height = 229
+        Height = 230
+        Align = alLeft
         Caption = 'Configura'#231#245'es'
         TabOrder = 1
         object edtCidade: TLabeledEdit
@@ -301,134 +383,142 @@ object frmExemplo: TfrmExemplo
       end
     end
     object tsConfiguraImpressao: TTabSheet
-      Caption = 'Configurar Impress'#227'o'
+      Caption = 'Testando impress'#227'o'
       ImageIndex = 2
       object gbConfiguracoes: TGroupBox
         Left = 0
-        Top = 1
-        Width = 601
-        Height = 229
+        Top = 0
+        Width = 620
+        Height = 230
+        Align = alClient
         Caption = 'Configura'#231#245'es '
         TabOrder = 0
-        object Label3: TLabel
-          Left = 8
-          Top = 28
-          Width = 87
-          Height = 13
-          Caption = 'Bras'#227'o da Cidade:'
-          FocusControl = edtBrasaoCidade
-        end
         object Label4: TLabel
           Left = 8
-          Top = 71
+          Top = 14
           Width = 88
           Height = 13
           Caption = 'Logotipo Emitente:'
           FocusControl = edtLogoEmitente
         end
-        object Label5: TLabel
+        object edtLogoEmitente: TEdit
           Left = 8
-          Top = 114
-          Width = 103
-          Height = 13
-          Caption = 'T'#237'tulo do RPS/NFSe:'
-          FocusControl = edtTituloImpressao
-        end
-        object lblSecretaria: TLabel
-          Left = 303
-          Top = 114
-          Width = 164
-          Height = 13
-          Caption = 'Secretaria respons'#225'vel pela NFSe:'
-          FocusControl = edtSecretaria
-        end
-        object lblSubtituloNFSe: TLabel
-          Left = 8
-          Top = 157
-          Width = 109
-          Height = 13
-          Caption = 'Subt'#237'tulo para a NFSe:'
-          FocusControl = edtSubtituloNFSe
-        end
-        object lblSubtituloRPS: TLabel
-          Left = 303
-          Top = 157
-          Width = 104
-          Height = 13
-          Caption = 'Subt'#237'tulo para o RPS:'
-          FocusControl = edtSubtituloRPS
-        end
-        object edtBrasaoCidade: TEdit
-          Left = 8
-          Top = 44
+          Top = 30
           Width = 553
           Height = 21
           TabOrder = 0
         end
-        object edtLogoEmitente: TEdit
-          Left = 8
-          Top = 87
-          Width = 553
-          Height = 21
-          TabOrder = 2
-        end
-        object edtTituloImpressao: TEdit
-          Left = 8
-          Top = 130
-          Width = 289
-          Height = 21
-          TabOrder = 4
-        end
         object btnLogoTipoEmitente: TButton
           Left = 565
-          Top = 87
-          Width = 26
-          Height = 21
-          Caption = '...'
-          TabOrder = 3
-          OnClick = btnLogoTipoEmitenteClick
-        end
-        object btnBrasaoCidade: TButton
-          Left = 565
-          Top = 44
+          Top = 30
           Width = 26
           Height = 21
           Caption = '...'
           TabOrder = 1
-          OnClick = btnBrasaoCidadeClick
+          OnClick = btnLogoTipoEmitenteClick
         end
-        object edtSecretaria: TEdit
-          Left = 303
-          Top = 130
-          Width = 289
-          Height = 21
-          TabOrder = 5
+        object gbOperacaoImpressao: TGroupBox
+          Left = 3
+          Top = 60
+          Width = 254
+          Height = 101
+          TabOrder = 2
+          object btnEditarDocumento: TButton
+            Left = 131
+            Top = 12
+            Width = 112
+            Height = 25
+            Caption = '&Editar Documento'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -11
+            Font.Name = 'MS Sans Serif'
+            Font.Style = [fsBold]
+            ParentFont = False
+            TabOrder = 0
+            OnClick = btnEditarDocumentoClick
+          end
+          object btnImprimir: TButton
+            Left = 4
+            Top = 12
+            Width = 112
+            Height = 25
+            Caption = '&Imprimir'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -11
+            Font.Name = 'MS Sans Serif'
+            Font.Style = [fsBold]
+            ParentFont = False
+            TabOrder = 1
+            OnClick = btnImprimirClick
+          end
+          object btnExportar: TButton
+            Left = 5
+            Top = 44
+            Width = 111
+            Height = 26
+            Caption = 'E&xportar para PDF'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -11
+            Font.Name = 'MS Sans Serif'
+            Font.Style = [fsBold]
+            ParentFont = False
+            TabOrder = 3
+            OnClick = btnExportarClick
+          end
+          object btnVisualizar: TButton
+            Left = 131
+            Top = 45
+            Width = 112
+            Height = 26
+            Caption = '&Visualizar'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -11
+            Font.Name = 'MS Sans Serif'
+            Font.Style = [fsBold]
+            ParentFont = False
+            TabOrder = 2
+            OnClick = btnVisualizarClick
+          end
+          object ckbEnviarEmailPDF: TCheckBox
+            Left = 7
+            Top = 76
+            Width = 97
+            Height = 15
+            Caption = 'Enviar por Email'
+            TabOrder = 4
+          end
         end
-        object edtSubtituloNFSe: TEdit
-          Left = 8
-          Top = 173
-          Width = 289
-          Height = 21
-          TabOrder = 6
-        end
-        object edtSubtituloRPS: TEdit
-          Left = 303
-          Top = 173
-          Width = 289
-          Height = 21
-          TabOrder = 7
+        object rgImpressao: TRadioGroup
+          Left = 274
+          Top = 66
+          Width = 121
+          Height = 60
+          Caption = 'Impress'#227'o'
+          ItemIndex = 1
+          Items.Strings = (
+            'printRPS'
+            'printNFSe')
+          TabOrder = 3
         end
       end
     end
     object tsComandos: TTabSheet
-      Caption = 'Envio de Notas Utilizando Comandos'
+      Caption = 'Comandos do modo avan'#231'ado'
       ImageIndex = 1
       object gbComandos: TGroupBox
         Left = 0
-        Top = 1
-        Width = 604
-        Height = 229
+        Top = 0
+        Width = 620
+        Height = 230
+        Align = alClient
         TabOrder = 0
+        DesignSize = (
+          620
+          230)
         object Label1: TLabel
           Left = 8
           Top = 49
@@ -442,6 +532,23 @@ object frmExemplo: TfrmExemplo
           Width = 56
           Height = 13
           Caption = 'Par'#226'metros:'
+        end
+        object Label3: TLabel
+          Left = 147
+          Top = 8
+          Width = 422
+          Height = 13
+          Alignment = taRightJustify
+          Anchors = [akLeft, akTop, akRight, akBottom]
+          Caption = 
+            'Recursos avan'#231'ados do componente NFSe, usar somente com orienta'#231 +
+            #227'o da consultoria'
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clRed
+          Font.Height = -11
+          Font.Name = 'MS Sans Serif'
+          Font.Style = []
+          ParentFont = False
         end
         object edtComandoCidade: TLabeledEdit
           Left = 8
@@ -521,271 +628,111 @@ object frmExemplo: TfrmExemplo
         end
       end
     end
-  end
-  object pcMensagens: TPageControl
-    Left = 0
-    Top = 347
-    Width = 743
-    Height = 374
-    ActivePage = tsXML
-    Anchors = [akLeft, akTop, akRight, akBottom]
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clWindowText
-    Font.Height = -11
-    Font.Name = 'MS Sans Serif'
-    Font.Style = []
-    ParentFont = False
-    TabOrder = 2
-    object tsXML: TTabSheet
-      Caption = 'XML Formatado'
-      DesignSize = (
-        735
-        346)
-      object mmXMLFormatado: TMemo
-        Left = 2
-        Top = 2
-        Width = 731
-        Height = 342
-        Anchors = [akLeft, akTop, akRight, akBottom]
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clBlue
-        Font.Height = -13
-        Font.Name = 'MS Sans Serif'
-        Font.Style = []
-        ParentFont = False
-        ScrollBars = ssBoth
-        TabOrder = 0
-        WordWrap = False
-        OnKeyDown = mmXMLFormatadoKeyDown
-      end
-    end
-    object tsXMLFormatado: TTabSheet
-      Caption = 'XML'
-      ImageIndex = 1
-      DesignSize = (
-        735
-        346)
-      object mmXML: TMemo
-        Left = 2
-        Top = 2
-        Width = 731
-        Height = 342
-        Anchors = [akLeft, akTop, akRight, akBottom]
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clBlue
-        Font.Height = -13
-        Font.Name = 'MS Sans Serif'
-        Font.Style = []
-        ParentFont = False
-        ScrollBars = ssBoth
-        TabOrder = 0
-        WordWrap = False
-        OnKeyDown = mmXMLKeyDown
-      end
-    end
-    object tsCSV: TTabSheet
-      Caption = 'CSV'
-      ImageIndex = 2
-      DesignSize = (
-        735
-        346)
-      object mmCSV: TMemo
-        Left = 2
-        Top = 2
-        Width = 731
-        Height = 342
-        Anchors = [akLeft, akTop, akRight, akBottom]
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clBlue
-        Font.Height = -13
-        Font.Name = 'MS Sans Serif'
-        Font.Style = []
-        ParentFont = False
-        ScrollBars = ssBoth
-        TabOrder = 0
-        WordWrap = False
-        OnKeyDown = mmCSVKeyDown
-      end
-    end
-    object tsFormatado: TTabSheet
-      Caption = 'Campos Formatados'
+    object tsConverter: TTabSheet
+      Caption = 'Tratamento usando Converter'
       ImageIndex = 3
-      DesignSize = (
-        735
-        346)
-      object mmTipado: TMemo
-        Left = 2
-        Top = 2
-        Width = 731
-        Height = 342
-        Anchors = [akLeft, akTop, akRight, akBottom]
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clBlue
-        Font.Height = -13
-        Font.Name = 'MS Sans Serif'
-        Font.Style = []
-        ParentFont = False
-        ScrollBars = ssBoth
+      object btnConverterEnvio: TButton
+        Left = 8
+        Top = 19
+        Width = 193
+        Height = 25
+        Caption = 'Converter Envio'
         TabOrder = 0
-        WordWrap = False
-        OnKeyDown = mmTipadoKeyDown
+        OnClick = btnConverterEnvioClick
+      end
+      object btnConverterEnvioSincrono: TButton
+        Left = 8
+        Top = 57
+        Width = 193
+        Height = 25
+        Caption = 'Converter Envio Sincrono'
+        TabOrder = 1
+        OnClick = btnConverterEnvioSincronoClick
+      end
+      object btnConverterConsultaLote: TButton
+        Left = 8
+        Top = 97
+        Width = 193
+        Height = 25
+        Caption = 'Converter Consulta Lote'
+        TabOrder = 2
+        OnClick = btnConverterConsultaLoteClick
+      end
+      object btnConverterConsultaNFSePorRPS: TButton
+        Left = 8
+        Top = 136
+        Width = 193
+        Height = 25
+        Caption = 'Converter Consulta de NFSe Por RPS'
+        TabOrder = 3
+        OnClick = btnConverterConsultaNFSePorRPSClick
+      end
+      object btnConverterConsultaNFse: TButton
+        Left = 217
+        Top = 81
+        Width = 193
+        Height = 25
+        Caption = 'Converter Consulta NFse'
+        TabOrder = 4
+        OnClick = btnConverterConsultaNFseClick
+      end
+      object btnConverterCancelamentoNFSe: TButton
+        Left = 217
+        Top = 36
+        Width = 193
+        Height = 25
+        Caption = 'Converter Cancelamento NFSe'
+        TabOrder = 5
+        OnClick = btnConverterCancelamentoNFSeClick
+      end
+      object btnConverterConsultaNFSeTomadas: TButton
+        Left = 216
+        Top = 120
+        Width = 193
+        Height = 25
+        Caption = 'Converter Consulta NFSe Tomadas'
+        TabOrder = 6
+        OnClick = btnConverterConsultaNFSeTomadasClick
       end
     end
   end
-  object pImpressao: TPanel
-    Left = 611
-    Top = 88
-    Width = 140
-    Height = 257
-    Anchors = [akLeft, akTop, akRight]
-    BevelOuter = bvNone
-    TabOrder = 3
-    object lblAmbiente: TLabel
-      Left = 4
-      Top = 4
-      Width = 120
-      Height = 13
-      Caption = 'Amb. de PRODU'#199#195'O'
-      Font.Charset = DEFAULT_CHARSET
-      Font.Color = clRed
-      Font.Height = -11
-      Font.Name = 'MS Sans Serif'
-      Font.Style = [fsBold]
-      ParentFont = False
-      Visible = False
-    end
-    object rgImpressao: TRadioGroup
-      Left = 3
-      Top = 25
-      Width = 121
-      Height = 60
-      Caption = 'Impress'#227'o'
-      ItemIndex = 0
-      Items.Strings = (
-        'printRPS'
-        'printNFSe')
-      TabOrder = 0
-    end
-    object gbOperacaoImpressao: TGroupBox
-      Left = 3
-      Top = 85
-      Width = 121
-      Height = 169
-      TabOrder = 1
-      object btnEditarDocumento: TButton
-        Left = 4
-        Top = 12
-        Width = 112
-        Height = 25
-        Caption = '&Editar Documento'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -11
-        Font.Name = 'MS Sans Serif'
-        Font.Style = [fsBold]
-        ParentFont = False
-        TabOrder = 0
-        OnClick = btnEditarDocumentoClick
-      end
-      object btnImprimir: TButton
-        Left = 4
-        Top = 47
-        Width = 112
-        Height = 25
-        Caption = '&Imprimir'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -11
-        Font.Name = 'MS Sans Serif'
-        Font.Style = [fsBold]
-        ParentFont = False
-        TabOrder = 1
-        OnClick = btnImprimirClick
-      end
-      object btnExportar: TButton
-        Left = 5
-        Top = 117
-        Width = 111
-        Height = 25
-        Caption = 'E&xportar para PDF'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -11
-        Font.Name = 'MS Sans Serif'
-        Font.Style = [fsBold]
-        ParentFont = False
-        TabOrder = 3
-        OnClick = btnExportarClick
-      end
-      object btnVisualizar: TButton
-        Left = 4
-        Top = 83
-        Width = 112
-        Height = 25
-        Caption = '&Visualizar'
-        Font.Charset = DEFAULT_CHARSET
-        Font.Color = clWindowText
-        Font.Height = -11
-        Font.Name = 'MS Sans Serif'
-        Font.Style = [fsBold]
-        ParentFont = False
-        TabOrder = 2
-        OnClick = btnVisualizarClick
-      end
-      object ckbEnviarEmailPDF: TCheckBox
-        Left = 7
-        Top = 149
-        Width = 97
-        Height = 15
-        Caption = 'Enviar por Email'
-        TabOrder = 4
-      end
-    end
-    object spdNFSeConverterX: TspdNFSeConverterX
-      Left = 96
-      Top = 32
-      Width = 26
-      Height = 26
-      ControlData = {
-        54504630185441637469766558436F6D706F6E656E74436F6E74726F6C00044C
-        656674020003546F700200055769647468021A06486569676874021A0000}
-    end
+  object spdNFSeConverterX: TspdNFSeConverterX
+    DelimitadorDaLinha = #13#10
+    DelimitadorDoCampo = ';'
+    Left = 396
+    Top = 59
   end
   object OpnDlgTx2: TOpenDialog
     Filter = 'Arquivos Tx2|*.tx2'
-    Left = 644
-    Top = 84
+    Left = 522
+    Top = 58
   end
   object ProxyNFSe: TspdProxyNFSe
     ComponenteNFSe = NFSe
-    Left = 612
-    Top = 84
+    Left = 490
+    Top = 58
   end
   object svDlgExportar: TSaveDialog
     DefaultExt = 'pdf'
     Filter = 'Arquivos pdf|*.pdf'
-    Left = 548
-    Top = 84
+    Left = 426
+    Top = 58
   end
   object OpnDlgLogoTipo: TOpenDialog
     DefaultExt = 'jpg'
     Filter = 'Imagens JPEG (*.jpg)|*.jpg'
     Options = [ofHideReadOnly, ofNoChangeDir, ofFileMustExist, ofEnableSizing]
-    Left = 706
-    Top = 84
+    Left = 584
+    Top = 58
   end
   object OpnDlgBrasao: TOpenDialog
     DefaultExt = 'jpg'
     Filter = 'Imagens JPEG (*.jpg)|*.jpg'
     Options = [ofHideReadOnly, ofNoChangeDir, ofFileMustExist, ofEnableSizing]
-    Left = 676
-    Top = 84
+    Left = 554
+    Top = 58
   end
   object NFSe: TspdNFSe
-    TipoCertificado = ckFile
-    ConexaoSegura = True
-    DiretorioTemplates = 'Templates\'
-    DiretorioEsquemas = 'C:\Program Files\Borland\Delphi7\Bin\Esquemas\'
     Ambiente = akHomologacao
     ArquivoServidoresHom = 'nfseServidoresHom.ini'
     ArquivoServidoresProd = 'nfseServidoresProd.ini'
@@ -794,6 +741,12 @@ object frmExemplo: TfrmExemplo
     IgnoreInvalidCertificates = False
     EmailSettings.Autenticacao = False
     EmailSettings.TimeOut = 30000
+    EmailSettings.IsContentHTML = False
+    DiretorioTemplates = 'Templates\'
+    DiretorioEsquemas = 'C:\Program Files\Borland\Delphi7\Bin\Esquemas\'
+    TipoCertificado = ckFile
+    ConexaoSegura = True
+    DiretorioLogErro = 'C:\Program Files (x86)\Borland\Delphi7\Bin\LogErro\'
     Cidade = 'BeloHorizonte'
     ArquivoLocais = 'nfseLocais.ini'
     ConfiguracoesImpressao.QtdeCopias = 1
@@ -817,10 +770,13 @@ object frmExemplo: TfrmExemplo
     ConfiguracoesWebService.SoapActionConsultarNfse = 'ConsultarNfse'
     ConfiguracoesWebService.SoapActionCancelarNfse = 'CancelarNfse'
     ConfiguracoesWebService.EscaparXml = False
-    Versao = '3.5.57.15152pa'
+    Versao = '10.0.66.6780'
     MappingFileName = 'Mapping.txt'
     DiretorioXmlImpressao = 'XmlImpressao\'
-    Left = 580
-    Top = 84
+    RemoverAcentos = True
+    DiagnosticMode = True
+    SalvarLogsEmDisco = True
+    Left = 458
+    Top = 58
   end
 end
