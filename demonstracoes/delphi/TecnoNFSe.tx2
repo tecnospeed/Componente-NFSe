@@ -3,7 +3,7 @@ padrao=TecnoNFSe
 
 INCLUIR
 NumeroLote=1
-CPFCNPJRemetente=08187168000160
+CPFCNPJRemetente=00000000000000
 InscricaoMunicipalRemetente=081871680
 ValorTotalServicos=0.10
 ValorTotalDeducoes=0.00
@@ -18,10 +18,10 @@ NumeroRps=1
 SituacaoNota=1
 DataEmissao=2020-03-11T00:00:00
 Competencia=2020-03-11
-CpfCnpjPrestador=08187168000160
-InscricaoMunicipalPrestador=081871680
+CpfCnpjPrestador=00000000000000
+InscricaoMunicipalPrestador=000000
 RazaoSocialPrestador=TECNOSPEED TECNOLOGIA DA INFORMACAO
-InscricaoEstadualPrestador=081871680
+InscricaoEstadualPrestador=0000000000
 TipoLogradouroPrestador=Rua
 EnderecoPrestador=Endereco Teste
 NumeroPrestador=42
@@ -54,7 +54,7 @@ CodigoCidadePrestacao=4115200
 DescricaoCidadePrestacao=Maringa
 
 
-CpfCnpjTomador=08187168000160
+CpfCnpjTomador=00000000000000
 RazaoSocialTomador=TECNOSPEED TECNOLOGIA DA INFORMACAO
 InscricaoEstadualTomador=
 InscricaoMunicipalTomador=

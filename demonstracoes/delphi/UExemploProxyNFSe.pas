@@ -104,6 +104,7 @@ type
     btnConverterConsultaNFse: TButton;
     btnConverterCancelamentoNFSe: TButton;
     btnConverterConsultaNFSeTomadas: TButton;
+    btnEnviar: TButton;
 
     {DECLARAÇÕES RELACIONADAS AO ENVIO POR PROXYNFSe}
     {Abre o arquivo NFSeConfig.ini}
@@ -166,6 +167,7 @@ type
     procedure btnConverterConsultaNFseClick(Sender: TObject);
     procedure btnConverterCancelamentoNFSeClick(Sender: TObject);
     procedure btnConverterConsultaNFSeTomadasClick(Sender: TObject);
+    procedure btnEnviarClick(Sender: TObject);
   private
     fLogEnvio: string;
     {Lê configurações do exemplo de um arquivo .ini}
@@ -418,20 +420,7 @@ begin
           FormatReturnXML(_XML);
         end;
 
-        // passo 4 - Envio
-        if (NFSe.Ambiente = akProducao) and (Application.MessageBox('O componente está configurado ' + 'para enviar em ambiente de produção, deseja continuar?', 'Atenção!', MB_YESNO + MB_ICONWARNING) = IDNO) then
-          exit;
-
-        if rbTipoEnvioSin.Checked then
-          EnvioSincrono
-        else
-          EnvioAssincrono;
-
-        mmXMLFormatado.Font.Color := clBlue;
-        mmXML.Lines.Text := _XML;
-        mmXMLFormatado.Lines.Text := ReformatXml(_XML);
-
-        rgImpressao.ItemIndex := 0;
+        mmXML.Text := _XML;
       end;
     finally
       (Sender as TWinControl).Enabled := True;
@@ -1047,9 +1036,9 @@ begin
 
         mmCSV.Clear;
 
-        mmCSV.Text := spdNFSeConverterX.ConverterRetConsultarLoteNFSeTomadas(mmXML.Text, '');
-        _RetConsultaTomadas := spdNFSeConverterX.ConverterRetConsultarLoteNFSeTomadasTipo(mmXML.Text);
-        getRetornoConsultaLoteNFSeTomadas(_RetConsultaTomadas);
+//        mmCSV.Text := spdNFSeConverterX.ConverterRetConsultarLoteNFSeTomadas(mmXML.Text, '');
+//        _RetConsultaTomadas := spdNFSeConverterX.ConverterRetConsultarLoteNFSeTomadasTipo(mmXML.Text);
+//        getRetornoConsultaLoteNFSeTomadas(_RetConsultaTomadas);
 
       end;
       rgImpressao.ItemIndex := 1;
@@ -1364,9 +1353,31 @@ procedure TfrmExemplo.btnConverterConsultaNFSeTomadasClick(Sender: TObject);
 begin
   mmCSV.Clear;
 
-  mmCSV.Text := spdNFSeConverterX.ConverterRetConsultarLoteNFSeTomadas(mmXML.Text, '');
-  _RetConsultaTomadas := spdNFSeConverterX.ConverterRetConsultarLoteNFSeTomadasTipo(mmXML.Text);
-  getRetornoConsultaLoteNFSeTomadas(_RetConsultaTomadas);
+//  mmCSV.Text := spdNFSeConverterX.ConverterRetConsultarLoteNFSeTomadas(mmXML.Text, '');
+//  _RetConsultaTomadas := spdNFSeConverterX.ConverterRetConsultarLoteNFSeTomadasTipo(mmXML.Text);
+//  getRetornoConsultaLoteNFSeTomadas(_RetConsultaTomadas);
+end;
+
+procedure TfrmExemplo.btnEnviarClick(Sender: TObject);
+var
+  _XML: string;
+begin
+  // passo 4 - Envio
+  if (NFSe.Ambiente = akProducao) and (Application.MessageBox('O componente está configurado ' + 'para enviar em ambiente de produção, deseja continuar?', 'Atenção!', MB_YESNO + MB_ICONWARNING) = IDNO) then
+    exit;
+
+  _XML := mmXML.Text;
+
+  if rbTipoEnvioSin.Checked then
+    EnvioSincrono
+  else
+    EnvioAssincrono;
+
+  mmXMLFormatado.Font.Color := clBlue;
+  mmXML.Lines.Text := _XML;
+  mmXMLFormatado.Lines.Text := ReformatXml(_XML);
+
+  rgImpressao.ItemIndex := 0;
 end;
 
 end.
