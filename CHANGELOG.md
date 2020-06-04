@@ -1,4 +1,8 @@
-﻿## [10.0.68.6836]
+﻿## [10.0.68.6837]
+
+* Corre&ccedil;&otilde;es e melhorias diversos.
+
+## [10.0.68.6836]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -9,6 +13,7 @@
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
