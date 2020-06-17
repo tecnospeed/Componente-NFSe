@@ -1,4 +1,12 @@
-﻿## [10.1.69.6841]
+﻿## [10.1.69.6851]
+
+**Novidades**
+* #DC-623 - Disponibilizada a impressão dos Campos Customizados referentes ao SubDataSet de Serviço.
+* #DC-629 - Homologação do município Itatinga - CE, padrão INTERSOL.
+* #DC-629 - Re-homologação do município Mirassol D'Oeste - MT, mudança de padrão de SATURNO para FIORILLI.
+* #DC-629 - Re-homologação do município Ipojuca - PE, mudança de padrão de WEBISS20 para TINUS.
+
+## [10.1.69.6841]
 
 **Novidades**
 
@@ -51,6 +59,7 @@
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
