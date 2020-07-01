@@ -1,3 +1,7 @@
+﻿## [1.1.1.6881]
+
+* Corre&ccedil;&otilde;es e melhorias diversos.
+
 ## [10.1.69.6851]
 
 **Novidades**
@@ -59,6 +63,7 @@
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
