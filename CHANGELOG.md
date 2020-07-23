@@ -1,3 +1,23 @@
+﻿## [10.1.70.6915]
+
+**Novidades**
+
+* DC-539 - Alteração no layout de impressão no padrão NATAL, para que fique igual a impressão feita na prefeitura.
+* DC-550 - Compatibilizado com Delphi Sydney 10.4.
+* DC-642 - Re-homologação do município Itajá - GO, mudança de padrão de BETHA para CENTI.
+* DC-642 - Homologação do município Porto Seguro - BA, padrão ISSINTEL.
+* DC-642 - Homologação do município Acaraú - CE, padrão INTERSOL.
+* DC-642 - Homologação do município Guaçuí - ES, padrão EL.
+* DC-642 - Homologação do município Ibiraçu - ES, padrão EL.
+* DC-642 - Homologação do município Marataízes - ES, padrão EL.
+* DC-642 - Re-homologação do município Carangola - MG, mudança de padrão de EL20 para EL.
+* DC-653 - Disponibilizada a Consulta de Notas Tomadas para o padrão Publica.
+* DC-614 - Implementando quantidade máxima de serviços para o padrão DSF.
+
+**Correções**
+
+* DC-632 - Corrigido problema ao desinstalar o certificado quando é informado o caminho e a senha do certificado para utilizá-lo.
+
 ## [10.1.69.6851]
 
 **Novidades**
@@ -59,6 +79,7 @@
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
