@@ -1,4 +1,13 @@
-﻿## [10.1.70.6915]
+﻿## [10.1.71.6933]
+
+ **Novidades**
+
+* DC-681 - Compatibilizando o padrão DataPublic com o componente NFSe, nessa versão estará disponível a cidade de Queimadas - PB.
+            Para maiores informações acesse: [Documentação.](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360051363694)
+
+* DC-819 - Correção na exportação NFSe do padrão de São Paulo para não entrar em loop.
+
+## [10.1.70.6915]
 
 **Novidades**
 
@@ -79,6 +88,7 @@
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
