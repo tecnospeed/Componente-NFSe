@@ -1,4 +1,12 @@
-﻿## [1.1.4.6900]
+﻿## [1.1.4.6906]
+
+**Novidades**
+
+* #DC-1286 - Compatibilizando o padrão ISSMAP com o componente NFSe, nessa versão estará disponível a cidade de Lençóis Paulista - SP
+  * Para mais informações acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360053260714
+
+
+## [1.1.4.6900]
 
 **Novidades**
 
@@ -136,6 +144,7 @@
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
