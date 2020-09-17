@@ -1,39 +1,3 @@
-﻿## [1.1.4.6906]
-
-**Novidades**
-
-* #DC-1286 - Compatibilizando o padrão ISSMAP com o componente NFSe, nessa versão estará disponível a cidade de Lençóis Paulista - SP
-  * Para mais informações acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360053260714
-
-
-## [1.1.4.6900]
-
-**Novidades**
-
-* DC-501 - Implementado tratamento para unificar o formato das datas retornadas pelo componente NFSe V2. Formato: YYYY-MM-DD"T"hh:mm:ss
-
-* DC-770 - Disponibilizado métodos RetornoJson, RetornoJsonTomadas, RetornoCSV e RetornoCSVTomadas para todas requisições.
-
-* DC-819 - Correção na exportação NFSe do padrão de São Paulo para não entrar em loop.
-
-* DC-648 - Disponibilizado instalação manual do componente no pacote full sources.
-
-* DC-1150 - Compatibilizado o padrão Abaco20 com o componente NFSe, nessa versão estará disponível a cidade de Rio Branco - AC.
-  * Para maiores informações acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360052627314
-
-* DC-1188 - Compatibilizado o padrão ISSMAP com o componente NFSe, nessa versão estará disponível a cidade de Lençóis Paulista - SP.
-  * Para mais informações acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360053260714
-
-**Correções**
-
-* DC-895 - Correção no método cancelar para validar a chave de cancelamento de acordo a configuração do FluxoCancelar no nfseLocais.
-
-* DC-1185 - Adicionado o parâmetro nome impressora no método imprimir e disponibilizado o método ConsultarCidadesHomologadas na OCX.
-
-* DC-1215 - Correção na configuração do componente NFSe por propriedades.
-
-* DC-1224 - Alterar funções que estavam sem retorno padrão.
-
 ## [10.1.72.6962]
 
 **Novidades**
