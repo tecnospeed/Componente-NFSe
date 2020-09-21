@@ -1,3 +1,23 @@
+## [10.1.72.6962]
+
+**Novidades**
+
+* DC-769 - Estendido o campo "OutrasInformacoes" do Padrão Único para o padrão INFISC, agora o mesmo comporta até 510 caracteres.
+
+* DC-648 - Disponibilizado instalação manual do componente no pacote full sources.
+
+* DC-1150 - Compatibilizado o padrão Abaco20 com o componente NFSe, nessa versão estará disponível a cidade de Rio Branco - AC.
+  * Para mais informações acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360052627314
+
+* DC-1188 - Compatibilizado o padrão ISSMAP com o componente NFSe, nessa versão estará disponível a cidade de Lençóis Paulista - SP.
+  * Para mais informações acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360053260714
+
+**Correções**
+
+* DC-1137 - Correção no cancelamento da cidade Rio Grande-RS que é do padrão SIGISS, onde o cancelamento tem layout diferente do próprio padrão.
+
+* DC-1224 - Alterar funções que estavam sem retorno padrão.
+
 ## [10.1.71.6933]
 
  **Novidades**
