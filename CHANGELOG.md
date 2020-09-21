@@ -1,3 +1,20 @@
+﻿## [1.1.5.6913]
+
+**Novidades**
+
+* #DC-1256 - Implementado o método ExportarImpressaoParaPDF para o padrão Saturno.
+
+**Correções**
+
+* #DC-1179 - Compatibilizando o padrão Elmar com o componente NFSe, nessa versão estará disponível a cidade de Guarabira - PB
+  * Para mais informações acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360055375793
+
+* #DC-1307 - Resolver problema no seguinte cenário:
+  * Sistema feito em Delphi, com componente dropado em tela.
+  * O componente não estava instalado.
+  * Ao abrir tela com componente dropado, levantava exceção mesmo sem ter executado o componente.
+
+
 ## [10.1.72.6962]
 
 **Novidades**
@@ -108,6 +125,7 @@
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
