@@ -1,3 +1,36 @@
+## [10.1.73.7006]
+
+**Novidades**
+
+* DC-1187 - Implementado múltiplos serviços e os campos ‘retido’ e ‘incidencia’ para o padrão SATURNO.
+* DC-1277 - Implementada a opção ModoEnvioCenti no NFSeLocais.ini para as cidades do padrão Centi. Essa propriedade serve para configurar a forma como o componente vai se comunicar com a prefeitura. Exemplo:
+  * ModoEnvioCenti=1 - O componente NFSe utilizará a dll WinHttp para realizar a comunicação com a API.
+  * ModoEnvioCenti=2 - O componente NFSe utilizará o componente Indy para realizar a comunicação com a API.
+  * Essa solução visa resolver os recorrentes problemas que a API do padrão possuí, pois, ela passa por constantes oscilações.
+* DC-1179 - Compatibilizando o padrão Elmar com o componente NFSe, nessa versão estará disponível a cidade de Guarabira - PB
+  * Para mais informações acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360055375793
+* DC-1293 - Compatibilizando o padrão Simpliss20 com o componente NFSe, nessa versão estará disponível a cidade de São Gonçalo - RJ
+  * Para mais informações acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360056411593
+* DC-1349 - Homologação do município de São José da Bela Vista - SP, padrão EddyData.
+* DC-1349 - Homologação do município de Bom Jesus do Norte - ES, padrão EL.
+* DC-1349 - Homologação do município de São João do Ivaí - PR, padrão MaisISS20.
+* DC-1349 - Homologação do município de Solânea - PB, padrão Elmar.
+* DC-1349 - Homologação do município de Mamanguape - PB, padrão Elmar.
+* DC-1349 - Homologação do município de Esperança - PB, padrão Elmar.
+* DC-1349 - Homologação do município de Campina da Lagoa - PR, padrão MaisISS20.
+* DC-1349 - Re-homologação do município de Peabiru - PR, mudança de padrão de MaisISS para MaisISS20.
+* DC-1349 - Re-homologação do município de Porecatu - PR, mudança de padrão de SIMPLISS para GOVBR20.
+* DC-1320 - Disponibilizado método ObterLinkImpressao para o padrão COTIA.
+* DC-1347 - Alteração na impressão Belém-PA padrão (DSF) para aceitar xml retorno do envio e retorno da consulta de lote.
+* DC-1290 - Incluídos os campos referentes as faturas do padrão SIL.
+* DC-1456 - Adicionado SubListaServicos para a cidade de Ribeirão Preto - SP.
+
+**Correções**
+
+* DC-1155 - Resolver problema no seguinte cenário: Sistema feito em Delphi, com componente dropado em tela. O componente não estava instalado. Ao abrir tela com componente dropado, levantava exceção mesmo sem ter executado o componente.
+* DC-1298 - Corrigir validação de licença da versão FULL_CNPJ.
+* DC-1292 - Corrigir problema na geração da HashSenha padrão SIL.
+
 ## [10.1.72.6962]
 
 **Novidades**
