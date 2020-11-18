@@ -1,3 +1,17 @@
+## [10.1.74.7039]
+
+**Novidades**
+
+* DC-1326 - Disponibilizada a Consulta de Notas Tomadas para o padrão Coplan.
+* DC-1469 - Compatibilizando o padrão DSF20 com o componente NFSe, nessa versão estará disponível a cidade de Macapá - AP.
+  * Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360058339593
+* DC-1581 - Adicionado os campos NumeroEncapsulamento e ValorTotalRecebido para São Paulo - SP.
+* DC-1483 - Disponibilizada a Consulta de Notas Tomadas para o padrão Metropolis.
+
+**Correções**
+* DC-1591 - Correção no xml de envio com acentos para o padrão Saturno.
+* DC-1661 - Correção no padrão de quebra de linha específico para Niterói - RJ, padrão WebISS20.
+
 ## [10.1.73.7006]
 
 **Novidades**
