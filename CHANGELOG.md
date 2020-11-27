@@ -1,3 +1,15 @@
+## [10.1.75.7048]
+
+**Correções**
+
+* DC-1664 - Correção na quebra de linha do padrão São Paulo.
+* DC-1669 - Correção no tratamento da tag situação para a cidade de Primavera do Leste - MT, padrão ISSONLINE
+* DC-1566 - Correção no campo TipoLogradouroTomador para o padrão SIAPPA.
+* DC-1695 - Correção na impressão de Belem de acordo com a do portal.
+* DC-1615 - Atualização no modelo de impressão de NFS-e do padrão EL20.
+* DC-1737 - Correção no retorno da Consulta de NFSe por RPS do padrão FINTEL, cidade Itatiba - SP.
+* DC-1714 - Compatibilizado a Impressão de Juiz de Fora/MG - Padrão FINTEL com a da prefeitura.
+
 ## [10.1.74.7039]
 
 **Novidades**
