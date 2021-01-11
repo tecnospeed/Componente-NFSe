@@ -1,3 +1,53 @@
+﻿## [10.1.75.7080]
+
+**Novidades**
+
+* DC-1461 - Compatibilizando o padrão Prescon com o componente NFSe, nessa versão estará disponível a cidade de Vinhedo - SP.
+  * Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360058002854
+* DC-1673 - Compatibilizando o padrão SIL20 com o componente NFSe, nessa versão estará disponível a cidade de Cariacica - ES.
+  * Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360058482394
+* DC-1761 - Adicionado o QRCode na impressão do padrão GINFES.
+* DC-1760 - Implementado regras para o campo valor iss devido na impressão de Vila Velha, padrão Abrasf21.
+* DC-1756 - Adicionando os campos InscricaoEstadualTomador no XML de envio e CepPrestador na impressão do padrão MAISISS20.
+* DC-1751 - Melhoria na mensagem de Erro no LoadEnvio do padrão Equiplano.
+* DC-1740 - Adicionado o controle de duplicidade via arquivo ini para o padrão SIL.
+* DC-1818 - Implementado tratamento para SerieRps especifico para cada cidade do padrão IssNetOnline.
+* DC-1534 - Compatibilizando o padrão SIAP com o componente NFSe, nessa versão estará disponível a cidade de Santarém - PA.
+  * Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360060716293
+* DC-1823 - homologação do município de Sabinópolis - MG, padrão Memory.
+* DC-1823 - homologação do município de Guanhães - MG, padrão EL.
+* DC-1823 - Re-homologação do município de Nova Odessa - SP, mudança de padrão de SIL para Smarapd.
+* DC-1823 - Re-homologação do município de Montividiu - GO, mudança de padrão de Prodata para Fiorilli.
+* DC-1823 - Homologação do município de Caraguatatuba - SP, padrão Prescon.
+* DC-1929 - Homologação do município de Getúlio Vargas - RS, padrão GovBR20.
+* DC-1929 - Homologação do município de Pitanga - PR, padrão MaisISS20.
+* DC-1929 - Homologação do município de Mauá da Serra - PR, padrão MaisISS20.
+* DC-1929 - Homologação do município de Manoel Ribas - PR, padrão MaisISS20.
+* DC-1929 - Re-homologação do município de Iretama - PR, mudança de padrão MaisIss para MaisISS20.
+* DC-1921 - Adicionado o código do IBGE do município da prestação do serviço na chave de cancelamento do padrão BETHA.
+* DC-1217 - Compatibilizando o padrão NFEletronica com o componente NFSe, nessa versão estará disponível a cidade de Santana de Parnaíba - SP.
+  * Para mais informações acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360059469374
+* DC-1191 - Compatibilizando o padrão ColumbiaUP com o componente NFSe, nessa versão estará disponível as cidades de Afogados da Ingazeira - PE, Tamandaré - PE  Carpina - PE.
+  * Para mais informações acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360061584293
+* DC-1811 - Re-homologação do município de Jequié - BA, mudança de padrão SIAM para EL20.
+* DC-1916 - Homologação do município de Costa Rica - MS, padrão GovBr20.
+* DC-2003 - Homologação do município de Rio Claro - RJ, padrão Betha.
+* DC-2003 - Homologação do município de Vassouras - RJ, padrão GovBR20.
+* DC-2003 - Homologação do município de Goianápolis - GO, padrão IssWeb.
+* DC-2003 - Homologação do município de Barros Cassal - RS, padrão GovBR20.
+
+
+**Correções**
+
+* DC-1749 - Correção na impressão do valor Líquido da NFS-e para Ipatinga-MG.
+* DC-1867 - Compatibilizando a impressão de Juiz de Fora com a da prefeitura.
+* DC-1915 - Ajustes na impressão do padrão SigIssWeb para ficar de acordo com a prefeitura.
+* DC-1904 - Ajuste na comunicação do padrão SigIssWeb.
+* DC-1882 - Correção na impressão do País tomador da NFS-e para Niterói/RJ.
+* DC-1928 - Correção na impressão do padrão EddyData.
+* DC-1870 - Correção da interpretação do retorno do envio síncrono via proxy do padrão Tiplan, quando contém tag ListaMensagemRetorno (com mensagens de avisos), mas foi bem-sucedido (agora interpreta como sucesso e não mais como falha).
+* DC-1922 - Correção na chave de cancelamento padrão ISSNETONLINE.
+
 ## [10.1.75.7048]
 
 **Correções**
@@ -167,6 +217,7 @@
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
