@@ -30,12 +30,19 @@
         {
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.wbBanner = new System.Windows.Forms.WebBrowser();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMain));
             this.tcDados = new System.Windows.Forms.TabControl();
             this.tpProxyNFSe = new System.Windows.Forms.TabPage();
             this.gbOperacoes = new System.Windows.Forms.GroupBox();
-            this.rbEnvioAssincrono = new System.Windows.Forms.RadioButton();
-            this.rbEnvioSincrono = new System.Windows.Forms.RadioButton();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.btnConverterNotasTomadas = new System.Windows.Forms.Button();
+            this.btnConsultarNotasTomadas = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.btnConsultarNFSeporRPS = new System.Windows.Forms.Button();
             this.btnGerarXMLViaTX2 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
@@ -49,7 +56,9 @@
             this.btnEditarConfiguracoes = new System.Windows.Forms.Button();
             this.gbConfiguracoes = new System.Windows.Forms.GroupBox();
             this.ckbModoAvancado = new System.Windows.Forms.CheckBox();
+            this.rbEnvioAssincrono = new System.Windows.Forms.RadioButton();
             this.label4 = new System.Windows.Forms.Label();
+            this.rbEnvioSincrono = new System.Windows.Forms.RadioButton();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -110,7 +119,6 @@
             this.rbPrintNFSe = new System.Windows.Forms.RadioButton();
             this.rbPrintRPS = new System.Windows.Forms.RadioButton();
             this.labelAmbProd = new System.Windows.Forms.Label();
-            this.btnConsultarNotasTomadas = new System.Windows.Forms.Button();
             this.tcDados.SuspendLayout();
             this.tpProxyNFSe.SuspendLayout();
             this.gbOperacoes.SuspendLayout();
@@ -130,25 +138,15 @@
             this.gbImpressao.SuspendLayout();
             this.SuspendLayout();
             // 
-            // wbBanner
-            // 
-            this.wbBanner.Location = new System.Drawing.Point(-11, -15);
-            this.wbBanner.MinimumSize = new System.Drawing.Size(20, 20);
-            this.wbBanner.Name = "wbBanner";
-            this.wbBanner.ScrollBarsEnabled = false;
-            this.wbBanner.Size = new System.Drawing.Size(790, 104);
-            this.wbBanner.TabIndex = 0;
-            this.wbBanner.Url = new System.Uri("http://www.tecno-services.com/imagens/BannerNFe.gif", System.UriKind.Absolute);
-            // 
             // tcDados
             // 
             this.tcDados.Controls.Add(this.tpProxyNFSe);
             this.tcDados.Controls.Add(this.tpConfigurarImpressao);
             this.tcDados.Controls.Add(this.tpComandos);
-            this.tcDados.Location = new System.Drawing.Point(1, 86);
+            this.tcDados.Location = new System.Drawing.Point(1, 2);
             this.tcDados.Name = "tcDados";
             this.tcDados.SelectedIndex = 0;
-            this.tcDados.Size = new System.Drawing.Size(627, 273);
+            this.tcDados.Size = new System.Drawing.Size(683, 324);
             this.tcDados.TabIndex = 1;
             // 
             // tpProxyNFSe
@@ -158,16 +156,22 @@
             this.tpProxyNFSe.Location = new System.Drawing.Point(4, 22);
             this.tpProxyNFSe.Name = "tpProxyNFSe";
             this.tpProxyNFSe.Padding = new System.Windows.Forms.Padding(3);
-            this.tpProxyNFSe.Size = new System.Drawing.Size(619, 247);
+            this.tpProxyNFSe.Size = new System.Drawing.Size(675, 298);
             this.tpProxyNFSe.TabIndex = 0;
             this.tpProxyNFSe.Text = "Envio de Notas pelo Componente ProxyNFSe";
             this.tpProxyNFSe.UseVisualStyleBackColor = true;
             // 
             // gbOperacoes
             // 
+            this.gbOperacoes.Controls.Add(this.button9);
+            this.gbOperacoes.Controls.Add(this.button8);
+            this.gbOperacoes.Controls.Add(this.button7);
+            this.gbOperacoes.Controls.Add(this.button6);
+            this.gbOperacoes.Controls.Add(this.button5);
+            this.gbOperacoes.Controls.Add(this.button4);
+            this.gbOperacoes.Controls.Add(this.btnConverterNotasTomadas);
             this.gbOperacoes.Controls.Add(this.btnConsultarNotasTomadas);
-            this.gbOperacoes.Controls.Add(this.rbEnvioAssincrono);
-            this.gbOperacoes.Controls.Add(this.rbEnvioSincrono);
+            this.gbOperacoes.Controls.Add(this.button1);
             this.gbOperacoes.Controls.Add(this.btnConsultarNFSeporRPS);
             this.gbOperacoes.Controls.Add(this.btnGerarXMLViaTX2);
             this.gbOperacoes.Controls.Add(this.label7);
@@ -181,50 +185,120 @@
             this.gbOperacoes.Controls.Add(this.btnEditarConfiguracoes);
             this.gbOperacoes.Location = new System.Drawing.Point(197, 3);
             this.gbOperacoes.Name = "gbOperacoes";
-            this.gbOperacoes.Size = new System.Drawing.Size(421, 241);
+            this.gbOperacoes.Size = new System.Drawing.Size(472, 289);
             this.gbOperacoes.TabIndex = 1;
             this.gbOperacoes.TabStop = false;
             this.gbOperacoes.Text = "Operações";
             // 
-            // rbEnvioAssincrono
+            // button9
             // 
-            this.rbEnvioAssincrono.AutoSize = true;
-            this.rbEnvioAssincrono.Checked = true;
-            this.rbEnvioAssincrono.Location = new System.Drawing.Point(9, 222);
-            this.rbEnvioAssincrono.Name = "rbEnvioAssincrono";
-            this.rbEnvioAssincrono.Size = new System.Drawing.Size(79, 17);
-            this.rbEnvioAssincrono.TabIndex = 12;
-            this.rbEnvioAssincrono.TabStop = true;
-            this.rbEnvioAssincrono.Text = "Assíncrono";
-            this.rbEnvioAssincrono.UseVisualStyleBackColor = true;
+            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
+            this.button9.Location = new System.Drawing.Point(322, 245);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(144, 29);
+            this.button9.TabIndex = 21;
+            this.button9.Text = "Converter Cancelada";
+            this.button9.UseVisualStyleBackColor = true;
             // 
-            // rbEnvioSincrono
+            // button8
             // 
-            this.rbEnvioSincrono.AutoSize = true;
-            this.rbEnvioSincrono.Location = new System.Drawing.Point(9, 205);
-            this.rbEnvioSincrono.Name = "rbEnvioSincrono";
-            this.rbEnvioSincrono.Size = new System.Drawing.Size(69, 17);
-            this.rbEnvioSincrono.TabIndex = 11;
-            this.rbEnvioSincrono.Text = "Síncrono";
-            this.rbEnvioSincrono.UseVisualStyleBackColor = true;
+            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
+            this.button8.Location = new System.Drawing.Point(322, 207);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(144, 33);
+            this.button8.TabIndex = 20;
+            this.button8.Text = "Converter NFSe RPS";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
+            this.button7.Location = new System.Drawing.Point(322, 172);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(144, 30);
+            this.button7.TabIndex = 19;
+            this.button7.Text = "Converter NFSe";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
+            this.button6.Location = new System.Drawing.Point(322, 134);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(144, 29);
+            this.button6.TabIndex = 18;
+            this.button6.Text = "Converter Cons. Lote";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
+            this.button5.Location = new System.Drawing.Point(322, 98);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(144, 30);
+            this.button5.TabIndex = 17;
+            this.button5.Text = "Converter Sinc";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
+            this.button4.Location = new System.Drawing.Point(322, 63);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(144, 28);
+            this.button4.TabIndex = 16;
+            this.button4.Text = "Converter Envia";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // btnConverterNotasTomadas
+            // 
+            this.btnConverterNotasTomadas.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
+            this.btnConverterNotasTomadas.Location = new System.Drawing.Point(152, 246);
+            this.btnConverterNotasTomadas.Name = "btnConverterNotasTomadas";
+            this.btnConverterNotasTomadas.Size = new System.Drawing.Size(164, 29);
+            this.btnConverterNotasTomadas.TabIndex = 15;
+            this.btnConverterNotasTomadas.Text = "Converter Notas Tomadas";
+            this.btnConverterNotasTomadas.UseVisualStyleBackColor = true;
+            this.btnConverterNotasTomadas.Click += new System.EventHandler(this.btnConverterNotasTomadas_Click);
+            // 
+            // btnConsultarNotasTomadas
+            // 
+            this.btnConsultarNotasTomadas.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
+            this.btnConsultarNotasTomadas.Location = new System.Drawing.Point(152, 208);
+            this.btnConsultarNotasTomadas.Name = "btnConsultarNotasTomadas";
+            this.btnConsultarNotasTomadas.Size = new System.Drawing.Size(164, 32);
+            this.btnConsultarNotasTomadas.TabIndex = 14;
+            this.btnConsultarNotasTomadas.Text = "Consultar Notas Tomadas";
+            this.btnConsultarNotasTomadas.UseVisualStyleBackColor = true;
+            this.btnConsultarNotasTomadas.Click += new System.EventHandler(this.btnConsultarNotasTomadas_Click);
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold);
+            this.button1.Location = new System.Drawing.Point(9, 247);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(139, 29);
+            this.button1.TabIndex = 13;
+            this.button1.Text = "&6. Consultar Sit Lote";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // btnConsultarNFSeporRPS
             // 
             this.btnConsultarNFSeporRPS.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConsultarNFSeporRPS.Location = new System.Drawing.Point(215, 103);
+            this.btnConsultarNFSeporRPS.Location = new System.Drawing.Point(152, 98);
             this.btnConsultarNFSeporRPS.Name = "btnConsultarNFSeporRPS";
-            this.btnConsultarNFSeporRPS.Size = new System.Drawing.Size(200, 30);
+            this.btnConsultarNFSeporRPS.Size = new System.Drawing.Size(164, 30);
             this.btnConsultarNFSeporRPS.TabIndex = 10;
-            this.btnConsultarNFSeporRPS.Text = "&7. Consultar NFSe por RPS";
+            this.btnConsultarNFSeporRPS.Text = "&8. Consultar NFSe p/ RPS";
             this.btnConsultarNFSeporRPS.UseVisualStyleBackColor = true;
             this.btnConsultarNFSeporRPS.Click += new System.EventHandler(this.btnConsultarNFSeporRPS_Click);
             // 
             // btnGerarXMLViaTX2
             // 
             this.btnGerarXMLViaTX2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGerarXMLViaTX2.Location = new System.Drawing.Point(9, 137);
+            this.btnGerarXMLViaTX2.Location = new System.Drawing.Point(9, 134);
             this.btnGerarXMLViaTX2.Name = "btnGerarXMLViaTX2";
-            this.btnGerarXMLViaTX2.Size = new System.Drawing.Size(200, 30);
+            this.btnGerarXMLViaTX2.Size = new System.Drawing.Size(139, 30);
             this.btnGerarXMLViaTX2.TabIndex = 3;
             this.btnGerarXMLViaTX2.Text = "&3. Gerar XML Via TX2";
             this.btnGerarXMLViaTX2.UseVisualStyleBackColor = true;
@@ -233,7 +307,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(6, 27);
+            this.label7.Location = new System.Drawing.Point(6, 19);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(57, 13);
             this.label7.TabIndex = 9;
@@ -242,51 +316,51 @@
             // cbCertificados
             // 
             this.cbCertificados.FormattingEnabled = true;
-            this.cbCertificados.Location = new System.Drawing.Point(9, 43);
+            this.cbCertificados.Location = new System.Drawing.Point(9, 35);
             this.cbCertificados.Name = "cbCertificados";
-            this.cbCertificados.Size = new System.Drawing.Size(406, 21);
+            this.cbCertificados.Size = new System.Drawing.Size(457, 21);
             this.cbCertificados.TabIndex = 0;
             this.cbCertificados.DropDown += new System.EventHandler(this.cbCertificados_DropDown);
             // 
             // btnCancelarNFSe
             // 
             this.btnCancelarNFSe.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelarNFSe.Location = new System.Drawing.Point(215, 172);
+            this.btnCancelarNFSe.Location = new System.Drawing.Point(152, 172);
             this.btnCancelarNFSe.Name = "btnCancelarNFSe";
-            this.btnCancelarNFSe.Size = new System.Drawing.Size(200, 30);
+            this.btnCancelarNFSe.Size = new System.Drawing.Size(164, 30);
             this.btnCancelarNFSe.TabIndex = 8;
-            this.btnCancelarNFSe.Text = "&9. Cancelar NFSe";
+            this.btnCancelarNFSe.Text = "&10. Cancelar NFSe";
             this.btnCancelarNFSe.UseVisualStyleBackColor = true;
             this.btnCancelarNFSe.Click += new System.EventHandler(this.btnCancelarNFSe_Click);
             // 
             // btnConsultarNFSe
             // 
             this.btnConsultarNFSe.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConsultarNFSe.Location = new System.Drawing.Point(215, 137);
+            this.btnConsultarNFSe.Location = new System.Drawing.Point(152, 134);
             this.btnConsultarNFSe.Name = "btnConsultarNFSe";
-            this.btnConsultarNFSe.Size = new System.Drawing.Size(200, 30);
+            this.btnConsultarNFSe.Size = new System.Drawing.Size(164, 30);
             this.btnConsultarNFSe.TabIndex = 7;
-            this.btnConsultarNFSe.Text = "&8. Consultar NFSe";
+            this.btnConsultarNFSe.Text = "&9. Consultar NFSe";
             this.btnConsultarNFSe.UseVisualStyleBackColor = true;
             this.btnConsultarNFSe.Click += new System.EventHandler(this.btnConsultarNFSe_Click);
             // 
             // btnConsultarLote
             // 
             this.btnConsultarLote.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConsultarLote.Location = new System.Drawing.Point(215, 69);
+            this.btnConsultarLote.Location = new System.Drawing.Point(152, 61);
             this.btnConsultarLote.Name = "btnConsultarLote";
-            this.btnConsultarLote.Size = new System.Drawing.Size(200, 30);
+            this.btnConsultarLote.Size = new System.Drawing.Size(164, 30);
             this.btnConsultarLote.TabIndex = 6;
-            this.btnConsultarLote.Text = "&6. Consultar Lote RPS";
+            this.btnConsultarLote.Text = "&7. Consultar Lote RPS";
             this.btnConsultarLote.UseVisualStyleBackColor = true;
             this.btnConsultarLote.Click += new System.EventHandler(this.btnConsultarLote_Click);
             // 
             // btnEnviar
             // 
             this.btnEnviar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEnviar.Location = new System.Drawing.Point(95, 205);
+            this.btnEnviar.Location = new System.Drawing.Point(9, 209);
             this.btnEnviar.Name = "btnEnviar";
-            this.btnEnviar.Size = new System.Drawing.Size(114, 30);
+            this.btnEnviar.Size = new System.Drawing.Size(139, 30);
             this.btnEnviar.TabIndex = 5;
             this.btnEnviar.Text = "&5. Enviar RPS";
             this.btnEnviar.UseVisualStyleBackColor = true;
@@ -295,9 +369,9 @@
             // btnAssinarXML
             // 
             this.btnAssinarXML.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAssinarXML.Location = new System.Drawing.Point(9, 171);
+            this.btnAssinarXML.Location = new System.Drawing.Point(9, 172);
             this.btnAssinarXML.Name = "btnAssinarXML";
-            this.btnAssinarXML.Size = new System.Drawing.Size(200, 30);
+            this.btnAssinarXML.Size = new System.Drawing.Size(139, 30);
             this.btnAssinarXML.TabIndex = 4;
             this.btnAssinarXML.Text = "&4. Assinar XML";
             this.btnAssinarXML.UseVisualStyleBackColor = true;
@@ -306,9 +380,9 @@
             // btnLoadConfig
             // 
             this.btnLoadConfig.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLoadConfig.Location = new System.Drawing.Point(9, 103);
+            this.btnLoadConfig.Location = new System.Drawing.Point(9, 98);
             this.btnLoadConfig.Name = "btnLoadConfig";
-            this.btnLoadConfig.Size = new System.Drawing.Size(200, 30);
+            this.btnLoadConfig.Size = new System.Drawing.Size(139, 30);
             this.btnLoadConfig.TabIndex = 2;
             this.btnLoadConfig.Text = "&2. LoadConfig";
             this.btnLoadConfig.UseVisualStyleBackColor = true;
@@ -317,18 +391,20 @@
             // btnEditarConfiguracoes
             // 
             this.btnEditarConfiguracoes.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEditarConfiguracoes.Location = new System.Drawing.Point(9, 69);
+            this.btnEditarConfiguracoes.Location = new System.Drawing.Point(9, 61);
             this.btnEditarConfiguracoes.Name = "btnEditarConfiguracoes";
-            this.btnEditarConfiguracoes.Size = new System.Drawing.Size(200, 30);
+            this.btnEditarConfiguracoes.Size = new System.Drawing.Size(139, 30);
             this.btnEditarConfiguracoes.TabIndex = 1;
-            this.btnEditarConfiguracoes.Text = "&1. Configurar Arquivo INI";
+            this.btnEditarConfiguracoes.Text = "&1. Abrir nfseConfig.ini";
             this.btnEditarConfiguracoes.UseVisualStyleBackColor = true;
             this.btnEditarConfiguracoes.Click += new System.EventHandler(this.btnEditarConfiguracoes_Click);
             // 
             // gbConfiguracoes
             // 
             this.gbConfiguracoes.Controls.Add(this.ckbModoAvancado);
+            this.gbConfiguracoes.Controls.Add(this.rbEnvioAssincrono);
             this.gbConfiguracoes.Controls.Add(this.label4);
+            this.gbConfiguracoes.Controls.Add(this.rbEnvioSincrono);
             this.gbConfiguracoes.Controls.Add(this.label3);
             this.gbConfiguracoes.Controls.Add(this.label2);
             this.gbConfiguracoes.Controls.Add(this.label1);
@@ -338,7 +414,7 @@
             this.gbConfiguracoes.Controls.Add(this.tbLocal);
             this.gbConfiguracoes.Location = new System.Drawing.Point(5, 3);
             this.gbConfiguracoes.Name = "gbConfiguracoes";
-            this.gbConfiguracoes.Size = new System.Drawing.Size(186, 241);
+            this.gbConfiguracoes.Size = new System.Drawing.Size(186, 289);
             this.gbConfiguracoes.TabIndex = 0;
             this.gbConfiguracoes.TabStop = false;
             this.gbConfiguracoes.Text = "Configurações";
@@ -354,6 +430,18 @@
             this.ckbModoAvancado.UseVisualStyleBackColor = true;
             this.ckbModoAvancado.CheckedChanged += new System.EventHandler(this.ckbModoAvancado_CheckedChanged);
             // 
+            // rbEnvioAssincrono
+            // 
+            this.rbEnvioAssincrono.AutoSize = true;
+            this.rbEnvioAssincrono.Checked = true;
+            this.rbEnvioAssincrono.Location = new System.Drawing.Point(8, 259);
+            this.rbEnvioAssincrono.Name = "rbEnvioAssincrono";
+            this.rbEnvioAssincrono.Size = new System.Drawing.Size(112, 17);
+            this.rbEnvioAssincrono.TabIndex = 12;
+            this.rbEnvioAssincrono.TabStop = true;
+            this.rbEnvioAssincrono.Text = "Enviar Assíncrono";
+            this.rbEnvioAssincrono.UseVisualStyleBackColor = true;
+            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -363,32 +451,42 @@
             this.label4.TabIndex = 7;
             this.label4.Text = "Número do Protocolo";
             // 
+            // rbEnvioSincrono
+            // 
+            this.rbEnvioSincrono.AutoSize = true;
+            this.rbEnvioSincrono.Location = new System.Drawing.Point(8, 236);
+            this.rbEnvioSincrono.Name = "rbEnvioSincrono";
+            this.rbEnvioSincrono.Size = new System.Drawing.Size(102, 17);
+            this.rbEnvioSincrono.TabIndex = 11;
+            this.rbEnvioSincrono.Text = "Enviar Síncrono";
+            this.rbEnvioSincrono.UseVisualStyleBackColor = true;
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(3, 118);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(98, 13);
+            this.label3.Size = new System.Drawing.Size(146, 13);
             this.label3.TabIndex = 6;
-            this.label3.Text = "Inscrição Municipal";
+            this.label3.Text = "Inscrição Municipal Prestador";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(4, 73);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(34, 13);
+            this.label2.Size = new System.Drawing.Size(82, 13);
             this.label2.TabIndex = 5;
-            this.label2.Text = "CNPJ";
+            this.label2.Text = "CNPJ Prestador";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(2, 28);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(33, 13);
+            this.label1.Size = new System.Drawing.Size(54, 13);
             this.label1.TabIndex = 4;
-            this.label1.Text = "Local";
+            this.label1.Text = "Município";
             // 
             // tbProtocolo
             // 
@@ -424,7 +522,7 @@
             this.tpConfigurarImpressao.Location = new System.Drawing.Point(4, 22);
             this.tpConfigurarImpressao.Name = "tpConfigurarImpressao";
             this.tpConfigurarImpressao.Padding = new System.Windows.Forms.Padding(3);
-            this.tpConfigurarImpressao.Size = new System.Drawing.Size(619, 247);
+            this.tpConfigurarImpressao.Size = new System.Drawing.Size(675, 298);
             this.tpConfigurarImpressao.TabIndex = 2;
             this.tpConfigurarImpressao.Text = "Configurar Impressão";
             this.tpConfigurarImpressao.UseVisualStyleBackColor = true;
@@ -447,7 +545,7 @@
             this.gbConfigurarImpressao.Controls.Add(this.tbBrasaoCidade);
             this.gbConfigurarImpressao.Location = new System.Drawing.Point(7, 5);
             this.gbConfigurarImpressao.Name = "gbConfigurarImpressao";
-            this.gbConfigurarImpressao.Size = new System.Drawing.Size(606, 236);
+            this.gbConfigurarImpressao.Size = new System.Drawing.Size(662, 287);
             this.gbConfigurarImpressao.TabIndex = 3;
             this.gbConfigurarImpressao.TabStop = false;
             this.gbConfigurarImpressao.Text = "Configurações";
@@ -532,7 +630,7 @@
             // 
             // btnLogotipo
             // 
-            this.btnLogotipo.Location = new System.Drawing.Point(567, 87);
+            this.btnLogotipo.Location = new System.Drawing.Point(616, 87);
             this.btnLogotipo.Name = "btnLogotipo";
             this.btnLogotipo.Size = new System.Drawing.Size(33, 20);
             this.btnLogotipo.TabIndex = 6;
@@ -542,7 +640,7 @@
             // 
             // btnBrasaoCidade
             // 
-            this.btnBrasaoCidade.Location = new System.Drawing.Point(567, 39);
+            this.btnBrasaoCidade.Location = new System.Drawing.Point(616, 39);
             this.btnBrasaoCidade.Name = "btnBrasaoCidade";
             this.btnBrasaoCidade.Size = new System.Drawing.Size(33, 20);
             this.btnBrasaoCidade.TabIndex = 3;
@@ -562,14 +660,14 @@
             // 
             this.tbLogotipo.Location = new System.Drawing.Point(9, 87);
             this.tbLogotipo.Name = "tbLogotipo";
-            this.tbLogotipo.Size = new System.Drawing.Size(552, 20);
+            this.tbLogotipo.Size = new System.Drawing.Size(591, 20);
             this.tbLogotipo.TabIndex = 5;
             // 
             // tbBrasaoCidade
             // 
             this.tbBrasaoCidade.Location = new System.Drawing.Point(9, 39);
             this.tbBrasaoCidade.Name = "tbBrasaoCidade";
-            this.tbBrasaoCidade.Size = new System.Drawing.Size(552, 20);
+            this.tbBrasaoCidade.Size = new System.Drawing.Size(591, 20);
             this.tbBrasaoCidade.TabIndex = 2;
             // 
             // tpComandos
@@ -585,14 +683,14 @@
             this.tpComandos.Location = new System.Drawing.Point(4, 22);
             this.tpComandos.Name = "tpComandos";
             this.tpComandos.Padding = new System.Windows.Forms.Padding(3);
-            this.tpComandos.Size = new System.Drawing.Size(619, 247);
+            this.tpComandos.Size = new System.Drawing.Size(675, 298);
             this.tpComandos.TabIndex = 1;
             this.tpComandos.Text = "Envio de Notas Utilizando Comandos";
             this.tpComandos.UseVisualStyleBackColor = true;
             // 
             // btnComandoCopiarRespostaParametro
             // 
-            this.btnComandoCopiarRespostaParametro.Location = new System.Drawing.Point(438, 220);
+            this.btnComandoCopiarRespostaParametro.Location = new System.Drawing.Point(177, 269);
             this.btnComandoCopiarRespostaParametro.Name = "btnComandoCopiarRespostaParametro";
             this.btnComandoCopiarRespostaParametro.Size = new System.Drawing.Size(175, 23);
             this.btnComandoCopiarRespostaParametro.TabIndex = 7;
@@ -604,7 +702,7 @@
             // 
             this.btnComandoExecutar.Enabled = false;
             this.btnComandoExecutar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnComandoExecutar.Location = new System.Drawing.Point(8, 220);
+            this.btnComandoExecutar.Location = new System.Drawing.Point(8, 269);
             this.btnComandoExecutar.Name = "btnComandoExecutar";
             this.btnComandoExecutar.Size = new System.Drawing.Size(163, 23);
             this.btnComandoExecutar.TabIndex = 6;
@@ -636,7 +734,7 @@
             this.lbComandos.FormattingEnabled = true;
             this.lbComandos.Location = new System.Drawing.Point(8, 67);
             this.lbComandos.Name = "lbComandos";
-            this.lbComandos.Size = new System.Drawing.Size(163, 147);
+            this.lbComandos.Size = new System.Drawing.Size(163, 199);
             this.lbComandos.TabIndex = 4;
             this.lbComandos.SelectedIndexChanged += new System.EventHandler(this.lbComandos_SelectedIndexChanged);
             // 
@@ -653,9 +751,9 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(5, 12);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(40, 13);
+            this.label5.Size = new System.Drawing.Size(54, 13);
             this.label5.TabIndex = 0;
-            this.label5.Text = "Cidade";
+            this.label5.Text = "Município";
             // 
             // dgParametros
             // 
@@ -691,7 +789,7 @@
             this.dgParametros.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.dgParametros.RowHeadersWidth = 4;
             this.dgParametros.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.dgParametros.Size = new System.Drawing.Size(436, 147);
+            this.dgParametros.Size = new System.Drawing.Size(492, 196);
             this.dgParametros.TabIndex = 5;
             // 
             // nomeParametroDataGridViewTextBoxColumn
@@ -738,10 +836,10 @@
             this.tcCSV.Controls.Add(this.tpXML);
             this.tcCSV.Controls.Add(this.tbCSV);
             this.tcCSV.Controls.Add(this.tbTipado);
-            this.tcCSV.Location = new System.Drawing.Point(1, 360);
+            this.tcCSV.Location = new System.Drawing.Point(1, 332);
             this.tcCSV.Name = "tcCSV";
             this.tcCSV.SelectedIndex = 0;
-            this.tcCSV.Size = new System.Drawing.Size(762, 291);
+            this.tcCSV.Size = new System.Drawing.Size(825, 319);
             this.tcCSV.TabIndex = 4;
             // 
             // tbXMLFormatado
@@ -750,7 +848,7 @@
             this.tbXMLFormatado.Location = new System.Drawing.Point(4, 22);
             this.tbXMLFormatado.Name = "tbXMLFormatado";
             this.tbXMLFormatado.Padding = new System.Windows.Forms.Padding(3);
-            this.tbXMLFormatado.Size = new System.Drawing.Size(754, 265);
+            this.tbXMLFormatado.Size = new System.Drawing.Size(817, 293);
             this.tbXMLFormatado.TabIndex = 0;
             this.tbXMLFormatado.Text = "Resposta Formatada";
             this.tbXMLFormatado.UseVisualStyleBackColor = true;
@@ -764,7 +862,7 @@
             this.rtbXMLFormatado.ForeColor = System.Drawing.Color.Blue;
             this.rtbXMLFormatado.Location = new System.Drawing.Point(0, 0);
             this.rtbXMLFormatado.Name = "rtbXMLFormatado";
-            this.rtbXMLFormatado.Size = new System.Drawing.Size(754, 265);
+            this.rtbXMLFormatado.Size = new System.Drawing.Size(817, 293);
             this.rtbXMLFormatado.TabIndex = 0;
             this.rtbXMLFormatado.Text = "";
             this.rtbXMLFormatado.WordWrap = false;
@@ -775,7 +873,7 @@
             this.tpXML.Location = new System.Drawing.Point(4, 22);
             this.tpXML.Name = "tpXML";
             this.tpXML.Padding = new System.Windows.Forms.Padding(3);
-            this.tpXML.Size = new System.Drawing.Size(754, 265);
+            this.tpXML.Size = new System.Drawing.Size(817, 293);
             this.tpXML.TabIndex = 1;
             this.tpXML.Text = "XML";
             this.tpXML.UseVisualStyleBackColor = true;
@@ -789,7 +887,7 @@
             this.rtbXML.ForeColor = System.Drawing.Color.Blue;
             this.rtbXML.Location = new System.Drawing.Point(0, 0);
             this.rtbXML.Name = "rtbXML";
-            this.rtbXML.Size = new System.Drawing.Size(754, 266);
+            this.rtbXML.Size = new System.Drawing.Size(813, 287);
             this.rtbXML.TabIndex = 0;
             this.rtbXML.Text = "";
             // 
@@ -799,7 +897,7 @@
             this.tbCSV.Location = new System.Drawing.Point(4, 22);
             this.tbCSV.Name = "tbCSV";
             this.tbCSV.Padding = new System.Windows.Forms.Padding(3);
-            this.tbCSV.Size = new System.Drawing.Size(754, 265);
+            this.tbCSV.Size = new System.Drawing.Size(817, 293);
             this.tbCSV.TabIndex = 2;
             this.tbCSV.Text = "CSV";
             this.tbCSV.UseVisualStyleBackColor = true;
@@ -811,9 +909,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.rtbCSV.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rtbCSV.ForeColor = System.Drawing.Color.Blue;
-            this.rtbCSV.Location = new System.Drawing.Point(-3, 0);
+            this.rtbCSV.Location = new System.Drawing.Point(0, 0);
             this.rtbCSV.Name = "rtbCSV";
-            this.rtbCSV.Size = new System.Drawing.Size(754, 266);
+            this.rtbCSV.Size = new System.Drawing.Size(814, 287);
             this.rtbCSV.TabIndex = 1;
             this.rtbCSV.Text = "";
             // 
@@ -823,7 +921,7 @@
             this.tbTipado.Location = new System.Drawing.Point(4, 22);
             this.tbTipado.Name = "tbTipado";
             this.tbTipado.Padding = new System.Windows.Forms.Padding(3);
-            this.tbTipado.Size = new System.Drawing.Size(754, 265);
+            this.tbTipado.Size = new System.Drawing.Size(817, 293);
             this.tbTipado.TabIndex = 3;
             this.tbTipado.Text = "Formatado";
             this.tbTipado.UseVisualStyleBackColor = true;
@@ -835,9 +933,9 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.rtbTipado.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rtbTipado.ForeColor = System.Drawing.Color.Blue;
-            this.rtbTipado.Location = new System.Drawing.Point(-4, 0);
+            this.rtbTipado.Location = new System.Drawing.Point(0, 0);
             this.rtbTipado.Name = "rtbTipado";
-            this.rtbTipado.Size = new System.Drawing.Size(754, 266);
+            this.rtbTipado.Size = new System.Drawing.Size(814, 293);
             this.rtbTipado.TabIndex = 2;
             this.rtbTipado.Text = "";
             // 
@@ -864,7 +962,7 @@
             this.gbOperacoesImpressao.Controls.Add(this.btnExportarParaPDF);
             this.gbOperacoesImpressao.Controls.Add(this.btnImprimir);
             this.gbOperacoesImpressao.Controls.Add(this.btnEditarDocumento);
-            this.gbOperacoesImpressao.Location = new System.Drawing.Point(630, 172);
+            this.gbOperacoesImpressao.Location = new System.Drawing.Point(690, 142);
             this.gbOperacoesImpressao.Name = "gbOperacoesImpressao";
             this.gbOperacoesImpressao.Size = new System.Drawing.Size(131, 178);
             this.gbOperacoesImpressao.TabIndex = 3;
@@ -929,7 +1027,7 @@
             // 
             this.gbImpressao.Controls.Add(this.rbPrintNFSe);
             this.gbImpressao.Controls.Add(this.rbPrintRPS);
-            this.gbImpressao.Location = new System.Drawing.Point(630, 112);
+            this.gbImpressao.Location = new System.Drawing.Point(690, 83);
             this.gbImpressao.Name = "gbImpressao";
             this.gbImpressao.Size = new System.Drawing.Size(131, 54);
             this.gbImpressao.TabIndex = 2;
@@ -963,39 +1061,30 @@
             // 
             this.labelAmbProd.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelAmbProd.ForeColor = System.Drawing.Color.Red;
-            this.labelAmbProd.Location = new System.Drawing.Point(627, 86);
+            this.labelAmbProd.Location = new System.Drawing.Point(680, 2);
             this.labelAmbProd.Name = "labelAmbProd";
             this.labelAmbProd.Size = new System.Drawing.Size(136, 23);
             this.labelAmbProd.TabIndex = 6;
-            this.labelAmbProd.Text = "Amb. PRODUÇÃO";
+            this.labelAmbProd.Text = "Ambiente: PRODUÇÃO";
             this.labelAmbProd.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.labelAmbProd.Visible = false;
-            // 
-            // btnConsultarNotasTomadas
-            // 
-            this.btnConsultarNotasTomadas.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConsultarNotasTomadas.Location = new System.Drawing.Point(215, 205);
-            this.btnConsultarNotasTomadas.Name = "btnConsultarNotasTomadas";
-            this.btnConsultarNotasTomadas.Size = new System.Drawing.Size(199, 29);
-            this.btnConsultarNotasTomadas.TabIndex = 13;
-            this.btnConsultarNotasTomadas.Text = "&10. Consultar Notas Tomadas";
-            this.btnConsultarNotasTomadas.UseVisualStyleBackColor = true;
-            this.btnConsultarNotasTomadas.Click += new System.EventHandler(this.btnConsultarNotasTomadas_Click);
             // 
             // frmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(763, 653);
+            this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.ClientSize = new System.Drawing.Size(826, 653);
             this.Controls.Add(this.labelAmbProd);
             this.Controls.Add(this.gbOperacoesImpressao);
             this.Controls.Add(this.gbImpressao);
             this.Controls.Add(this.tcCSV);
             this.Controls.Add(this.tcDados);
-            this.Controls.Add(this.wbBanner);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Demonstração de Uso do Componente Tecnospeed NFSe";
             this.Load += new System.EventHandler(this.frmMain_Load);
             this.tcDados.ResumeLayout(false);
             this.tpProxyNFSe.ResumeLayout(false);
@@ -1025,8 +1114,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.WebBrowser wbBanner;
         private System.Windows.Forms.TabControl tcDados;
         private System.Windows.Forms.TabPage tpProxyNFSe;
         private System.Windows.Forms.TabPage tpComandos;
@@ -1106,7 +1193,15 @@
         private System.Windows.Forms.RichTextBox rtbTipado;
         private System.Windows.Forms.RadioButton rbEnvioAssincrono;
         private System.Windows.Forms.RadioButton rbEnvioSincrono;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnConverterNotasTomadas;
         private System.Windows.Forms.Button btnConsultarNotasTomadas;
+        private System.Windows.Forms.Button button1;
     }
 }
 

@@ -298,7 +298,7 @@ namespace NFSeX_Exemplo
         {
             try
             {
-                NFSe.LoadConfig(Application.StartupPath + "\\nfseConfig.ini");
+                NFSe.LoadConfig("C:\\Program Files\\TecnoSpeed\\NFSe\\Arquivos\\nfseConfig.ini");
 
                 string _comandos = NFSe.ListarComandos();
 
@@ -403,12 +403,13 @@ namespace NFSeX_Exemplo
         {
             try
             {
-                ProxyNFSe.ComponenteNFSe.LoadConfig("");
+                NFSe.LoadConfig("C:\\Program Files\\TecnoSpeed\\NFSe\\Arquivos\\nfseConfig.ini");
+                ProxyNFSe.ComponenteNFSe.LoadConfig("C:\\Program Files\\TecnoSpeed\\NFSe\\Arquivos\\nfseConfig.ini");
                 ProxyNFSe.ComponenteNFSe.LoadLocaisConfig();
 
                 NFSeConverter.Cidade = NFSe.Cidade;
                 NFSeConverter.DiretorioEsquemas = NFSe.DiretorioEsquemas;
-                NFSeConverter.DiretorioScripts = NFSe.DiretorioEsquemas + "\\..\\Scripts\\";
+                NFSeConverter.DiretorioScripts = "C:\\Program Files\\TecnoSpeed\\NFSe\\Arquivos\\Scripts\\";
 
                 tbInscricaoMunicipal.Text = ProxyNFSe.ComponenteNFSe.InscricaoMunicipal;
                 tbLocal.Text = ProxyNFSe.ComponenteNFSe.Cidade;
@@ -422,6 +423,7 @@ namespace NFSeX_Exemplo
                 tbLogotipo.Text = ProxyNFSe.ComponenteNFSe.DiretorioTemplates + "\\Impressao\\LogoEmit.jpg";
 
                 labelAmbProd.Visible = (ProxyNFSe.ComponenteNFSe.Ambiente == NFSeX.Ambiente.akProducao);
+                NFSe.SaveConfig("nfseConfig.ini");
             }
             catch (Exception ex)
             {
@@ -530,6 +532,7 @@ namespace NFSeX_Exemplo
             }
             catch (Exception ex)
             {
+                
                 TratarExcecao(ex);
             }
         }
@@ -553,7 +556,7 @@ namespace NFSeX_Exemplo
                     GetRetornoEnvio(_XML);
 
                     rtbXML.Text = _protocolo;
-
+                    
                     if (_protocolo.IndexOf("-1") == -1)
                     {
                         rtbXMLFormatado.Text = "Protocolo: " + _protocolo;
@@ -730,15 +733,16 @@ namespace NFSeX_Exemplo
             if (ProxyNFSe.ComponenteNFSe == null)
                 throw new Exception("Favor ligar o componente ProxyNFSe ao componente NFSe.");
 
-            Text = "Tecnospeed NFSe - Versão: " + NFSe.Versao;
+            Text = "Demonstração de Uso do Componente Tecnospeed NFSe - Versão: " + NFSe.Versao;
 
-            ArqIni = Application.StartupPath + "\\nfseConfig.ini";
+            ArqIni = "C:\\Program Files\\TecnoSpeed\\NFSe\\Arquivos\\nfseConfig.ini";
 
             tcDados.TabPages.Remove(tpComandos);
 
             tbBrasaoCidade.Text = ProxyNFSe.ComponenteNFSe.DiretorioTemplates + "Impressao\\Brasão Tecnospeed.jpg";
             tbLogotipo.Text = ProxyNFSe.ComponenteNFSe.DiretorioTemplates + "Impressao\\LogoEmit.jpg";
             tbTituloImpressao.Text = "PREFEITURA MUNICIPAL DE EXEMPLO";
+            btnLoadConfig_Click(sender, e);
         }
 
         private void CheckImpressao()
@@ -800,6 +804,21 @@ namespace NFSeX_Exemplo
                     NFSe.Impressao_Next();
                 }
             }
+                /*
+            else
+            {
+                NFSe.Impressao_First();
+                while (!NFSe.Impressao_Eof())
+                {
+                    NFSe.Impressao_Editar();
+                    NFSe.Impressao_SetCampo("ValorLiquidoNfse", "99,99");
+                    NFSe.Impressao_SetCampo("BaseCalculo", "10,99");
+                    NFSe.Impressao_Salvar();
+                    NFSe.Impressao_Next();
+                }
+
+            }
+                 */
         }
 
         private void btnEditarDocumento_Click(object sender, EventArgs e)
@@ -999,33 +1018,146 @@ namespace NFSeX_Exemplo
             }
         }
 
-        private void btnConsultarNotasTomadas_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            FrmConsNotasTomadas FConsultarNotasTomadas = new FrmConsNotasTomadas();
+            NFSe.Cidade = "GOIANIAGO";
+            NFSe.CNPJ = "08187168000160";
+            NFSe.DiretorioEsquemas = Application.StartupPath + "\\Esquemas";
+            NFSe.DiretorioTemplates = Application.StartupPath + "\\Templates";
+            NFSe.ArquivoLocais = Application.StartupPath + "\\nfseLocais.ini";
+            NFSe.ArquivoServidoresHom = Application.StartupPath + "\\nfseServidoresHom.ini";
+            NFSe.ArquivoServidoresProd = Application.StartupPath + "\\nfseServidoresProd.ini";
+            NFSe.DiretorioLog = Application.StartupPath + "\\Log";
+            NFSe.DiretorioLogErro = Application.StartupPath + "\\DiretorioLogErro";
+
+            ProxyNFSe.ComponenteNFSe = NFSe;
+
+            //NFSeConverter.Cidade = NFSe.Cidade;
+            NFSeConverter.Cidade = NFSe.Cidade;
+            NFSeConverter.DiretorioEsquemas = NFSe.DiretorioEsquemas;
+            NFSeConverter.DiretorioScripts = Application.StartupPath + "\\Scripts";
+
+            /*
+            ofdArquivoTX2.InitialDirectory = Application.StartupPath + "\\..\\..\\..\\..\\..\\Utils\\ExemplosTX2\\Padrão Município";
+            ofdArquivoTX2.FileName = ProxyNFSe.ComponenteNFSe.Cidade + ".tx2";
+
+            if (ofdArquivoTX2.ShowDialog() == DialogResult.OK)
+            {
+
+                rtbXML.Text = NFSeConverter.ConverterEnvioNFSe(ofdArquivoTX2.FileName, "");
+            }
+            */
+
+            rtbXMLFormatado.Text = NFSeConverter.ConverterEnvioNFSe(rtbXML.Text, "");
+            
+        }
+
+        private void btnConsultarNotasTomadas_Click(object sender, EventArgs e)
+        {           
+            FrmConsultaDestinadas FConsultaDestinadas = new FrmConsultaDestinadas();
+
             try
             {
                 rbPrintNFSe.Checked = true;
-                string _resposta;
                 DialogResult dr = new DialogResult();
                 CheckConfig();
-                dr = FConsultarNotasTomadas.ShowDialog();
-                string _Extras = "";
+                FConsultaDestinadas.tbMunicipioConsultaDestinada.Text = "";
+                FConsultaDestinadas.tbDocTomador.Text = "";
+                FConsultaDestinadas.tbImTomador.Text = "";
+                FConsultaDestinadas.tbDocPrestador.Text = "";
+                FConsultaDestinadas.tbImPrestador.Text = "";
+                FConsultaDestinadas.tbDtInicialConsultaDestinada.Text = "";
+                FConsultaDestinadas.tbDtFinalConsultaDestinada.Text = "";
+                FConsultaDestinadas.tbPagina.Text = "";
+
+                dr = FConsultaDestinadas.ShowDialog();
+                string _Extras = "", _resposta = "";
+
                 if ((dr == DialogResult.OK) && (PedirParametrosExtras(ref _Extras)))
                 {
-                    _resposta = ProxyNFSe.ConsultarNotasTomadas(FConsultarNotasTomadas.edCidade.Text,
-                        FConsultarNotasTomadas.edDocumentoTomador.Text, FConsultarNotasTomadas.edInscricaoMunicipalTomador.Text,
-                        FConsultarNotasTomadas.edCnpjPrestador.Text, FConsultarNotasTomadas.edInscricaoMunicipalPrestador.Text,
-                        FConsultarNotasTomadas.edDataInicial.Text, FConsultarNotasTomadas.edDataFinal.Text,
-                        FConsultarNotasTomadas.edPagina.Text, FConsultarNotasTomadas.edParametrosExtras.Text);
+                    FConsultaDestinadas.tbDocTomador.TextMaskFormat = MaskFormat.ExcludePromptAndLiterals;
+                    FConsultaDestinadas.tbDocPrestador.TextMaskFormat = MaskFormat.ExcludePromptAndLiterals;
 
+                    _resposta = ProxyNFSe.ConsultarNotasTomadas(
+                       FConsultaDestinadas.tbMunicipioConsultaDestinada.Text,
+                       FConsultaDestinadas.tbDocTomador.Text,
+                       FConsultaDestinadas.tbImTomador.Text,
+                       FConsultaDestinadas.tbDocPrestador.Text,
+                       FConsultaDestinadas.tbImPrestador.Text,
+                       FConsultaDestinadas.tbDtInicialConsultaDestinada.Text,
+                       FConsultaDestinadas.tbDtFinalConsultaDestinada.Text,
+                       FConsultaDestinadas.tbPagina.Text, _Extras);
                     MostrarXML(_resposta);
-
                 }
             }
             catch (Exception ex)
             {
                 TratarExcecao(ex);
             }
+        }
+
+        private void btnConverterNotasTomadas_Click(object sender, EventArgs e)
+        {
+            NFSeConverterX.IspdRetConsultaLoteNFSeTomadas retConsulta;
+            
+            rtbCSV.Text = NFSeConverter.ConverterRetConsultarLoteNFSeTomadas(rtbXML.Text, "");
+            retConsulta = NFSeConverter.ConverterRetConsultarLoteNFSeTomadasTipo(rtbXML.Text);
+
+            getRetornoConsultaLoteNFSeTomadas(retConsulta);
+        }
+
+        public void getRetornoConsultaLoteNFSeTomadas(NFSeConverterX.IspdRetConsultaLoteNFSeTomadas aXML)
+        {
+            string _Txt = "";
+            int _cont = aXML.ListaDeNFes.Count();
+
+            rtbTipado.Clear();
+
+            if (Convert.ToString(aXML.Status) == "EMPROCESSAMENTO")
+            {
+                _Txt = "Status: EMPROCESSAMENTO";
+            }
+            else if (Convert.ToString(aXML.Status) == "ERRO")
+            {
+                _Txt = "Status: ERRO ";
+                _Txt = _Txt + "\nMotivo: " + aXML.Motivo;
+            }
+            else
+            {
+                for (int i = 0; i < _cont; i++)
+                {
+                    _Txt = _Txt + "\nRetorno Nro: " + Convert.ToString(i+1);
+                    _Txt = _Txt + "\nStatus: " + Convert.ToString(aXML.Status);
+                    _Txt = _Txt + "\nCNPJ: " + aXML.ListaDeNFes.Item(i).Cnpj;
+                    _Txt = _Txt + "\nInscricao Municipal: " + aXML.ListaDeNFes.Item(i).InscMunicipal;
+                    _Txt = _Txt + "\nSerie RPS: " + aXML.ListaDeNFes.Item(i).SerieRps;
+                    _Txt = _Txt + "\nNúmero do RPS: " + aXML.ListaDeNFes.Item(i).NumeroRps;
+                    _Txt = _Txt + "\nNúmero da NFS-e: " + aXML.ListaDeNFes.Item(i).NumeroNFSe;
+                    _Txt = _Txt + "\nData de Emissão: " + aXML.ListaDeNFes.Item(i).DataEmissaoNFSe;
+                    _Txt = _Txt + "\nData de Autorização: " + aXML.ListaDeNFes.Item(i).DataAutorizacao;
+                    _Txt = _Txt + "\nCódigo de Verificação: " + aXML.ListaDeNFes.Item(i).CodVerificacao;
+                    _Txt = _Txt + "\nSituação: " + aXML.ListaDeNFes.Item(i).Situacao;
+                    _Txt = _Txt + "\nData de Cancelamento: " + aXML.ListaDeNFes.Item(i).DataCancelamento;
+                    _Txt = _Txt + "\nChave de Cancelamento: " + aXML.ListaDeNFes.Item(i).ChaveCancelamento;
+                    _Txt = _Txt + "\nTipo: " + aXML.ListaDeNFes.Item(i).Tipo;
+                    _Txt = _Txt + "\nValorServicos: " + aXML.ListaDeNFes.Item(i).ValorServicos;
+                    _Txt = _Txt + "\nValorDeducoes: " + aXML.ListaDeNFes.Item(i).ValorDeducoes;
+                    _Txt = _Txt + "\nValorPis: " + aXML.ListaDeNFes.Item(i).ValorPIS;
+                    _Txt = _Txt + "\nValorCofins: " + aXML.ListaDeNFes.Item(i).ValorCofins;
+                    _Txt = _Txt + "\nValorInss: " + aXML.ListaDeNFes.Item(i).ValorInss;
+                    _Txt = _Txt + "\nValorIr: " + aXML.ListaDeNFes.Item(i).ValorIr;
+                    _Txt = _Txt + "\nValorCsll: " + aXML.ListaDeNFes.Item(i).ValorCsll;
+                    _Txt = _Txt + "\nAliquotaIss: " + aXML.ListaDeNFes.Item(i).AliquotaIss;
+                    _Txt = _Txt + "\nValorIss: " + aXML.ListaDeNFes.Item(i).ValorIss;
+                    _Txt = _Txt + "\nIssRetido: " + aXML.ListaDeNFes.Item(i).IssRetido;
+                    _Txt = _Txt + "\nAliquotaIss: " + aXML.ListaDeNFes.Item(i).AliquotaIss;
+                    _Txt = _Txt + "\nMotivo: " + aXML.Motivo;
+                    _Txt = _Txt + "\nXML: " + aXML.ListaDeNFes.Item(i).Xml;
+                    _Txt = _Txt + "\n======================================================================";
+                    _Txt = _Txt + "\n";
+                }
+            }
+            rtbTipado.Text = CaractereEspecial(Convert.ToString(_Txt));
         }
     }
 }

@@ -54,19 +54,6 @@ type
     pcDados: TPageControl;
     tsProxyNFSe: TTabSheet;
     gbOperacoesProxyNFSe: TGroupBox;
-    Label7: TLabel;
-    lblAmbiente: TLabel;
-    btnConfigArquivoINI: TButton;
-    btnLoadConfig: TButton;
-    btnGerarXMLeEnviarRPS: TButton;
-    btnCancelar: TButton;
-    btnConsultarNFSe: TButton;
-    btnConsultarLoteRPS: TButton;
-    cbListaCertificados: TComboBox;
-    btnConsultarNFSeporRPS: TButton;
-    rbTipoEnvioSin: TRadioButton;
-    rbTipoEnvioAss: TRadioButton;
-    btnConsultarNotasTomadas: TButton;
     gbConfigProxyNFSe: TGroupBox;
     edtCidade: TLabeledEdit;
     edtCNPJ: TLabeledEdit;
@@ -104,7 +91,22 @@ type
     btnConverterConsultaNFse: TButton;
     btnConverterCancelamentoNFSe: TButton;
     btnConverterConsultaNFSeTomadas: TButton;
+    btnConfigArquivoINI: TButton;
+    btnLoadConfig: TButton;
+    btnGerarXMLeEnviarRPS: TButton;
+    btnCancelar: TButton;
+    btnConsultarNFSe: TButton;
+    btnConsultarLoteRPS: TButton;
+    cbListaCertificados: TComboBox;
+    btnConsultarNFSeporRPS: TButton;
+    rbTipoEnvioSin: TRadioButton;
+    rbTipoEnvioAss: TRadioButton;
+    btnConsultarNotasTomadas: TButton;
     btnEnviar: TButton;
+    edtCNPJSH: TLabeledEdit;
+    edtToken: TLabeledEdit;
+    lblAmbiente: TLabel;
+    Label7: TLabel;
 
     {DECLARAÇÕES RELACIONADAS AO ENVIO POR PROXYNFSe}
     {Abre o arquivo NFSeConfig.ini}
@@ -217,6 +219,7 @@ type
 
 var
   frmExemplo: TfrmExemplo;
+  vIni: TIniFile;
 
 implementation
 
@@ -359,18 +362,26 @@ procedure TfrmExemplo.btnLoadConfigClick(Sender: TObject);
 begin
   NFSe.LoadConfig;
 
+  edtCNPJ.Text := NFSe.CNPJ;
+  edtCidade.Text := NFSe.Cidade;
+  edtToken.Text := vIni.ReadString('NFSE', 'KEY','');
+  edtCNPJSH.Text := vIni.ReadString('NFSE', 'CNPJSH','');
+
+  NFse.ConfigurarSoftwareHouse(edtCNPJSH.Text, edtToken.Text);
+
   spdNFSeConverterX.DiretorioEsquemas := NFSe.DiretorioEsquemas;
   spdNFSeConverterX.DiretorioScripts := ExpandFileName(NFSe.DiretorioEsquemas + '\..\Scripts\');
   spdNFSeConverterX.Cidade := NFSe.Cidade;
   ProxyNFSe.ComponenteNFSe.OnLog := OnLog;
 
-  edtCidade.Text := NFSe.Cidade;
-  edtCNPJ.Text := NFSe.CNPJ;
   edtInscMunicipal.Text := NFSe.InscricaoMunicipal;
   cbListaCertificados.Text := NFSe.NomeCertificado.Text;
 
-  edtLogoEmitente.Text := ProxyNFSe.ComponenteNFSe.DiretorioTemplates + 'Impressao\LogoEmit.jpg';
-
+  if ProxyNFSe.ComponenteNFSe.DiretorioTemplates <> '' then
+    edtLogoEmitente.Text := ProxyNFSe.ComponenteNFSe.DiretorioTemplates + 'Impressao\LogoEmit.jpg'
+  else
+    edtLogoEmitente.Text := '';
+    
   lblAmbiente.Visible := (NFSe.Ambiente = akProducao);
 
   edtNumProtocolo.Text := LerIni(PROTOCOLO);
@@ -411,14 +422,6 @@ begin
         end;
         //passo 2 - Geração do XML
         _XML := spdNFSeConverterX.ConverterEnvioNFSe(OpnDlgTx2.FileName, _Extras);
-
-        // passo 3 - Assinatura
-        _Extras := '';
-        if PedirParametrosExtras(_Extras, 'Assinar') then
-        begin
-          _XML := ProxyNFSe.Assinar(_XML, _Extras);
-          FormatReturnXML(_XML);
-        end;
 
         mmXML.Text := _XML;
       end;
@@ -748,6 +751,7 @@ end;
 
 procedure TfrmExemplo.FormCreate(Sender: TObject);
 begin
+  vIni := TIniFile.Create(ExtractFilePath(ParamStr(0))+ 'nfseconfig.ini');
   if ProxyNFSe.ComponenteNFSe = nil then
     raise Exception.Create('Favor ligar o componente ProxyNFSe ao componente NFSe.');
 
@@ -863,6 +867,7 @@ begin
   try
     try
       _Extras := '';
+      
       if PedirParametrosExtras(_Extras, 'Enviar') then
       begin
         _protocolo := ProxyNFSe.Enviar(mmXML.Text, _Extras);
@@ -907,7 +912,6 @@ begin
 
   try
     try
-      _Extras := '';
       if PedirParametrosExtras(_Extras, 'Enviar') then
       begin
         _XML := ProxyNFSe.EnviarSincrono(mmXML.Text, _Extras);
@@ -1005,50 +1009,51 @@ var
   _FormDados: TFrmConsNFSETomadas;
   _RetConsultaTomadas: IspdRetConsultaLoteNFSeTomadas;
 begin
-  CheckConfig;
-  try
-    _FormDados := TFrmConsNFSETomadas.Create(nil);
-    try
-      (Sender as TWinControl).Enabled := False;
-      _FormDados.edtNomeCidade.Text := LerIni(CONSULTARNOTASTOMADAS_NOMECIDADE);
-      _FormDados.edtDocumentoTomador.Text := LerIni(CONSULTARNOTASTOMADAS_DOCUMENTOTOMADOR);
-      _FormDados.edtIMTomador.Text := LerIni(CONSULTARNOTASTOMADAS_IMTOMADOR);
-      _FormDados.edtDocumentoPrestador.Text := LerIni(CONSULTARNOTASTOMADAS_DOCUMENTOPRESTADOR);
-      _FormDados.edtIMPrestador.Text := LerIni(CONSULTARNOTASTOMADAS_IMPRESTADOR);
-      _FormDados.edtDataInicial.Text := LerIni(CONSULTARNOTASTOMADAS_DATAINICIAL);
-      _FormDados.edtDataFinal.Text := LerIni(CONSULTARNOTASTOMADAS_DATAFINAL);
-      _FormDados.edtPagina.Text := LerIni(CONSULTARNOTASTOMADAS_PAGINA);
-      _FormDados.ShowModal;
-      _Extras := '';
-      if (_FormDados.ModalResult = mrok) and PedirParametrosExtras(_Extras, 'ConsultarNotasTomadas') then
-      begin
-        _XML := ProxyNFSe.ConsultarNotasTomadas(_FormDados.edtNomeCidade.Text, _FormDados.edtDocumentoTomador.Text, _FormDados.edtIMTomador.Text, _FormDados.edtDocumentoPrestador.Text, _FormDados.edtIMPrestador.Text, _FormDados.edtDataInicial.Text, _FormDados.edtDataFinal.Text, _FormDados.edtPagina.Text, _Extras);
-        FormatReturnXML(_XML);
 
-        GravarIni(CONSULTARNOTASTOMADAS_NOMECIDADE, _FormDados.edtNomeCidade.Text);
-        GravarIni(CONSULTARNOTASTOMADAS_DOCUMENTOTOMADOR, _FormDados.edtDocumentoTomador.Text);
-        GravarIni(CONSULTARNOTASTOMADAS_IMTOMADOR, _FormDados.edtIMTomador.Text);
-        GravarIni(CONSULTARNOTASTOMADAS_DOCUMENTOPRESTADOR, _FormDados.edtDocumentoPrestador.Text);
-        GravarIni(CONSULTARNOTASTOMADAS_IMPRESTADOR, _FormDados.edtIMPrestador.Text);
-        GravarIni(CONSULTARNOTASTOMADAS_DATAINICIAL, _FormDados.edtDataInicial.Text);
-        GravarIni(CONSULTARNOTASTOMADAS_DATAFINAL, _FormDados.edtDataFinal.Text);
-        GravarIni(CONSULTARNOTASTOMADAS_PAGINA, _FormDados.edtPagina.Text);
-
-        mmCSV.Clear;
-
-//        mmCSV.Text := spdNFSeConverterX.ConverterRetConsultarLoteNFSeTomadas(mmXML.Text, '');
-//        _RetConsultaTomadas := spdNFSeConverterX.ConverterRetConsultarLoteNFSeTomadasTipo(mmXML.Text);
-//        getRetornoConsultaLoteNFSeTomadas(_RetConsultaTomadas);
-
-      end;
-      rgImpressao.ItemIndex := 1;
-    finally
-      _FormDados.Free;
-      (Sender as TWinControl).Enabled := True;
-    end;
-  except
-    raise;
-  end;
+//  CheckConfig;
+//  try
+//    _FormDados := TFrmConsNFSETomadas.Create(nil);
+//    try
+//      (Sender as TWinControl).Enabled := False;
+//      _FormDados.edtNomeCidade.Text := LerIni(CONSULTARNOTASTOMADAS_NOMECIDADE);
+//      _FormDados.edtDocumentoTomador.Text := LerIni(CONSULTARNOTASTOMADAS_DOCUMENTOTOMADOR);
+//      _FormDados.edtIMTomador.Text := LerIni(CONSULTARNOTASTOMADAS_IMTOMADOR);
+//      _FormDados.edtDocumentoPrestador.Text := LerIni(CONSULTARNOTASTOMADAS_DOCUMENTOPRESTADOR);
+//      _FormDados.edtIMPrestador.Text := LerIni(CONSULTARNOTASTOMADAS_IMPRESTADOR);
+//      _FormDados.edtDataInicial.Text := LerIni(CONSULTARNOTASTOMADAS_DATAINICIAL);
+//      _FormDados.edtDataFinal.Text := LerIni(CONSULTARNOTASTOMADAS_DATAFINAL);
+//      _FormDados.edtPagina.Text := LerIni(CONSULTARNOTASTOMADAS_PAGINA);
+//      _FormDados.ShowModal;
+//      _Extras := '';
+//      if (_FormDados.ModalResult = mrok) and PedirParametrosExtras(_Extras, 'ConsultarNotasTomadas') then
+//      begin
+//        _XML := ProxyNFSe.ConsultarNotasTomadas(_FormDados.edtNomeCidade.Text, _FormDados.edtDocumentoTomador.Text, _FormDados.edtIMTomador.Text, _FormDados.edtDocumentoPrestador.Text, _FormDados.edtIMPrestador.Text, _FormDados.edtDataInicial.Text, _FormDados.edtDataFinal.Text, _FormDados.edtPagina.Text, _Extras);
+//        FormatReturnXML(_XML);
+//
+//        GravarIni(CONSULTARNOTASTOMADAS_NOMECIDADE, _FormDados.edtNomeCidade.Text);
+//        GravarIni(CONSULTARNOTASTOMADAS_DOCUMENTOTOMADOR, _FormDados.edtDocumentoTomador.Text);
+//        GravarIni(CONSULTARNOTASTOMADAS_IMTOMADOR, _FormDados.edtIMTomador.Text);
+//        GravarIni(CONSULTARNOTASTOMADAS_DOCUMENTOPRESTADOR, _FormDados.edtDocumentoPrestador.Text);
+//        GravarIni(CONSULTARNOTASTOMADAS_IMPRESTADOR, _FormDados.edtIMPrestador.Text);
+//        GravarIni(CONSULTARNOTASTOMADAS_DATAINICIAL, _FormDados.edtDataInicial.Text);
+//        GravarIni(CONSULTARNOTASTOMADAS_DATAFINAL, _FormDados.edtDataFinal.Text);
+//        GravarIni(CONSULTARNOTASTOMADAS_PAGINA, _FormDados.edtPagina.Text);
+//
+//        mmCSV.Clear;
+//
+////        mmCSV.Text := spdNFSeConverterX.ConverterRetConsultarLoteNFSeTomadas(mmXML.Text, '');
+////        _RetConsultaTomadas := spdNFSeConverterX.ConverterRetConsultarLoteNFSeTomadasTipo(mmXML.Text);
+////        getRetornoConsultaLoteNFSeTomadas(_RetConsultaTomadas);
+//
+//      end;
+//      rgImpressao.ItemIndex := 1;
+//    finally
+//      _FormDados.Free;
+//      (Sender as TWinControl).Enabled := True;
+//    end;
+//  except
+//    raise;
+//  end;
 end;
 
 procedure TfrmExemplo.OnLog(const aNome, aID, aFileName: string);
@@ -1360,11 +1365,33 @@ end;
 
 procedure TfrmExemplo.btnEnviarClick(Sender: TObject);
 var
-  _XML: string;
+  _XML, _Extras: string;
 begin
-  // passo 4 - Envio
   if (NFSe.Ambiente = akProducao) and (Application.MessageBox('O componente está configurado ' + 'para enviar em ambiente de produção, deseja continuar?', 'Atenção!', MB_YESNO + MB_ICONWARNING) = IDNO) then
     exit;
+
+  NFSe.NomeCertificado.Text := cbListaCertificados.Text;
+
+ // passo 3 - Assinatura
+  if rbTipoEnvioSin.Checked then
+  begin
+    if _Extras = EmptyStr then
+      _Extras := 'EnvioSincrono=true'
+    else
+      _Extras := ';EnvioSincrono=true'
+  end;
+
+  _Extras := '';
+  _XML := mmXML.text;
+  
+  if PedirParametrosExtras(_Extras, 'Assinar') then
+  begin
+    _XML := ProxyNFSe.Assinar(_XML, _Extras);
+    FormatReturnXML(_XML);
+  end;
+  _XML := ProxyNFSe.Assinar(mmXML.Text, _Extras);
+
+  mmXML.Text := _XML;
 
   _XML := mmXML.Text;
 

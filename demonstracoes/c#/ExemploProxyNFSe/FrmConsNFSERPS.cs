@@ -19,5 +19,11 @@ namespace NFSeX_Exemplo
         {
             
         }
+
+        private void btCancelar_Click(object sender, EventArgs e)
+        {
+            
+        }
+                                                    
     }
 }

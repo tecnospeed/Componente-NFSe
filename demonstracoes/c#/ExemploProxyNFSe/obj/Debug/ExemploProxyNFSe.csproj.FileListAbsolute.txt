@@ -1,0 +1,98 @@
+C:\Program Files\TecnoSpeed\NFSe\DemoOCX\VC#2005\ExemploProxyNFSe\obj\Debug\Interop.NFSeConverterX.dll
+C:\Program Files\TecnoSpeed\NFSe\DemoOCX\VC#2005\ExemploProxyNFSe\obj\Debug\Interop.NFSeDataSetX.dll
+C:\Program Files\TecnoSpeed\NFSe\DemoOCX\VC#2005\ExemploProxyNFSe\obj\Debug\Interop.NFSeX.dll
+C:\Program Files\TecnoSpeed\NFSe\DemoOCX\VC#2005\ExemploProxyNFSe\obj\Debug\ExemploProxyNFSe.csproj.ResolveComReference.cache
+C:\Program Files\TecnoSpeed\NFSe\DemoOCX\VC#2005\ExemploProxyNFSe\bin\Debug\ExemploProxyNFSe.exe
+C:\Program Files\TecnoSpeed\NFSe\DemoOCX\VC#2005\ExemploProxyNFSe\bin\Debug\ExemploProxyNFSe.pdb
+C:\Program Files\TecnoSpeed\NFSe\DemoOCX\VC#2005\ExemploProxyNFSe\bin\Debug\Interop.NFSeConverterX.dll
+C:\Program Files\TecnoSpeed\NFSe\DemoOCX\VC#2005\ExemploProxyNFSe\bin\Debug\Interop.NFSeDataSetX.dll
+C:\Program Files\TecnoSpeed\NFSe\DemoOCX\VC#2005\ExemploProxyNFSe\bin\Debug\Interop.NFSeX.dll
+C:\Program Files\TecnoSpeed\NFSe\DemoOCX\VC#2005\ExemploProxyNFSe\obj\Debug\ExemploProxyNFSe.csprojResolveAssemblyReference.cache
+C:\Program Files\TecnoSpeed\NFSe\DemoOCX\VC#2005\ExemploProxyNFSe\obj\Debug\NFSeX_Exemplo.frmCancelamento.resources
+C:\Program Files\TecnoSpeed\NFSe\DemoOCX\VC#2005\ExemploProxyNFSe\obj\Debug\NFSeX_Exemplo.FrmConsNFSERPS.resources
+C:\Program Files\TecnoSpeed\NFSe\DemoOCX\VC#2005\ExemploProxyNFSe\obj\Debug\NFSeX_Exemplo.frmMain.resources
+C:\Program Files\TecnoSpeed\NFSe\DemoOCX\VC#2005\ExemploProxyNFSe\obj\Debug\InputBoxNs.InputBox.resources
+C:\Program Files\TecnoSpeed\NFSe\DemoOCX\VC#2005\ExemploProxyNFSe\obj\Debug\WindowsApplication1.Properties.Resources.resources
+C:\Program Files\TecnoSpeed\NFSe\DemoOCX\VC#2005\ExemploProxyNFSe\obj\Debug\ExemploProxyNFSe.csproj.GenerateResource.Cache
+C:\Program Files\TecnoSpeed\NFSe\DemoOCX\VC#2005\ExemploProxyNFSe\obj\Debug\ExemploProxyNFSe.exe
+C:\Program Files\TecnoSpeed\NFSe\DemoOCX\VC#2005\ExemploProxyNFSe\obj\Debug\ExemploProxyNFSe.pdb
+C:\Users\alexandre.muzulao\Downloads\NFSe-C#\VC#2005\ExemploProxyNFSe\bin\Debug\ExemploProxyNFSe.exe.config
+C:\Users\alexandre.muzulao\Downloads\NFSe-C#\VC#2005\ExemploProxyNFSe\bin\Debug\ExemploProxyNFSe.exe
+C:\Users\alexandre.muzulao\Downloads\NFSe-C#\VC#2005\ExemploProxyNFSe\bin\Debug\ExemploProxyNFSe.pdb
+C:\Users\alexandre.muzulao\Downloads\NFSe-C#\VC#2005\ExemploProxyNFSe\bin\Debug\Interop.NFSeConverterX.dll
+C:\Users\alexandre.muzulao\Downloads\NFSe-C#\VC#2005\ExemploProxyNFSe\bin\Debug\Interop.NFSeDataSetX.dll
+C:\Users\alexandre.muzulao\Downloads\NFSe-C#\VC#2005\ExemploProxyNFSe\bin\Debug\Interop.NFSeX.dll
+C:\Users\alexandre.muzulao\Downloads\NFSe-C#\VC#2005\ExemploProxyNFSe\obj\Debug\ExemploProxyNFSe.csprojAssemblyReference.cache
+C:\Users\alexandre.muzulao\Downloads\NFSe-C#\VC#2005\ExemploProxyNFSe\obj\Debug\Interop.NFSeConverterX.dll
+C:\Users\alexandre.muzulao\Downloads\NFSe-C#\VC#2005\ExemploProxyNFSe\obj\Debug\Interop.NFSeDataSetX.dll
+C:\Users\alexandre.muzulao\Downloads\NFSe-C#\VC#2005\ExemploProxyNFSe\obj\Debug\Interop.NFSeX.dll
+C:\Users\alexandre.muzulao\Downloads\NFSe-C#\VC#2005\ExemploProxyNFSe\obj\Debug\ExemploProxyNFSe.csproj.ResolveComReference.cache
+C:\Users\alexandre.muzulao\Downloads\NFSe-C#\VC#2005\ExemploProxyNFSe\obj\Debug\NFSeX_Exemplo.frmCancelamento.resources
+C:\Users\alexandre.muzulao\Downloads\NFSe-C#\VC#2005\ExemploProxyNFSe\obj\Debug\NFSeX_Exemplo.FrmConsNFSERPS.resources
+C:\Users\alexandre.muzulao\Downloads\NFSe-C#\VC#2005\ExemploProxyNFSe\obj\Debug\NFSeX_Exemplo.frmMain.resources
+C:\Users\alexandre.muzulao\Downloads\NFSe-C#\VC#2005\ExemploProxyNFSe\obj\Debug\InputBoxNs.InputBox.resources
+C:\Users\alexandre.muzulao\Downloads\NFSe-C#\VC#2005\ExemploProxyNFSe\obj\Debug\WindowsApplication1.Properties.Resources.resources
+C:\Users\alexandre.muzulao\Downloads\NFSe-C#\VC#2005\ExemploProxyNFSe\obj\Debug\ExemploProxyNFSe.csproj.GenerateResource.cache
+C:\Users\alexandre.muzulao\Downloads\NFSe-C#\VC#2005\ExemploProxyNFSe\obj\Debug\ExemploProxyNFSe.exe
+C:\Users\alexandre.muzulao\Downloads\NFSe-C#\VC#2005\ExemploProxyNFSe\obj\Debug\ExemploProxyNFSe.pdb
+C:\Demos\C#\NFSe - Demonstração\ExemploProxyNFSe\bin\Debug\ExemploProxyNFSe.exe.config
+C:\Demos\C#\NFSe - Demonstração\ExemploProxyNFSe\bin\Debug\ExemploProxyNFSe.exe
+C:\Demos\C#\NFSe - Demonstração\ExemploProxyNFSe\bin\Debug\ExemploProxyNFSe.pdb
+C:\Demos\C#\NFSe - Demonstração\ExemploProxyNFSe\bin\Debug\Interop.NFSeConverterX.dll
+C:\Demos\C#\NFSe - Demonstração\ExemploProxyNFSe\bin\Debug\Interop.NFSeDataSetX.dll
+C:\Demos\C#\NFSe - Demonstração\ExemploProxyNFSe\bin\Debug\Interop.NFSeX.dll
+C:\Demos\C#\NFSe - Demonstração\ExemploProxyNFSe\obj\Debug\ExemploProxyNFSe.csprojAssemblyReference.cache
+C:\Demos\C#\NFSe - Demonstração\ExemploProxyNFSe\obj\Debug\Interop.NFSeConverterX.dll
+C:\Demos\C#\NFSe - Demonstração\ExemploProxyNFSe\obj\Debug\Interop.NFSeDataSetX.dll
+C:\Demos\C#\NFSe - Demonstração\ExemploProxyNFSe\obj\Debug\Interop.NFSeX.dll
+C:\Demos\C#\NFSe - Demonstração\ExemploProxyNFSe\obj\Debug\ExemploProxyNFSe.csproj.ResolveComReference.cache
+C:\Demos\C#\NFSe - Demonstração\ExemploProxyNFSe\obj\Debug\NFSeX_Exemplo.frmCancelamento.resources
+C:\Demos\C#\NFSe - Demonstração\ExemploProxyNFSe\obj\Debug\NFSeX_Exemplo.FrmConsNFSERPS.resources
+C:\Demos\C#\NFSe - Demonstração\ExemploProxyNFSe\obj\Debug\NFSeX_Exemplo.frmMain.resources
+C:\Demos\C#\NFSe - Demonstração\ExemploProxyNFSe\obj\Debug\InputBoxNs.InputBox.resources
+C:\Demos\C#\NFSe - Demonstração\ExemploProxyNFSe\obj\Debug\WindowsApplication1.Properties.Resources.resources
+C:\Demos\C#\NFSe - Demonstração\ExemploProxyNFSe\obj\Debug\ExemploProxyNFSe.csproj.GenerateResource.cache
+C:\Demos\C#\NFSe - Demonstração\ExemploProxyNFSe\obj\Debug\ExemploProxyNFSe.exe
+C:\Demos\C#\NFSe - Demonstração\ExemploProxyNFSe\obj\Debug\ExemploProxyNFSe.pdb
+C:\Demos\C#\NFSe - Demonstração\ExemploProxyNFSe\obj\Debug\NFSeX_Exemplo.FrmConsultaDestinadas.resources
+C:\Demos\GitHub\Componente-NFSe-CSharp\ExemploProxyNFSe\bin\Debug\ExemploProxyNFSe.exe.config
+C:\Demos\GitHub\Componente-NFSe-CSharp\ExemploProxyNFSe\bin\Debug\ExemploProxyNFSe.exe
+C:\Demos\GitHub\Componente-NFSe-CSharp\ExemploProxyNFSe\bin\Debug\ExemploProxyNFSe.pdb
+C:\Demos\GitHub\Componente-NFSe-CSharp\ExemploProxyNFSe\bin\Debug\Interop.NFSeConverterX.dll
+C:\Demos\GitHub\Componente-NFSe-CSharp\ExemploProxyNFSe\bin\Debug\Interop.NFSeDataSetX.dll
+C:\Demos\GitHub\Componente-NFSe-CSharp\ExemploProxyNFSe\bin\Debug\Interop.NFSeX.dll
+C:\Demos\GitHub\Componente-NFSe-CSharp\ExemploProxyNFSe\obj\Debug\ExemploProxyNFSe.csprojAssemblyReference.cache
+C:\Demos\GitHub\Componente-NFSe-CSharp\ExemploProxyNFSe\obj\Debug\Interop.NFSeConverterX.dll
+C:\Demos\GitHub\Componente-NFSe-CSharp\ExemploProxyNFSe\obj\Debug\Interop.NFSeDataSetX.dll
+C:\Demos\GitHub\Componente-NFSe-CSharp\ExemploProxyNFSe\obj\Debug\Interop.NFSeX.dll
+C:\Demos\GitHub\Componente-NFSe-CSharp\ExemploProxyNFSe\obj\Debug\ExemploProxyNFSe.csproj.ResolveComReference.cache
+C:\Demos\GitHub\Componente-NFSe-CSharp\ExemploProxyNFSe\obj\Debug\NFSeX_Exemplo.frmCancelamento.resources
+C:\Demos\GitHub\Componente-NFSe-CSharp\ExemploProxyNFSe\obj\Debug\NFSeX_Exemplo.FrmConsNFSERPS.resources
+C:\Demos\GitHub\Componente-NFSe-CSharp\ExemploProxyNFSe\obj\Debug\NFSeX_Exemplo.FrmConsultaDestinadas.resources
+C:\Demos\GitHub\Componente-NFSe-CSharp\ExemploProxyNFSe\obj\Debug\NFSeX_Exemplo.frmMain.resources
+C:\Demos\GitHub\Componente-NFSe-CSharp\ExemploProxyNFSe\obj\Debug\InputBoxNs.InputBox.resources
+C:\Demos\GitHub\Componente-NFSe-CSharp\ExemploProxyNFSe\obj\Debug\WindowsApplication1.Properties.Resources.resources
+C:\Demos\GitHub\Componente-NFSe-CSharp\ExemploProxyNFSe\obj\Debug\ExemploProxyNFSe.csproj.GenerateResource.cache
+C:\Demos\GitHub\Componente-NFSe-CSharp\ExemploProxyNFSe\obj\Debug\ExemploProxyNFSe.exe
+C:\Demos\GitHub\Componente-NFSe-CSharp\ExemploProxyNFSe\obj\Debug\ExemploProxyNFSe.pdb
+C:\Users\leonardo.pignato\Desktop\TSpeed\Github\NFSe Github\Geral\demonstracoes\C#\ExemploProxyNFSe\bin\Debug\ExemploProxyNFSe.exe.config
+C:\Users\leonardo.pignato\Desktop\TSpeed\Github\NFSe Github\Geral\demonstracoes\C#\ExemploProxyNFSe\bin\Debug\ExemploProxyNFSe.exe
+C:\Users\leonardo.pignato\Desktop\TSpeed\Github\NFSe Github\Geral\demonstracoes\C#\ExemploProxyNFSe\bin\Debug\ExemploProxyNFSe.pdb
+C:\Users\leonardo.pignato\Desktop\TSpeed\Github\NFSe Github\Geral\demonstracoes\C#\ExemploProxyNFSe\bin\Debug\Interop.NFSeConverterX.dll
+C:\Users\leonardo.pignato\Desktop\TSpeed\Github\NFSe Github\Geral\demonstracoes\C#\ExemploProxyNFSe\bin\Debug\Interop.NFSeDataSetX.dll
+C:\Users\leonardo.pignato\Desktop\TSpeed\Github\NFSe Github\Geral\demonstracoes\C#\ExemploProxyNFSe\bin\Debug\Interop.NFSeX.dll
+C:\Users\leonardo.pignato\Desktop\TSpeed\Github\NFSe Github\Geral\demonstracoes\C#\ExemploProxyNFSe\obj\Debug\ExemploProxyNFSe.csprojAssemblyReference.cache
+C:\Users\leonardo.pignato\Desktop\TSpeed\Github\NFSe Github\Geral\demonstracoes\C#\ExemploProxyNFSe\obj\Debug\Interop.NFSeConverterX.dll
+C:\Users\leonardo.pignato\Desktop\TSpeed\Github\NFSe Github\Geral\demonstracoes\C#\ExemploProxyNFSe\obj\Debug\Interop.NFSeDataSetX.dll
+C:\Users\leonardo.pignato\Desktop\TSpeed\Github\NFSe Github\Geral\demonstracoes\C#\ExemploProxyNFSe\obj\Debug\Interop.NFSeX.dll
+C:\Users\leonardo.pignato\Desktop\TSpeed\Github\NFSe Github\Geral\demonstracoes\C#\ExemploProxyNFSe\obj\Debug\ExemploProxyNFSe.csproj.ResolveComReference.cache
+C:\Users\leonardo.pignato\Desktop\TSpeed\Github\NFSe Github\Geral\demonstracoes\C#\ExemploProxyNFSe\obj\Debug\NFSeX_Exemplo.frmCancelamento.resources
+C:\Users\leonardo.pignato\Desktop\TSpeed\Github\NFSe Github\Geral\demonstracoes\C#\ExemploProxyNFSe\obj\Debug\NFSeX_Exemplo.FrmConsNFSERPS.resources
+C:\Users\leonardo.pignato\Desktop\TSpeed\Github\NFSe Github\Geral\demonstracoes\C#\ExemploProxyNFSe\obj\Debug\NFSeX_Exemplo.FrmConsultaDestinadas.resources
+C:\Users\leonardo.pignato\Desktop\TSpeed\Github\NFSe Github\Geral\demonstracoes\C#\ExemploProxyNFSe\obj\Debug\NFSeX_Exemplo.frmMain.resources
+C:\Users\leonardo.pignato\Desktop\TSpeed\Github\NFSe Github\Geral\demonstracoes\C#\ExemploProxyNFSe\obj\Debug\InputBoxNs.InputBox.resources
+C:\Users\leonardo.pignato\Desktop\TSpeed\Github\NFSe Github\Geral\demonstracoes\C#\ExemploProxyNFSe\obj\Debug\WindowsApplication1.Properties.Resources.resources
+C:\Users\leonardo.pignato\Desktop\TSpeed\Github\NFSe Github\Geral\demonstracoes\C#\ExemploProxyNFSe\obj\Debug\ExemploProxyNFSe.csproj.GenerateResource.cache
+C:\Users\leonardo.pignato\Desktop\TSpeed\Github\NFSe Github\Geral\demonstracoes\C#\ExemploProxyNFSe\obj\Debug\ExemploProxyNFSe.csproj.CoreCompileInputs.cache
+C:\Users\leonardo.pignato\Desktop\TSpeed\Github\NFSe Github\Geral\demonstracoes\C#\ExemploProxyNFSe\obj\Debug\ExemploProxyNFSe.exe
+C:\Users\leonardo.pignato\Desktop\TSpeed\Github\NFSe Github\Geral\demonstracoes\C#\ExemploProxyNFSe\obj\Debug\ExemploProxyNFSe.pdb
