@@ -1,0 +1,26 @@
+{
+  "name": "componente-nfse-nodejs",
+  "version": "1.0.0",
+  "description": "Demonstração de uso do componente NFSe em NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tecnospeed/Componente-NFSe-NodeJS.git"
+  },
+  "author": "Alexandre-Muzulao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tecnospeed/Componente-NFSe-NodeJS/issues"
+  },
+  "homepage": "https://github.com/tecnospeed/Componente-NFSe-NodeJS#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "winax": "^1.15.0"
+  }
+}
