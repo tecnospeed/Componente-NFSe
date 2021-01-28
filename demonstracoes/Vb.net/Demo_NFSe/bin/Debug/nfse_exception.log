@@ -1,0 +1,11 @@
+[17/05/2018 14:24:00:310] 36392 - EspdNFSeFileNotFoundException : Arquivo não encontrado: "MappingEnvioSincrono.txt"
+[17/05/2018 14:24:11:112] 36392 - EspdNFSeFileNotFoundException : Arquivo não encontrado: "MappingEnvioSincrono.txt"
+[17/05/2018 14:24:18:286] 36392 - EspdNFSeFileNotFoundException : Arquivo não encontrado: "MappingEnvioSincrono.txt"
+[17/05/2018 14:28:25:344] 36380 - EspdNFSeFileNotFoundException : Arquivo não encontrado: "MappingEnvioSincrono.txt"
+[17/05/2018 14:28:55:215] 36380 - EspdNFSeFileNotFoundException : Arquivo não encontrado: "MappingEnvioSincrono.txt"
+[17/05/2018 14:29:21:575] 35272 - EspdNFSeFileNotFoundException : Arquivo não encontrado: "Mapping.txt"
+[17/05/2018 14:30:17:180] 35272 - EspdNFSeFileNotFoundException : Arquivo não encontrado: "Mapping.txt"
+[17/05/2018 15:58:12:831] 11292 - EspdNFSeFileNotFoundException : Arquivo não encontrado: "MappingEnvioSincrono.txt"
+[18/05/2018 11:15:32:964] 17760 - EspdNFSeFileNotFoundException : Arquivo não encontrado: "MappingEnvioSincrono.txt"
+[18/05/2018 11:52:17:178] 20620 - EspdNFSeCheckParams : CNPJ ou CPF da SoftwareHouse inválido.
+[18/05/2018 11:53:00:124] 27540 - EspdNFSeCheckParams : CNPJ ou CPF da SoftwareHouse inválido.
