@@ -1,4 +1,40 @@
-﻿## [11.1.76.7081]
+﻿## [11.1.76.7099]
+
+**Novidades**
+
+* DC-2026 - Re-homologação do município de Quirinópolis - GO, mudança de padrão Prodata para Centi.
+* DC-2026 - Re-homologação do município de Biguaçu - SC, mudança de padrão IPM para Betha.
+* DC-2026 - Homologação do município de Bom Jardim de Goiás - GO, padrão ArrecadaNet.
+* DC-2026 - Homologação do município de Mantenópolis - ES, padrão EL.
+* DC-2026 - Homologação do município de Barra de São Francisco - ES, padrão EL.
+* DC-2026 - Homologação do município de Água Doce do Norte - ES, padrão EL.
+* DC-2026 - Homologação do município de Ecoporanga - ES, padrão EL.
+* DC-1316 - Compatibilizando o padrão JanelaUnica com o componente NFSe, nessa versão estará disponível a cidade de Tucurui - PA. 
+  * Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/1500001716821
+* DC-1190 - Compatibilizando o padrão CebiUP com o componente NFSe, nessa versão estará disponível a cidade de Descalvado - SP. 
+  * Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/1500001665301
+* DC-2049 - Implementado tratamento no link de impressão para o ambiente de homologação para a cidade de Itatiba - SP (Fintel)
+* DC-2045 - Implementado impressão da cidade de ITAJAÍ / SC (Publica)
+* DC-2065 - Re-homologação do município de Três Lagoas - MS, mudança de padrão Nea para Fiorilli.
+* DC-2065 - Homologação do município de Campinorte - GO, padrão ArrecadaNet.
+* DC-2065 - Re-homologação do município de Picada Café - RS, mudança de padrão GovBR para GovBr20.
+* DC-2065 - Homologação do município de Ilhabela - SP, padrão IIBrasil.
+* DC-2065 - Re-homologação do município de Itumbiara - GO, mudança de padrão IssWeb para Centi.
+* DC-2065 - Re-homologação do município de Afonso Cláudio - ES, mudança de padrão IssIntel para EL.
+* DC-2076 - Implementado na impressão o QRCode para Porto Velho/RO.
+* DC-2124 - Ajustes na impressão de Pato Bragado/PR.
+* DC-2047 - Disponibilizado a impressão do QRCode e o campo customizado ValorDescontoIncondicional  para todas as cidades do padrão EL.
+* DC-2147 - Homologação do município de Chupinguaia - RO, padrão Fiorilli.
+* DC-2147 - Homologação do município de Alexânia - GO, padrão Fiorilli.
+* DC-2147 - Re-homologação do município de Nova Londrina - PR, mudança de padrão MaisIss para MaisIss20.
+* DC-2147 - Homologação do município de Custódia - PE, padrão ColumbiaUP.
+* DC-2147 - Homologação do município de Surubim - PE, padrão ColumbiaUP.
+* DC-2147 - Homologação do município de Carpina - PE, padrão ColumbiaUP.
+* DC-2147 - Homologação do município de Araripina - PE, padrão ColumbiaUP.
+* DC-2147 - Homologação do município de São Gabriel do Oeste - MS, padrão AEG.
+* DC-2147 - Homologação do município de Enéas Marques - PR, padrão IPM.
+
+## [11.1.76.7081]
 
 **Novidades**
 
@@ -216,6 +252,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
