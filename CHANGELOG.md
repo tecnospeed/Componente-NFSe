@@ -1,4 +1,17 @@
-﻿## [11.1.77.7100]
+﻿## [11.1.78.7106]
+
+**Novidades**
+
+* DC-2210 - Homologação do município de Pontalina - GO, padrão ArrecadaNet.
+* DC-2210 - Homologação do município de Bom Despacho - MG, padrão IPM.
+* DC-2210 - Re-homologação do município de Guaratuba - PR, mudança de padrão MaisIss para MaisIss20.
+* DC-2210 - Homologação do município de Guaramiranga - CE, padrão Intersol.
+* DC-2210 - Homologação do município de Augustinópolis - TO, padrão Fiorilli.
+* DC-2240 - Homologação do município de São José do Egito - PE, padrão ColumbiaUP.
+* DC-2268 - Re-homologação do município de Barbacena - MG, mudança de padrão Betha para WebISS20.
+* DC-2268 - Re-homologação do município de Porto Feliz - SP, mudança de padrão SistemaS4R para GovBR20.
+
+## [11.1.77.7100]
 
 **Novidades**
 
@@ -252,6 +265,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
