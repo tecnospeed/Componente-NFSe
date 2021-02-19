@@ -1,4 +1,11 @@
-﻿## [11.1.78.7106]
+﻿## [11.1.78.7109]
+
+**Novidades**
+
+* DC-2299 - Alteração na forma de comunicação do padrão Siappa, passando a utilizar Token.
+            Para maiores informações acesse: [Documentação](https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360011377274)
+
+## [11.1.78.7106]
 
 **Novidades**
 
@@ -265,6 +272,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
