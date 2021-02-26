@@ -1,4 +1,27 @@
-﻿## [11.1.78.7109]
+﻿ ## [11.1.78.7128]
+ **Novidades**
+
+* DC-2321 - Re-homologação do município de Seara - SC, mudança de padrão Betha para IPM.
+* DC-2321 - Re-homologação do município de Mandaguaçu - PR, mudança de padrão Betha para Betha20.
+* DC-2321 - Homologação do município de Breu Branco - PA, padrão JanelaUnica.
+* DC-2321 - Homologação do município de Santa Isabel do Pará - PA, padrão JanelaUnica.
+* DC-2321 - Homologação do município de Santa Rondon do Pará - PA, padrão JanelaUnica.
+* DC-2321 - Homologação do município de Santa Dom Eliseu - PA, padrão JanelaUnica.
+* DC-2169 - Correção na consulta de notas tomadas para cidades Rondonópolis-MT e Peixoto de Azevedo-MT, padrão COPLAN.
+* DC-1213 - Compatibilizando o padrão SysIssOnline com o componente NFSe, nessa versão estará disponível a cidade de Arapoti - PR.
+  * Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360061490454
+* DC-2236 - Compatibilizada a impressão do padrão ACTCON para cidade Sete Lagoas-MG.
+* DC-2367 - Re-homologação do município de Vila Velha - ES, mudança de padrão Abrasf21 para SIL20.
+* DC-2367 - Re-homologação do município de Silvânia - GO, mudança de padrão ArrecadaNet para IssWeb.
+* DC-2367 - Homologação do município de Engenheiro Coelho - SP, padrão SigIssWeb.
+* DC-2367 - Homologação do município de Teixeira - PB, padrão PublicSoft.
+* DC-2337 - Disponibilizada a inclusão do DataSet referente aos Quartos para o padrão iiBrasil.
+
+**Correções**
+
+* DC-2351 - Corrigido os fluxos de comunicação para as cidades de Caraguatatuba - SP e Ubatuba - SP, do padrão Prescon.
+ 
+ ## [11.1.78.7109]
 
 **Novidades**
 
