@@ -1,4 +1,21 @@
-﻿ ## [11.1.78.7128]
+﻿## [11.1.79.7133]
+
+**Novidades**
+
+* DC-2330 - Compatibilizado schema xsd e impressão para parcelas do padrão TecnoSistemas.
+* DC-2429 - Re-homologação do município de Piraquara - PR, mudança de padrão MaisIss para MaisIss20.
+* DC-2429 - Homologação do município de Planalto - PR, padrão Equiplano.
+* DC-2429 - Re-homologação do município de Juara - PR, mudança de padrão Coplan para Agili.
+* DC-2429 - Homologação do município de Barão de Cocais - MG, padrão Betha.
+* DC-2429 - Homologação do município de Pedra Dourada - MG, padrão Futurize.
+* DC-2429 - Re-homologação do município de Canguçu - RS, mudança de padrão GovBR padrão GovBR20.
+
+**Correções**
+
+* DC-2378 - Corrigido a forma da geração de serviços para o Padrão Betha.
+* DC-2344 - Correção no tratamento XML da consulta NFSe Tomadas para o padrão IssNetOnline.
+
+ ## [11.1.78.7128]
  **Novidades**
 
 * DC-2321 - Re-homologação do município de Seara - SC, mudança de padrão Betha para IPM.
@@ -295,6 +312,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
