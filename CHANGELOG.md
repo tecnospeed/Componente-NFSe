@@ -1,4 +1,15 @@
-﻿## [11.1.79.7133]
+﻿## [11.1.79.7137]
+
+**Novidades**
+
+* DC-1197 - Compatibilizando o padrão HM2UP, nessa versão estará disponível a cidade de Santa Cruz - RN.
+  * Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/1500003584002
+
+**Correções**
+
+* DC-2479 - Correção no tratamento XML de retorno Consulta Notas Tomadas para a cidade de São Paulo - SP para quando retorna duas notas distintas com o mesmo número de NFSe.
+
+## [11.1.79.7133]
 
 **Novidades**
 
@@ -312,6 +323,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
