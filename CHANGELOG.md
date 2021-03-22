@@ -1,4 +1,31 @@
-﻿## [11.1.79.7137]
+﻿## [11.1.79.7151]
+
+**Novidades**
+
+* DC-2463 - Implementando impressão direta para padrão com impressão por Link.
+* DC-1197 - Compatibilizando o padrão HM2UP, nessa versão estará disponível a cidade de Santa Cruz - RN.
+  * Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/1500003584002
+* DC-2516 - Homologação do município de São Martinho - RS, padrão SafeWeb.
+* DC-2516 - Homologação do município de Três Marias - MG, padrão Memory.
+* DC-2516 - Homologação do município de Cacequi - RS, padrão Abase.
+* DC-2516 - Re-homologação do município de Santa Rita do Passa Quatro - SP, mudança de padrão Ginfes para Fiorilli.
+* DC-2516 - Re-homologação do município de Jandaia do Sul - PR, mudança de padrão GovBR20 para MaisIss20.
+* DC-2516 - Re-homologação do município de Pitangueiras - SP, mudança de padrão IssIntel para FGMaiss.
+* DC-2520 - Re-homologação do município de Nova Lima - MG, mudança de padrão ISSDIGITAL20 para ABACO.
+* DC-2548 - Re-homologação do município de Rio Negro - PR, mudança de padrão GovBR20 para IPM.
+* DC-2548 - Re-homologação do município de Paraty - RJ, mudança de padrão Betha para Fiorilli.
+* DC-2548 - Re-homologação do município de Córrego Fundo - MG, mudança de padrão WebIss20 para Memory.
+* DC-2548 - Homologação do município de Caiapônia - GO, padrão IssIntel.
+* DC-2548 - Homologação do município de Presidente Dutra - MA, padrão Fiorilli.
+* DC-2548 - Homologação do município de Morretes - PR, padrão MaisIss20.
+
+**Correções**
+
+* DC-2479 - Correção no tratamento XML de retorno Consulta Notas Tomadas para a cidade de São Paulo - SP para quando retorna duas notas distintas com o mesmo número de NFSe.
+* DC-2497 - Correção de quebra de linha na impressão do padrão Metropolis, município de Ilheus/BA.
+* DC-2529 - Correção no retorno do Converter da NFSe Tomadas do padrão Betha, município de Nova Andradina-MS.
+
+## [11.1.79.7137]
 
 **Novidades**
 
@@ -323,6 +350,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
