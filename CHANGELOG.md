@@ -1,4 +1,18 @@
-﻿## [11.1.79.7151]
+﻿## [11.1.79.7153]
+
+**Novidades**
+
+* DC-2570 - Ajuste na impressão de Nova Friburgo-RJ (EL20).
+* DC-2569 - Adicionando campo "nrCidadeIbgeServico" no XML e Impressão do padrão EQUIPLANO.
+* DC-2600 - Re-homologação do município de Alto Araguaia - MT, mudança de padrão Betha para Coplan.
+* DC-2600 - Homologação do município de Esmeraldas - MG, padrão Memory.
+
+**Correções**
+
+* DC-2563 - Corrigido o tratamento da resposta do envio assíncrono quando é retornado o XML do envio síncrono pela prefeitura de São Luis - MA.
+* DC-2605 - Corrigida a impressão do local do imposto devido para a cidade de Rio Verde - GO, padrão Centi.
+
+## [11.1.79.7151]
 
 **Novidades**
 
@@ -350,6 +364,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
