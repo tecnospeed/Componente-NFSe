@@ -1,4 +1,14 @@
-﻿## [1.1.11.7003]
+## [1.1.12.7030]
+**Novidades**
+
+* DC-2552 - Disponibilizada a solicitação de cancelamento de NFSe para Cascavel - PR, padrão IPM.
+* DC-2677 - Re-homologação do município de Piraí do Sul - PR, mudança de padrão MaisIss para MaisIss20.
+* DC-2677 - Re-homologação do município de Formiga - MG, mudança de padrão WebIss para WebIss20.
+* DC-2677 - Homologação do município de Rialma - GO, padrão ArrecadaNet.
+* DC-2595 - Compatibilizando o padrão IssMapApi, nessa versão estará disponível a cidade de Fartura - SP.
+* DC-2646 - Compatibilizando o componente NFSe com a Cipher Suite TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256 para o Windows server 2012 ou com versões inferiores.
+
+## [1.1.11.7003]
  
  **Novidades**
 
