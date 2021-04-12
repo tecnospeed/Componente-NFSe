@@ -1,4 +1,15 @@
-﻿## [11.1.80.7165]
+﻿## [11.1.80.7179]
+
+**Novidades**
+
+* DC-2596 - Compatibilizando o padrão IssMapApi, nessa versão estará disponível a cidade de Fartura - SP.
+  * Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/1500006070561
+
+**Correções**
+* DC-2678 - Correção para tratamento dos retornos do padrão SOFTPLAN (Florianópolis) com caracteres acentuados. Antes retornava "?" em vez da letra acentuada.
+
+
+## [11.1.80.7165]
 
 **Novidades**
 
@@ -374,6 +385,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
