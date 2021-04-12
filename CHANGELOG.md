@@ -1,14 +1,7 @@
-﻿## [1.1.12.7036]
-
-**Novidades**
-
-* DC-2596 - Compatibilizando o padrão IssMapApi, nessa versão estará disponível a cidade de Fartura - SP.
-  * Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/1500006070561
-
-**Correções**
-
-* DC-2615 - Corrigido o Problema da atribuição do ConverterX na Consulta de Notas Tomadas.
-* DC-2634 - Corrigida a impressão de Belém com o Xml de retorno da consulta de lote.
+## [11.1.80.7179]
+ 
+ **Correções**
+* DC-2678 - Correção para tratamento dos retornos do padrão SOFTPLAN (Florianópolis) com caracteres acentuados. Antes retornava "?" em vez da letra acentuada.
 
 ## [11.1.80.7179]
 
