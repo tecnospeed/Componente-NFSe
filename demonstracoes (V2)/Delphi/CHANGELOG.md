@@ -1,4 +1,12 @@
+﻿## [1.1.12.7036]
+
+**Correções**
+
+* DC-2615 - Corrigido o Problema da atribuição do ConverterX na Consulta de Notas Tomadas.
+* DC-2634 - Corrigida a impressão de Belém com o Xml de retorno da consulta de lote.
+
 ## [1.1.12.7030]
+
 **Novidades**
 
 * DC-2552 - Disponibilizada a solicitação de cancelamento de NFSe para Cascavel - PR, padrão IPM.
