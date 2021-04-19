@@ -1,4 +1,19 @@
-﻿## [11.1.80.7182]
+﻿## [1.1.12.7044]
+
+**Novidades**
+
+* DC-2596 - Compatibilizando o padrão IssMapApi, nessa versão estará disponível a cidade de Fartura - SP.
+  * Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/1500006070561
+* DC-2592 - Compatibilizando o padrão GeisWeb20, nessa versão estará disponível as cidades de Cajamar - SP, Pardinho - SP, Itatinga - SP e Tietê - SP.
+  * Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/1500006998382
+* DC-2766 - Re-homologação do município de Cacoal - RO, mudança de padrão WebIss para WebIss20.
+* DC-2766 - Re-homologação do município de Macaíba - RN, mudança de padrão Tinus para TinusUP.
+* DC-2766 - Re-homologação do município de Nova Veneza - GO, mudança de padrão Centi para ArrecadaNet.
+* DC-2766 - Homologação do município de Padre Bernardo - GO, padrão ArrecadaNet.
+* DC-2766 - Homologação do município de Trairi - CE, padrão Intersol.
+* DC-2766 - Homologação do município de Louveira - SP, padrão CebiUP.
+
+## [11.1.80.7182]
 
 **Novidades**
 
@@ -395,6 +410,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
