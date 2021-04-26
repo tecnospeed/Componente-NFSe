@@ -1,4 +1,17 @@
-﻿## [11.1.80.7190]
+﻿## [1.1.12.7048]
+
+**Novidades**
+
+* DC-2840 - Homologação do município de Giruá - RS, padrão Abase.
+* DC-2840 - Homologação do município de Cafelândia - SP, padrão Fiorilli.
+* DC-2840 - Homologação do município de Rondon - PR, padrão SysIssOnline.
+* DC-2840 - Homologação do município de Goianinha - RN, padrão HM2UP.
+* DC-2840 - Homologação do município de Escada - PE, padrão HM2UP.
+* DC-2840 - Homologação do município de João Câmara - RN, padrão HM2UP.
+* DC-2804 - Ajuste em impressão do município de Nova Lima MG, Padrão ABACO.
+* DC-2793 - Ajuste em impressão do município de Nova Friburgo RJ, Padrão EL20.
+
+## [11.1.80.7190]
 
 **Novidades**
 
@@ -423,6 +436,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
