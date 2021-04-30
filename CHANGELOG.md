@@ -1,4 +1,16 @@
-﻿## [1.1.12.7048]
+﻿## [11.1.81.7195]
+
+**Novidades**
+
+* DC-2771 - Compatibilizando o padrão Sintese, nessa versão estará disponível as cidades de Janaúba - MG, Brasília de Minas - MG, e Várzea da Palma - MG.
+  * Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/1500008630642
+* DC-2796 - Disponibilizada a Consulta de Notas Tomadas para as cidades de Belo Horizonte - MG e Porto Alegre - RS.
+* DC-2828 - Atribuída a Data da Competência da NFSe usando o XML do RPS na impressão do padrão SIL20.
+* DC-2860 - Compatibilizando impressão NFSe cidade de Bauru - SP
+* DC-2873 - Homologação do município de Piraju - SP, padrão IssMapAPI.
+* DC-2873 - Homologação do município de Cametá - PA, padrão Fiorilli.
+
+## [1.1.12.7048]
 
 **Novidades**
 
@@ -436,6 +448,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
