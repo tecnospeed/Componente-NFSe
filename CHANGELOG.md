@@ -1,40 +1,3 @@
-﻿## [1.1.13.7053]
-
-**Novidades**
-
-* DC-2771 - Compatibilizando o padrão Sintese, nessa versão estará disponível as cidades de Janaúba - MG, Brasília de Minas - MG, e Várzea da Palma - MG.
-  * Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/1500008630642
-* DC-2796 - Disponibilizada a Consulta de Notas Tomadas para as cidades de Belo Horizonte - MG e Porto Alegre - RS.
-* DC-2828 - Atribuída a Data da Competência da NFSe usando o XML do RPS na impressão do padrão SIL20.
-* DC-2860 - Compatibilizando impressão NFSe cidade de Bauru - SP
-* DC-2873 - Homologação do município de Piraju - SP, padrão IssMapAPI.
-* DC-2873 - Homologação do município de Cametá - PA, padrão Fiorilli.
-
-## [11.1.81.7195]
-
-**Novidades**
-
-* DC-2771 - Compatibilizando o padrão Sintese, nessa versão estará disponível as cidades de Janaúba - MG, Brasília de Minas - MG, e Várzea da Palma - MG.
-  * Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/1500008630642
-* DC-2796 - Disponibilizada a Consulta de Notas Tomadas para as cidades de Belo Horizonte - MG e Porto Alegre - RS.
-* DC-2828 - Atribuída a Data da Competência da NFSe usando o XML do RPS na impressão do padrão SIL20.
-* DC-2860 - Compatibilizando impressão NFSe cidade de Bauru - SP
-* DC-2873 - Homologação do município de Piraju - SP, padrão IssMapAPI.
-* DC-2873 - Homologação do município de Cametá - PA, padrão Fiorilli.
-
-## [1.1.12.7048]
-
-**Novidades**
-
-* DC-2840 - Homologação do município de Giruá - RS, padrão Abase.
-* DC-2840 - Homologação do município de Cafelândia - SP, padrão Fiorilli.
-* DC-2840 - Homologação do município de Rondon - PR, padrão SysIssOnline.
-* DC-2840 - Homologação do município de Goianinha - RN, padrão HM2UP.
-* DC-2840 - Homologação do município de Escada - PE, padrão HM2UP.
-* DC-2840 - Homologação do município de João Câmara - RN, padrão HM2UP.
-* DC-2804 - Ajuste em impressão do município de Nova Lima MG, Padrão ABACO.
-* DC-2793 - Ajuste em impressão do município de Nova Friburgo RJ, Padrão EL20.
-
 ## [11.1.80.7190]
 
 **Novidades**
@@ -47,21 +10,6 @@
 * DC-2840 - Homologação do município de João Câmara - RN, padrão HM2UP.
 * DC-2804 - Ajuste em impressão do município de Nova Lima MG, Padrão ABACO.
 * DC-2793 - Ajuste em impressão do município de Nova Friburgo RJ, Padrão EL20.
-
-## [1.1.12.7044]
-
-**Novidades**
-
-* DC-2596 - Compatibilizando o padrão IssMapApi, nessa versão estará disponível a cidade de Fartura - SP.
-  * Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/1500006070561
-* DC-2592 - Compatibilizando o padrão GeisWeb20, nessa versão estará disponível as cidades de Cajamar - SP, Pardinho - SP, Itatinga - SP e Tietê - SP.
-  * Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/1500006998382
-* DC-2766 - Re-homologação do município de Cacoal - RO, mudança de padrão WebIss para WebIss20.
-* DC-2766 - Re-homologação do município de Macaíba - RN, mudança de padrão Tinus para TinusUP.
-* DC-2766 - Re-homologação do município de Nova Veneza - GO, mudança de padrão Centi para ArrecadaNet.
-* DC-2766 - Homologação do município de Padre Bernardo - GO, padrão ArrecadaNet.
-* DC-2766 - Homologação do município de Trairi - CE, padrão Intersol.
-* DC-2766 - Homologação do município de Louveira - SP, padrão CebiUP.
 
 ## [11.1.80.7182]
 
