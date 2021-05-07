@@ -1,4 +1,17 @@
-﻿## [11.1.81.7196]
+﻿## [11.1.81.7202]
+
+**Novidades**
+
+* DC-2841 - Disponibilizado o envio em lote para as cidades de Caraguatatuba - SP e Ubatuba - SP, padrão Prescon.
+* DC-2797 - Disponibilizado a consulta de notas tomadas para o padrão GINFES.
+* DC-2771 - Compatibilizando o padrão Sintese, nessa versão estará disponível as cidades de Janaúba - MG, Brasília de Minas - MG, e Várzea da Palma - MG.
+  * Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/1500008630642
+* DC-2915 - Homologação do município de Cromínia - GO, padrão ArrecadaNet.
+* DC-2915 - Homologação do município de Juruti - PA, padrão SIAP.
+* DC-2915 - Homologação do município de Campo Erê - SC, padrão GovBr20.
+* DC-2915 - Re-homologação do município de Carapicuíba - SP, padrão Cotia.
+
+## [11.1.81.7196]
 
 **Novidades**
 
@@ -418,6 +431,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
