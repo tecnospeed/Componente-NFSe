@@ -1,4 +1,17 @@
-﻿## [11.1.81.7207]
+﻿## [1.1.13.7057]
+
+**Novidades**
+
+* DC-2953 - Homologação do município de Currais Novos - RN, padrão Tinus.
+* DC-2953 - Re-homologação do município de Água Boa - MT, mudança de padrão Betha para Coplan.
+* DC-2953 - Homologação do município de Paraíso do Norte - PR, padrão IPM.
+* DC-2959 - Alteração nas mensagens de erro ao atualizar arquivos, deixando-as mais intuitivas.
+
+**Correções**
+
+* DC-2864 - Correção no cancelamento para o padrão SigIssWeb no Windows 7.
+
+## [11.1.81.7207]
 
 **Novidades**
 
@@ -456,6 +469,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
