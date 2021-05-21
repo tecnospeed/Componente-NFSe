@@ -1,4 +1,15 @@
-﻿## [11.1.81.7214]
+﻿## [1.1.13.7062]
+
+**Novidades**
+
+* DC-2829 - Disponibilização de opção visualizar para padrões que utilizam impressão via Link.
+* DC-2773 - Compatibilizado o padrão GNOTA para a cidade de Fraiburgo-SC.<br>
+Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/1500009637521
+* DC-2975 - Re-homologação do município de Itaquaquecetuba - SP, mudança de padrão Sil para Sil20.
+* DC-2975 - Homologação do município de Caculé - BA, padrão Saatri.
+* DC-2975 - Re-homologação do município de Guanambi - BA, mudança de padrão IssIntel para WebIss20.
+
+## [11.1.81.7214]
 
 **Novidades**
 
@@ -480,6 +491,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
