@@ -1,4 +1,15 @@
-﻿## [1.1.13.7057]
+﻿## [11.1.81.7214]
+
+**Novidades**
+
+* DC-2773 - Compatibilizado o padrão GNOTA para a cidade de Fraiburgo-SC.  
+Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/1500009637521
+* DC-2970 - Compatibilizado a geração da tag Token para o padrão AstenNFSe
+* DC-2975 - Re-homologação do município de Itaquaquecetuba - SP, mudança de padrão Sil para Sil20.
+* DC-2975 - Homologação do município de Caculé - BA, padrão Saatri.
+* DC-2975 - Re-homologação do município de Guanambi - BA, mudança de padrão IssIntel para WebIss20.
+
+## [1.1.13.7057]
 
 **Novidades**
 
@@ -469,6 +480,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
