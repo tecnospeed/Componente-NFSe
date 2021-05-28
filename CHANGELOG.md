@@ -1,4 +1,18 @@
-﻿## [1.1.13.7062]
+﻿## [11.1.82.7222]
+
+**Novidades**
+
+* DC-2779 - Compatibilizando o padrão Fisco20, nessa versão estará disponível as cidades de Irecê - BA.
+  * Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/1500011380942
+* DC-3016 - Re-homologação do município de Salto Grande - SP, mudança de padrão GovBr para GovBr20.
+* DC-3016 - Re-homologação do município de Oriente - SP, mudança de padrão FGMaiss para Fiorilli.
+* DC-3016 - Homologação do município de Piên - PR, padrão Equiplano.
+
+**Correções**
+
+* DC-2941 - Criado validação para retornar somente notas tomadas para o tomador informado, padrão CURITIBA.
+
+## [1.1.13.7062]
 
 **Novidades**
 
@@ -491,6 +505,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
