@@ -1,4 +1,11 @@
-﻿## [1.1.14.7064]
+﻿## [11.1.82.7223]
+
+**Novidades**
+
+* DC-1221 - Compatibilizando o padrão TresTecnosUP, nessa versão estará disponível as cidades de Teotônio Vilela - AL.
+  * Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/1500012792401
+
+## [1.1.14.7064]
 
 **Novidades**
 
@@ -519,6 +526,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
