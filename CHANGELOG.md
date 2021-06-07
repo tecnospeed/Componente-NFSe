@@ -1,4 +1,19 @@
-﻿## [11.1.82.7223]
+﻿## [11.1.82.7231]
+
+**Novidades**
+
+* DC-1221 - Compatibilizando o padrão TresTecnosUP, nessa versão estará disponível as cidades de Teotônio Vilela - AL.
+  * Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/1500012792401
+* DC-2974 - Criada a validação para o preenchimento do campo TelefoneTomador e disponibilizar documentação padrão Governa.
+* DC-2973 - Disponibilizado o envio dos campos NifTomador e EnderecoCompletoExterior para a cidade de IlhabelaSP, padrão iiBrasil.
+* DC-3066 - Re-homologação do município de Hidrolândia - GO, mudança de padrão Fiorilli para IssWeb.
+* DC-3066 - Re-homologação do município de Santa Bárbara - MG, mudança de padrão WebIss para Simpliss20.
+* DC-3066 - Homologação do município de Nova Prata - RS, padrão Tecnosistemas.
+* DC-3066 - Homologação do município de Barão - RS, padrão Tecnosistemas.
+* DC-2783 - Homologação do padrão Freire, nesta versão estará disponível para cidade Senhor Do Bonfim - BA.
+  * Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/1500012385842
+
+## [11.1.82.7223]
  
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -524,6 +539,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
