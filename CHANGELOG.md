@@ -1,4 +1,16 @@
-﻿## [1.1.14.7066]
+﻿## [11.1.83.7242]
+
+**Novidades**
+
+* DC-3094 - Homologação do município de Pilar do Sul - SP, padrão Fiorilli.
+* DC-3094 - Homologação do município de Santana - AP, padrão Fiorilli.
+* DC-3094 - Homologação do município de Presidente Castelo Branco - PR, padrão Betha.
+* DC-3094 - Homologação do município de Nerópolis - GO, padrão IssWeb.
+* DC-3094 - Homologação do município de Pinheiro Machado - RS, padrão GovBr20.
+* DC-3094 - Re-homologação do município de Rio Largo - AL, mudança de padrão Betha para TresTecnosUP.
+* DC-3094 - Re-homologação do município de Aparecida - PB, mudança de padrão IssOnline para Elmar.
+
+## [1.1.14.7066]
 
 **Novidades**
 
@@ -554,6 +566,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
