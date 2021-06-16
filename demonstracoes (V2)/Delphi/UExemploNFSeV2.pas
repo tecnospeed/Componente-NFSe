@@ -86,7 +86,6 @@ type
     btnListarCidades: TButton;
     edtCNPJSoftwareHouse: TLabeledEdit;
     edtTokenSoftwareHouse: TLabeledEdit;
-    edtEmailDestinatario: TEdit;
 
     {DECLARAÇÕES RELACIONADAS AO ENVIO e CONSULTAS}
     {Abre o arquivo NFSeConfig.ini}
@@ -323,7 +322,7 @@ begin
   frmExemplo.Caption := 'Tecnospeed NFSeV2 - Versão: ' + NFse.Versao;
   pcDados.TabIndex := 0;
   edtLogoEmitente.Text := ExtractFilePath(Application.ExeName) + '\LogoEmit.jpg';
-  edtCNPJSoftwareHouse.Text := '00000000000000';
+  edtCNPJSoftwareHouse.Text := '08187168000160';
   edtTokenSoftwareHouse.Text := '';
 end;
 
@@ -334,7 +333,6 @@ begin
   _anexos := TStringList.Create;
   try
     _anexos.Add(svDlgExportar.FileName);
-    NFSe.EmailSettings.EmailDestinatario := edtEmailDestinatario.Text;
     NFSe.EnviarEmail(_anexos);
   finally
     FreeAndNil(_anexos);

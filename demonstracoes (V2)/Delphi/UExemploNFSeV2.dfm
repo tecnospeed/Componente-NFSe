@@ -372,6 +372,7 @@ object frmExemplo: TfrmExemplo
         EditLabel.Height = 13
         EditLabel.Caption = 'CNPJ SoftwareHouse: '
         TabOrder = 2
+        Text = '08187168000160'
       end
       object edtTokenSoftwareHouse: TLabeledEdit
         Left = 391
@@ -492,13 +493,6 @@ object frmExemplo: TfrmExemplo
             Height = 15
             Caption = 'Enviar por Email'
             TabOrder = 4
-          end
-          object edtEmailDestinatario: TEdit
-            Left = 168
-            Top = 88
-            Width = 233
-            Height = 21
-            TabOrder = 5
           end
         end
       end
