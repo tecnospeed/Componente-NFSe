@@ -1,4 +1,19 @@
-﻿## [1.1.15.7074]
+﻿## [11.1.83.7254]
+
+**Correções**
+
+* DC-3103 - Corrigido tratamento do xml de retorno no ConverterX para a cidade de Bauru.
+* DC-3143 - Travado a consulta de notas tomadas para o padrão Tinus.
+
+**Novidades**
+
+* DC-3146 - Re-homologação do município de Santo Augusto - RS, mudança de padrão Betha para IPM.
+* DC-3146 - Re-homologação do município de Tibaú do Sul - RN, mudança de padrão TinusUP para Tinus.
+* DC-3146 - Re-homologação do município de Mogi das Cruzes - SP, mudança de padrão Sil para Sil20.
+* DC-3113 - Disponibilizado no retorno da consulta de notas Tomadas a informação do campo Nome Fantasia do Prestador.
+* DC-3010 - Disponibilizado o envio Simplificado para o padrão SOFTPLAN.
+
+## [1.1.15.7074]
 
 **Novidades**
 
@@ -578,6 +593,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
