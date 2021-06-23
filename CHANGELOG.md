@@ -1,4 +1,19 @@
-﻿## [1.1.15.7076]
+﻿## [1.1.15.7080]
+
+* DC-3177 - Mudança no link de impressão (ambiente de Produção e Homologação) para cidade de Juiz de Fora/MG do padrão FINTEL.
+
+**Novidades**
+
+* DC-3201 - Homologação do município de Cruzeiro do Oeste - PR, padrão MaisIss20.
+* DC-3201 - Homologação do município de Jaguapitã - PR, padrão MaisIss20.
+* DC-3201 - Homologação do município de Ivaté - PR, padrão MaisIss20.
+* DC-3201 - Homologação do município de Mariluz - PR, padrão MaisIss20.
+* DC-3201 - Homologação do município de Icaraíma - PR, padrão MaisIss20.
+* DC-3201 - Homologação do município de Iguatemi - MS, padrão Fiorilli.
+* DC-3201 - Homologação do município de Abadiânia - GO, padrão ArrecadaNet.
+* DC-3201 - Homologação do município de Iporâ - PR, padrão GovBr20.
+
+## [1.1.15.7076]
 
 **Correções**
 
@@ -608,6 +623,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
