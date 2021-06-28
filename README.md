@@ -1,4 +1,4 @@
-﻿﻿# Componente-NFSeV2 Delphi
+﻿# Componente-NFSe
 
 A NFSe TecnoSpeed é uma solução pronta para ser integrada ao seu software, que realiza todas as etapas de emissão da Nota Fiscal de Serviço eletrônica, desde a geração do XML até a impressão do RPS.
 
@@ -10,14 +10,6 @@ Assim, você fica livre para se dedicar aos requisitos mais importantes do seu s
 
 ***
 
-**Componente-NFSeV2-Delphi**
+**Para baixar a versão Trial, [clique aqui](https://s3-sa-east-1.amazonaws.com/tecnospeed-trial/setup_nfse_trial_11.1.84.7258.exe "Baixar o Componente NFSe Trial")**.
 
-* Demonstração de utilização do componente NFSe V2 para Delphi
-
-**Para saber mais sobre o Componente NFSeV2, [clique aqui](https://tecno.dev/github-nfsev2 "Saiba mais").**
-
-**Para baixar a versão Trial, [clique aqui](https://s3-sa-east-1.amazonaws.com/tecnospeed-trial/setup_nfse_trial_1.1.16.7081.exe "Baixar o Componente NFSe Trial")**.
-
-**Para ver uma lista com o histórico de mudanças, [clique aqui](https://github.com/tecnospeed/Componente-NFSeV2-Delphi/blob/master/CHANGELOG.md "Changelog").**
-
-
+**Para ver uma lista com o histórico de mudanças, [clique aqui](https://github.com/tecnospeed/Componente-NFSe/blob/master/CHANGELOG.md "Changelog").**
