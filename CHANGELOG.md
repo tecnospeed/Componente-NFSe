@@ -1,4 +1,21 @@
-﻿## [1.1.16.7084]
+﻿## [11.1.84.7261]
+
+**Novidades**
+
+* DC-3255 - Re-homologação do município de Carambeí - PR, mudança de padrão Equiplano para IPM.
+* DC-3255 - Homologação do município de Salto do Lontra - PR, padrão GovBr20.
+* DC-3255 - Homologação do município de Vila Bela de Santíssima Trindade - MT, padrão Saturno.
+* DC-3255 - Homologação do município de Santo Amaro - BA, padrão TresTecnosUP.
+* DC-3255 - Homologação do município de Propriá - SE, padrão TresTecnosUP.
+* DC-3255 - Homologação do município de Canindé de São Francisco - SE, padrão TresTecnosUP.
+* DC-3255 - Homologação do município de Douradina - MS, padrão Agili.
+* DC-3255 - Homologação do município de Guaraniaçu - PR, padrão Actcon.
+
+**Correções**
+
+* DC-3169 - Alterando o fluxo de consulta de NFSe por RPS para Consulta de NFSe do padrão SIAPPA.
+
+## [1.1.16.7084]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -650,6 +667,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
