@@ -1,4 +1,31 @@
-﻿## [11.1.86.7272]
+﻿## [1.1.18.7092]
+
+**Novidades**
+
+* DC-3303 - Re-homologação do município de Porangatu - GO, mudança de padrão IssWeb para Centi.
+* DC-3303 - Re-homologação do município de São Martinho - RS, mudança de padrão SafeWeb para Abase.
+* DC-3303 - Homologação do município de Valenca - BA, padrão EL.
+* DC-3303 - Homologação do município de Nova Resende - MG, padrão Betha.
+* DC-3303 - Re-homologação do município de São Cubatão - SP, mudança de padrão Sil para Prodata.
+* DC-3303 - Re-homologação do município de São Eunápolis - BA, mudança de padrão EL para Freire.
+* DC-3339 - Re-homologação do município de São Santa Inês - MA, mudança de padrão Fiorilli para Actcon.
+* DC-3339 - Re-homologação do município de Xinguara - PA, mudança de padrão Fiorilli para IssIntel.
+* DC-3339 - Re-homologação do município de Frutal - MG, mudança de padrão WebIss para GovDigital.
+* DC-3339 - Re-homologação do município de Três Pontas - MG, mudança de padrão eReceita para IPM.
+* DC-3339 - Re-homologação do município de Ibiúna - SP, mudança de padrão Cecam para SistemaS4R.
+* DC-3339 - Homologação do município de Victor Graeff - RS, padrão GovBr20.
+* DC-3382 - Re-homologação do município de Itamaraju - BA, mudança de padrão EL para EL20.
+* DC-3382 - Homologação do município de Cidade Gaúcha - PR, padrão GovBr20.
+* DC-3382 - Re-homologação do município de Amparo - SP, mudança de padrão Ginfes para Cotia.
+* DC-3382 - Re-homologação do município de São Carlos - SC, mudança de padrão Betha para IPM.
+* DC-3382 - Homologação do município de Petrolândia - PE, padrão ColumbiaUP.
+
+**Correções**
+
+* DC-3251 - Mudança no RTM para conter o campo "Insc. Estadual".
+* DC-3295 - Correção na quebra de linha do padrão BETHA.
+
+## [11.1.86.7272]
 
 **Novidades**
 
@@ -741,6 +768,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
