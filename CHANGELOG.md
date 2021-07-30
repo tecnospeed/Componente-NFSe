@@ -1,4 +1,20 @@
-﻿## [1.1.18.7092]
+﻿## [11.1.86.7276]
+
+**Novidades**
+
+* DC-2776 - Compatibilizando o padrão ASPEC, nessa versão estará disponível as cidades de Abaetetuba - PA, Raposa - MA, São Mateus do Maranhão - MA, Santana do Araguaia - PA e São Félix do Xingu - PA.
+  * Para mais informações, acesse: https://tecnospeed.zendesk.com/hc/pt-br/articles/4405017222551
+* DC-3405 - Homologação do município de Arraial do Cabo - PE, padrão IssDigital20.
+* DC-3405 - Homologação do município de Palmital - SP, padrão GovBr20.
+* DC-3405 - Homologação do município de Rebouças - PR, padrão MaisIss20.
+* DC-3405 - Homologação do município de Quatro Barras - PR, padrão MaisIss20.
+* DC-3405 - Homologação do município de Cerejeiras - RO, padrão GovBR20.
+
+**Correções**
+
+* DC-3357 - Correções no LoadEnvio de Serra/ES - SIL
+
+## [1.1.18.7092]
 
 **Novidades**
 
@@ -768,6 +784,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
