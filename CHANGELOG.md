@@ -1,4 +1,23 @@
-﻿## [11.1.87.7281]
+﻿## [1.1.19.7102]
+
+**Novidades**
+
+* DC-2776 - Compatibilizando o padrão ASPEC, nessa versão estará disponível as cidades de Abaetetuba - PA, Raposa - MA, São Mateus do Maranhão - MA, Santana do Araguaia - PA e São Félix do Xingu - PA.
+<br> Para mais informações, acesse: https://tecnospeed.zendesk.com/hc/pt-br/articles/4405017222551
+* DC-3472 - Homologação do município de Ipuã - RS, padrão Fiorilli.
+* DC-3472 - Re-homologação do município de Lagarto - SE, mudança de padrão FissLex para Tributus.
+* DC-3472 - Re-homologação do município de Entre Rios - BA, mudança de padrão Saatri para WebIss20.
+* DC-3472 - Re-homologação do município de Breu Branco - PA, mudança de padrão JanelaUnica para issIntel.
+* DC-3472 - Re-homologação do município de Bom Jesus da Lapa - BA, mudança de padrão WebIss20 para Saatri.
+* DC-3472 - Homologação do município de Limoeiro do Norte- CE, padrão Intersol.
+* DC-3195 - Disponibilizada a propriedade NextPage na consulta de notas tomadas para o padrão São Paulo.
+<br> Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360046869913
+
+**Correções**
+
+* DC-2988 - Alteração no RTM para o padrão Softplan para buscar a descrição do Cnae no XML ao invés da lista.
+
+## [11.1.87.7281]
 
 **Novidades**
 
@@ -818,6 +837,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
