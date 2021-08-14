@@ -1,4 +1,21 @@
-﻿## [11.1.87.7287]
+﻿## [1.1.19.7106]
+
+**Novidades**
+
+* DC-3261 - Compatibilizando o padrão ISSLEGAL, nessa versão estará disponível as cidades de Abaeté - MG, Buriti - MA, São João Evangelista - MG. Para mais informações acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/4405690416663
+* DC-3535 - Re-homologação do município de Bom Princípio - RS, mudança de padrão Infisc para Tecnosistemas.
+* DC-3535 - Homologação do município de Santa Rita do Araguaia - GO, padrão ArrecadaNet.
+* DC-3535 - Re-homologação do município de Crateús - CE, mudança de padrão IssIntel para Intersol.
+* DC-3535 - Homologação do município de Cajati - SP, padrão SistemaS4R
+
+**Correções**
+
+* DC-3425 - Alterações no RTM para o padrão de Sistemas4R.
+* DC-3412 - Alterações no RTM para o padrão de São Paulo.
+* DC-3462 - Alteração no padrão THEMA para aceitar Natureza Tributação com valor igual (6) quando o município de incidência é diferente de Passo Fundo/RS.
+* DC-3530 - Correção ao utilizar certificados com acentos.
+
+## [11.1.87.7287]
 
 **Novidades**
 
@@ -854,6 +871,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
