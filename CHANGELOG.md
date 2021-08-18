@@ -1,4 +1,17 @@
-﻿## [11.1.87.7289]
+﻿## [1.1.19.7108]
+
+**Correções**
+
+* DC-3471 - Alteração no LoadEnvio para enviar o campo "InfAdicional" no xml de RPS do padrão ARRECADANET.
+* DC-3395 - Alterações no RTM da cidade Sabinópolis - MG do padrão Memory.
+
+**Novidades**
+
+* DC-3563 - Re-homologação do município de Araruna - PR, mudança de padrão MAISS para MAISISS20.
+* DC-3563 - Re-homologação do município de Zortea - SC, mudança de padrão BETHA para IPM.
+* DC-3563 - Homologação do município de Fundão - ES, padrão EL.
+
+## [11.1.87.7289]
 
 **Correções**
 
@@ -884,6 +897,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
