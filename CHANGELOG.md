@@ -1,4 +1,10 @@
-﻿## [1.1.19.7108]
+﻿## [11.1.88.7294]
+
+**Novidades**
+
+DC-3561 - Adicionado RTM para a cidade de Maceió padrão GINFES.
+
+## [1.1.19.7108]
 
 **Correções**
 
@@ -897,6 +903,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
