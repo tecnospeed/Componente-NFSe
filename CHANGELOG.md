@@ -1,4 +1,12 @@
-﻿## [11.1.88.7296]
+﻿## [1.1.20.7110]
+
+**Novidades**
+
+* DC-3580 - Alteração na tag IssTributavel do padrão Simpliss para aceitar os valores: 1, S, 2, N.
+* DC-3636 - Homologação do município de Italva - RJ, padrão GovBR20.
+* DC-3636 - Homologação do município de Lajedo - PE, padrão Tributus.
+
+## [11.1.88.7296]
 
 **Novidades**
 
@@ -917,6 +925,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
