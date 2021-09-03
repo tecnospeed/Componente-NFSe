@@ -1,4 +1,21 @@
-﻿## [11.1.89.7303]
+﻿## [1.1.21.7112]
+
+**Novidades**
+
+* DC-3497 - Re-homologação do município de Guarapuava - PR, mudança de padrão GovBr20 para IPM.
+* DC-3686 - Homologação do município de São Bento do Una - PE, padrão Tributus.
+* DC-3686 - Homologação do município de Anicuns - GO, padrão ArrecadaNet.
+* DC-3686 - Homologação do município de Santos Dumont - MG, padrão ISSLegal.
+* DC-3686 - Homologação do município de Anastacio - MS, padrão Fiorilli.
+* DC-3686 - Homologação do município de Chavantes - SP, padrão ISSMAPAPI.
+
+**Correções**
+
+* DC-3533 - Alteração no RTM para o padrão de Betha20.
+* DC-3606 - Corrigido a mensagem de alerta para o usuário informando a quantidade de caracteres correta e orientando sobre a quebra de linha.
+* DC-3544 - Correção no campo situacao_tributaria para Cascavel.
+
+## [11.1.89.7303]
 
 **Novidades**
 
@@ -942,6 +959,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
