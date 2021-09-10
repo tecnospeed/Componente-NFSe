@@ -1,4 +1,19 @@
-﻿## [11.1.89.7304]
+﻿## [11.1.89.7308]
+
+**Plugin NFSe**
+
+**Correções**
+
+* DC-3667 - Componente /SaaS - Adequação do RTM Ipatinga - ACTCON, Feito alteração no Mapping de Impressão e Compatibilizado o Rtm.
+* DC-3610 - Disponibilização de impressão via link - Mandaguacu/PR padrão Betha20
+
+**Novidades**
+
+* DC-3713 - Homologação do município de Piratini - RS, padrão GovBR20.
+* DC-3713 - Re-homologação do município de Agronômica - SC, padrão Publica.
+* DC-3713 - homologação do município de Buritis - MG, padrão ISSLegal.
+
+## [11.1.89.7304]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -963,6 +978,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
