@@ -1,4 +1,26 @@
-﻿## [1.1.21.7115]
+﻿## [11.1.90.7315]
+
+**Novidades**
+
+* DC-3586 - Re-homologação do município de NovaResende - MG, mudança de padrão Betha parap EL20.
+* DC-3775 - Re-homologação do município de Além Paraíba - MG, mudança de padrão WEBISS para ACTCON.
+* DC-3775 - Re-homologação do município de Astorga - PR, mudança de padrão SIMPLISS para MaisIss20.
+* DC-3775 - Re-homologação do município de Embu-Guaçu - SP, mudança de padrão CONAN para GINFES.
+* DC-3775 - Re-homologação do município de Aporé - GO, mudança de padrão Betha para Centi.
+* DC-3775 - Re-homologação do município de Aparecida do Rio Doce - GO, mudança de padrão Betha para Centi.
+* DC-3775 - Re-homologação do município de Aquidauana - MS, mudança de padrão AEG para Fiorilli.
+* DC-3775 - Re-homologação do município de Madre de Deus - BA, mudança de padrão SAATRI para Freire.
+* DC-3775 - Re-homologação do município de Campo Belo - MG, mudança de padrão IPM para Novo IPM.
+* DC-3401 - Compatibilizando o padrão eNotaFiscal, nessa versão estará disponível a cidade de Cambé - PR.
+  * Para mais informações, acesse: https://tecnospeed.zendesk.com/hc/pt-br/articles/4407518933527
+
+**Correções**
+
+* DC-3679 - Erro ao obter impressão do PDF - Penápolis ISSONLINE.
+* DC-3736 - Componente NFSe - Considerar XML RPS para campos de parcela - Jaraguá do Sul/SC - Betha - Feito tratamento para número do RPS informado com zeros a esquerda.
+* DC-3777 - Ajuste de RTM para Caçu-GO.
+
+## [1.1.21.7115]
 
 **Plugin NFSe**
 
@@ -993,6 +1015,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
