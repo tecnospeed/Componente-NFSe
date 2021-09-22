@@ -1,4 +1,9 @@
-﻿## [1.1.22.7118]
+﻿## [11.1.90.7317]
+
+**Correções**
+
+
+## [1.1.22.7118]
 
 **Novidades**
 
@@ -1038,6 +1043,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
