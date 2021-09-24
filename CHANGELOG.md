@@ -1,4 +1,24 @@
-﻿## [11.1.90.7323]
+﻿## [1.1.22.7125]
+
+**Novidades**
+
+* DC-3828 - Re-homologação do município de Nova Erechim - SC, mudança do padrão Betha para Novo IPM.
+* DC-3828 - Re-homologação do município de Barra do Garças - MT, mudança do padrão Fiorilli para Coplan.
+* DC-3828 - Re-homologação do município de Passos - MG, mudança do padrão ISSIntel para Webiss20.
+* DC-3828 - Re-homologação do município de Timóteo - MG, mudança do padrão Publica para Betha.
+* DC-3828 - Re-homologação do município de Rio Brilhante - MS, mudança do padrão ISSNETONLINE para Betha.
+* DC-3828 - Re-homologação do município de Volta Redonda - RJ, mudança do padrão ISSNETONLINE para Simpliss20.
+* DC-3828 - Homologação do município de Santa Maria do Oeste - PR, padrão Equiplano.
+* DC-3828 - Homologação do município de Miraí - MG, padrão Futurize.
+* DC-3828 - Homologação do município de Bela Vista de Goiás - GO, padrão Arrecadanet.
+* DC-3828 - Homologação do município de Vianópolis - GO, padrão Arrecadanet.
+
+**Correções**
+
+* DC-3776 - Erro ao obter impressão do PDF - Juiz de Fora/MG - Fintel.
+* DC-3830 - Remoção da tag <nfse_teste> para a cidade Guarapuava IPM (ambiente homologação)
+
+## [11.1.90.7323]
 
 **Novidades**
 
@@ -1063,6 +1083,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
