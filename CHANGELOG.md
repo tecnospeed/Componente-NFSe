@@ -1,4 +1,20 @@
-﻿## [11.1.91.7325]
+﻿## [1.1.23.7127]
+
+**Novidades**
+
+* DC-3663 - Compatibilizando o padrão ISANETO, nessa versão estará disponível a cidade de Castanhal - PA.
+  * Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/4409682413079
+* DC-3863 - Re-homologação do município de Matozinhos - MG, mudança do padrão WEBISS para Memory.
+* DC-3863 - Homologação do município de Tomé-Açu - PA padrão D2TI.
+* DC-3863 - Homologação do município de Tucumã - PA padrão Fiorilli.
+
+**Correções**
+
+* DC-3317 - Correção na Consulta de Notas Tomadas para cidade de Nova Lima / MG - Padrão ABACO.
+* DC-3676 - Alterações no RTM para a cidade de Vila Velha/ES no padrão Sil20.
+* DC-3790 - Alterações no RTM para a Guarapuava/PR padrão IPM.
+
+## [11.1.91.7325]
 
 **Novidades**
 
@@ -1099,6 +1115,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
