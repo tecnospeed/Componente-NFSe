@@ -1,4 +1,26 @@
-﻿## [11.1.91.7329]
+﻿## [1.1.23.7129]
+
+**Correções**
+
+* DC-3805 - Correções no script de cancelamento de Canoas/RS - ABACO.
+* DC-3604 - Ajuste Impressão padrão Fiorilli.
+
+**Novidades**
+
+* DC-3893 - Re-Homologação do município de Imperatriz - MA, mudança do padrão D2TI para ACTCON.
+* DC-3893 - Re-Homologação do município de Pirassununga - SP, mudança do padrão OBARATEC para IssOnline.
+* DC-3893 - Re-Homologação do município de Patos - PB, mudança do padrão PUBLICSOFT para WEBISS20.
+* DC-3893 - Re-Homologação do município de Salto Grande - SP, mudança do padrão GOVBR20 para ISSMAPAPI.
+* DC-3893 - Re-Homologação do município de Serrana - SP, mudança do padrão BETHA para FGMAISS.
+* DC-3893 - Re-Homologação do município de Bonito - MS, mudança do padrão IssNetOnLine para Fiorilli.
+* DC-3893 - Re-Homologação do município de Santa Luzia - MG, mudança do padrão WEBISS20 para SigIss20.
+* DC-3893 - Homologação do município de Macatuba - SP, padrão SistemaS4R.
+* DC-3893 - Homologação do município de Ipameri - GO, padrão Prodata.
+* DC-3893 - Homologação do município de Goiatuba - GO, padrão Prodata.
+* DC-3893 - Homologação do município de Rio Quente - GO, padrão Fiorilli.
+* DC-3893 - Homologação do município de Piracanjuba - GO, padrão Centi.
+
+## [11.1.91.7329]
 
 **Correções**
 
@@ -1137,6 +1159,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
