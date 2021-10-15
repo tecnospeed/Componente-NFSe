@@ -1,4 +1,13 @@
-﻿## [11.1.92.7337]
+﻿## [1.1.24.7130]
+
+**Correções**
+* DC-3908 - Alterações no RTM para Rio Verde/GO padrão Centi.
+
+**Novidades**
+* DC-3919 - Re-Homologação do município de Bacabal - MA, mudança do padrão Fiorilli para SigIss20.
+* DC-3843 - Disponibilizado o Envio Síncrono para o padrão São Paulo.
+
+## [11.1.92.7337]
 
 **Correções**
 * DC-3908 - Alterações no RTM para Rio Verde/GO padrão Centi.
@@ -1168,6 +1177,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
