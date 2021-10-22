@@ -1,4 +1,20 @@
-﻿## [11.1.92.7344]
+﻿## [1.1.24.7132]
+
+**Novidades**
+
+* DC-3966 - Homologação do município de Palmares - PE, padrão TRIBUTUS.
+* DC-3966 - Homologação do município de Santa Teresa - ES, padrão EL.
+* DC-3966 - Re-Homologação do município de Cascavel - PR, mudança do padrão IPM para Novo IPM.
+* DC-3978 - Re-Homologação do município de Luiz Alves - SC, mudança do padrão Betha para Novo IPM.
+* DC-3978 - Re-Homologação do município de Teixeira de Freitas - BA, mudança do padrão EL para Freire.
+* DC-3978 - Re-Homologação do município de Altamira - PA, mudança do padrão Bauhaus para Desenvolve.
+
+**Correções**
+
+* DC-3975 - Correção no converter para o retorno de envio síncrono em lote, para a cidade São Paulo;
+* DC-3907 - Ajuste campo TipoDocumento do padrão CECAM
+
+## [11.1.92.7344]
 
 **Novidades**
 
@@ -1194,6 +1210,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
