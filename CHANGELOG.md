@@ -1,4 +1,10 @@
-﻿## [1.1.24.7132]
+﻿## [1.1.24.7134]
+
+**Novidades**
+
+* DC-3986 - Disponibilizado número do protocolo no retorno do envio síncrono para São Paulo.
+
+## [1.1.24.7132]
 
 **Novidades**
 
@@ -1210,6 +1216,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
