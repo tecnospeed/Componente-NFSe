@@ -1,4 +1,38 @@
-﻿## [1.1.24.7134]
+﻿## [11.1.92.7346]
+
+**Correções**
+
+* 296585	Ajuste de Impressão padrão DSF
+* 292746	Ajuste de Impressão padrão DSF
+* 286457	Ajuste de Impressão padrão Cotia
+* 287013	Ajuste de Impressão padrão Betha 20
+* 283143	Ajuste de Impressão padrão EL20
+* 267834	Ajuste de Impressão padrão Curitiba
+* 291906	Ajuste de Impressão padrão Fintel
+* 254298	Campo customizado padrão Coplan
+* 274159	Campo customizado padrão Actcon
+* 299520	Ajuste de Impressão padrão EL
+* 299339	Ajuste de Impressão padrão IPM
+* 298865	Ajuste de Impressão padrão Ginfes
+* 298145	Ajuste de Impressão padrão Tinus
+* 293883	Ajuste de Impressão padrão Saojosedoscampos
+* 296233	Ajuste de Impressão padrão Manaus
+* 298255	Ajuste de Impressão padrão AstenNfSe
+* 267499	Ajuste de link impressão padrão Fintel
+* 279889	Bloquear o envio com caracteres especiais padrão WebIss
+* 266740	Correção da descrição da atividade padrão Tribus
+* 292133	Tratativa caractere especial padrão Salvador
+* 291184	Permitir informar texto no campo CpfCnpjTomador padrão Conan
+
+**Novidades**
+
+* DC-4012 - Re-Homologação do município de Aral Moreira - MS, mudança do padrão Betha para Fiorilli.
+* DC-4012 - Re-Homologação do município de Aparecida - PB, mudança do padrão Elmar para PublicSoft.
+* DC-4012 - Re-Homologação do município de Barra do Corda - MA, mudança do padrão Intersol para Fiorilli.
+* DC-4012 - Re-Homologação do município de Bayeux - PB, mudança do padrão Elmar para PublicSoft.
+* DC-4012 - Re-Homologação do município de Bela Vista da Caroba - PR, mudança do padrão Betha para Publica.
+
+## [1.1.24.7134]
 
 **Novidades**
 
@@ -1216,6 +1250,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
