@@ -1,4 +1,15 @@
-﻿## [11.1.93.7350]
+﻿## [1.1.25.7140]
+
+**Correções**
+
+* DC-3916 - Ajuste impressão padrão AEG.
+* DC-3983 - XML de multiserviços não esta sendo gerado corretamente - Aracruz ES padrão EL
+
+**Novidades**
+
+* DC-3977 - Compatibilizado Delphi 11.0 Alexandria no componente NFSe.
+
+## [11.1.93.7350]
 
 **Correções**
 
@@ -1295,6 +1306,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
