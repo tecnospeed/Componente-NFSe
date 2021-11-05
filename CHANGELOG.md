@@ -1,4 +1,21 @@
-﻿## [11.1.93.7352]
+﻿## [1.1.25.7142]
+
+**Correções**
+
+* DC-3973 - Inclusão de situação tributária por serviço - TresPontas MG Padrão IPM
+* DC-4036 - Correção dos campos quantidade e valor de serviço Caçador/SC padrão Publica
+
+**Novidades**
+
+* DC-4052 - Re-Homologação do município de Alto Garças - MT, mudança do padrão Betha para Coplan.
+* DC-4052 - Re-Homologação do município de São José dos Quatro Marcos - MT, mudança do padrão Saturno para Fiorilli.
+* DC-4052 - Re-Homologação do município de Magé - RJ, mudança do padrão Betha para ModPublica.
+* DC-4052 - Re-Homologação do município de Lagoa Santa - MG, mudança do padrão Ginfes para GovDigital.
+* DC-4052 - Re-Homologação do município de Itaúna - MG, mudança do padrão Betha para IssNetOnLine.
+* DC-1253 - Implementando padrão NFOnline para São Miguel dos Campos/AL e Coruripe/AL.
+* DC-4036 - Implementado impressão via link para Caçador/SC
+
+## [11.1.93.7352]
 
 **Correções**
 
@@ -1323,6 +1340,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
