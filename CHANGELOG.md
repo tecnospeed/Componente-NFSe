@@ -1,4 +1,21 @@
-﻿## [11.1.94.7356]
+﻿## [1.1.26.7143]
+
+**Novidades**
+
+* DC-4064 - Re-Homologação do município de Camanducaia - MG, mudança do padrão WEBISS para Fiorilli.
+* DC-4064 - Re-Homologação do município de Jaboticatuba - MG, mudança do padrão WEBISS para EL.
+* DC-4064 - Homologação do município de Vazante - MG, padrão Memory.
+* DC-4064 - Homologação do município de Araputanga - MT, padrão Saturno.
+* DC-4099 - Re-Homologação do município de Garopaba - SC, mudança do padrão Betha para Novo IPM.
+* DC-4099 - Re-Homologação do município de Edealina - GO, mudança do padrão WEBISS20 para ArrecadaNet.
+* DC-4099 - Homologação do município de Guapiaçu - SP, padrão Fiorilli.
+* DC-4099 - Homologação do município de Lajes - RN, padrão TinusUP.
+
+**Correções**
+* DC-4045 - Impressão dados Tomador Estrangeiro RPS - São José do Rio Preto - Padrão GINFES.
+* DC-4043 - Correção na impressão da NFSe para cidade de Belém/PA - padrão DSF.
+
+## [11.1.94.7356]
 
 **Novidades**
 
@@ -1357,6 +1374,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
