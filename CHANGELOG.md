@@ -1,4 +1,16 @@
-﻿## [1.1.26.7143]
+﻿## [11.1.94.7359]
+
+**Novidades**
+
+* DC-4128 - Homologação do município de Ribas do Rio Pardo - MS, padrão Fiorilli.
+* DC-4128 - Re-Homologação do município de Jaraguá - GO, mudança do padrão Arrecadanet para Centi.
+* DC-4128 - Re-Homologação do município de Silva Jardim - RJ, mudança do padrão Webiss para GovBR20.
+
+**Correção**
+
+* DC-4082 - Ajuste impressão Maceió, padrão Ginfes.
+
+## [1.1.26.7143]
 
 **Novidades**
 
@@ -1374,6 +1386,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
