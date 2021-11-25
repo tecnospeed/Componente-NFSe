@@ -1,4 +1,14 @@
-﻿## [11.1.94.7365]
+﻿## [1.1.26.7147]
+
+**Novidades**
+
+* DC-4149 - Re-Homologação do município de Pinhais - PR, mudança do padrão IPM para Novo IPM.
+* DC-4149 - Re-Homologação do município de Crissiumal - RS, mudança do padrão Betha para GovBr20.
+* DC-4149 - Re-Homologação do município de Serra Alta - SC, mudança do padrão Betha para Novo IPM.
+* DC-4149 - Re-Homologação do município de Presidente Bernardes - SP, mudança do padrão Simpliss para GovBr20.
+* DC-3917 - Disponibilizado o método GetVencimentoCertificado
+
+## [11.1.94.7365]
 
 **Novidades**
 
@@ -1415,6 +1425,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
