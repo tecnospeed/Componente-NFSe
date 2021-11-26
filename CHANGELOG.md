@@ -1,4 +1,8 @@
-﻿## [11.1.95.7366]
+﻿## [1.1.27.7148]
+
+* Corre&ccedil;&otilde;es e melhorias diversos.
+
+## [11.1.95.7366]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -1429,6 +1433,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
