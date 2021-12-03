@@ -1,4 +1,20 @@
-﻿## [11.1.95.7371]
+﻿## [1.1.27.7150]
+
+**Novidades**
+* DC-4163 - Re-Homologação do município de Araçoitaba da Serra SP, mudança do padrão Fiorilli para Embrás.
+* DC-4163 - Homologação do município de São Roque do Canaã ES, padrão EL
+* DC-4163 - Re-Homologação do município de Miranda MG, mudança do padrão AEG para Fiorilli.
+* DC-4184 - Homologação do município de Fontoura Xavier - RS, padrão Betha.
+* DC-4184 - Homologação do município de Tio Hugo - RS, padrão Sim.
+* DC-4184 - Homologação do município de Anta Gorda - RS, padrão TECNOSISTEMAS.
+* DC-4184 - Homologação do município de Santana do Paraíso - MG, padrão Actcon.
+
+**Correção**
+* DC-4123 - Ajuste alíquota para cidade de Nova Lima MG, padrão Abaco.
+* DC-4096 - Ajuste na impressão de Florianópolis/SC, padrão Softplan.
+* DC-4160 - Ajuste nos arquivos LoadRetEnvio e LoadRetConsNFSe para Garibaldi - INFISC
+
+## [11.1.95.7371]
 
 **Novidades**
 * DC-4163 - Re-Homologação do município de Araçoitaba da Serra SP, mudança do padrão Fiorilli para Embrás.
@@ -1449,6 +1465,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
