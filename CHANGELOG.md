@@ -1,4 +1,18 @@
-﻿## [1.1.27.7150]
+﻿## [11.1.96.7377]
+
+**Correções**
+
+* DC-3442 - Corrigido comunicação com WebService de Foz do Iguaçu-PR.
+* DC-4204 - Correção para erro de certificado inválido no WebService de João Pessoa.
+* DC-4102 - Ajustes nos arquivos NFSeLocais.ini, CidadesHomologadas.xml e documentação.
+
+**Novidades**
+
+* DC-3849 - Compatibilizado o padrão BARUERISP, nessa versão estará disponível a cidade de Barueri - SP.
+  * Para mais informações acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/4414530150295
+
+
+## [1.1.27.7150]
 
 **Novidades**
 * DC-4163 - Re-Homologação do município de Araçoitaba da Serra SP, mudança do padrão Fiorilli para Embrás.
@@ -1465,6 +1479,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
