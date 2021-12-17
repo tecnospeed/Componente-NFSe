@@ -1,4 +1,17 @@
-﻿## [1.1.28.7156]
+﻿## [11.1.96.7383]
+
+**Correção**
+
+* DC-4195 - Correção no retorno do envio e no retorno da consulta de NFSe, para o padrão Bauru.
+* DC-4261 - Correção na comunicação com o Web Service para as cidades do padrão AGILI.
+
+**Novidades**
+
+* DC-4242 - Homologação do município de Bom Jesus de Goiás - GO, padrão Prodata.
+* DC-4242 - Re-Homologação do município de Luís Eduardo Magalhães - BA, mudança do padrão Webiss para SAATRI.
+* DC-4242 - Re-Homologação do município de Codó - MA, mudança do padrão Fiorilli para Actcon.
+
+## [1.1.28.7156]
 
 **Correções**
 
@@ -1492,6 +1505,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
