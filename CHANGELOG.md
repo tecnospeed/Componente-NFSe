@@ -1,4 +1,8 @@
-﻿## [1.1.28.7157]
+﻿## [11.1.96.7384]
+
+* Corre&ccedil;&otilde;es e melhorias diversos.
+
+## [1.1.28.7157]
 
 **Correção**
 
@@ -1518,6 +1522,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
