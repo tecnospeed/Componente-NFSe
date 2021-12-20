@@ -1,9 +1,5 @@
 ﻿## [11.1.96.7384]
 
-* Corre&ccedil;&otilde;es e melhorias diversos.
-
-## [1.1.28.7157]
-
 **Correção**
 
 * DC-4195 - Correção no retorno do envio e no retorno da consulta de NFSe, para o padrão Bauru.
@@ -15,7 +11,7 @@
 * DC-4242 - Re-Homologação do município de Luís Eduardo Magalhães - BA, mudança do padrão Webiss para SAATRI.
 * DC-4242 - Re-Homologação do município de Codó - MA, mudança do padrão Fiorilli para Actcon.
 
-## [11.1.96.7383]
+## [1.1.28.7157]
 
 **Correção**
 
