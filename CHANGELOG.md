@@ -1,4 +1,15 @@
-﻿## [11.1.96.7384]
+﻿## [11.1.97.7390]
+
+**Novidades**
+
+* DC-4275 - Re-Homologação do município de Macapá - AP, mudança do padrão DSF20 para GovBR20.
+* DC-4281 - Re-Homologação do município de Bauru - SP, mudança do padrão Bauru para SIL20.
+
+**Correções**
+* DC-4239 - ERRO MEMORY LEAK - PREFEITURA PARAUAPEBAS - PA padrão Desenvolve
+* DC-4117 - Falha na quebra de linha - cidade Imperatriz MA padrão ACTCON
+
+## [11.1.96.7384]
 
 **Correção**
 
@@ -1518,6 +1529,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
