@@ -10,6 +10,6 @@ Assim, você fica livre para se dedicar aos requisitos mais importantes do seu s
 
 ***
 
-**Para baixar a versão Trial, [clique aqui](https://s3-sa-east-1.amazonaws.com/tecnospeed-trial/setup_nfse_tecnoaccount_11.1.96.7384.exe "Baixar o Componente NFSe Trial")**.
+**Para baixar a versão Trial, [clique aqui](https://s3-sa-east-1.amazonaws.com/tecnospeed-trial/setup_nfse_tecnoaccount_11.1.97.7390.exe "Baixar o Componente NFSe Trial")**.
 
 **Para ver uma lista com o histórico de mudanças, [clique aqui](https://github.com/tecnospeed/Componente-NFSe/blob/master/CHANGELOG.md "Changelog").**
