@@ -1,4 +1,16 @@
-﻿## [11.1.97.7395]
+﻿## [1.1.29.7165]
+
+**Novidades**
+
+* DC-4169 - Adaptar Chapecó para emissões com múltiplos serviços - PUBLICA
+
+**Correções**
+
+* DC-4211 - Correção no retorno da consulta de lote para o padrão THEMA.
+* DC-4276 - Correção no valor de Iss quando for múltiplos serviços para o padrão EddyData.
+* DC-4304 - Correção na impressão da NFSe Autorizada/Cancelada do padrão ISSLEGAL.
+
+## [11.1.97.7395]
 
 **Novidades**
 
@@ -1554,6 +1566,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
