@@ -1,4 +1,10 @@
-﻿## [11.1.98.7400]
+﻿## [1.1.30.7166]
+
+**Correções**
+
+* DC-4319 - Correção na impressão de nota com valor de milhar - Guarapuava PR - IPM20
+
+## [11.1.98.7400]
 
 **Correções**
 
@@ -1572,6 +1578,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
