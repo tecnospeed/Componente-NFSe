@@ -1,4 +1,25 @@
-﻿## [11.1.98.7405]
+﻿## [1.1.30.7172]
+
+**Correção**
+
+* DC-4199 - Ajuste campo Data Emissão do xml de retorno da Consulta de Tomadas, padrão Betha.
+* DC-4338 - Re-Homologação do município de Cândido Mota - SP, mudança do padrão GovBr20 para FIORILLI.
+* DC-4338 - Re-Homologação do município de Formosa - GO, mudança do padrão Prodata para Centi.
+* DC-4338 - Re-Homologação do município de Presidente Castelo Branco - PR, mudança do padrão Betha para Equiplano.
+* DC-4338 - Homologação do município de Alumínio - SP, padrão SIL.
+* DC-4338 - Homologação do município de Tupaciguara - MG, padrão Governa.
+* DC-4338 - Re-Homologação do município de Serrinha - BA, mudança do padrão EL para Ginfes.
+* DC-4370 - Homologação do município de São José do Cedro - SC, padrão IPM.
+* DC-4370 - Homologação do município de Pirapora do Bom Jesus - SP, padrão Simpliss.
+* DC-4370 - Re-Homologação do município de Caraguatatuba - SP, mudança do padrão EL para SigIss20.
+* DC-4370 - Re-Homologação do município de Vitória da Conquista - BA, mudança do padrão WEBISS para EL20.
+* DC-4289 - Correção na impressão do padrão INFISC.
+
+**Novidades**
+
+* DC-4289 - Disponibilizado impresssão via link para o padrão INFISC.
+
+## [11.1.98.7405]
 
 **Correção**
 
@@ -1615,6 +1636,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
