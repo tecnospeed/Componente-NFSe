@@ -1,4 +1,17 @@
-﻿## [11.1.99.7409]
+﻿## [1.1.31.7173]
+
+**Plugin NFSe Correções**
+
+* DC-4277 - Ajuste do tratamento do retorno da emissão assíncrono para Maceió - GINFES.
+* DC-4307 - Aumento na tag "texto" para 3200 caracteres para o padrão Saturno.
+
+**Novidades**
+
+* DC-4394 - Re-Homologação do município de Ponta Porã - MS, mudança do padrão AEG para Fiorilli.
+* DC-4394 - Re-Homologação do município de Araçoiaba da Serra - SP, mudança do padrão Embras para Fiorilli.
+* DC-4244 - Homologação do Padrão CittaWeb para a cidade de Nicolau Vergueiro RS.
+
+## [11.1.99.7409]
 
 **Plugin NFSe Correções**
 
@@ -1649,6 +1662,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
