@@ -1,4 +1,26 @@
-﻿## [1.1.31.7173]
+﻿## [11.1.99.7411]
+
+**Plugin NFSe Correções**
+
+* DC-4164 - Ajuste no campo `ValorISS` para ir zerado quando não for exigível - Florianópolis/SC Padrão Softplan
+* DC-4342 - Ajuste no loadEnvio para resolver o problema de tamanho do arquivo -
+Santana de Parnaíba/SP Padrão NFEletronica
+* DC-4389 - Ajustes no cancelamento e consulta em Cabo de Santo Agostinho PE - Padrão Tinus
+
+**Novidades**
+
+* DC-4415 - Re-Homologação do município de Maricá - RJ, mudança do padrão Ginfes para DBSELLER.
+* DC-4415 - Homologação do município de Porto Rico - PR, padrão MaisIss20.
+* DC-4415 - Re-Homologação do município de São Carlos - SP, mudança do padrão Ginfes para Cotia.
+* DC-4415 - Re-Homologação do município de Senhor do Bonfim - BA, mudança do padrão Freire para Webiss20.
+* DC-4415 - Re-Homologação do município de Itaberaí - GO, mudança do padrão Arrecadanet para Centi.
+* DC-4415 - Re-Homologação do município de Jaguaquara - BA, mudança do padrão Betha para SAATRI.
+* DC-4415 - Re-Homologação do município de Carmo do Rio Claro - MG, mudança do padrão Betha para FIORILLI.
+* DC-4415 - Re-Homologação do município de Irecê - BA, mudança do padrão Fisco20 para SAATRI.
+* DC-4415 - Re-Homologação do município de Itajubá - MG, mudança do padrão Ginfes para GovDigital.
+* DC-4415 - Re-Homologação do município de Irani - SC, mudança do padrão Betha para Publica.
+
+## [1.1.31.7173]
 
 **Plugin NFSe Correções**
 
@@ -1662,6 +1684,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
