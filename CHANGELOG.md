@@ -1,4 +1,18 @@
-﻿## [1.1.32.7178]
+﻿## [11.1.100.7416]
+
+**Plugin NFSe Correções**
+
+* DC-4447 - Alteração do layout de emissão - Novo Progresso - PA padrão AGILI.
+* DC-4404 - Impressão - Acentuação com caractere especial PDF - Araras/SP - SigIssWeb
+
+**Novidades**
+
+* DC-4457 - Re-Homologação do município de Lucas do Rio Verde - MT, mudança do padrão FissLex para Betha.
+* DC-4457 - Homologação do município de Parelhas - RN, padrão Tinus.
+* DC-4457 - Homologação do município de Conceição de Macabu - RJ, padrão SH3.
+* DC-4457 - Homologação do município de Mãe do Rio - PA, padrão ISSIntel.
+
+## [1.1.32.7178]
 
 **Plugin NFSe Correções**
 
@@ -1728,6 +1742,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
