@@ -1,4 +1,21 @@
-﻿## [11.1.100.7421]
+﻿## [1.1.32.7182]
+
+**Plugin NFSe Novidades**
+* DC-4136 - Disponibilizar cancelamento para Pedro Leopoldo - MG padrão GOVDIGITAL
+* DC-4481 - Rehomologação do município de Esmeraldas - MG, mudança do padrão Memory para Fiorilli.
+* DC-4481 - Rehomologação do município de Campo Limpo Paulista - SP, mudança do padrão GovBR20 para GeisWeb20.
+* DC-4481 - Homologação do município de Campina do Monte Alegre - SP, padrão SistemaS4R.
+* DC-4481 - Rehomologação do município de Coronel Sapucaia - MS, mudança do padrão Betha para Fiorilli.
+* DC-4481 - Rehomologação do município de Bom Jesus de Goiás - GO, mudança do padrão Prodata para IssWeb.
+* DC-4481 - Rehomologação do município de Grajau - MA, mudança do padrão Intersol para FissLex.
+* DC-4481 - Rehomologação do município de Santa Bárbara - MG, mudança do padrão Simpliss20 para GovBR20.
+
+**Plugin NFSe Correções**
+
+* DC-4465 - Correção na impressão da retenção em Varginha - MG padrão CONAM
+* DC-4464 - Corrigido a formatação de moeda americana na impressão de Curitiba - PR padrão Curitiba
+
+## [11.1.100.7421]
 
 **Plugin NFSe Novidades**
 * DC-4136 - Disponibilizar cancelamento para Pedro Leopoldo - MG padrão GOVDIGITAL
@@ -1759,6 +1776,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
