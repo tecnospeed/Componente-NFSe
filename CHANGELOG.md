@@ -1,4 +1,20 @@
-﻿## [1.1.32.7182]
+﻿## [1.1.33.7186]
+
+**Novidades**
+* DC-4177 - Implementação do padrão ETICONS para Cajazeiras - PB.
+* DC-4509 - Rehomologação do município de Santa Cruz do Capibaribe - PE, mudança do padrão TributusUP para Tinus.
+* DC-4509 - Rehomologação do município de Casimiro de Abreu - RJ, mudança do padrão Betha para IssNetOnLine.
+* DC-4509 - Rehomologação do município de Rosana - SP, mudança do padrão GovBR para Fiorilli.
+* DC-4509 - Rehomologação do município de São Sebastião - SP, mudança do padrão IIBrasil para Ginfes.
+
+**Correções**
+
+* DC-4480 - Corrigido problema de esquema xml na consulta de notas tomadas para o padrão COPLAN.
+* DC-4480 - Corrigido problema "Access violation at address" ao realizar consulta de notas tomadas para algumas cidades.
+* DC-4361 - Corrigido problema ao obter a chave de cancelamento nas consultas de lote e nas consultas de NFSe.
+* DC-4344 - Erro ao imprimir NFS-e em CajamarSP padrão GeisWeb20
+
+## [1.1.32.7182]
 
 **Plugin NFSe Novidades**
 * DC-4136 - Disponibilizar cancelamento para Pedro Leopoldo - MG padrão GOVDIGITAL
@@ -1776,6 +1792,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
