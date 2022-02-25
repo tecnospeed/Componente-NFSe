@@ -1,10 +1,10 @@
 object frmExemplo: TfrmExemplo
   Left = 481
   Top = 118
+  Width = 634
+  Height = 686
   HorzScrollBar.Visible = False
   VertScrollBar.Visible = False
-  ClientHeight = 647
-  ClientWidth = 618
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -21,7 +21,7 @@ object frmExemplo: TfrmExemplo
     Top = 258
     Width = 618
     Height = 389
-    ActivePage = tsXML
+    ActivePage = tsFormatado
     Align = alClient
     BiDiMode = bdLeftToRight
     Font.Charset = DEFAULT_CHARSET
@@ -113,6 +113,7 @@ object frmExemplo: TfrmExemplo
         Top = 2
         Width = 614
         Height = 369
+        Alignment = taRightJustify
         Anchors = [akLeft, akTop, akRight, akBottom]
         Font.Charset = DEFAULT_CHARSET
         Font.Color = clBlue
@@ -122,7 +123,6 @@ object frmExemplo: TfrmExemplo
         ParentFont = False
         ScrollBars = ssBoth
         TabOrder = 0
-        WordWrap = False
         OnKeyDown = mmTipadoKeyDown
       end
     end
@@ -132,7 +132,7 @@ object frmExemplo: TfrmExemplo
     Top = 0
     Width = 618
     Height = 258
-    ActivePage = tsConfiguraImpressao
+    ActivePage = tsCidadesHomologadas
     Align = alTop
     TabOrder = 1
     object tsNFSe: TTabSheet
@@ -246,6 +246,7 @@ object frmExemplo: TfrmExemplo
           Width = 403
           Height = 21
           DropDownCount = 10
+          ItemHeight = 0
           TabOrder = 5
           OnDropDown = cbListaCertificadosDropDown
         end
@@ -685,6 +686,8 @@ object frmExemplo: TfrmExemplo
     DiagnosticMode = True
     ConexaoSegura = True
     DiretorioXmlImpressao = 'XmlImpressao\'
+    DelimitadorDoCampoCSV = ';'
+    DelimitadorDaLinhaCSV = #13#10
     Left = 525
     Top = 5
   end

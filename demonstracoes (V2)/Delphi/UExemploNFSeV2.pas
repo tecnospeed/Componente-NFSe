@@ -1,4 +1,4 @@
-﻿unit uExemploNFSeV2;
+unit uExemploNFSeV2;
 
 
 interface
@@ -260,6 +260,7 @@ begin
   NFSe.OnLog := OnLog;
   edtCidade.Text := NFSe.Cidade;
   edtCNPJ.Text := NFSe.CNPJ;
+//  edtTokenSoftwareHouse.Text := NFSe.TOKENSH;
   edtInscMunicipal.Text := NFSe.InscricaoMunicipal;
   cbListaCertificados.Text := NFSe.NomeCertificado.Text;
   lblAmbiente.Visible := (NFSe.Ambiente = akProducao);
@@ -268,6 +269,7 @@ end;
 procedure TfrmExemplo.btnEnviarRPSClick(Sender: TObject);
 begin
   CheckConfig;
+  mmTipado.Clear;
   if (NFSe.Ambiente = akProducao) and (Application.MessageBox('O componente está configurado ' + 'para enviar em ambiente de produção, deseja continuar?', 'Atenção!', MB_YESNO + MB_ICONWARNING) = IDNO) then
     exit;
   if OpnDlgTx2.Execute then
@@ -275,6 +277,7 @@ begin
     NFSe.Enviar(OpnDlgTx2.FileName);
     getRetornoV2Tipado;
     getRetornoV2Json;
+    pcMensagens.TabIndex := 3;
   end;
 end;
 
@@ -323,7 +326,7 @@ begin
   pcDados.TabIndex := 0;
   edtLogoEmitente.Text := ExtractFilePath(Application.ExeName) + '\LogoEmit.jpg';
   edtCNPJSoftwareHouse.Text := '08187168000160';
-  edtTokenSoftwareHouse.Text := '';
+  edtTokenSoftwareHouse.Text := '000000000000000';
 end;
 
 procedure TfrmExemplo.EnviarEmail;
@@ -519,6 +522,7 @@ end;
 procedure TfrmExemplo.btnListarCidadesClick(Sender: TObject);
 begin
   mmXMLEnvio.Text := NFSe.ConsultarCidadesHomologadas;
+  pcMensagens.TabIndex := 0;  
 end;
 
 end.
