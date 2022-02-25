@@ -1,4 +1,24 @@
-﻿## [11.1.101.7434]
+﻿## [1.1.33.7190]
+
+**Correções**
+
+* DC-4508 - Correção na Consulta de NFSe para Pedregulho - SP padrão EddyData.
+* DC-4498 - Correção na Consulta de NFSe e Consulta de NFSe Por RPS para Porto Alegre -SP padrão Belohorizonte.
+
+**Novidades**
+
+* DC-4529 - Rehomologação do município de Apucarana - PR, mudança do padrão GovBR20 para IPM.
+* DC-4529 - Rehomologação do município de Bom Despacho - MG, mudança do padrão IPM para IPM20.
+* DC-4529 - Rehomologação do município de Treze Tílias - SC, mudança do padrão BETHA para IPM20.
+* DC-4529 - Rehomologação do município de Planaltina - GO, mudança do padrão Centi para IssWeb.
+* DC-4529 - Rehomologação do município de Conselheiro Lafaiete - MG, mudança do padrão IssDigital20 para Betha.
+* DC-4529 - Homologação do município de Guabiruba - SC, padrão IPM.
+* DC-4529 - Homologação do município de Aparecida - SP, padrão SIL20.
+* DC-3913 - Compatibilizado o padrão BauhausWS, nessa versão estará disponível a cidade de Redenção - PA.
+  * Para mais informações acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/4422754163991
+
+
+## [11.1.101.7434]
 
 **Correções**
 
@@ -1826,6 +1846,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
