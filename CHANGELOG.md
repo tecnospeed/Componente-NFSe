@@ -1,4 +1,16 @@
-﻿## [11.1.102.7437]
+﻿## [1.1.34.7191]
+
+**Novidades**
+
+* DC-4573 - Rehomologação do município de Taquari - RS, mudança do padrão DBSELLER para SIM.
+* DC-4573 - Rehomologação do município de São José de Ribamar - MA, mudança do padrão Tinus para BauhausWS.
+* DC-4573 - Rehomologação do município de Tubarão - SC, mudança do padrão Bauhaus para BauhausWS.
+* DC-4573 - Rehomologação do município de Balneário Camboriú - SC, mudança do padrão Simpliss para Publica.
+* DC-4573 - Rehomologação do município de Ipatinga - MG, mudança do padrão Actcon para Sigiss20.
+* DC-4267 - Retirar obrigatoriedade do certificado para Aguas Lindas de Goias/PRODATA
+* DC-4340 - Preenchimento da TAG endereco_informado para **1** - Três Pontas - MG/IPM
+
+## [11.1.102.7437]
 
 **Novidades**
 
@@ -1858,6 +1870,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
