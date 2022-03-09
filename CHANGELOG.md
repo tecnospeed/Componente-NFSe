@@ -1,4 +1,11 @@
-﻿## [1.1.34.7191]
+﻿## [11.1.102.7439]
+
+**Correções**
+
+* DC-4590 - Correção na impressão de NFSe para a cidade de Caxias do Sul - RS, para o padrão INFISC.
+* DC-4551 - Apresentando a mensagem de cancelamento indisponível para cidade de Salvador.
+
+## [1.1.34.7191]
 
 **Novidades**
 
@@ -1870,6 +1877,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
