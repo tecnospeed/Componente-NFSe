@@ -1,4 +1,13 @@
-﻿## [11.1.102.7442]
+﻿## [1.1.34.7195]
+
+**Novidades**
+
+* DC-4609 - Homologação do município de Arroio do Tigre - RS, padrão IPM20.
+* DC-4609 - Homologação do município de Presidente Lucena - RS, padrão TECNOSISTEMAS.
+* DC-4609 - Rehomologação do município de Senador Canedo - GO, mudança do padrão IssWeb para Fiorilli.
+* DC-4609 - Rehomologação do município de Águas Lindas de Goiás - GO, mudança do padrão Prodata para Ginfes.
+
+## [11.1.102.7442]
 
 **Novidades**
 
@@ -1893,6 +1902,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
