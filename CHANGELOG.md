@@ -1,4 +1,19 @@
-﻿## [1.1.34.7196]
+﻿## [1.1.35.7197]
+
+**Novidades**
+
+* DC-4640 - Rehomologação do município de Marituba - PA, mudança do padrão Bauhaus para Actcon.
+* DC-4640 - Rehomologação do município de Bombinhas - SC, mudança do padrão Betha para IPM20.
+* DC-4640 - Rehomologação do município de São Sebastião - SP, mudança do padrão Ginfes para IIBrasil.
+* DC-4640 - Rehomologação do município de Sapucaia - RJ, mudança do padrão WebISS20 para Betha.
+* DC-4640 - Rehomologação do município de Palhoça - SC, mudança do padrão IPM para IPM20.
+* DC-4640 - Homologação do município de Capão Bonito - SP, padrão Sistemas4R.
+* DC-4640 - Homologação do município de Miracema - RJ, padrão GovBR20.
+* DC-4640 - Homologação do município de Espumoso - RS, padrão SIM.
+* DC-3914 - Compatibilizado o padrão IPM20, nessa versão estará disponível a cidade de Guarapuava-PR.
+  * Para mais informações acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/4816664198807
+
+## [1.1.34.7196]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -1910,6 +1925,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
