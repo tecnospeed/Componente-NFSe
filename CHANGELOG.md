@@ -1,4 +1,20 @@
-﻿## [11.1.103.7446]
+﻿## [1.1.35.7200]
+
+**Plugin NFSe Correção**
+
+* DC-4611 - Ajuste e correção rtm de Guarapuava, padrão IPM.
+* DC-4642 - Ajuste no Converter para ler o retorno da nota - Munícipio - Espigão do Oeste RO - padrão Fiorilli.
+
+**Novidades**
+
+* DC-4641 - Rehomologação do município de Januária - MG, mudança do padrão Publica para Sintese.
+* DC-4641 - Rehomologação do município de Penha - SC, mudança do padrão Betha para IPM20.
+* DC-4641 - Rehomologação do município de Paranatinga - MT, mudança do padrão IssNetOnLine para MaisISS20.
+* DC-4641 - Rehomologação do município de Itá - SC, mudança do padrão Betha para IPM20.
+* DC-4641 - Homologação do município de Japaratinga - AL, padrão Agili.
+* DC-4641 - Homologação do município de Pinheiro Preto - SC, padrão Publica.
+
+## [11.1.103.7446]
 
 **Novidades**
 
@@ -1940,6 +1956,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
