@@ -1,4 +1,20 @@
-﻿## [11.1.103.7452]
+﻿## [1.1.36.7202]
+
+**Novidades**
+
+* DC-4538 - Adicionado campo ObservacoesNotasTomadas no xml da consulta de cidades homologadas.
+* DC-4684 - Rehomologação do município de Sorocaba - SP, mudança do padrão DSF para DSF20.
+* DC-4684 - Rehomologação do município de Petrópolis - RJ, mudança do padrão SigIss para BauhausWS.
+* DC-4684 - Rehomologação do município de Nerópolis - GO, mudança do padrão Centi para IssWeb.
+* DC-4684 - Homologação do município de Cascavel - CE, padrão Intersol.
+* DC-4684 - Homologação do município de Vargem - SP, padrão Prescon.
+* DC-4684 - Homologação do município de Carapebus - RJ, padrão SH3.
+
+**Correções**
+
+* DC-4637 - Correção na regra de retenção de iss para o padrão DEISS.
+
+## [11.1.103.7452]
 
 **Plugin NFSe Correção**
 
@@ -1972,6 +1988,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
