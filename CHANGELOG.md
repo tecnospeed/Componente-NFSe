@@ -1,4 +1,22 @@
-﻿## [11.1.104.7457]
+﻿## [1.1.36.7203]
+
+**Novidades**
+
+* DC-4531 - Implementação do padrão SIGISSUP para Caraguatatuba SP.
+* DC-4728 - Rehomologação do município de São Lourenço do Oeste - SC, mudança do padrão Betha20 para Betha.
+* DC-4728 - Rehomologação do município de Ourinhos - SP, mudança do padrão SIL para Smarapd.
+* DC-4728 - Rehomologação do município de Morro da Fumaça - SC, mudança do padrão Betha para IPM20.
+* DC-4728 - Homologação do município de Ibimirim - PE, padrão TresTecnosUP.
+* DC-4728 - Homologação do município de Ressaquinha - MG, padrão SH3.
+* DC-4728 - Homologação do município de Itaúba - MT, padrão Ágili.
+* DC-4728 - Homologação do município de Sumé - PB, padrão DATAPUBLIC.
+
+**Correções**
+
+* DC-4578 - Componente NFS-e - Log salvo com codificação incorreta em VinhedoSP - Padrão Prescon.
+* DC-4616 - Ajuste LoadEnvio e impressão Barueri-SP padrão BarueriSPWS.
+
+## [11.1.104.7457]
 
 **Correções**
 
@@ -2003,6 +2021,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
