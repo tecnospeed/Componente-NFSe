@@ -1,4 +1,21 @@
-﻿## [11.1.104.7461]
+﻿## [1.1.37.7204]
+
+**Correções**
+
+* DC-4591 - Correções no preenchimento dos campos no converter para Imperatriz - MG, padrão ACTCON.
+* DC-4660 - Ajuste na emissão para tomador estrangeiro para a cidade de Nova Serrana - MG, padrão SIGISS20.
+* DC-4743 - Descrição atividade - Paulo Afonso - BA padrão Ativ.
+
+**Novidades**
+* DC-4577 - Alteração para que a seção INCLUIRRPS/SALVARRPS seja obrigatória no TX2 padrão único.
+* DC-4787 - Rehomologação do município de Araranguá - SC, mudança do padrão Bauhaus para BauhausWS.
+* DC-4787 - Rehomologação do município de Cubatão - SP, mudança do padrão Prodata para SIL.
+* DC-4787 - Rehomologação do município de Nobres - MT, mudança do padrão Coplan para Agili.
+* DC-4787 - Rehomologação do município de Urupá - RO, mudança do padrão Webiss para Webiss20.
+* DC-4787 - Rehomologação do município de Trindade - GO, mudança do padrão Prodata para Centi.
+* DC-4787 - Homologação do município de Bataguassu - MS, padrão Fiorilli.
+
+## [11.1.104.7461]
 
 **Novidades**
 
@@ -2039,6 +2056,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
