@@ -1,4 +1,16 @@
-﻿## [1.1.37.7205]
+﻿## [11.1.105.7465]
+
+**Plugin NFSe Novidades**
+* DC-4237 - Ajuste rtm, serviços e Atividades - Santos
+* DC-4799 - Rehomologação do município de Eldorado do Sul - RS, mudança do padrão GovBR para GovBR20.
+* DC-4799 - Rehomologação do município de Paço do Lumiar - MA, mudança do padrão Bauhaus para BauhausWS.
+* DC-4799 - Rehomologação do município de Santo Antônio do Monte - MG, mudança do padrão Betha para IPM20.
+* DC-4799 - Rehomologação do município de Fraiburgo - SC, mudança do padrão Gnota para IPM20.
+* DC-4799 - Rehomologação do município de Santo Antônio de Padua - RJ, mudança do padrão GovBR para GovBR20.
+* DC-4799 - Homologação do município de Pitangui - MG, padrão Memory.
+* DC-4799 - Homologação do município de Florestópolis - PR, padrão MaisIss20.
+
+## [1.1.37.7205]
 
 **Plugin NFSe Novidades**
 * DC-4237 - Ajuste rtm, serviços e Atividades - Santos
@@ -2085,6 +2097,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
