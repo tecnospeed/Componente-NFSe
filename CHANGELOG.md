@@ -1,4 +1,24 @@
-﻿## [11.1.105.7465]
+﻿## [1.1.38.7207]
+
+**Correções**
+
+* SRVP4G-15 - Corrigido método AtualizarArquivos para que seja realizado a atualização dos arquivos da pasta Templates\Impressão.
+* SRVML-22 - Corrigindo Converter para o padrão Belo Horizonte.
+
+**Novidades**
+
+* DC-4810 - Rehomologação do município de Marmeleiro - PR, mudança do padrão GovBR para IPM20.
+* DC-4810 - Rehomologação do município de Bandeirantes - PR, mudança do padrão Simpliss para Betha.
+* DC-4810 - Rehomologação do município de Catanduva - SP, mudança do padrão GovBR20 para Fiorilli.
+* DC-4810 - Rehomologação do município de Morro Agudo - SP, mudança do padrão Ginfes para Fiorilli.
+* DC-4810 - Homologação do município de Cabreúva - SP, padrão Cotia.
+* DC-4810 - Homologação do município de Itapuranga - GO, padrão Centi.
+* DC-4810 - Homologação do município de Piraí - RJ, padrão Tiplan.
+* DC-4810 - Rehomologação do município de Cruzeiro - SP, mudança do padrão EmbrasUP para Embras.
+* DC-4810 - Homologação do município de Formosa do Oeste - PR, padrão GovBR20.
+* DC-4810 - Rehomologação do município de Valença - BA, mudança do padrão EL para EL20.
+
+## [11.1.105.7465]
 
 **Plugin NFSe Novidades**
 * DC-4237 - Ajuste rtm, serviços e Atividades - Santos
@@ -2097,6 +2117,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
