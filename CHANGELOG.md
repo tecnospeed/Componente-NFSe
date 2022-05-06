@@ -1,4 +1,21 @@
-﻿## [11.1.106.7468]
+﻿## [1.1.38.7211]
+
+**Novidades**
+
+* DC-4311 - Mensagem correta para a cidade de Brasília/DF
+* DC-4822 - Homologação do município de São José do Ouro - RS, padrão Sinsoft.
+* DC-4822 - Rehomologação do município de Catu - BA, mudança do padrão Saatri para TresTecnosUP.
+* DC-4822 - Rehomologação do município de Ampére - PR, mudança do padrão Webiss20 para Publica.
+* DC-4822 - Rehomologação do município de Novo Progresso - PA, mudança do padrão Agili para Fiorilli.
+* DC-4822 - Rehomologação do município de Taubaté - SP, mudança do padrão Conam para Sigiss20.
+* DC-4822 - Rehomologação do município de Barra do Corda - MA, mudança do padrão Fiorilli para FissLex.
+
+**Correções**
+
+* SRVP4G-68 - Correção no xml do retorno de consulta para o padrão ABACO.
+* SRVML-28 - Correção no link de impressão de Marília-SP padrão SIGISS.
+
+## [11.1.106.7468]
 
 **Correções**
 
@@ -2137,6 +2154,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
