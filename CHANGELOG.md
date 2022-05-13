@@ -1,4 +1,18 @@
-﻿## [11.1.106.7470]
+﻿## [1.1.39.7214]
+
+**Novidades**
+
+* DC-4846 - Rehomologação do município de Três Pontas - MG, mudança do padrão IPM para IPM20.
+* DC-4846 - Rehomologação do município de Queimados - RJ, mudança do padrão Webiss para Webiss20.
+* DC-4846 - Homologação do município de Ibiraci - MG, padrão eReceita.
+* DC-4846 - Homologação do município de Santa Maria de Jetibá - ES, padrão EL.
+* DC-4846 - Homologação do município de Muitos Capões - RS, padrão Fiorilli.
+
+**Correções**
+
+* SRVML-122 - Erro de Converter impactando na consulta ao cancelar NFS-e em Bauru-SP.
+
+## [11.1.106.7470]
 
 **Novidades**
 
@@ -2171,6 +2185,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
