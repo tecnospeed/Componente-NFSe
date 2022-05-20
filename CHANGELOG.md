@@ -1,4 +1,17 @@
-﻿## [1.1.39.7217]
+﻿## [11.1.107.7474]
+
+**Correções**
+
+* SRVML-137 - Ajuste na geração da tag ValorUnitario para Uberlândia - MG - padrão DSF.
+
+**Novidades**
+
+* DC-4858 - Rehomologação do município de Cosmópolis - SP, mudança do padrão GovBR20 para CebiUP.
+* DC-4759 - Compatibilizado o padrão ItaFacil, nessa versão estará disponível a cidade de Itaboraí-RJ.
+  * Para mais informações acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/6029609631895
+* DC-4645 - Alterado método de envio assíncrono para a cidade de Passo Fundo RS - Padrão Thema.
+
+## [1.1.39.7217]
 
 **Correções**
 
@@ -2221,6 +2234,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
