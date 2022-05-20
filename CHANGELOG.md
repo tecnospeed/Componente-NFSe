@@ -1,4 +1,18 @@
-﻿## [1.1.39.7215]
+﻿## [1.1.39.7217]
+
+**Correções**
+
+* SRVML-133 - Ajuste de status do Json ao realizar consulta de lote - CURITIBAPR.
+* SRVML-137 - Ajuste na geração da tag ValorUnitario para Uberlândia - MG - padrão DSF.
+* DC-4656 - Mudança de método de envio para Passo Fundo RS - Padrão Thema
+
+**Novidades**
+
+* DC-4858 - Rehomologação do município de Cosmópolis - SP, mudança do padrão GovBR20 para CebiUP.
+* DC-4759 - Compatibilizado o padrão ItaFacil, nessa versão estará disponível a cidade de Itaboraí-RJ.
+  * Para mais informações acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/6029609631895
+
+## [1.1.39.7215]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -2207,6 +2221,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
