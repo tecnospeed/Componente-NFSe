@@ -1,4 +1,20 @@
-﻿## [1.1.40.7220]
+﻿## [11.1.108.7477]
+
+**Plugin NFSe Correções**
+
+* DC-4876 - Correção ValorTotal para Uberlândia/MG, padrão DSF.
+* DC-4873 - Mudança da comunicação SSL de São Miguel dos Campos - AL
+* SRVML-139 - Sorocaba - Compatibilizar rtm - DSF20
+
+**Novidades**
+
+* DC-4873 - Homologação do município de Viana - MA, padrão Fiorilli.
+* DC-4873 - Homologação do município de Aripuanã - MT, padrão Agili.
+* DC-4873 - Rehomologação do município de Pindamonhangaba - SP, mudança do padrão EmbrasUP para Embras.
+* DC-4873 - Homologação do município de Campestre da Serra - RS, padrão Sinsoft.
+* DC-4873 - Rehomologação do município de Gravataí - RS, mudança do padrão IPM para IPM20.
+
+## [1.1.40.7220]
 
 **Plugin NFSe Correções**
 
@@ -2251,6 +2267,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
