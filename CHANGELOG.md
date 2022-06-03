@@ -1,4 +1,19 @@
-﻿## [1.1.40.7222]
+﻿## [11.1.108.7479]
+
+**Correções**
+
+* SRVML-159 -  Impressao - Imperatriz MA - ISS Retido
+* DC-4887 - Inclusao da assinatura no xml de Consultar NFSe por RPS para Sorocaba, padrao DSF20
+
+**Novidadaes**
+
+* DC-4891 - Rehomologação do município de São José do Rio Pardo - SP, mudança do padrão EddyData para GovDigital.
+* DC-4891 - Rehomologação do município de São Gabriel do Oeste - MS, mudança do padrão AEG para Fiorilli.
+* DC-4891 - Rehomologação do município de Itaquaquecetuba - SP, mudança do padrão Sil20 para Ginfes.
+* DC-4891 - Rehomologação do município de Itapema - SC, mudança do padrão Bauhaus para BauhausWS.
+* DC-4891 - Homologação do município de Cesário Lange - SP, padrão Sistemas4R.
+
+## [1.1.40.7222]
 
 **Correções**
 
@@ -2282,6 +2297,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
