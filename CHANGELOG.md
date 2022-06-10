@@ -1,4 +1,12 @@
-﻿## [11.1.108.7479]
+﻿## [1.1.41.7225]
+
+**Novidades**
+
+* DC-4911 - Rehomologação do município de Itapecerica da Serra - SP, mudança do padrão Conam para Cotia
+* DC-4891 - Homologação do município de Bonfinópolis - GO, padrão Arrecadanet.
+* DC-4891 - Homologação do município de Colinas - MA, padrão Actcon.
+
+## [11.1.108.7479]
 
 **Correções**
 
@@ -2297,6 +2305,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
