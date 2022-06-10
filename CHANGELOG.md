@@ -1,4 +1,16 @@
-﻿## [1.1.41.7225]
+﻿## [11.1.109.7481]
+
+**Correções**
+
+* SRVML-124 - Tratamento no LoadEnvio para ValorISS e ValorISSRetido - Cajuru/SP.
+
+**Novidades**
+
+* DC-4911 - Rehomologação do município de Itapecerica da Serra - SP, mudança do padrão Conam para Cotia
+* DC-4891 - Homologação do município de Bonfinópolis - GO, padrão Arrecadanet.
+* DC-4891 - Homologação do município de Colinas - MA, padrão Actcon.
+
+## [1.1.41.7225]
 
 **Novidades**
 
@@ -2305,6 +2317,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
