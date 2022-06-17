@@ -1,4 +1,15 @@
-﻿## [1.1.41.7227]
+﻿## [11.1.109.7483]
+
+**Novidades**
+
+* DC-4863 - Rehomologação do município de Videira - SC, mudança do padrão IPM para IPM20
+
+**Correções**
+
+* SRVML-175 - Validar e ajustar tratamento de tag situacao_tributaria - Concordia - IPM.
+* SRVML-173 - Valor líquido zerado - CASCAVEL - IPM20. 
+
+## [1.1.41.7227]
 
 **Novidades**
 
@@ -2328,6 +2339,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
