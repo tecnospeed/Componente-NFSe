@@ -1,4 +1,26 @@
-﻿## [11.1.109.7483]
+﻿## [1.1.42.7229]
+
+**Novidades**
+
+- DC-4926 - Homologação do município de Alhandra - PB, padrão ElmarWS.
+- DC-4926 - Homologação do município de Alenquer - PA, padrão IssIntel.
+- DC-4926 - Rehomologação do município de Matriz do Camaragibe - AL, mudança do padrão DBSeller para 3Tecnos.
+- DC-4926 - Rehomologação do município de Pontal do Paraná - PR, mudança do padrão MaisIss para MaisIss20.
+- DC-4926 - Rehomologação do município de Coromandel - MG, mudança do padrão Governa para EReceita.
+- DC-4926 - Rehomologação do município de Goianápolis - GO, mudança do padrão IssWeb para Arrecadanet.
+- DC-4926 - Rehomologação do município de Presidente Dutra - MA, mudança do padrão Fiorilli para D2TI.
+- DC-4926 - Rehomologação do município de Correntina - BA, mudança do padrão Saatri para Freire.
+- DC-4926 - Rehomologação do município de Ribeirão Claro - PR, mudança do padrão GovBR para MaisIss20.
+- DC-4926 - Rehomologação do município de Mirante do Paranapanema - SP, mudança do padrão  Simpliss para Betha.
+- DC-4926 - Rehomologação do município de Nova Brasilândia D'Oeste - RO, mudança do padrão Webiss para Webiss20.
+- DC-4926 - Rehomologação do município de Rio Piracicaba - MG, mudança do padrão Webiss para Webiss20.
+- DC-4926 - Rehomologação do município de Andirá - PR, mudança do padrão MaisIss para MaisIss20.
+- DC-4926 - Rehomologação do município de Itaipulândia - PR, mudança do padrão GovBR para MaisIss20.
+
+**Correção**
+- DC-4943 - Retirado a obrigatoriedade do tomador na consulta de tomadas para os padrões GINFES e BELOHORIZONTE
+
+## [11.1.109.7483]
 
 **Novidades**
 
@@ -2339,6 +2361,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
