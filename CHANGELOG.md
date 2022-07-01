@@ -1,4 +1,13 @@
-﻿## [11.1.110.7485]
+﻿## [1.1.42.7230]
+
+**Novidades**
+
+* DC-4963 - Homologação do município de Virgínia - MG, padrão Futurize.
+* DC-4963 - Rehomologação do município de Ibirité - MG, mudança do padrão IssDigital20 para Embrás.
+* DC-4963 - Rehomologação do município de Silvânia - GO, mudança do padrão IssWeb para Centi.
+* DC-4963 - Rehomologação do município de Arapoti - PR, mudança do padrão SysissOnline para Equiplano.
+
+## [11.1.110.7485]
 
 **Novidades**
 
@@ -2383,6 +2392,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
