@@ -1,4 +1,17 @@
-﻿## [11.1.110.7486]
+﻿## [1.1.42.7233]
+
+**Novidades**
+
+* DC-4942 - Implementado Impressão via link para padrão Sistemas4R
+* DC-4964 - Ajuste da versão abrasf 2.04 para a cidade Marica - RJ, padrão DBSeller.
+* DC-4981 - Rehomologação do município de Eldorado - MS, mudança do padrão ISSOnline para Arrecadanet.
+* DC-4981 - Rehomologação do município de Siderópolis - SC, mudança do padrão Webiss20 para Betha.
+* DC-4981 - Rehomologação do município de Manoel Ribas - PR, mudança do padrão MaisIss20 para Equiplano.
+* DC-4981 - Rehomologação do município de Guaraniaçu - PR, mudança do padrão Actcon para IPM20.
+* DC-4981 - Homologação do município de Colinas do Tocantins - TO, padrão ISSIntel.
+* DC-4981 - Homologação do município de Pimenta Bueno - RO, padrão Fiorilli.
+
+## [11.1.110.7486]
 
 **Novidades**
 
@@ -2401,6 +2414,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
