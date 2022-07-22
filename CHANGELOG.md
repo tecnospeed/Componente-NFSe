@@ -1,4 +1,21 @@
-﻿## [11.1.111.7492]
+﻿## [1.1.43.7237]
+
+**Novidades**
+
+* DC-5014 - Rehomologação do município de Medianeira - PR, mudança do padrão GovBR para GovBR20.
+* DC-5014 - Homologação do município de Jaguaruana - CE, padrão XTROnline.
+* DC-5014 - Homologação do município de Cambará do Sul - RS, padrão GovBR20.
+* DC-5014 - Rehomologação do município de Nova Esperança - PR, mudança do padrão Webpublico para MaisIss20.
+* DC-5014 - Rehomologação do município de Osvaldo Cruz - SP, mudança do padrão Simpliss para Sistemas4R.
+* DC-5014 - Rehomologação do município de Sidrolândia - MS, mudança do padrão IssNetOnline para Fiorilli.
+
+
+**Correções**
+
+* SRVP4G-247 - Preencher valor unitário com valor do serviço automaticamente - ITAPEMA - BAUHAUSWS.
+* SRVP4G-237 - Problema com o valor do serviço - Rio do Sul SC - IPM20
+
+## [11.1.111.7492]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -2433,6 +2450,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
