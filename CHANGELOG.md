@@ -1,4 +1,10 @@
-﻿## [1.1.44.7240]
+﻿## [11.1.112.7495]
+
+**Novidades**
+
+* DC-5032 - Ajuste na rehomologação de Itatiba - SP, padrão Fintel.
+
+## [1.1.44.7240]
 
 **Novidades**
 
@@ -2467,6 +2473,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
