@@ -1,4 +1,17 @@
-﻿## [11.1.111.7493]
+﻿## [1.1.44.7240]
+
+**Novidades**
+
+* DC-5032- Ajuste na rehomologação de Itatiba - SP, padrão Fintel.
+* DC-5034 - Homologação do município de Santa Rita de Caldas - MG, padrão Futurize.
+* DC-5034 - Homologação do município de Boa Esperança do Sul - SP, padrão Fiorilli.
+* DC-5034 - Homologação do município de Rincão - SP, padrão EddyData.
+* DC-5034 - Homologação do município de Palmeiras De Goias - GO, padrão Arrecadanet.
+* DC-5034 - Homologação do município de São Miguel Arcanjo - SP, padrão Sistemas4R.
+* DC-5034 - Rehomologação do município de Açu - RN, mudança do padrão Agili para Publica.
+* DC-5034 - Rehomologação do município de Queimadas - BA, mudança do padrão Fisco para Freire.
+
+## [11.1.111.7493]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -2454,6 +2467,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
