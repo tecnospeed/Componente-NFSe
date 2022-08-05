@@ -1,4 +1,18 @@
-﻿## [11.1.112.7495]
+﻿## [1.1.44.7242]
+
+**Novidades**
+
+- DC-5066 - Rehomologação do município de Campos do Jordão - SP, mudança do padrão PresconUP para Prescon.
+- DC-5066 - Rehomologação do município de Itambe - PR, mudança do padrão MaisIss para MaisIss20.
+- DC-5016 - Cancelamento por substituição de NFSe para cidade de Erechim - RS, padrão System.
+- SRVP4G-281 - Disponibilizado impressão via link para São Paulo.
+
+**Correções**
+
+- SRVP4G-278 - Propriedade MOTIVO em branco - Caxias do Sul - RS.
+- SRVP4G-279 - Erro ao Utilizar o método ConverterRetConsultarLoteNFSeTipo Novo Hamburgo - NOVOAMBURGO(RS) - ISSNETONLINE.
+
+## [11.1.112.7495]
 
 **Novidades**
 
@@ -2473,6 +2487,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
