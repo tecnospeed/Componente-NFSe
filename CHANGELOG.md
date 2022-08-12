@@ -1,4 +1,15 @@
-﻿## [11.1.112.7497]
+﻿## [1.1.44.7244]
+
+**Novidades**
+* SRVP4G-281 - Priorizar impressão via link para São Paulo
+* DC-5049 - Implementado ConsultaNFSePorRPS para a cidade de OsascoSP, padrão Osasco.
+* DC-5078 - Rehomologação do município de Castro - PR, mudança do padrão IPM para IPM20.
+* DC-5078 - Rehomologação do município de Zortéa - SC, mudança do padrão IPM para IPM20.
+* DC-5078 - Homologação do município de Piracema - MG, padrão Memory.
+* DC-5078 - Homologação do município de Anaurilândia - MS, padrão Agili.
+* DC-5071 - Implementado Impressão por Link para Araranguá - SC, padrão BauhausWS
+
+## [11.1.112.7497]
 
 **Novidades**
 
@@ -2498,6 +2509,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
