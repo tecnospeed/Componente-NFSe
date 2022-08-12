@@ -1,4 +1,10 @@
-﻿## [1.1.44.7244]
+﻿## [11.1.112.7500]
+
+**Correções**
+
+SRVP4G-231 - Correção de impressão em branco ao exportar PDF.
+
+## [1.1.44.7244]
 
 **Novidades**
 * SRVP4G-281 - Priorizar impressão via link para São Paulo
@@ -2509,6 +2515,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
