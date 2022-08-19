@@ -1,4 +1,10 @@
-﻿## [1.1.45.7247]
+﻿## [11.1.113.7505]
+
+**Correções**
+
+* DC-5072 - Implementação do campo customizado CodigoCnaes para padrão BETHA.
+
+## [1.1.45.7247]
 
 **Novidades**
 
@@ -2523,6 +2529,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
