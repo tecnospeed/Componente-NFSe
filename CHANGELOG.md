@@ -1,4 +1,12 @@
-﻿## [11.1.112.7500]
+﻿## [1.1.45.7247]
+
+**Novidades**
+
+* DC-5082 - Rehomologação do município de Cajazeiras - PB, mudança do padrão ETICONS para ElmarWS.
+* DC-5082 - Homologação do município de Miracatu - SP, padrão Sistemas4R.
+* DC-5072 - Implementação do campo customizado CodigoCnaes para padrão BETHA.
+
+## [11.1.112.7500]
 
 **Correções**
 
@@ -2515,6 +2523,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
