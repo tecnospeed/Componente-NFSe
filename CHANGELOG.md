@@ -1,4 +1,16 @@
-﻿## [11.1.113.7505]
+﻿## [1.1.45.7255]
+
+**Plugin NFSe Novidades**
+
+* DC-5101- Ajuste consultas Ribeirão Preto SP - IssNetOnLine
+* DC-5083 - Homologação do município de Capivari de Baixo - SC, padrão BauhausWS.
+* DC-5083 - Homologação do município de Pinheiro - MA, padrão ACTCON.
+* DC-5083 - Homologação do município de Chapadinha - MA, padrão ACTCON.
+* DC-5083 - Rehomologação do município de Guarabira - PB, mudança do padrão Elmar para ElmarWS.
+* DC-5083 - Rehomologação do município de Cerejeiras - RO, mudança do padrão GovBR20 para Fiorilli.
+ * SRVP4G-178 - Implementado impressão via link padrão RIODEJANEIRO
+
+## [11.1.113.7505]
 
 **Correções**
 
@@ -2529,6 +2541,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
