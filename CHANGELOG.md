@@ -1,4 +1,10 @@
-﻿## [1.1.45.7255]
+﻿## [11.1.113.7509]
+
+**Correções**
+
+* Z_361304 - Incluir Tipotributacao 5 padrao Governa.
+
+## [1.1.45.7255]
 
 **Plugin NFSe Novidades**
 
@@ -2541,6 +2547,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
