@@ -1,4 +1,10 @@
-﻿## [11.1.113.7509]
+﻿## [1.1.45.7258]
+
+**Novidades**
+
+* DC-5096 - Rehomologação do município de Americana - SP, mudança do padrão Tiplan para WebIss20.
+
+## [11.1.113.7509]
 
 **Correções**
 
@@ -2547,6 +2553,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
