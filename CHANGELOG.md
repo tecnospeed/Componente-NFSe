@@ -1,4 +1,11 @@
-﻿## [1.1.46.7259]
+﻿## [11.1.114.7513]
+
+**Correções**
+
+* SRVP4G-322 - Correção na impressão de RPS para o município de Imperatriz - MA, padrão Actcon.
+* SRVP4G-323 - Correção na consulta de notas tomadas, padrão Ginfes.
+
+## [1.1.46.7259]
 
 **Novidades**
 
@@ -2570,6 +2577,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
