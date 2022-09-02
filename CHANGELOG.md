@@ -1,4 +1,21 @@
-﻿## [1.1.45.7258]
+﻿## [1.1.46.7259]
+
+**Novidades**
+
+* DC-5113 - Utilização RTM para Cachoeiro De Itapemirim ES - Padrão EL20
+* DC-5114 - Homologação do município de Terezópolis de Goiás - GO, padrão Arrecadanet.
+* DC-5114 - Homologação do município de Gaurama - RS, padrão System.
+* DC-5114 - Homologação do município de Bom Jesus dos Perdões - SP, padrão Sistemas4R.
+* DC-5114 - Rehomologação do município de Santo Antonio da Platina - PR, mudança do padrão GOVBR20 para IPM20.
+* DC-5114 - Rehomologação do município de Barcarena - PA, mudança do padrão IssNetOnline para GovBR20.
+* DC-5114 - Rehomologação do município de Monte Alto - SP, mudança do padrão Betha para Fiorilli.
+
+**Correções**
+
+* SRVP4G-322 - Correção na impressão de RPS para o município de Imperatriz - MA, padrão Actcon.
+* SRVP4G-323 - Correção na consulta de notas tomadas, padrão Ginfes.
+
+## [1.1.45.7258]
 
 **Novidades**
 
@@ -2553,6 +2570,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
