@@ -1,4 +1,11 @@
-﻿## [11.1.114.7513]
+﻿## [1.1.46.7260]
+
+**Novidades**
+
+* DC-5096 - Alterações Converter e Impressão Via Link - MaringaPR
+* DC-5099 - Rehomologação do município de Feira de Santana - BA, mudança do padrão WEBISS para WEBISS20.
+
+## [11.1.114.7513]
 
 **Correções**
 
@@ -2577,6 +2584,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
