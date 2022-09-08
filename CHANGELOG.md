@@ -23,6 +23,8 @@
 * DC-5114 - Rehomologação do município de Santo Antonio da Platina - PR, mudança do padrão GOVBR20 para IPM20.
 * DC-5114 - Rehomologação do município de Barcarena - PA, mudança do padrão IssNetOnline para GovBR20.
 * DC-5114 - Rehomologação do município de Monte Alto - SP, mudança do padrão Betha para Fiorilli.
+* SRVP4G-302 - Compatibilizado o padrão SSInformatica, nessa versão estará disponível a cidade de Itaitinga-CE.
+  * Para mais informações acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/articles/8294837382039
 
 **Correções**
 
