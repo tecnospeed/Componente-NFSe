@@ -1,4 +1,14 @@
-﻿## [1.1.46.7260]
+﻿## [1.1.47.7265]
+
+**Novidades**
+
+* DC-5143 - Rehomologação do município de Cajazeiras - BA, mudança do padrão ELMARWS para ETICONS.
+* DC-5143 - Rehomologação do município de Monte Carmelo - MG, mudança do padrão Simpliss para EReceita.
+* DC-5143 - Rehomologação do município de Santana de Parnaíba - SP, mudança do padrão ENOTA para CECAM.
+* DC-5037 - Implementar Padrão SIMPLE - Camboriu-SC
+* DC-5131 - Ajuste de impressão com ponto e vírgula para BarueriWSSP
+
+## [1.1.46.7260]
 
 **Novidades**
 
@@ -2586,6 +2596,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
