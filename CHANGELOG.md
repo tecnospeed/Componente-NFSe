@@ -1,4 +1,14 @@
-﻿## [1.1.47.7268]
+﻿## [1.1.48.7270]
+
+**Novidades**
+
+* DC-5168 - Homologação do município de Capelinha - MG, padrão Sintese.
+* DC-5168 - Homologação do município de Itapejara D'Oeste - PR, padrão GovBR20.
+* DC-5168 - Homologação do município de Maragogipe - BA, padrão Saatri.
+* DC-5168 - Re-homologação do município de Fundão - ES, mudança de padrão EL para EL20.
+
+
+## [1.1.47.7268]
 
 **Novidades**
 
@@ -2604,6 +2614,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
