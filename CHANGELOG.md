@@ -1,4 +1,10 @@
-﻿## [1.1.48.7270]
+﻿## [1.1.48.7275]
+
+**Novidades**
+
+* SRVP4G-406 - Preencher as propriedades do componente com os dados do XML - Videira SC - IPM20
+
+## [1.1.48.7270]
 
 **Novidades**
 
@@ -2614,6 +2620,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
