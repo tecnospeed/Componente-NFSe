@@ -1,4 +1,21 @@
-﻿## [1.1.48.7275]
+﻿## [1.1.48.7281]
+
+**Novidades**
+
+* DC-5187 - Rehomologação do município de Montenegro - RS, mudança de padrão EL para EL20.
+* DC-5187 - Rehomologação do município de Fundão - ES, mudança de padrão Thema para GovBR20.
+* DC-5187 - Rehomologação do município de São José - SC, mudança de padrão Betha para IPM20.
+* DC-5187 - Rehomologação do município de Cachoeirinha - RS, mudança de padrão IPM para IPM20.
+* DC-5187 - Rehomologação do município de Monte Santo de Minas - MG, mudança de padrão EL para EL20.
+* DC-5187 - Homologação do município de Rincão - SP, padrão Eddydata.
+* DC-5187 - Homologação do município de Nova Prata do Iguaçu - PR, padrão IPM.
+* DC-5187 - Homologação do município de Dom Feliciano - RS, padrão System.
+* DC-5187 - Homologação do município de Machadinho - RS, padrão GovBR20.
+* DC-5200 - Campo CodigoCidadeCadastroPrestador para Eticons - CajazeirasPB.
+* DC-5182 - Homologação da Consulta de Tomadas para o padrão GovDigital
+* DC-5205 - Homologação Visconde do Rio Branco - MG, Padrão SH3
+
+## [1.1.48.7275]
 
 **Novidades**
 
@@ -2620,6 +2637,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
