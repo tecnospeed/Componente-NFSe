@@ -1,4 +1,17 @@
-﻿## [1.1.48.7281]
+﻿## [1.1.49.7286]
+
+**Novidades**
+
+* DC-5211 - Impressão por link e ajuste chaveCancelamento para o padrão Siappa
+* DC-5216 - Rehomologação do município de Rio Branco do Sul- PR, mudança de padrão Equiplano para IPM20.
+* DC-5216 - Rehomologação do município de Santana de Parnaíba - SP, mudança do padrão CECAM para ENOTA.
+* DC-5216 - Homologação do município de Brasília - DF (homologação), Padrão IssNetOnline.
+
+**Correções**
+
+* SRVP4G-420 - Correção no script LoadRetConsLote para o padrão ISSNETONLINE.
+
+## [1.1.48.7281]
 
 **Novidades**
 
@@ -2637,6 +2650,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
