@@ -357,16 +357,14 @@ namespace NFSeV2
 
         public frmPrincipal()
         {
-            MessageBox.Show("Antes de Começar, veja o tutorial sobre como usar esta demonstração!", "Seja Bem vindo à TecnoSpeed");
-            System.Diagnostics.Process.Start("https://atendimento.tecnospeed.com.br/hc/pt-br/articles/360050351213-Como-utilizar-a-Demonstra%C3%A7%C3%A3o-de-Uso-do-componente-NFSe-V2");
-            this.WindowState = FormWindowState.Minimized;
+            this.WindowState = FormWindowState.Normal;
             InitializeComponent();
             vNFSe.Ambiente = NFSeX.Ambiente.akHomologacao;
             pcDados.TabIndex = 0;
             edtLogoEmitente.Text = System.IO.Directory.GetCurrentDirectory() + "\\LogoEmit.jpg";
-            edtCNPJSoftwareHouse.Text = "08187168000160";
+            edtCNPJSoftwareHouse.Text = "";
             edtTokenSoftwareHouse.Text = "";
-            PreencherComboCertificado();
+            //PreencherComboCertificado();
             lblAmbiente.Visible = (vNFSe.Ambiente != NFSeX.Ambiente.akHomologacao);
         }
         
