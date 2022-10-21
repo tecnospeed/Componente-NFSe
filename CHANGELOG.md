@@ -1,4 +1,20 @@
-﻿## [1.1.49.7286]
+﻿## [1.1.49.7288]
+
+**Novidades**
+
+* DC-5229 - Remoção da ConsultaNFSe do fluxo de cancelamento para AtibaiaSP, padrão Cotia
+* DC-5223 - Rehomologação do município de Cubatão - SP, mudança de padrão SIL para SIL20.
+* DC-5223 - Rehomologação do município de Rio Bonito - RJ, mudança de padrão Betha para Webiss20.
+* DC-5223 - Rehomologação do município de Cabreúva - SP, mudança de padrão Cotia para Conam.
+* DC-5223 - Rehomologação do município de Sapiranga - RS, mudança de padrão DBSeller para IPM20.
+* DC-5223 - Homologação do município de Piracaia - SP, padrão Fiorilli.
+* SRVP4G-297 - Implementação de impressão via link para Joinville/SC - JOINVILLESC.
+
+**Correções** 
+* DC-5218 - Correção do cancelamento da cidade Maravilha/SC, padrão BETHA.
+* SRVP4G-440 - Correção no retorno de envio em lote para Eunapolis / BA - FREIRE.
+
+## [1.1.49.7286]
 
 **Novidades**
 
@@ -2650,6 +2666,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
