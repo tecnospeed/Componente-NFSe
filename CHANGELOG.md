@@ -1,4 +1,11 @@
-﻿## [1.1.49.7288]
+﻿## [1.1.50.7289]
+
+**Novidades**
+
+* DC-5246 - Rehomologação do município de Vargem Alta - ES, mudança de padrão EL para EL20.
+* DC-5246 - Homologação do município de Pires do Rio - GO, padrão Centi.
+
+## [1.1.49.7288]
 
 **Novidades**
 
@@ -2666,6 +2673,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
