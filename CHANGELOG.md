@@ -1,4 +1,11 @@
-﻿## [1.1.50.7289]
+﻿## [1.1.50.7290]
+
+**Novidades**
+
+* DC-5266 - Rehomologação do município de Guariba - SP, mudança de padrão FGMAiISS para ISSINTEL.
+* DC-5266 - Rehomologação do município de Paranavaí - PR, mudança de padrão BETHA para IPM20.
+
+## [1.1.50.7289]
 
 **Novidades**
 
@@ -2673,6 +2680,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
