@@ -1,4 +1,14 @@
-﻿## [1.1.50.7290]
+﻿## [1.1.51.7291]
+
+**Novidades**
+
+* DC-5260 - Rehomologação do município de Silvania - GO, mudança de padrão Centi para Arrecadanet.
+* DC-5260 - Homologação do município de Cláudia - MT, padrão Agili.
+* DC-5260 - Homologação do município de Augusto Pestana - RS, padrão GovBR20.
+* DC-5260 - Homologação do município de Águas Frias - SC, padrão GovBR20.
+* DC-5260 - Homologação do município de Alto Paraíso de Goiás - GO, padrão Arrecadanet.
+
+## [1.1.50.7290]
 
 **Novidades**
 
@@ -2680,6 +2690,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
