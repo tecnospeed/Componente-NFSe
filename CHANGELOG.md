@@ -1,4 +1,18 @@
-﻿## [1.1.51.7291]
+﻿## [1.1.51.7293]
+
+**Novidades**
+
+* SRVP4G-494 - Ajustar RTM's com RichText para impressões em php
+* DC-5283 - Impressão via link com o retorno do envio em ItupevaSP - Siappa
+* DC-5282 - Rehomologação do município de Salto - SP, mudança de padrão Obaratec para Ginfes.
+* DC-5282 - Rehomologação do município de Brasnorte - MT, mudança de padrão Fiorilli para Coplan.
+* DC-5282 - Rehomologação do município de Barcarena - PA, mudança de padrão GovBR20 para IssNetOnline.
+
+**Correções**
+
+* SRVP4G-507 - Erro ao Enviar Notas de Múltiplos Serviços - CAXIAS DO SUL/RS - INFISC.
+
+## [1.1.51.7291]
 
 **Novidades**
 
@@ -2690,6 +2704,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
