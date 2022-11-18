@@ -1,4 +1,11 @@
-﻿## [1.1.51.7293]
+﻿## [1.1.52.7295]
+
+**Novidades**
+
+* SRVP4G-506 - Adequação de impressão - Três Rios/RJ - FGMAISS
+* DC-5296 - Homologação do município de Horizonte - CE, padrão Intersol.
+
+## [1.1.51.7293]
 
 **Novidades**
 
@@ -2704,6 +2711,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
