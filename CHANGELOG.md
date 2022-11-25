@@ -1,4 +1,11 @@
-﻿## [1.1.52.7295]
+﻿## [1.1.52.7296]
+
+**Novidades**
+
+* SRVML-251 - Rehomologação do município de Caarapó - MS, mudança de padrão AEG para Betha.
+* SRVML-251 - Homologação do município de Itinga - MG, padrão SINTESE.
+
+## [1.1.52.7295]
 
 **Novidades**
 
@@ -2711,6 +2718,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
