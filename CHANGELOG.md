@@ -1,4 +1,15 @@
-﻿## [1.1.52.7296]
+﻿## [1.1.53.7299]
+
+**Novidades**
+
+* SRVML-269 - Homologação do município de Lima Duarte - MG, padrão FUTURIZE.
+* SRVML-269 - Homologação do município de Pedra Preta - MT, padrão MAISISS20.
+* SRVML-269 - Homologação do município de Aratiba - RS, padrão FIORILLI.
+* SRVML-269 - Rehomologação do município de Angra dos Reis - RJ, mudança de padrão Tiplan para Webiss20.
+* SRVML-269 - Rehomologação do município de Bom Jesus do Norte - ES, mudança de padrão EL para EL20.
+
+
+## [1.1.52.7296]
 
 **Novidades**
 
@@ -2718,6 +2729,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
