@@ -1,4 +1,14 @@
-﻿## [1.1.53.7299]
+﻿## [1.1.53.7301]
+
+**Novidades**
+
+* SRVML-287 - Homologação do município de Jaiba - MG, padrão WEBISS20.
+* SRVML-287 - Rehomologação do município de Rio Pardo - RS, mudança de padrão DBSeller para GovBR20.
+* SRVML-287 - Rehomologação do município de Tijucas - SC, mudança de padrão Betha para IPM20.
+* SRVML-287 - Rehomologação do município de Cubatao - SP, mudança de padrão SIL20 para SIL.
+* SRVP4G-511 - Componente NFSe: Implementar Padrão NFELETRONICAWS
+
+## [1.1.53.7299]
 
 **Novidades**
 
@@ -2729,6 +2739,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
