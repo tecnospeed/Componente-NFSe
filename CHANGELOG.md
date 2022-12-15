@@ -1,4 +1,12 @@
-﻿## [1.1.53.7301]
+﻿## [1.1.53.7302]
+
+**Novidades**
+
+* DC-5261 - Rehomologação do município de Uberaba - MG, mudança do padrão Webiss para Webiss20.
+* SRVML-289 - Implementar Padrão ENOTAUP
+* SRVML-289 - Rehomologação do município de Floriano - PI - mudança do padrão Fiorilli para ENOTAUP
+
+## [1.1.53.7301]
 
 **Novidades**
 
@@ -2739,6 +2747,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
