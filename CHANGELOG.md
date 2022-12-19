@@ -1,4 +1,19 @@
-﻿## [1.1.53.7302]
+﻿## [1.1.54.7308]
+
+**Novidades**
+
+* SRVML-304 - Rehomologação do município de Santa Rita do Pardo - MS, mudança de padrão Betha para Fiorilli.
+* SRVML-304 - Rehomologação do município de Içara - SC, mudança de padrão Bauhaus para BauhausWS.
+* SRVML-304 - Rehomologação do município de Jaú - SP, mudança de padrão Conam para Fiorilli.
+* SRVML-304 - Rehomologação do município de Novo Progresso - PA, mudança de padrão Fiorilli para Agili.
+* SRVML-304 - Rehomologação do município de Salto de Pirapora - SP, mudança de padrão Fiorilli para IssOnline.
+* SRVML-304 - Homologação do município de Ilópolis - RS, padrão TECNOSISTEMAS.
+* SRVML-304 - Homologação do município de Ronda Alta - RS, padrão TcheInformatica.
+* SRVML-304 - Homologação do município de São João da Ponte - MG, padrão DBSeller.
+* SRVML-304 - Homologação do município de Flórida Paulista - SP, padrão Sistemas4R.
+* SRVML-304 - Homologação do município de São Francisco de Paula - RS, padrão Thema.
+
+## [1.1.53.7302]
 
 **Novidades**
 
@@ -2747,6 +2762,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
