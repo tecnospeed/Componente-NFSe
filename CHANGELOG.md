@@ -1,4 +1,15 @@
-﻿## [1.1.54.7308]
+﻿## [1.1.55.7310]
+
+**Correções**
+
+* SRVML-312 - Correção da DataEmissão no padrão IPM para computadores configurados com região EN-US.
+
+**Novidades**
+
+* SRVML-311 Rehomologação do município de Areal - RJ, mudança de padrão Betha para GovBR20.
+* SRVML-311 Homologação do município de Nova Xavantina - MT, padrão Betha.
+
+## [1.1.54.7308]
 
 **Novidades**
 
@@ -2762,6 +2773,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
