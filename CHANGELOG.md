@@ -1,4 +1,26 @@
-﻿## [1.1.55.7310]
+﻿## [1.1.56.7313]
+
+**Correções**
+
+* SRVML-318 - Ajustes de fluxo de emissão e Cancelamento - OSASCO
+* SRVML-325 - Erro ao cancelar NFSe - IPM
+* SRVP4G-328 - Implementar impressão via link padrão MAISISS20
+* SRVML-323 - Rehomologação do município de Sarandi - PR, mudança de padrão Sigiss para MaisIss20.
+* SRVML-323 - Rehomologação do município de Itambé - PE, mudança de padrão Agili para Sisgenfe.
+* SRVML-323 - Homologação do município de Santa Cruz - RN, padrão HM2UP.
+* SRVML-323 - Homologação do município de Barbalha - CE, padrão INTERSOL.
+* SRVML-323 - Homologação do município de Novo Repartimento - PA, padrão JANELAUNICA.
+* SRVML-323 - Homologação do município de Catolé do Rocha - PB, padrão TINUS.
+* SRVML-323 - Homologação do município de Monteiro - PB, padrão PUBLICSOFT.
+* SRVML-323 - Homologação do município de Santa Quitéria - CE, padrão INTERSOL.
+* SRVML-323 - Homologação do município de Goianinha - RN, padrão TINUS.
+* SRVML-323 - Homologação do município de Poções - BA, padrão EL20.
+* SRVML-323 - Homologação do município de Igarapé-Miri - PA, padrão ISSINTEL.
+* SRVML-323 - Homologação do município de Xique-Xique - BA, padrão TRESTECNOSUP.
+* SRVML-323 - Homologação do município de Barreiros - PE, padrão SISGENFe.
+* SRVML-323 - Homologação do município de Escada - PE, padrão TRIBUTUSWS.
+
+## [1.1.55.7310]
 
 **Correções**
 
@@ -2773,6 +2795,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
