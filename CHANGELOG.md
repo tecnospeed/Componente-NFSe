@@ -1,4 +1,29 @@
-﻿## [1.1.56.7315]
+﻿## [1.1.56.7316]
+
+**Novidades**
+
+* SRVML-338 - Homologação do município de Brejo Santo- CE, padrão XTROnline.
+* SRVML-338 - Homologação do município de Terra Roxa - PR, padrão IPM.
+* SRVML-338 - Homologação do município de Pinhão - PR, padrão MaisIss20.
+* SRVML-338 - Homologação do município de Santa Gertrudes - SP, padrão Sigissweb.
+* SRVML-338 - Homologação do município de Elói Mendes - MG, padrão BauhausWS.
+* SRVML-338 - Homologação do município de Cachoeira Paulista - SP, padrão Embrás.
+* SRVML-338 - Homologação do município de Álvares Machado - SP, padrão GovBR20.
+* SRVML-338 - Homologação do município de Caçapava do Sul - RS, padrão GovBR20.
+* SRVML-338 - Homologação do município de Poconé - MT, padrão Agili.
+* SRVML-338 - Homologação do município de Breves - MA, padrão Isaneto.
+* SRVML-338 - Homologação do município de União - PI, padrão Fisco.
+* SRVML-338 - Homologação do município de Taquarituba - SP, padrão Fiorilli.
+* SRVML-338 - Homologação do município de Santa Rita - MA, padrão Fiorilli.
+* SRVML-338 - Homologação do município de Tutóia - MA, padrão Intersol.
+* SRVML-338 - Homologação do município de Icó - CE, padrão ENotaUP.
+* SRVML-338 - Homologação do município de Bom Conselho - PE, padrão TributusWS.
+* SRVML-338 - Homologação do município de Ribeirão - PE, padrão TributusWS.
+* SRVML-338 - Homologação do município de Paudalho - PE, padrão TributusWS.
+* SRVML-338 - Homologação do município de Brejo da Madre de Deus - PE, padrão TributusWS.
+* SRVML-338 - Rehomologação do município de Mococa - SP, mudança de padrão Betha para Conam.
+
+## [1.1.56.7315]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -2803,6 +2828,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
