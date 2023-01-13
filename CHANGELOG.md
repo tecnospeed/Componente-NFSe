@@ -1,4 +1,23 @@
-﻿## [1.1.56.7318]
+﻿## [1.1.56.7319]
+
+**Novidades**
+
+* SRVPG-573 - Rehomologação do município de Chapecó - SC, mudança de padrão Publica para SigCorp.
+* SRVPG-573 - Rehomologação do município de Ipatinga - MG, mudança de padrão Sigiss20 para SigCorp.
+* SRVPG-573 - Rehomologação do município de Santa Luzia - MG, mudança de padrão Sigiss20 para SigCorp.
+* SRVPG-573 - Rehomologação do município de Nova Serrana - MG, mudança de padrão Sigiss20 para SigCorp.
+* SRVPG-573 - Rehomologação do município de Santa Rita do Sapucaí - MG, mudança de padrão Fiorilli para SigCorp.
+* SRVML-362 - Homologação do município de Boa Vista do Buricá - RS, padrão Abase.
+* SRVML-362 - Homologação do município de Glória de Dourados - MS, padrão Fiorilli.
+* SRVML-362 - Homologação do município de Pouso Alto - MG, padrão EmbrasUP.
+* SRVML-362 - Rehomologação do município de Cachoeira Paulista - SP, mudança de padrão Embras para padrão EmbrasUP.
+* SRVML-362 - Homologação do município de Nepomuceno - MG, padrão Betha.
+* SRVML-362 - Homologação do município de Quixeramobim - CE, padrão Intersol.
+* SRVML-362 - Rehomologação do município de Timon - MA, mudança de padrão Fiorilli para ACTCON.
+* SRVML-362 - Rehomologação do município de Confresa - MT, mudança de padrão Betha para Coplan.
+* SRVML-362 - Rehomologação do município de Santos Dumont  - MG, mudança de padrão IssLegal para Fiorilli.
+
+## [1.1.56.7318]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -2832,6 +2851,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
