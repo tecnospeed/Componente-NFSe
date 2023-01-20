@@ -1,4 +1,18 @@
-﻿## [1.1.56.7319]
+﻿## [1.1.57.7320]
+
+**Novidades**
+
+* SRVML-383 - Correção na impressão sem tarja de CANCELAMENTO - Brasília/DF - ISSNETONLINE20
+* SRVML-371 - Implementado impressão via link - Osasco/SP
+* SRVML-384 - Rehomologação do município de Sete Lagoas - MG, mudança de padrão ACTCON para DBSeller.
+* SRVML-384 - Rehomologação do município de Pérola D'oeste - PR, mudança de padrão Betha para Publica.
+* SRVML-384 - Homologação do município de Mateiros - TO, padrão Arrecadanet.
+* SRVML-384 - Homologação do município de Itapaci - GO, padrão Arrecadanet.
+* SRVML-384 - Homologação do município de Saltinho - SP, padrão Fiorilli.
+* SRVML-384 - Homologação do município de Paraopeba - MG, padrão Memory.
+* SRVML-379 - Inclusão do envio síncrono com campo OutrasInformacoes para cidade de Itatiba/SP - FINTEL
+
+## [1.1.56.7319]
 
 **Novidades**
 
@@ -2851,6 +2865,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
