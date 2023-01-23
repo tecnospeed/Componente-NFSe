@@ -1,4 +1,13 @@
-﻿## [1.1.57.7320]
+﻿## [1.1.57.7322]
+
+**Novidades**
+
+* SRVML-369 - Implementação do Envio Síncrono e Consulta de NFSe por RPS para ISSNETONLINE20 - Brasília/DF.
+* SRVML-371 - Implementação da impressão via link para Osasco/SP.
+* SRVML-379 - Ajustes no LoadEnvio para enviar o campo OutrasInformacoes para FINTEL - Itatiba/SP.
+
+
+## [1.1.57.7320]
 
 **Novidades**
 
@@ -2865,6 +2874,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
