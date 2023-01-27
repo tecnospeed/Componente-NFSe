@@ -1,4 +1,17 @@
-﻿## [1.1.57.7323]
+﻿## [1.1.58.7329]
+
+**Novidades**
+
+* SRVML-395 - Homologação do município de Tibau - RN, padrão Agili.
+* SRVML-395 - Homologação do município de Colniza - MT, padrão Fiorilli.
+* SRVML-395 - Homologação do município de Santo Antonio do Descobrimento - GO, padrão Centi.
+* SRVML-395 - Rehomologação do município de Barreiras - BA, mudança de padrão Saatri para EL20.
+* SRVML-395 - Rehomologação do município de Batatais - SP, mudança de padrão Siappa para Betha.
+* SRVML-395 - Rehomologação do município de Barcarena - PA, mudança de padrão IssNetOnline para IssNetOnline20.
+* SRVML-395 - Rehomologação do município de Praia Grande - SP, mudança de padrão IssNetOnline para IssNetOnline20.
+* SRVML-395 - Rehomologação do município de São Roque - SP, mudança de padrão GovDigital para GovBR20.
+
+## [1.1.57.7323]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -2878,6 +2891,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
