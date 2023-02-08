@@ -1,4 +1,16 @@
-﻿## [1.1.58.7329]
+﻿## [1.1.58.7330]
+
+**Novidades**
+
+* SRVML-418 - Inclusão do campo SituacaoTributaria para os padrões IPM/IPM20.
+
+
+**Correções**
+
+* SRVML-359 - Ajustes ao assinar o XML para o padrão GINFES.
+
+
+## [1.1.58.7329]
 
 **Novidades**
 
@@ -2891,6 +2903,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
