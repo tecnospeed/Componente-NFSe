@@ -1,4 +1,26 @@
-﻿## [1.1.58.7330]
+﻿## [1.1.59.7333]
+
+**Novidades**
+
+* SRVML-424 - Ajustes no XML e impressão de nota Cancelada - Brasilia DF - IssNetOnline20
+* SRVML-421 - Homologação do município de Candido de Abreu - PR, padrão Equiplano.
+* SRVML-421 - Homologação do município de Orobó - PE, padrão TributusWS.
+* SRVML-421 - Homologação do município de José Alfredo - PE, padrão TributusWS.
+* SRVML-421 - Homologação do município de Serro - MG, padrão IssIntel.
+* SRVML-421 - Rehomologação do município de Itapecuru Mirim - MA, mudança de padrão Fiorilli para Sigcorp.
+* SRVML-421 - Rehomologação do município de Arraial do Cabo - RJ, mudança de padrão IssDigital20 para ModPublica.
+* SRVML-421 - Rehomologação do município de Nazaré Paulista - SP, mudança de padrão Betha para Fiorilli.
+* SRVML-421 - Rehomologação do município de Porto Seguro - BA, mudança de padrão IssIntel para Webiss20.
+* SRVML-421 - Rehomologação do município de Santa Fé Do Sul - SP, mudança de padrão Saturno para Betha.
+
+
+
+**Correções**
+
+* SRVML-431 - Problemas na Validação de Esquemas para Brasília/DF - IssNetOnline20.
+* SRVML-425 - Problemas na emissão para cidade de Alhandra/PB - ElmarWS.
+
+## [1.1.58.7330]
 
 **Novidades**
 
@@ -2903,6 +2925,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
