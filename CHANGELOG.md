@@ -1,4 +1,11 @@
-﻿## [1.1.59.7333]
+﻿## [1.1.59.7339]
+
+**Novidades**
+
+* DC-5475 - Homologação do município de Urucuia - MG, padrão IssIntel.
+* DC-5475 - Rehomologação do município de São Sepé - RS, mudança de padrão GovBR20 para IPM.
+
+## [1.1.59.7333]
 
 **Novidades**
 
@@ -2925,6 +2932,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
