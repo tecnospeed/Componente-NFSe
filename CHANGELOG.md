@@ -1,4 +1,13 @@
-﻿## [1.1.59.7339]
+﻿## [1.1.59.7341]
+
+**Novidades**
+
+* SRVML-453 - Homologação do município de Tuparendi - RS, padrão Abase.
+* SRVML-453 - Homologação do município de Cunha Porã - SC, padrão IPM.
+* SRVML-453 - Rehomologação do município de Pouso Alto - MG, mudança de padrão EmbrasUP para Embras.
+* SRVML-419 - Impressão via link para o padrão Governa
+
+## [1.1.59.7339]
 
 **Novidades**
 
@@ -2932,6 +2941,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
