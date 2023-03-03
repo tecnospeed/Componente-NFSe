@@ -1,4 +1,23 @@
-﻿## [1.1.59.7341]
+﻿## [1.1.60.7345]
+
+**Novidades**
+
+* SRVML-472 - Homologação do município de Porto dos Gaúchos - MT, padrão Agili.
+* SRVML-472 - Homologação do município de Ipiranga do Norte - MT, padrão Agili.
+* SRVML-472 - Homologação do município de Passo do Camaragibe - AL, padrão Kalana.
+* SRVML-472 - Rehomologação do município de Rio Largo - AL, mudança de padrão TresTecnosUP para Kalana.
+* SRVML-472 - Rehomologação do município de Mogi Mirim - SP, mudança de padrão Sigiss20 para SigCorp.
+* SRVML-472 - Rehomologação do município de Pouso Alegre - MG, mudança de padrão Sigiss20 para SigCorp.
+* SRVML-472 - Rehomologação do município de Avaré - SP, mudança de padrão Sigiss20 para SigCorp.
+* SRVML-472 - Rehomologação do município de Novo Hamburgo - RS, mudança de padrão IssNetOnline para IPM20.
+* SRVML-472 - Rehomologação do município de Socorro - SP, mudança de padrão iiBrasil para GovDigital.
+
+**Correções**
+
+**Plugin NFSe**
+* SRVML-446 - Melhoria na Impressão de BaruerispWS
+
+## [1.1.59.7341]
 
 **Novidades**
 
@@ -2941,6 +2960,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
