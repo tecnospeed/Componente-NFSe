@@ -1,4 +1,17 @@
-﻿## [1.1.60.7345]
+﻿## [1.1.60.7347]
+
+**Novidades**
+
+* SRVML-487 - Homologação do município de Anchieta - SC, padrão Betha.
+* SRVML-487 - Homologação do município de Saudadaes - SC, padrão GovBR20.
+* SRVML-487 - Homologação do município de Mairinque - SP, padrão SIL.
+* SRVML-487 - Rehomologação do município de Ananindeua - PA, mudança de padrão Ginfes para Desenvolve.
+* SRVML-487 - Rehomologação do município de Macapá - AP, mudança de padrão GovBR20 para IssNetOnline20.
+* SRVML-487 - Rehomologação do município de Santa Maria- RS, mudança de padrão IssNetOnline para IssNetOnline20.
+* SRVML-487 - Rehomologação do município de Juazeiro - BA, mudança de padrão Metropole para Freire.
+
+
+## [1.1.60.7345]
 
 **Novidades**
 
@@ -2960,6 +2973,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
