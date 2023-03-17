@@ -1,4 +1,14 @@
-﻿## [1.1.60.7347]
+﻿## [1.1.61.7350]
+
+**Novidades**
+
+* SRVML-501 - Homologação do município de Passa Quatro - MG, padrão BauhausWS.
+* SRVML-501 - Rehomologação do município de Rincão - SP, mudança de padrão EddyData para Betha.
+* SRVML-501 - Rehomologação do município de Macatuba - SP, mudança de padrão Sistemas4R para Fiorilli.
+* SRVML-501 - Rehomologação do município de Fartura - SP, mudança de padrão IssMapAPI para Fiorilli.
+* SRVML-501 - Rehomologação do município de Campina do Monte Alegre - SP, mudança de padrão Sistemas4R para CECAM.
+
+## [1.1.60.7347]
 
 **Novidades**
 
@@ -2973,6 +2983,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
