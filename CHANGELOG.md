@@ -1,10 +1,4 @@
-﻿## [1.1.62.7366]
-
-**Correções**
-
-SRVML-574 - NFSE - Tratamento no retorno de nota rejeitada - SORRISO/MT - AGILI
-
-## [1.1.62.7364]
+﻿## [1.1.62.7364]
 
 **Novidades**
 
