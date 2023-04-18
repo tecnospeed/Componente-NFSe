@@ -1,4 +1,16 @@
-﻿## [1.1.61.7350]
+﻿## [1.1.62.7364]
+
+**Novidades**
+
+* SRVML-567 - Homologação do município de Capanema - PA, padrão BauhausWS.
+* SRVML-567 - Homologação do município de Balneário Pinhal - RS, padrão TcheInformatica.
+* SRVML-567 - Homologação do município de Santa Maria do Suaçuí - MG, padrão DBSeller.
+* SRVML-567 - Homologação do município de Nova Bassano - RS, padrão TecnoSistemas.
+* SRVML-567 - Rehomologação do município de Pederneiras - SP, mudança de padrão SIL para COTIA.
+* SRVML-572 - Consulta notas tomadas - Retorno Json - /Delimiter
+* SRVP4G-44 - Melhoria, Consulta automática em Tubarão - Sc
+
+## [1.1.61.7350]
 
 **Novidades**
 
