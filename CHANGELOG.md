@@ -1,4 +1,10 @@
-﻿## [1.1.62.7364]
+﻿## [1.1.62.7366]
+
+**Correções**
+
+SRVML-574 - NFSE - Tratamento no retorno de nota rejeitada - SORRISO/MT - AGILI
+
+## [1.1.62.7364]
 
 **Novidades**
 
@@ -3008,6 +3014,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
