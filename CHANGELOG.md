@@ -7,8 +7,21 @@
 * SRVML-567 - Homologação do município de Santa Maria do Suaçuí - MG, padrão DBSeller.
 * SRVML-567 - Homologação do município de Nova Bassano - RS, padrão TecnoSistemas.
 * SRVML-567 - Rehomologação do município de Pederneiras - SP, mudança de padrão SIL para COTIA.
-* SRVML-572 - Consulta notas tomadas - Retorno Json - /Delimiter
-* SRVP4G-44 - Melhoria, Consulta automática em Tubarão - Sc
+* SRVML-572 - Consulta notas tomadas - Retorno Json - /Delimiter.
+* SRVP4G-44 - Melhoria, Consulta automática em Tubarão - Sc.
+
+## [1.1.62.7359]
+
+**Novidades**
+
+* SRVML-546 - Homologação do município de Auriflama - SP, padrão Fiorilli.
+* SRVML-546 - Homologação do município de Baependi - MG, padrão Futurize.
+* SRVML-546 - Homologação do município de Gandu - BA, padrão ATIV.
+* SRVML-546 - Homologação do município de Tiradentes - MG, padrão SH3.
+* SRVML-546 - Homologação do município de Ituberá - BA, padrão Betha.
+* SRVML-546 - Rehomologação do município de Piedade - SP, mudança de padrão Cecam para Ginfes.
+* SRVML-546 - Rehomologação do município de Cunha Porã - SC, mudança de padrão IPM para IPM20.
+* SRVML-513 - Homologação Consulta Tomadas padrão EL20.
 
 ## [1.1.61.7350]
 
