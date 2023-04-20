@@ -1,4 +1,16 @@
-﻿## [1.1.62.7364]
+﻿## [1.1.63.7369]
+
+**Correções**
+
+* SRVML-574 - NFSE - Tratamento no retorno de nota rejeitada - SORRISO/MT - AGILI
+
+**Novidades**
+
+* SRVML-582 - Homologação do município de Una - BA, padrão EL20.
+* SRVML-582 - Rehomologação do município de Cabo Frio - RJ, mudança de padrão Sigiss20 para SigCorp.
+* SRVML-582 - Rehomologação do município de Bom Jesus dos Perdões - SP, mudança de padrão Sistemas4R para IssOnline.
+
+## [1.1.62.7364]
 
 **Novidades**
 
@@ -3008,6 +3020,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
