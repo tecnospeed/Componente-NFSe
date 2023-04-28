@@ -1,4 +1,15 @@
-﻿## [1.1.63.7369]
+﻿## [1.1.63.7374]
+
+**Novidades**
+
+* SRVML-600 - Rehomologação do município de São João da Barra - RJ, mudança de padrão EL para Fiorilli.
+* SRVML-600 - Rehomologação do município de Guanhães - MG, mudança de padrão EL para EL20.
+
+**Correções**
+
+* SRVML-585 - Correção na geração do campo Código Município, padrão GOIANIA.
+
+## [1.1.63.7369]
 
 **Correções**
 
@@ -3021,6 +3032,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
