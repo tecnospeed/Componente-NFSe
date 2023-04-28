@@ -34,6 +34,7 @@
 * SRVML-546 - Rehomologação do município de Piedade - SP, mudança de padrão Cecam para Ginfes.
 * SRVML-546 - Rehomologação do município de Cunha Porã - SC, mudança de padrão IPM para IPM20.
 * SRVML-513 - Homologação Consulta Tomadas padrão EL20.
+* SRVP4G-647 - Criado a propriedade XmlRps na lista de objetos RetornoWS.
 
 ## [1.1.61.7350]
 
