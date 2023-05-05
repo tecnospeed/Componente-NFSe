@@ -1,4 +1,13 @@
-﻿## [1.1.63.7374]
+﻿## [1.1.64.7377]
+
+**Novidades**
+
+* SRVML-570 - Melhoria na chave de Cancelamento no RetornoCSV
+* SRVML-613 - Rehomologação do município de Guaporé - RS, mudança de padrão GovBR para GovBR20.
+* SRVML-613 - Rehomologação do município de Novo Gama - GO, mudança de padrão IssWeb para Arrecadanet.
+* SRVML-591 - Criar opção para RemoverCaracteresEspeciais configurando por cidades.
+
+## [1.1.63.7374]
 
 **Novidades**
 
@@ -3032,6 +3041,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
