@@ -1,4 +1,24 @@
-﻿## [1.1.64.7377]
+﻿## [1.1.64.7379]
+
+**Novidades**
+
+* SRVML-616 - Rehomologação do município de São Roque do Canaã - ES, mudança de padrão EL para EL20.
+* SRVML-616 - Rehomologação do município de Porto Ferreira - SP, mudança de padrão Ginfes para Cotia.
+* SRVML-616 - Rehomologação do município de Itaguai - RJ, mudança de padrão Tiplan para Webiss20.
+* SRVML-616 - Rehomologação do município de Avaré - SP, mudança de padrão SigCorp para Fiorilli.
+* SRVML-601 - Homologação do município de Barra do Bugres - MT, padrão COPLAN.
+* SRVML-601 - Homologação do município de Pinhais - RS, padrão IPM.
+* SRVML-601 - Homologação do município de Tombos - MG, padrão ACTCON.
+* SRVML-601 - Homologação do município de Palmeira Doeste - SP, padrão Fiorilli.
+* SRVML-601 - Homologação do município de Lagoa Do Barro Do Piaui - PI, padrão Fiorilli.
+* SRVML-601 - Homologação do município de Butiá - RS, padrão GOVBR20.
+* SRVML-601 - Homologação do município de Santa Barbara De Goias - GO, padrão IssWeb.
+
+**Correções**
+
+* SRVML-581 - Ajustes na Impressão via link para Maringá/Pr.
+
+## [1.1.64.7377]
 
 **Novidades**
 
@@ -3041,6 +3061,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
