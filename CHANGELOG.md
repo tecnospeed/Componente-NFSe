@@ -1,4 +1,11 @@
-﻿## [1.1.64.7379]
+﻿## [1.1.64.7381]
+
+**Novidades**
+
+* SRVML-621 - Rehomologação do município de Itapiranga - SC, mudança de padrão IPM para IPM20.
+* SRVML-621 - Rehomologação do município de Camaquã - RS, mudança de padrão GovBR para IPM20.
+
+## [1.1.64.7379]
 
 **Novidades**
 
@@ -3061,6 +3068,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
