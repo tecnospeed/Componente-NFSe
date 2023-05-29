@@ -1,4 +1,11 @@
-﻿## [1.1.64.7381]
+﻿## [1.1.65.7383]
+
+**Novidades**
+
+* SRVML-640 - Rehomologação do município de Cruz Alta - RS, mudança de padrão IssNetOnline para IssNetOnline20.
+* SRVML-631 - Utilização da rota RecepcionarLoteRpsLimitado no padrão Thema - NaoMeToqueRS.
+
+## [1.1.64.7381]
 
 **Novidades**
 
@@ -3068,6 +3075,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
