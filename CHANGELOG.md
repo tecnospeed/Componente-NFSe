@@ -1,4 +1,17 @@
-﻿## [1.1.65.7386]
+﻿## [1.1.66.7388]
+
+**Novidades**
+
+* SRVML-662 - Rehomologação do município de Barão de Cocais - MG, mudança de padrão Betha para SigCorp.
+* SRVML-662 - Rehomologação do município de Concórdia - SC, mudança de padrão IPM para IPM20.
+* SRVML-662 - Rehomologação do município de Timon - MA, mudança de padrão ACTCON para Fiorilli.
+* SRVML-662 - Rehomologação do município de Ipiau - BA, mudança de padrão Saatri para EL20.
+* SRVML-662 - Rehomologação do município de Santa Teresa - ES, mudança de padrão EL para EL20.
+* SRVML-662 - Rehomologação do município de Ecoporanga - ES, mudança de padrão EL para EL20.
+* SRVML-662 - Rehomologação do município de Agua Doce do Norte - ES, mudança de padrão EL para EL20.
+* SRVML-662 - Rehomologação do município de Ibiraçu - ES, mudança de padrão EL para EL20.
+
+## [1.1.65.7386]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -3079,6 +3092,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
