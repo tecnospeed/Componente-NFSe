@@ -1,4 +1,23 @@
-﻿## [1.1.66.7388]
+﻿## [1.1.66.7390]
+
+**Novidades**
+
+* SRVML-629 - Rehomologação do município de Surubim - PE, mudança de padrão ColumbiaUOP para HM2UP.
+* SRVML-629 - Rehomologação do município de Belo Oriente - MG, mudança de padrão SolucaoPublica para Betha.
+* SRVML-629 - Rehomologação do município de Juranda - PR, mudança de padrão Betha para IPM20.
+* SRVML-629 - Homologação do município de Ilhota - SC, padrão GovBR.
+* SRVML-629 - Homologação do município de Teixeira Soares - PR, padrão Equiplano.
+* SRVML-629 - Homologação do município de Domingos Martins - ES, padrão EL20.
+* SRVML-629 - Homologação do município de Perdões- RS, padrão Memory.
+* SRVML-629 - Homologação do município de Candeias - MG, padrão Memory.
+* SRVML-629 - Homologação do município de Itabaiana - PB, padrão SIAM.
+* SRVML-629 - Homologação do município de Canarana - MT, padrão Betha.
+* SRVML-629 - Homologação do município de Cerrito - RS, padrão Betha.
+* SRVML-629 - Homologação do município de Água Clara - MS, padrão Fiorilli.
+* SRVML-629 - Homologação do município de Jardim - MS, padrão Fiorilli.
+* SRVML-629 - Homologação do município de Palma Sola - SC, padrão IPM20.
+
+## [1.1.66.7388]
 
 **Novidades**
 
@@ -3092,6 +3111,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
