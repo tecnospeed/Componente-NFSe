@@ -1,4 +1,11 @@
-﻿## [1.1.66.7390]
+﻿## [1.1.67.7394]
+
+**Novidades**
+
+* SRVML-686 - Rehomologação São Mateus do Maranhão - MA, mudança de padrão Aspec para D2TI.
+* SRVML-686 - Rehomologação São Mateus do Bento Gonçalves - RS, mudança de padrão IPM para IPM20.
+
+## [1.1.66.7390]
 
 **Novidades**
 
@@ -3111,6 +3118,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
