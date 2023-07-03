@@ -1,4 +1,11 @@
-﻿## [1.1.67.7394]
+﻿## [1.1.67.7396]
+
+**Novidades**
+
+* SRVML-695 - Rehomologação Redenção - PA, mudança de padrão Bauhaus para Desenvolve.
+* SRVML-695 - Rehomologação Rio Piracicaba - MG, mudança de padrão Webiss20 para EL.
+
+## [1.1.67.7394]
 
 **Novidades**
 
@@ -3118,6 +3125,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
