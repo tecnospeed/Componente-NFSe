@@ -1,4 +1,12 @@
-﻿## [1.1.67.7396]
+﻿## [1.1.68.7398]
+
+**Novidades**
+
+* SRVML-713- Rehomologação Bragança Paulista SP, mudança de padrão Cotia para Conam.
+* SRVML-713- Rehomologação São João Da Boa Vista - SP, mudança de padrão Simpliss para Cotia.
+* SRVML-713- Rehomologação Igarapé - MG, mudança de padrão GovDigital para IssDigital20.
+
+## [1.1.67.7396]
 
 **Novidades**
 
@@ -3125,6 +3133,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
