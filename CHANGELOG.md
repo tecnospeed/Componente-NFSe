@@ -1,4 +1,21 @@
-﻿## [1.1.68.7398]
+﻿## [1.1.68.7402]
+
+**Novidades**
+
+* SRVML-731 - Rehomologação Aparecida de Goiânia - GO, mudança de padrão IssNetOnline para IssNetOnline20.
+* SRVML-731 - Homologação do município de Araporã - MG, padrão Governa.
+* SRVML-731 - Homologação do município de Mantena - MG, padrão Betha.
+* SRVML-731 - Homologação do município de Cordeiro - RJ, padrão EL20.
+* SRVML-731 - Homologação do município de Guarani das Missões - RS, padrão GovBR20.
+* SRVML-731 - Homologação do município de Eugênio de Castro - RS, padrão GovBR20.
+* SRVML-731 - Homologação do município de Entre-Ijuis - RS, padrão GovBR20.
+* SRVML-731 - Homologação do município de Urubici - SC, padrão Betha.
+* SRVML-731 - Homologação do município de Iranduba - AM, padrão Betha20.
+* SRVML-731 - Homologação do município de Tupandi - RS, padrão Tecnosistemas.
+* SRVML-731 - Homologação do município de Nova Ubiratã - MT, padrão Agili.
+* SRVML-731 - Homologação do município de Mathias Lobato - MG, padrão Memory.
+
+## [1.1.68.7398]
 
 **Novidades**
 
@@ -3133,6 +3150,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
