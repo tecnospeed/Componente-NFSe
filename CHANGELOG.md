@@ -1,4 +1,11 @@
-﻿## [1.1.68.7402]
+﻿## [1.1.69.7404]
+
+**Novidades**
+
+* SRVML-743 - Rehomologação Itauna - MG, mudança de padrão IssNetOnline para IssNetOnline20.
+* SRVML-743 - Rehomologação Pedreiras - MA, mudança de padrão Fiorilli para Actcon.
+
+## [1.1.68.7402]
 
 **Novidades**
 
@@ -3150,6 +3157,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
