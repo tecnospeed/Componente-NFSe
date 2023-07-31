@@ -1,4 +1,12 @@
-﻿## [1.1.69.7404]
+﻿## [1.1.69.7406]
+
+**Novidades**
+
+* SRVML-750 - Rehomologação Santa Quitéria - CE, mudança de padrão Intersol para SSInformatica.
+* SRVML-750 - Rehomologação Arvoredo - SC, mudança de padrão Betha para IPM20.
+* SRVML-750 - Rehomologação Francisco Morato - SP, mudança de padrão Conam para Cotia.
+
+## [1.1.69.7404]
 
 **Novidades**
 
@@ -3157,6 +3165,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
