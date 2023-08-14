@@ -1,4 +1,21 @@
-﻿## [1.1.69.7406]
+﻿## [1.1.70.7413]
+
+**Novidades**
+
+* SRVML-757 - Rehomologação Juazeiro - BA, mudança de padrão Freire para WebIss20.
+* SRVML-757 - Rehomologação Bayeux - PB, mudança de padrão Publicsoft para IssIntel.
+* SRVML-757 - Rehomologação Espera Feliz - MG, mudança de padrão EL para EL20.
+* SRVML-757 - Rehomologação Delmiro Gouveia - AL, mudança de padrão Tributos para Agili.
+* SRVML-805 - Homologação da cidade Carlos Chagas - MG, padrão Memory.
+* SRVML-805 - Homologação da cidade Itamonte - MG, padrão EmbrasUp.
+* SRVML-805 - Homologação da cidade Guapimirim - RJ, padrão BahuausWS.
+* SRVML-805 - Rehomologação da cidade Matinhos - PR, mudança de padrão IPM para IPM20.
+* SRVML-805 - Homologação da cidade CONDE - PB, padrão Fiorilli.
+* SRVML-805 - Homologação da cidade Tarumirim - MG, padrão Actcon.
+* SRVML-805 - Rehomologação da cidade de Ribeirão Preto - SP, mudança de padrão IssNetOnLine para IssNetOnLine20.
+* SRVML-805 - Homologação da cidade Canindé de São Francisco - SE, padrão Actcon.
+
+## [1.1.69.7406]
 
 **Novidades**
 
@@ -3165,6 +3182,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
