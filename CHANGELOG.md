@@ -1,4 +1,12 @@
-﻿## [1.1.70.7413]
+﻿## [1.1.70.7421]
+
+Novidades
+
+* SRVML-761 - Criado parâmetro em AtualizarArquivos para baixar arquivos de todos padrões
+* SRVML-813 - Rehomologação da cidade de Antônio Prado/RS, De GovBR para Fiorilli
+* SRVML-813 - Rehomologação da cidade de Pontes e Lacerda/MT, De Saturno para Betha20
+
+## [1.1.70.7413]
 
 **Novidades**
 
@@ -3182,6 +3190,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
