@@ -1,4 +1,21 @@
-﻿## [1.1.70.7421]
+﻿## [1.1.70.7422]
+
+**Novidades**
+
+* SRVML-823 - Rehomologação Pomerode - SC, mudança de padrão IPM para IPM20.
+* SRVML-823 - Rehomologação Clevelândia - PR, mudança de padrão GovBR20 para IPM20.
+* SRVML-823 - Rehomologação Montenegro - RS, mudança de padrão GovBR20 para THEMA.
+* SRVML-823 - Rehomologação Serro - MG, mudança de padrão IssLegal para Fiorilli.
+* SRVML-823 - Rehomologação Itatiaia - RJ, mudança de padrão IssNetOnline para IssNetOnline20.
+* SRVML-823 - Rehomologação Jaraguá - GO, mudança de padrão Centi para Arrecadanet.
+* SRVML-823 - Homologação da cidade São Gonçalo do Sapucaí - MG, padrão IPM20.
+* SRVML-823 - Homologação da cidade Tupi Paulista - SP, padrão Sistemas4R.
+* SRVML-823 - Homologação da cidade Itapemirim - ES, padrão EL.
+* SRVML-823 - Homologação da cidade Ourolândia - BA, padrão Saatri.
+* SRVML-823 - Homologação da cidade Zé Doca - MA, padrão Fiorilli.
+* SRVML-823 - Homologação da cidade Manduri - SP, padrão Betha.
+
+## [1.1.70.7421]
 
 Novidades
 
@@ -3190,6 +3207,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
