@@ -1,4 +1,41 @@
-﻿## [1.1.70.7422]
+﻿## [1.1.71.7423]
+
+**Novidades**
+
+* SRVML-836 - Rehomologação Taquaritinga - SP, mudança de padrão Conam para IssOnline.
+* SRVML-836 - Rehomologação Rondonópolis - MT, mudança de padrão Coplan para Agili.
+* SRVML-836 - Rehomologação Manduri - SP, mudança de padrão Betha para IssMapAPI.
+* SRVML-836 - Homologação da cidade Boa Esperança - ES, padrão EL.
+* SRVML-836 - Homologação da cidade Pinheiro - ES, padrão EL.
+* SRVML-836 - Homologação da cidade Alegre - ES, padrão EL.
+* SRVML-836 - Homologação da cidade Piúma - ES, padrão EL.
+* SRVML-836 - Homologação da cidade Muniz Freire - ES, padrão EL.
+* SRVML-836 - Homologação da cidade Ibatiba - ES, padrão EL.
+* SRVML-836 - Homologação da cidade Governador Linderberg - ES, padrão EL.
+* SRVML-836 - Homologação da cidade Jeronimo Monteiro - ES, padrão EL.
+* SRVML-836 - Homologação da cidade Conceição do Castelo - ES, padrão EL.
+* SRVML-836 - Homologação da cidade Jaguaré - ES, padrão EL20.
+* SRVML-836 - Homologação da cidade São Pedro De Alcântara - SC, padrão BauhausWS.
+* SRVML-836 - Homologação da cidade São Gabriel da Palha - ES, padrão EL20.
+* SRVML-836 - Homologação da cidade Nova Venécia - ES, padrão EL.
+* SRVML-836 - Homologação da cidade Marechal Floriano - ES, padrão EL20.
+* SRVML-836 - Homologação da cidade Rio Bananal - ES, padrão EL20.
+* SRVML-836 - Homologação da cidade Vila Valério - ES, padrão EL20.
+* SRVML-836 - Homologação da cidade Montanha - ES, padrão EL.
+* SRVML-836 - Homologação da cidade Mimoso do Sul - ES, padrão EL.
+* SRVML-836 - Homologação da cidade Iconha - ES, padrão EL20.
+* SRVML-836 - Homologação da cidade Sooretama - ES, padrão EL20.
+* SRVML-836 - Homologação da cidade Itaguaçu - ES, padrão EL.
+* SRVML-836 - Homologação da cidade Apiacá - ES, padrão EL.
+* SRVML-836 - Homologação da cidade Muqui - ES, padrão EL.
+* SRVML-836 - Homologação da cidade Itarana - ES, padrão EL20.
+* SRVML-836 - Homologação da cidade Pancas - ES, padrão EL20.
+* SRVML-836 - Homologação da cidade Pedro Canário - ES, padrão EL20.
+* SRVML-836 - Homologação da cidade Galvão - SC, padrão Betha.
+* SRVML-836 - Homologação da cidade Mariópolis - PR, padrão GovBR20.
+* SRVML-836 - Homologação da cidade Campo Alegre de Goias - GO, padrão Arrecadanet.
+
+## [1.1.70.7422]
 
 **Novidades**
 
@@ -3207,6 +3244,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
