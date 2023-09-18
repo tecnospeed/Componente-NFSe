@@ -1,4 +1,16 @@
-﻿## [1.1.71.7423]
+﻿## [1.1.71.7425]
+
+**Novidades**
+
+* SRVML-879 - Homologação da cidade Barra de São Miguel - AL, padrão Kalana.
+* SRVML-879 - Rehomologação Carambeí - RS, mudança de padrão IPM para IPM20.
+* SRVML-879 - Rehomologação Dois Irmãos - RS, mudança de padrão IPM para IPM20.
+* SRVML-879 - Rehomologação São Gotardo - MG, mudança de padrão Webiss para eReceita.
+* SRVML-879 - Rehomologação Guaraciaba - SC, mudança de padrão Betha para IPM20.
+* SRVML-879 - Rehomologação Rancharia - SP, mudança de padrão Saturno para Fiorilli.
+* SRVML-879 - Rehomologação Valença - RJ, mudança de padrão Betha para DBSeller.
+
+## [1.1.71.7423]
 
 **Novidades**
 
@@ -3244,6 +3256,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
