@@ -1,4 +1,11 @@
-﻿## [1.1.71.7425]
+﻿## [1.1.72.7426]
+
+**Novidades**
+
+* SRVML-910 - Homologação da cidade Pacatuba - CE, padrão Intersol.
+* SRVML-910 - Homologação da cidade Dourado - SP, padrão Fiorilli.
+
+## [1.1.71.7425]
 
 **Novidades**
 
@@ -3256,6 +3263,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
