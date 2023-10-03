@@ -1,4 +1,24 @@
-﻿## [1.1.72.7426]
+﻿## [1.1.72.7427]
+
+**Novidades**
+
+* SRVML-916 - Homologação da cidade Buritizeiro - MG, padrão DBSeller.
+* SRVML-916 - Homologação da cidade Muriti - BA, padrão Fisco.
+* SRVML-916 - Homologação da cidade Barra da Estiva - BA, padrão Saatri.
+* SRVML-916 - Homologação da cidade Valente - BA, padrão Saatri.
+* SRVML-916 - Homologação da cidade Coração de Maria - BA, padrão Saatri.
+* SRVML-916 - Homologação da cidade Tucano - BA, padrão Fisco.
+* SRVML-916 - Homologação da cidade Santaluz - BA, padrão Freire.
+* SRVML-916 - Homologação da cidade Itatim - BA, padrão Saatri.
+* SRVML-916 - Homologação da cidade Remanso - BA, padrão Siam.
+* SRVML-916 - Homologação da cidade Ibitiara - BA, padrão Saatri.
+* SRVML-916 - Homologação da cidade Martins - RN, padrão TributusWS.
+* SRVML-916 - Homologação da cidade Leverger - MT, padrão Fisslex.
+* SRVML-916 - Homologação da cidade Pariquera-Açu - SP, padrão CECAM.
+* SRVML-916 - Rehomologação Taió - SC, mudança de padrão IPM para IPM20.
+* SRVML-916 - Rehomologação Sertãozinho - SP, mudança de padrão Smarapd para SIL20.
+
+## [1.1.72.7426]
 
 **Novidades**
 
@@ -3263,6 +3283,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
