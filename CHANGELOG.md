@@ -1,4 +1,15 @@
-﻿## [1.1.72.7427]
+﻿## [1.1.73.7429]
+
+**Novidades**
+
+* SRVML-951 - Homologação da cidade Governador Celso Ramos - SC, padrão BauhausWS.
+* SRVML-951 - Homologação da cidade Bananeiras - PB, padrão Tinus.
+* SRVML-951 - Rehomologação Guaramirim - SC, mudança de padrão IPM para IPM20.
+* SRVML-951 - Rehomologação Duque de Caxias - RJ, mudança de padrão IssNetOnline para IssNetOnline20.
+* SRVML-954 - Correção para gerar XML de cancelamento com código IBGE da chave - Natal/RN.
+* SRVML-952 - Ajustes em impressão via link para MACEIO padrão GINFES.
+
+## [1.1.72.7427]
 
 **Novidades**
 
@@ -3283,6 +3294,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
