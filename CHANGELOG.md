@@ -1,4 +1,14 @@
-﻿## [1.1.74.7430]
+﻿## [1.1.74.7432]
+
+**Novidades**
+
+* SRVML-970 - Rehomologação Porto Velho - RO, mudança de padrão SemFazOnline para EL20.
+* SRVML-970 - Rehomologação Sobradinho - RS, mudança de padrão IPM para IPM20.
+* SRVML-970 - Homologação da cidade Barão de Cotegipe - SC, padrão System.
+* SRVML-970 - Homologação da cidade Cassilândia - MS, padrão IssOnline.
+* SRVML-970 - Homologação da cidade Salvador do Sul - RS, padrão TecnoSistemas.
+
+## [1.1.74.7430]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -3298,6 +3308,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
