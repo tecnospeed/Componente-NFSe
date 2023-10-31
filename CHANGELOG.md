@@ -1,4 +1,18 @@
-﻿## [1.1.74.7432]
+﻿## [1.1.74.7435]
+
+**Correções**
+
+* SRVML-969 - Correção do componente v2 para sistemas 64 bits.
+
+**Novidades**
+
+* SRVML-991 - Rehomologação Araquari - SC, mudança de padrão IPM para IPM20.
+* SRVML-991 - Rehomologação Carpina - PE, mudança de padrão ColumbiaUP para HM2WS.
+* SRVML-991 - Rehomologação Campina do Monte Alegre - SP, mudança de padrão IssOnline para Sistemas4
+* SRVML-991 - Rehomologação Pato Bragado - PR, mudança de padrão GovBR20 para IPM20.
+* SRVML-991 - Rehomologação Bananeiras - PE, mudança de padrão Tinus para TinusUP.
+
+## [1.1.74.7432]
 
 **Novidades**
 
@@ -3308,6 +3322,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
