@@ -1,4 +1,38 @@
-﻿## [1.1.74.7435]
+﻿## [1.1.74.7436]
+
+**Novidades**
+
+* SRVML-984 - Homologação da cidade Santana da Boa Vista - RS, padrão GovBR20.
+* SRVML-984 - Homologação da cidade Saldanha Marinho - RS, padrão SIM.
+* SRVML-984 - Homologação da cidade Capitão Poço - RS, padrão IssIntel.
+* SRVML-984 - Homologação da cidade Cachoeira - BA, padrão Fisco20.
+* SRVML-984 - Homologação da cidade Altos - PI, padrão Fisco20.
+* SRVML-984 - Homologação da cidade Itarantim - BA, padrão Saatri.
+* SRVML-984 - Homologação da cidade Imbé - RS, padrão Thema.
+* SRVML-984 - Homologação da cidade Tauá - CE, padrão Intersol.
+* SRVML-984 - Homologação da cidade Ipu - CE, padrão Intersol.
+* SRVML-984 - Homologação da cidade Icapuí - CE, padrão Intersol.
+* SRVML-984 - Homologação da cidade Barreira - CE, padrão SSInformatica.
+* SRVML-984 - Homologação da cidade Camamu - BA, padrão Fiorilli.
+* SRVML-984 - Homologação da cidade São Gonçalo dos Campos - BA, padrão Freire.
+* SRVML-984 - Homologação da cidade Moreno - PE, padrão TributusWS.
+* SRVML-984 - Homologação da cidade Ilha de Itamaracá - PE, padrão TributusWS.
+* SRVML-984 - Homologação da cidade Posse - GO, padrão Centi.
+* SRVML-984 - Homologação da cidade Satuba - AL, padrão NFOnline.
+* SRVML-984 - Homologação da cidade São José do Rio Claro - MT, padrão Coplan.
+* SRVML-984 - Homologação da cidade Santana da Boa Vista - RS, padrão GovBR20.
+* SRVML-984 - Homologação da cidade Simão Dias - SE, padrão 3TecnosUP.
+* SRVML-984 - Homologação da cidade Nossa Senhora das Dores - SE, padrão 3TecnosUP.
+* SRVML-984 - Homologação da cidade Campo do Brito - SE, padrão 3TecnosUP.
+* SRVML-984 - Homologação da cidade Itabaianinha - SE, padrão 3TecnosUP.
+* SRVML-984 - Homologação da cidade Maruim - SE, padrão 3TecnosUP.
+* SRVML-984 - Homologação da cidade Indiaroba - SE, padrão 3TecnosUP.
+* SRVML-984 - Homologação da cidade Poço Verde - SE, padrão 3TecnosUP.
+* SRVML-984 - Homologação da cidade Laranjeiras - SE, padrão Webiss20.
+* SRVML-984 - Homologação da cidade Carira - SE, padrão Webiss20.
+* SRVML-984 - Homologação da cidade Japaratuba - SE, padrão Webiss20.
+
+## [1.1.74.7435]
 
 **Correções**
 
@@ -3322,6 +3356,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
