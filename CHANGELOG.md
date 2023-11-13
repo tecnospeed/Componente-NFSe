@@ -1,4 +1,13 @@
-﻿## [1.1.74.7437]
+﻿## [1.1.75.7438]
+
+**Novidades**
+
+* SRVML-1039 - Rehomologação Amparo - SP, mudança de padrão Cotia para GovDigital.
+* SRVML-1039 - Rehomologação Ituporanga - SC, mudança de padrão IPM para IPM20.
+* SRVML-1039 - Rehomologação Campo Mourão - PR, mudança de padrão IPM para IPM20.
+* SRVML-1039 - Rehomologação Balneário Piçarras - SC, mudança de padrão IPM para IPM20.
+
+## [1.1.74.7437]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -3360,6 +3369,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
