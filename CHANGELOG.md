@@ -1,4 +1,17 @@
-﻿## [1.1.75.7438]
+﻿## [1.1.75.7441]
+
+**Novidades**
+
+* SRVML-1040 - Rehomologação Itamaraju - BA, mudança de padrão EL20 para Webiss20.
+* SRVML-1040 - Rehomologação Taubaté - SP, mudança de padrão Sigiss20 para Sigcorp.
+* SRVML-1040 - Rehomologação Palmeira dos Índios - AL, mudança de padrão Tributus para Agili.
+* SRVML-1040 - Rehomologação Nova Prata do Iguaçu - PR, mudança de padrão IPM para IPM20.
+* SRVML-1040 - Homologação da cidade Doutor Camargo - PR, padrão MaisIss20.
+* SRVML-1040 - Homologação da cidade Quissamã - RJ, padrão GovBR20.
+* SRVML-1040 - Homologação da cidade São Miguel dos Milagres - AL, padrão NFOnline.
+* SRVML-1040 - Homologação da cidade Quintana - SP, padrão Fiorilli.
+
+## [1.1.75.7438]
 
 **Novidades**
 
@@ -3369,6 +3382,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
