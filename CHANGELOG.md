@@ -1,4 +1,22 @@
-﻿## [1.1.76.7442]
+﻿## [1.1.76.7446]
+
+**Novidades**
+
+* SRVML-1117 - Rehomologação Nova Santa Rita - RS, mudança de padrão IPM para IPM20.
+* SRVML-1117 - Rehomologação Veranópolis - RS, mudança de padrão Tecnosistemas para Fiorilli.
+* SRVML-1117 - Rehomologação Bacabal - MA, mudança de padrão Sigiss20 para Sigcorp.
+* SRVML-1117 - Rehomologação Caraguatatuba - SP, mudança de padrão Sigiss20 para Sigcorp.
+* SRVML-1117 - Rehomologação Canoinhas - SC, mudança de padrão IPM para IPM20.
+* SRVML-1136 - Rehomologação Cuiabá - MT, mudança de padrão IssNetOnline para IssNetOnline20.
+* SRVML-1136 - Rehomologação Arcoverde - PE, mudança de padrão Tributus para TributusWS.
+* SRVML-1136 - Rehomologação Arapina- PE, mudança de padrão ColumbiaUP para HM2WS.
+* SRVML-1136 - Homologação da cidade Arandu - SP, padrão IssMapAPI.
+* SRVML-1136 - Homologação da cidade Mata - RS, padrão Betha.
+* SRVML-1136 - Homologação da cidade Uraí - PR, padrão SysissOnline.
+* SRVML-1136 - Homologação da cidade Terra Nova do Norte - MT, padrão Agili.
+* SRVML-1136 - Homologação da cidade Rio Bonito do Iguaçu - PR, padrão Equiplano.
+
+## [1.1.76.7442]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -3386,6 +3404,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
