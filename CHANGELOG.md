@@ -1,4 +1,20 @@
-﻿## [1.1.76.7446]
+﻿## [1.1.77.7447]
+
+**Novidades**
+
+* SRVML-1170 -  Rehomologação Campo Largo - PR, mudança de padrão IPM para IPM20.
+* SRVML-1170 -  Rehomologação Marechal Cândido Rondon - PR, mudança de padrão IPM para IPM20.
+* SRVML-1170 -  Rehomologação Varginha - MG, mudança de padrão Conam para Betha.
+* SRVML-1170 -  Rehomologação João Monlevade - MG, mudança de padrão Simpliss para EL20.
+* SRVML-1170 -  Rehomologação Dourados - MS, mudança de padrão ISSNETONLINE para Betha.
+* SRVML-1170 -  Rehomologação Itaporã, mudança de padrão ISSNETONLINE para Fiorilli.
+* SRVML-1170 -  Rehomologação Panambi - RS, mudança de padrão IPM para IPM20.
+* SRVML-1170 -  Homologação da cidade Santa Carmem - MT, padrão Saturno20.
+* SRVML-1170 -  Homologação da cidade Limeira Do oeste - MG, padrão GovDigital.
+* SRVML-1170 -  Homologação da cidade São Paulo das Missões - RS, padrão Abase.
+* SRVML-1170 -  Homologação da cidade Bom Retiro do SUl - RS, padrão Tecnosistemas.
+
+## [1.1.76.7446]
 
 **Novidades**
 
@@ -3404,6 +3420,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
