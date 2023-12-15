@@ -1,4 +1,10 @@
-﻿## [1.1.77.7447]
+﻿## [1.1.77.7451]
+
+**Correções**
+
+* SRVML-1202 - Correção no método AtualizarArquivos.
+
+## [1.1.77.7447]
 
 **Novidades**
 
@@ -3420,6 +3426,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
