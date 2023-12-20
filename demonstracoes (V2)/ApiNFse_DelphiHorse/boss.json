@@ -1,0 +1,16 @@
+{
+	"name": "ApiNFSe_DelphiHorse",
+	"description": "API NFSe usando Horse + componente NFSe TecnoSpeed",
+	"version": "1.0.0",
+	"homepage": "",
+	"mainsrc": "./src",
+	"projects": [],
+	"dependencies": {
+		"github.com/HashLoad/handle-exception": "^0.1.8",
+		"github.com/HashLoad/horse": "^3.1.5",
+		"github.com/HashLoad/horse-basic-auth": "^1.2.3",
+		"github.com/HashLoad/horse-octet-stream": "^1.9.9",
+		"github.com/HashLoad/jhonson": "^1.1.6",
+		"github.com/hashload/horse-cors": "^1.0.6"
+	}
+}
