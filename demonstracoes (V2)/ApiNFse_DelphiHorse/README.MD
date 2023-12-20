@@ -10,15 +10,15 @@ Desenvolvida com o Delphi 11, mas pode ser utilizada com Delphi XE7 ou superior,
 ou então pegue o boss.exe e jogue na pasta do windows.
 - Baixe o projeto na pasta C:\ApiNFse_DelphiHorse\ ou outra de sua preferência (atualizar a constante PATH_ARQUIVOS da unit services.nfse.pas)
 - Abra o cmd na pasta do projeto baixada e execute o comando -> boss install
-- Esse comando baixara todas os pacotes utilizados no projeto. 
+- Esse comando baixara todos os middlewares utilizados no projeto. 
 - Depois abra o projeto DemoApiNFSe.dproj no Delphi e compile, se tudo estive OK é so executar
 
 # Observações:
 A demo foi projetada para que a configuração de cada CNPJ fique na sua respectiva pasta.
-Por exemplo, quero utilizar para o CNPJ 99999999999999, então eu crio uma nova pasta em .\arquivos\99999999999999\ 
+Por exemplo, vai utilizar para o CNPJ 99999999999999, então eu devo criar uma pasta em C:\ApiNFse_DelphiHorse\arquivos\99999999999999\ 
 e nessa pasta eu adiciono o NFSeConfig.ini configurando todas propriedades necessárias como cidade, certificado, diretorios. 
-Na pasta .\arquivos\00000000000000\NFSeConfig.ini tem um exemplo das propriedades
+Na pasta C:\ApiNFse_DelphiHorse\arquivos\00000000000000\NFSeConfig.ini tem um exemplo das propriedades.
 
-É necessário configurar o CNPJ e Token da Software House no FspdNFSe.ConfigurarSoftwareHouse('', '') da unit services.nfse.pas;
+Configurar o CNPJ e Token da Software House no comando FspdNFSe.ConfigurarSoftwareHouse da unit services.nfse.pas.
 
-Para testar as rotas utilize a collection postman disponibilizada
+Para testar as rotas utilize a collection postman disponibilizada.
