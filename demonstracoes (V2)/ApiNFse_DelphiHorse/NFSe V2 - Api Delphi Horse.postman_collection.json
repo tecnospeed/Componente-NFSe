@@ -1,0 +1,796 @@
+{
+	"info": {
+		"_postman_id": "443f266e-3c0d-4870-9c0c-783734a20163",
+		"name": "NFSe V2 - Api Delphi Horse",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3720339"
+	},
+	"item": [
+		{
+			"name": "status api",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/status",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"status"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "versao componente",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "123mudar",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/nfse/versaoComponente",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"nfse",
+						"versaoComponente"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "atualizar arquivos",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "123mudar",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/nfse/atualizarArquivos?modoCompleto=0",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"nfse",
+						"atualizarArquivos"
+					],
+					"query": [
+						{
+							"key": "modoCompleto",
+							"value": "0",
+							"description": "[0=Modo Parcial, 1=Modo Completo]"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cidades homologadas",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "123mudar",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{BASE_URL}}/nfse/cidadesHomologadas",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"nfse",
+						"cidadesHomologadas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "retornar config componente (por cnpj)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "123mudar",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": []
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/nfse/config/00000000000000",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"nfse",
+						"config",
+						"00000000000000"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "salvar config componente (por cnpj)",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "123mudar",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "cnpj",
+							"value": "00000000000000",
+							"description": "* cnpj da empresa",
+							"type": "text"
+						},
+						{
+							"key": "conteudoIni",
+							"value": "[NFSE]\nAmbiente=2\nCNPJSoftwareHouse=00000000000000\nCIDADE=MARINGA\nCNPJ=00000000000000\nInscricaoMunicipal=0000\nNomeCertificado=\nArquivos=C:\\Program Files\\TecnoSpeed\\NFSe\\Arquivos\\\nDiretorioLog=C:\\ApiNFse_DelphiHorse\\arquivos\\00000000000000\\Log\\\nDiretorioLogErro=C:\\ApiNFse_DelphiHorse\\arquivos\\00000000000000\\LogErro\\\nDiretorioXmlImpressao=C:\\ApiNFse_DelphiHorse\\arquivos\\00000000000000\\Impressao\\\nPINCODE=\nTimeOut=0\n\n[MAIL]\nServidor=smtp.gmail.com\nEmailRemetente=\nAssunto=\nMensagem=\nUsuario=\nSenha=\nTimeOut=30000\nEmailDestinatario=\nCCo=\nCC=\nAutenticacao=1\nPorta=587\nIsContentHTML=0",
+							"description": "* conteudo do ini para configurações do componente",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/nfse/config",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"nfse",
+						"config"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "enviar nfse",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "123mudar",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "cnpj",
+							"value": "00000000000000",
+							"description": "* cnpj da empresa",
+							"type": "text"
+						},
+						{
+							"key": "tx2",
+							"value": "",
+							"description": "* conteudo do tx2 de envio da nfse",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/nfse/enviar",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"nfse",
+						"enviar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "consultar nfse (por NFSe)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "123mudar",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "cnpj",
+							"value": "00000000000000",
+							"description": "* cnpj da empresa",
+							"type": "text"
+						},
+						{
+							"key": "numeroNfse",
+							"value": "",
+							"description": "* número da nfse",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/nfse/consultar",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"nfse",
+						"consultar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "consultar nfse (por RPS)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "123mudar",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "cnpj",
+							"value": "00000000000000",
+							"description": "* cnpj da empresa",
+							"type": "text"
+						},
+						{
+							"key": "numeroRps",
+							"value": "",
+							"description": "* número do rps",
+							"type": "text"
+						},
+						{
+							"key": "serie",
+							"value": "",
+							"description": "* série",
+							"type": "text"
+						},
+						{
+							"key": "tipo",
+							"value": "",
+							"description": "* tipo da série",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/nfse/consultar",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"nfse",
+						"consultar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "consultar nfse (por Protocolo)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "123mudar",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "cnpj",
+							"value": "00000000000000",
+							"description": "* cnpj da empresa",
+							"type": "text"
+						},
+						{
+							"key": "protocolo",
+							"value": "",
+							"description": "* número do protocolo / código de verificação",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/nfse/consultar",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"nfse",
+						"consultar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "consultar nfse tomadas",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "123mudar",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "cnpj",
+							"value": "00000000000000",
+							"description": "* cnpj empresa",
+							"type": "text"
+						},
+						{
+							"key": "nomeCidade",
+							"value": "MARINGA",
+							"description": "* nome da cidade",
+							"type": "text"
+						},
+						{
+							"key": "documentoTomador",
+							"value": "00000000000000",
+							"description": "* cnpj do tomador",
+							"type": "text"
+						},
+						{
+							"key": "imTomador",
+							"value": "",
+							"description": "inscrição municipal do tomador",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "documentoPrestador",
+							"value": "",
+							"description": "cpf/cnpj do prestador",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "imPrestador",
+							"value": "",
+							"description": "inscrição municipal do prestador",
+							"type": "text",
+							"disabled": true
+						},
+						{
+							"key": "dataInicial",
+							"value": "2023-12-01",
+							"description": "* data inicial do período",
+							"type": "text"
+						},
+						{
+							"key": "dataFinal",
+							"value": "2023-12-19",
+							"description": "* data final do período",
+							"type": "text"
+						},
+						{
+							"key": "pagina",
+							"value": "1",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/nfse/consultarTomadas",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"nfse",
+						"consultarTomadas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "gerar pdf nfse",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "123mudar",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "cnpj",
+							"value": "00000000000000",
+							"description": "* cnpj da empresa",
+							"type": "text"
+						},
+						{
+							"key": "xmlNfse",
+							"value": "",
+							"description": "* conteúdo do xml da nfse",
+							"type": "text"
+						},
+						{
+							"key": "xmlRps",
+							"value": "",
+							"description": "conteúdo do rps da nfse",
+							"type": "text"
+						},
+						{
+							"key": "camposCustomizados",
+							"value": "",
+							"description": "campos customizados (quando houver)",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/nfse/gerarPdf",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"nfse",
+						"gerarPdf"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cancelar nfse",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "123mudar",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "cnpj",
+							"value": "00000000000000",
+							"description": "* cnpj da empresa",
+							"type": "text"
+						},
+						{
+							"key": "chave",
+							"value": "",
+							"description": "* chave do cancelamento",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/nfse/cancelar",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"nfse",
+						"cancelar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "converter Tx2 em Xml",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "123mudar",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "cnpj",
+							"value": "00000000000000",
+							"description": "* cnpj da empresa",
+							"type": "text"
+						},
+						{
+							"key": "nomeCidade",
+							"value": "MARINGA",
+							"description": "* nome da cidade",
+							"type": "text"
+						},
+						{
+							"key": "tx2",
+							"value": "",
+							"description": "* conteúdo do tx2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/nfse/converterTx2ToXml",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"nfse",
+						"converterTx2ToXml"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "converter Xml em Json",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "123mudar",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "admin",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "nomeCidade",
+							"value": "MARINGA",
+							"description": "* nome da cidade",
+							"type": "text"
+						},
+						{
+							"key": "xml",
+							"value": "",
+							"description": "* conteúdo do xml da nfse",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{BASE_URL}}/nfse/converterXmlToJson",
+					"host": [
+						"{{BASE_URL}}"
+					],
+					"path": [
+						"nfse",
+						"converterXmlToJson"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "BASE_URL",
+			"value": "http://localhost:9000"
+		}
+	]
+}
