@@ -20,3 +20,5 @@
 *e nessa pasta eu adiciono o NFSeConfig.ini configurando todas propriedades necessárias como cidade, certificado, diretorios. 
 *Na pasta .\arquivos\00000000000000\NFSeConfig.ini tem um exemplo das propriedades
 *É necessário configurar o CNPJ e Token da Software House no FspdNFSe.ConfigurarSoftwareHouse('', '') da unit services.nfse.pas;
+
+*Para testar as rotas utilize a collection postman disponibilizada
