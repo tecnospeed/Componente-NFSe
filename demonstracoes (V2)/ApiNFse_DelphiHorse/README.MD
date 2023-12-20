@@ -14,9 +14,6 @@
 *Esse comando baixara todas os pacotes utilizados no projeto. 
 *Depois abra o projeto DemoApiNFSe.dproj no Delphi e compile, se tudo estive OK é so executar
 
-*Collection postman para testar as rotas:
-https://api.postman.com/collections/3720339-443f266e-3c0d-4870-9c0c-783734a20163?access_key=PMAT-01HJ3VRNVWKW9W300DR3YV0GFV
-
 *Observações:
 *A demo foi projetada para que a configuração de cada CNPJ fique na sua respectiva pasta.
 *Por exemplo, quero utilizar para o CNPJ 99999999999999, então eu crio uma nova pasta em .\arquivos\99999999999999\ 
