@@ -1,4 +1,18 @@
-﻿## [1.1.77.7451]
+﻿## [1.1.77.7454]
+
+**Novidades**
+
+* SRVML-1306 - Homologação da cidade Bernardino de Campos - SP, padrão IssMapAPI.
+* SRVML-1306 - Homologação da cidade São João Nepomuceno - MG, padrão Betha20.
+* SRVML-1306 - Homologação da cidade Cocalzinho de Goiás - GO, padrão Arrecadanet.
+* SRVML-1306 - Homologação da cidade Cairu - BA, padrão Webiss20.
+* SRVML-1306 - Rehomologação Carazinho - RS, mudança de padrão DBSeller para IPM20.
+* SRVML-1306 - Rehomologação Sapucaia - RJ, mudança de padrão Betha para Betha20.
+* SRVML-1306 - Rehomologação Louveira - SP, mudança de padrão CebiUP para GovDigital.
+* SRVML-1306 - Rehomologação São Felix do Xingu - PA, mudança de padrão Aspec para Desenvolve.
+* SRVML-1306 - Adaptações de Santos para novo portal GissOnline
+
+## [1.1.77.7451]
 
 **Correções**
 
@@ -3426,6 +3440,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
