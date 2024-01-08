@@ -1,4 +1,14 @@
-﻿## [1.1.77.7454]
+﻿## [1.1.78.7456]
+
+**Novidades**
+
+* SRVML-1354 - Homologação da cidade Bom Retiro - SC, padrão IPM.
+* SRVML-1354 - Homologação da cidade Uruçuí - PI, padrão Fiorilli.
+* SRVML-1354 - Rehomologação Barra Mansa - RJ, mudança de padrão IssnetOnline para Coplan.
+* SRVML-1354 - Rehomologação Alegrete - RS, mudança de padrão DBSeller para GovBR20.
+* SRVML-1354 - Rehomologação Carazinho - RS, mudança de padrão DBSeller para IPM20.
+
+## [1.1.77.7454]
 
 **Novidades**
 
@@ -3440,6 +3450,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
