@@ -1,4 +1,13 @@
-﻿## [1.1.78.7456]
+﻿## [1.1.78.7457]
+
+**Novidades**
+
+* SRVML-1717 - Homologação da cidade Araçuaí - MG, padrão EL.
+* SRVML-1717 - Homologação da cidade Cacique Doble - RS, padrão Sinsoft.
+* SRVML-1717 - Rehomologação Codó - MA, mudança de padrão ACTCON para Fiorilli.
+* SRVML-1717 - Rehomologação Caçu - GO, mudança de padrão Arrecadanet para Centi.
+
+## [1.1.78.7456]
 
 **Novidades**
 
@@ -3450,6 +3459,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
