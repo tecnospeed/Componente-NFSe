@@ -1,4 +1,15 @@
-﻿## [1.1.78.7457]
+﻿## [1.1.79.7458]
+
+**Novidades**
+
+* SRVML-1743 - Rehomologação São Borja - RS, mudança de padrão DBSeller para Infisc.
+* SRVML-1743 - Rehomologação Apiaí - SP, mudança de padrão Sistemas4R para ISSOnline.
+* SRVML-1743 - Rehomologação Santana do Paraíso - SP, mudança de padrão ACTCON para Webiss20.
+* SRVML-1743 - Homologação da cidade Campos Belos - GO, padrão Arrecadanet.
+* SRVML-1743 - Homologação da cidade Tavares - RS, padrão GovBR20.
+* SRVML-1743 - Homologação da cidade Artur Nogueira - SP, padrão Prescon.
+
+## [1.1.78.7457]
 
 **Novidades**
 
@@ -3459,6 +3470,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
