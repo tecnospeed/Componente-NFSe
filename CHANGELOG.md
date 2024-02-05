@@ -1,4 +1,19 @@
-﻿## [1.1.79.7459]
+﻿## [1.1.79.7460]
+
+**Novidades**
+
+* SRVML-1765 - Homologação da cidade Joanópolis - SP, padrão Sistemas4R.
+* SRVML-1786 - Homologação da cidade Dormentes - PE, padrão Fiorilli.
+* SRVML-1786 - Homologação da cidade Itanhanduva - MG, padrão GovDigital.
+* SRVML-1765 - Rehomologação Arapongas - PR, mudança de padrão IPM para IPM20.
+* SRVML-1765 - Rehomologação Igrejinha - RS, mudança de padrão IPM para IPM20.
+* SRVML-1786 - Rehomologação Biguaçu - SC, mudança de padrão Betha para IPM20.
+* SRVML-1786 - Rehomologação Lagoa Vermelha - SC, mudança de padrão IPM para IPM20.
+* SRVML-1786 - Rehomologação Carlos Barbosa - RS, mudança de padrão Tecnosistemas para Infisc.
+* SRVML-1786 - Rehomologação Diamantina - MG, mudança de padrão SolucaoPublica para eReceita.
+* SRVML-1786 - Rehomologação Aracruz - ES, mudança de padrão EL para EL20.
+
+## [1.1.79.7459]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -3474,6 +3489,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
