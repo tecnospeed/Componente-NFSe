@@ -1,4 +1,15 @@
-﻿## [1.1.79.7460]
+﻿## [1.1.80.7461]
+
+**Novidades**
+
+* SRVML-1803 - Homologação da cidade Reserva - PR, padrão Equiplano.
+* SRVML-1803 - Homologação da cidade Minas Novas - MG, padrão Sintese.
+* SRVML-1803 - Rehomologação Rodeio - SC, mudança de padrão IPM para IPM20.
+* SRVML-1803 - Rehomologação Boituva - SP, mudança de padrão Sistemas4R para GovBR20.
+* SRVML-1803 - Rehomologação Itaquaquecetuba - SP, mudança de padrão Ginfes para SIL20.
+* SRVML-1803 - Rehomologação Cambuí - MG, mudança de padrão Simpliss para Fiorilli.
+
+## [1.1.79.7460]
 
 **Novidades**
 
@@ -3489,6 +3500,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
