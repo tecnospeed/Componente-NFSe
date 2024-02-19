@@ -1,4 +1,12 @@
-﻿## [1.1.80.7461]
+﻿## [1.1.80.7463]
+
+**Novidades**
+
+* SRVML-1821 - Homologação da cidade Mambaí - GO, padrão Arrecadanet.
+* SRVML-1821 - Rehomologação Nova Viçosa - BA, mudança de padrão Betha para Saatri.
+* SRVML-1821 - Rehomologação Pedreiras - MA, mudança de padrão Actcon para Fiorilli.
+
+## [1.1.80.7461]
 
 **Novidades**
 
@@ -3500,6 +3508,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
