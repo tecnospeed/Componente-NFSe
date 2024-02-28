@@ -1,4 +1,12 @@
-﻿## [1.1.80.7464]
+﻿## [1.1.81.7467]
+
+**Novidades**
+
+* SRVML-1841 - Rehomologação Guaíra - PR, mudança de padrão IPM para IPM20.
+* SRVML-1841 - Rehomologação Rio Do Oeste - SC, mudança de padrão IPM para IPM20.
+* SRVML-1841 - Rehomologação Santa Bárbara - MG, mudança de padrão GOVBR20 para Memory.
+
+## [1.1.80.7464]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -3512,6 +3520,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
