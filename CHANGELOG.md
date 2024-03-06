@@ -1,4 +1,14 @@
-﻿## [1.1.81.7467]
+﻿## [1.1.81.7469]
+
+**Novidades**
+
+* SRVML-1856 - Rehomologação Paranaguá - PR, mudança de padrão IPM para IPM20.
+* SRVML-1856 - Rehomologação Pedra Preta - MT, mudança de padrão MaisIss20 para Fiorilli.
+* SRVML-1856 - Homologação da cidade Guaraciaba - MG, padrão eReceita.
+* SRVML-1856 - Homologação da cidade Itaguará - MG, padrão Betha.
+* SRVML-1856 - Homologação da cidade Perdigão - MG, padrão Memory.
+
+## [1.1.81.7467]
 
 **Novidades**
 
@@ -3520,6 +3530,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
