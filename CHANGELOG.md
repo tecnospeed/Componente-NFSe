@@ -1,4 +1,15 @@
-﻿## [1.1.81.7469]
+﻿## [1.1.81.7470]
+
+**Novidades**
+
+* SRVML-1888 - Rehomologação Canoas - RS, mudança de padrão ÁBACO para INFISC.
+* SRVML-1888 - Rehomologação São Lourenço da Mata - PE, mudança de padrão TRIBUTUS para TRIBUTUSWS.
+* SRVML-1888 - Homologação da cidade São Lourenço da Serra - SP, padrão Sistemas4R.
+* SRVML-1888 - Homologação da cidade Paramirim - BA, padrão Freire.
+* SRVML-1888 - Homologação da cidade Xangri-lá - RS, padrão Fiorilli.
+* SRVML-1888 - Homologação da cidade Presidente Figueiredo - AM, padrão Fiorilli.
+
+## [1.1.81.7469]
 
 **Novidades**
 
@@ -3530,6 +3541,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
