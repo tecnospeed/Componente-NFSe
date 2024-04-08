@@ -1,4 +1,15 @@
-﻿## [1.1.82.7473]
+﻿## [1.1.83.7474]
+
+**Novidades**
+
+* SRVML-2016 - Rehomologação Anchieta - ES, mudança de padrão EL para EL20.
+* SRVML-2016 - Homologação da cidade Estrela Do Sul - MG, padrão Governa.
+* SRVML-2016 - Homologação da cidade Arinos - MG, padrão Fiorilli.
+* SRVML-2016 - Homologação da cidade Riachão do Jacuípe - BA, padrão Keep.
+* SRVML-2016 - Homologação da cidade Charqueada - SP, padrão GovBR20.
+* SRVML-2016 - Homologação da cidade Estrela D'Oeste - SP, padrão Fiorilli.
+
+## [1.1.82.7473]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -3551,6 +3562,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
