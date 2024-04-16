@@ -1,4 +1,12 @@
-﻿## [1.1.83.7475]
+﻿## [1.1.83.7477]
+
+**Novidades**
+
+* SRVML-2016 - Rehomologação Colombo - PR, mudança de padrão IPM para IPM20.
+* SRVML-2016 - Homologação da cidade Guimarânia - MG, padrão Governa.
+* SRVML-2016 - Homologação da cidade Perdizes - MG, padrão Governa.
+
+## [1.1.83.7475]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -3566,6 +3574,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
