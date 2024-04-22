@@ -1,4 +1,17 @@
-﻿## [1.1.83.7477]
+﻿## [1.1.83.7487]
+
+**Novidades**
+
+* SRVML-2076 - Rehomologação Boa Esperança - ES, mudança de padrão EL para IEL20.
+* SRVML-2076 - Rehomologação Guarujá do Sul - SC, mudança de padrão BETHA para IPM20.
+* SRVML-2076 - Rehomologação Raposa - MA, mudança de padrão ASPEC para BauhausWS.
+* SRVML-2076 - Rehomologação Campos Altos - MG, mudança de padrão WebISS20 para Memory.
+* SRVML-2076 - Rehomologação Iporã do Oeste - SC, mudança de padrão IPM para IPM20.
+* SRVML-2076 - Homologação da cidade Pains - MG, padrão WebISS20.
+* SRVML-2076 - Homologação da cidade Pedra Azul - MG, padrão Sintese.
+* SRVML-2076 - Homologação da cidade Quixeré - MG, padrão XTROnline.
+
+## [1.1.83.7477]
 
 **Novidades**
 
@@ -3574,6 +3587,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
