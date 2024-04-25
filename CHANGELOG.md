@@ -1,4 +1,10 @@
-﻿## [1.1.83.7487]
+﻿## [1.1.83.7489]
+
+**Novidades**
+
+* SRVML-2076 - Rehomologação Gramado - RS, mudança de padrão BETHA para IPM20.
+
+## [1.1.83.7487]
 
 **Novidades**
 
@@ -3587,6 +3593,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
