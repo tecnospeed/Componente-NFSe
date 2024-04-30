@@ -1,4 +1,14 @@
-﻿## [1.1.83.7489]
+﻿## [1.1.83.7490]
+
+**Novidades**
+
+* SRVML-2097 - Rehomologação Abaetetuba - PA, mudança de padrão ASPEC para Desenvolve.
+* SRVML-2097 - Homologação Paranapanema - SP, padrão GOVBR.
+* SRVML-2097 - Homologação Céu Azul - PR, padrão GOVBR20.
+* SRVML-2097 - Homologação MiranteDaSerra - RO, padrão CECAM.
+* SRVML-2097 - Homologação da cidade Araci - BA, padrão GOVBR20.
+
+## [1.1.83.7489]
 
 **Novidades**
 
@@ -3593,6 +3603,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
