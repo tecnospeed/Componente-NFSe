@@ -1,4 +1,21 @@
-﻿## [1.1.83.7491]
+﻿## [1.1.83.7494]
+
+**Novidades**
+
+* DC-6164 - Rehomologação Serra- ES, mudança de padrão SIL para SIL20.
+* DC-6119 - Rehomologação Uberlândia- MG, mudança de padrão DSF para SEMFAZONLINE.
+* SRVML-2122 - Rehomologação Macaé - RJ, mudança de padrão TIPLAN para WEBISS20.
+* SRVML-2122 - Rehomologação Iúna - ES, mudança de padrão EL para EL20.
+* SRVML-2122 - Rehomologação Araruama - RJ, mudança de padrão BETHA para GOVBR20.
+* SRVML-2122 - Homologação Santa Albertina - SP, padrão Fiorilli.
+* SRVML-2122 - Homologação Jesuítas - PR, padrão GOVBR20.
+* SRVML-2122 - Homologação Angicos - RN, padrão TINUS.
+* SRVML-2149 - Rehomologação Nova Venécia - ES, mudança de padrão EL para EL20.
+* SRVML-2149 - Rehomologação Santa Maria De Jetibá - ES, mudança de padrão EL para EL20.
+* SRVML-2149 - Homologação Ulianópolis - PA, padrão Desenvolve.
+* SRVML-2149 - Homologação Primavera de Rondônia - RO, padrão CECAM.
+
+## [1.1.83.7491]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -3607,6 +3624,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
