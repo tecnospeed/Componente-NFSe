@@ -1,4 +1,15 @@
-﻿## [1.1.83.7494]
+﻿## [1.1.83.7495]
+
+**Novidades**
+
+* SRVML-2163 - Rehomologação Planalto Alegre - SC, mudança de padrão IPM para IPM20.
+* SRVML-2163 - Rehomologação São João do Itaperiú - SC, mudança de padrão BETHA para IPM20.
+* SRVML-2163 - Rehomologação Canarana - MT, mudança de padrão BETHA para Coplan.
+* SRVML-2163 - Rehomologação Botucatu - SP, mudança de padrão ISSWEB para Fiorilli.
+* SRVML-2163 - Homologação Cujubim - RO, padrão Fiorilli.
+* SRVML-2163 - Homologação Arroio Do Sal - RS, padrão GOVBR20.
+
+## [1.1.83.7494]
 
 **Novidades**
 
@@ -3624,6 +3635,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
