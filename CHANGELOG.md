@@ -1,4 +1,11 @@
-﻿## [1.1.83.7495]
+﻿## [1.1.83.7496]
+
+**Novidades**
+
+* SRVML-2182 - Rehomologação Santa Isabel do Pará - PA, mudança de padrão JANELAUNICA para ACTCON.
+* SRVML-2182 - Homologação Oriximiná - PA, padrão ISSNETONLINE20.
+
+## [1.1.83.7495]
 
 **Novidades**
 
@@ -3635,6 +3642,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
