@@ -1,4 +1,12 @@
-﻿## [1.1.83.7496]
+﻿## [1.1.83.7497]
+
+**Novidades**
+
+* SRVML-2195 - Rehomologação Ibatiba - ES, mudança de padrão EL para EL20.
+* SRVML-2195 - Rehomologação Venda Nova Do Imigrante - ES, mudança de padrão EL para EL20.
+* SRVML-2195 - Homologação Soledade de Minas/MG - Futurize.
+
+## [1.1.83.7496]
 
 **Novidades**
 
@@ -3642,6 +3650,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
