@@ -1,4 +1,26 @@
-﻿## [1.1.83.7497]
+﻿## [1.1.83.7498]
+
+**Novidades**
+
+* SRVML-2205 - Rehomologação Jaguaruna - SC, mudança de padrão Bauhaus para IPM20.
+* SRVML-2205 - Rehomologação Governador Valadares - MG, mudança de padrão SIGISS para ISSINTEL.
+* SRVML-2205 - Rehomologação Salgueiro - PE, mudança de padrão INTERSOL para TresTecnoUP.
+* SRVML-2205 - Rehomologação Paraíso do Norte - PR, mudança de padrão IPM para MAISISS20.
+* SRVML-2205 - Homologação Coroados - SP, padrão Fiorilli.
+* SRVML-2205 - Homologação Boquira- BA, padrão Saatri.
+* SRVML-2205 - Homologação Buritirama - BA, padrão Saatri.
+* SRVML-2205 - Homologação Ibicaraí - BA, padrão Saatri.
+* SRVML-2205 - Homologação Oliveira Dos Brejinhos - BA, padrão Saatri.
+* SRVML-2205 - Homologação Paripiranga - BA, padrão Saatri.
+* SRVML-2205 - Homologação Macaúbas - BA, padrão Freire.
+* SRVML-2205 - Homologação Palmas de Monte Alto - BA, padrão Freire.
+* SRVML-2205 - Homologação Riacho De Santana - BA, padrão Freire.
+* SRVML-2205 - Homologação Matuípe - BA, padrão Fisco.
+* SRVML-2205 - Homologação Piatã - BA, padrão Betha.
+* SRVML-2205 - Homologação Seabra - BA, padrão Keep.
+* SRVML-2205 - Homologação Martins Soares - MG, padrão EL.
+
+## [1.1.83.7497]
 
 **Novidades**
 
@@ -3650,6 +3672,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
