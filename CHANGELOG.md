@@ -1,4 +1,13 @@
-﻿## [1.1.83.7498]
+﻿## [1.1.83.7499]
+
+**Novidades**
+
+* SRVML-2238 - Rehomologação Pitangui - MG, mudança de padrão Memory para WEBISS20.
+* SRVML-2238 - Rehomologação Muqui - ES, mudança de padrão EL para EL20.
+* SRVML-2238 - Homologação Cordisburgo - MG, padrão EL20.
+
+
+## [1.1.83.7498]
 
 **Novidades**
 
@@ -3672,6 +3681,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
