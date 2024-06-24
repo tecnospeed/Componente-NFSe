@@ -1,4 +1,14 @@
-﻿## [1.1.83.7499]
+﻿## [1.1.83.7503]
+
+**Novidades**
+
+* SRVML-2242 - Rehomologação Barra Velha - SC, mudança de padrão IPM para IPM20.
+* SRVML-2242 - Homologação Maquiné - RS, padrão DBSeller.
+* SRVML-2242 - Homologação Parnamirim - PE, padrão DataPublic.
+* SRVML-2242 - Homologação Bragança - PA, padrão BauhausWS.
+* SRVML-2242 - Homologação Casca - RS, padrão Fiorilli.
+
+## [1.1.83.7499]
 
 **Novidades**
 
@@ -3681,6 +3691,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
