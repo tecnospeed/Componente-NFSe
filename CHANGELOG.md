@@ -1,4 +1,8 @@
-﻿## [1.1.83.7505]
+﻿## [1.1.83.7506]
+
+* Corre&ccedil;&otilde;es e melhorias diversos.
+
+## [1.1.83.7505]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -3699,6 +3703,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
