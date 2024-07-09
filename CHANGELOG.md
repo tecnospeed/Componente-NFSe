@@ -10,6 +10,10 @@
 * SRVML-2263 - Rehomologação Bento Gonçalves - RS, mudança de padrão IPM20 para Abase. 
 * SRVML-2263 - Homologação Salvador das Missões - RS, padrão Betha.
 
+**Correções**
+
+* SRVP4G-996 - Melhorias no envio em lote para o padrão ABRASF21
+
 ## [1.1.83.7506]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
