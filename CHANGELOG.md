@@ -1,4 +1,16 @@
-﻿## [1.1.83.7506]
+﻿## [1.1.83.7507]
+
+**Novidades**
+
+* SRVML-2306 - Rehomologação Franco da Rocha - SP, mudança de padrão SIL para SigCorp. 
+* SRVML-2263 - Rehomologação Engenheiro Beltrão - PR, mudança de padrão Betha para MaisISS20. 
+* SRVML-2263 - Rehomologação Céu Azul - PR, mudança de padrão GovBR20 para IPM20. 
+* SRVML-2263 - Rehomologação Pinheiro - MA, mudança de padrão Actcon para Fiorilli. 
+* SRVML-2263 - Rehomologação Madre de Deus - BA, mudança de padrão Freire para Betha. 
+* SRVML-2263 - Rehomologação Bento Gonçalves - RS, mudança de padrão IPM20 para Abase. 
+* SRVML-2263 - Homologação Salvador das Missões - RS, padrão Betha.
+
+## [1.1.83.7506]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -3703,6 +3715,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
