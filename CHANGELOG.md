@@ -1,4 +1,18 @@
-﻿## [1.1.83.7507]
+﻿## [1.1.83.7509]
+
+**Novidades**
+
+* SRVML-2315- Rehomologação Perdões - MG, mudança de padrão Memory para WebISS20.
+* SRVML-2315- Rehomologação Guaratuba - PR, mudança de padrão MaisISS20 para Equiplano.
+* SRVML-2315- Rehomologação São Mateus - ES, mudança de padrão EL para EL20.
+* SRVML-2315- Rehomologação Santa Bárbara - MG, mudança de padrão Memory para WebISS20.
+* SRVML-2315- Homologação Presidente Tancredo Neves - BA, padrão Ativ. 
+* SRVML-2315- Homologação Alto Horizonte - GO, padrão ArrecadaNet. 
+* SRVML-2315- Homologação São Gonçalo do Rio Abaixo - MG, padrão GovBR20.
+* SRVML-2315- Homologação São Vicente do Sul - MG, padrão SIM.
+* SRVML-2315- Homologação Porto Vitória - PR, padrão Betha.
+
+## [1.1.83.7507]
 
 **Novidades**
 
@@ -3719,6 +3733,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
