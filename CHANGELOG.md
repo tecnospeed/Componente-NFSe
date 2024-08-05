@@ -1,4 +1,15 @@
-﻿## [1.1.83.7517]
+﻿## [1.1.83.7519]
+
+**Novidades**
+
+* SRVML-2370- Rehomologação Ipê - RS, mudança de padrão Betha para GovBR20.
+* SRVML-2370- Rehomologação João Neiva - ES, mudança de padrão EL para EL20.
+* SRVML-2370- Rehomologação Mantenópolis/ES, mudança de padrão EL para EL20.
+* SRVML-2370- Rehomologação Montanha/ES mudança de padrão EL para EL20.
+* SRVML-2370- Rehomologação Franca/SP mudança de padrão Ginfes para SIL20.
+* SRVML-2370- Rehomologação Anápolis/GO mudança de padrão ISSNETONLINE para ISSNETONLINE 20.
+
+## [1.1.83.7517]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -3737,6 +3748,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
