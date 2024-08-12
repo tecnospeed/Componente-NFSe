@@ -1,4 +1,20 @@
-﻿## [1.1.83.7519]
+﻿## [1.1.83.7522]
+
+**Novidades**
+
+* SRVML-2390 - Rehomologação Colinas do Tocantins - TO, mudança de padrão ISSINTEL para ArrecadaNet.
+* SRVML-2390 - Rehomologação Mongaguá - SP, mudança de padrão Fiorilli para Ginfes.
+* SRVML-2390 - Rehomologação Terrra Roxa - PR, mudança de padrão IPM para IPM20.
+* SRVML-2390 - Rehomologação Rancharia - SP, mudança de padrão Fiorilli para Saturno20.
+* SRVML-2390 - Rehomologação Estrela - RS, mudança de padrão IPM para IPM20.
+* SRVML-2390 - Homologação Morro do Chapéu - BA, padrão Saatri.
+* SRVML-2390 - Homologação Pacaembu - SP, padrão Sistemas4R.
+* SRVML-2390 - Homologação Colorado do Oeste - RO, padrão Fiorilli.
+* SRVML-2390 - Homologação Caravelas - BA, padrão Saatri.
+* SRVML-2390 - Homologação Tupanci do Sul - BA, padrão Sinsoft.
+* SRVML-2390 - Homologação Pastos Bons - MA, padrão Fiorilli.
+
+## [1.1.83.7519]
 
 **Novidades**
 
@@ -3748,6 +3764,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
