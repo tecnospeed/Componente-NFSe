@@ -1,4 +1,13 @@
-﻿## [1.1.83.7526]
+﻿## [1.1.83.7528]
+
+**Novidades**
+
+* SRVML-2404- Rehomologação Cianorte - PR, mudança de padrão SigISS para MaisISS20.
+* SRVML-2404- Rehomologação Ijuí - RS, mudança de padrão GovBR para GovBR20.
+* SRVML-2404- Rehomologação Mondaí - SC, mudança de padrão Betha para Betha20.
+* SRVML-2404- Rehomologação Barra de São Francisco - ES, mudança de padrão EL para EL20.
+
+## [1.1.83.7526]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -3768,6 +3777,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
