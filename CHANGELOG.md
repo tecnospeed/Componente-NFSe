@@ -1,4 +1,10 @@
-﻿## [1.1.83.7528]
+﻿## [1.1.83.7532]
+
+**Novidades**
+
+* SRVML-2448- Rehomologação Castelo - ES, mudança de padrão EL para EL20.
+
+## [1.1.83.7528]
 
 **Novidades**
 
@@ -3777,6 +3783,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
