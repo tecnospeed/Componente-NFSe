@@ -1,4 +1,10 @@
-﻿## [1.1.83.7532]
+﻿## [1.1.83.7533]
+
+**Novidades**
+
+* SRVML-2461 - Rehomologação Corupá - SC, mudança de padrão IPM para IPM20.
+
+## [1.1.83.7532]
 
 **Novidades**
 
@@ -3783,6 +3789,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
