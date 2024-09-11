@@ -1,4 +1,22 @@
-﻿## [1.1.83.7534]
+﻿## [1.1.83.7536]
+
+**Novidades**
+
+* SRVML-2481 - Rehomologação São Miguel Do Oeste - SC, mudança de padrão Betha para Betha20.
+* SRVML-2481 - Rehomologação Itaguaçu - ES, mudança de padrão EL para EL20.
+* SRVML-2481 - Rehomologação Leopoldina - MG, mudança de padrão Actcon para Fiorilli.
+* SRVML-2481 - Rehomologação Santa Luzia - MG, mudança de padrão SigCorp para ISSINTEL.
+* SRVML-2481 - Homologação Nova Araça - RS, padrão CittaWeb.
+* SRVML-2481 - Homologação Paraí - RS, padrão CittaWeb.
+* SRVML-2481 - Homologação Carandaí - MG, padrão SH3.
+* SRVML-2481 - Homologação São Bento de Sapucaí - SP, padrão Fiorilli.
+* SRVML-2481 - Homologação Itatinga - SP, padrão Cecam.
+* SRVML-2481 - Homologação Vera Cruz - SP, padrão Fiorilli.
+* SRVML-2481 - Homologação Santa Maria do Herval - RS, padrão TecnoSistemas.
+* SRVML-2481 - Homologação Paranhos/MS - RS, padrão Fiorilli.
+* SRVML-2481 - Homologação Ubaí - MG, padrão DBSeller.
+
+## [1.1.83.7534]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -3793,6 +3811,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
