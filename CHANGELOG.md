@@ -1,4 +1,11 @@
-﻿## [1.1.83.7536]
+﻿## [1.1.83.7537]
+
+**Novidades**
+
+* SRVML-2515 - Rehomologação Massaranduba - SC, mudança de padrão IPM para IPM20.
+* SRVML-2515 - Rehomologação Santa Rosa de Lima - SC, mudança de padrão IPM para IPM20.
+
+## [1.1.83.7536]
 
 **Novidades**
 
@@ -3811,6 +3818,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
