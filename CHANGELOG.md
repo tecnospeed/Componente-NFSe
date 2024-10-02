@@ -1,4 +1,12 @@
-﻿## [1.1.83.7543]
+﻿## [1.1.83.7545]
+
+**Novidades**
+
+* SRVML-2537 - Rehomologação São Francisco do Sul- SC, mudança de padrão IPM para IPM20.
+* SRVML-2537 - Rehomologação Mamborê - PR, mudança de padrão IPM para IPM20.
+* SRVML-2537 - Rehomologação Serra - ES, mudança de padrão SIL para SIL20.
+
+## [1.1.83.7543]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -3826,6 +3834,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
