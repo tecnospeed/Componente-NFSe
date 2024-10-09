@@ -1,4 +1,20 @@
-﻿## [1.1.83.7545]
+﻿## [1.1.83.7548]
+
+**Novidades**
+
+* SRVML-2548 - Rehomologação Cabo Frio - RJ, mudança de padrão SigCorp para ISSINTEL.
+* SRVML-2548 - Homologação Brasilândia de Minas - MG, padrão Memory.
+* SRVML-2548 - Homologação São João Batista do Glória - MG, padrão eReceita.
+* SRVML-2548 - Homologação Morada Nova - CE, padrão INTERSOL.
+* SRVML-2548 - Homologação Ceará Mirim - RN, padrão TINUS.
+* SRVML-2548 - Homologação Valentim Gentil - SP, padrão Saturno.
+* SRVML-2548 - Homologação Monte Azul - MG, padrão DBSeller.
+* SRVML-2548 - Homologação Manoel Viana - RS, padrão GovBR20.
+* SRVML-2548 - Homologação Torres - RS, padrão Betha20.
+* SRVML-2548 - Homologação São José do Jacuípe - BA, padrão FISCO.
+* SRVML-2548 - Homologação Cambuquira - MG, padrão Betha20.
+
+## [1.1.83.7545]
 
 **Novidades**
 
@@ -3834,6 +3850,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
