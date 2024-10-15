@@ -1,4 +1,11 @@
-﻿## [1.1.83.7548]
+﻿## [1.1.83.7549]
+
+**Novidades**
+
+* SRVML-2565 - Rehomologação Porto de Pedras - AL, mudança de padrão Tributus para TributusWS.
+* SRVML-2565 - Rehomologação Oliveira - MG, mudança de padrão IPM para IPM20.
+
+## [1.1.83.7548]
 
 **Novidades**
 
@@ -3850,6 +3857,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
