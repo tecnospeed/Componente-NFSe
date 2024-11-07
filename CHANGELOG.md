@@ -1,4 +1,14 @@
-﻿## [1.1.83.7551]
+﻿## [1.1.83.7552]
+
+**Novidades**
+
+* SRVML-2613 - Rehomologação Joinville - SC, mudança de padrão JOINVILLESC para Publica.
+* SRVML-2613 - Rehomologação Paraíso do Norte - PR, mudança de padrão IPM para IPM20.
+* SRVML-2613 - Rehomologação Atibaia - SP, mudança de padrão COTIA para Betha20.
+* SRVML-2613 - Rehomologação Primavera do Leste - MT, mudança de padrão ISSONLINE para Saturno20.
+* SRVML-2613 - Rehomologação São Carlos - SC, mudança de padrão IPM para IPM20.
+
+## [1.1.83.7551]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -3865,6 +3875,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
