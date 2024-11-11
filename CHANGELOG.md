@@ -1,4 +1,17 @@
-﻿## [1.1.83.7552]
+﻿## [1.1.84.7561]
+
+**Novidades**
+
+* SRVML-2637 - Homologação Ipirá - BA, padrão Saatri.
+* SRVML-2637 - Homologação Piratininga - SP, padrão Fiorilli.
+* SRVML-2637 - Homologação Lindoia - SP, padrão Fiorilli.
+* SRVML-2637 - Homologação Guajará Mirim - RO, padrão Fiorilli.
+* SRVML-2637 - Homologação Buritis - RO, padrão Fiorilli.
+* SRVML-2637 - Homologação Santa Maria de Itabira - MG, padrão EL.
+* SRVML-2637 - Homologação Juquitiba - SP, padrão Sistemas4R.
+* SRVML-2637 - Homologação Itabirinha - MG, padrão EL20.
+
+## [1.1.83.7552]
 
 **Novidades**
 
@@ -3875,6 +3888,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
