@@ -1,4 +1,22 @@
-﻿## [1.1.84.7570]
+﻿## [1.1.84.7573]
+
+**Novidades**
+
+* SRVML-2715 - Homologação Itaberá - SP, padrão Fiorilli.
+* SRVML-2715 - Homologação São José do Herval - RS, padrão GovBR20.
+* SRVML-2715 - Homologação Severino de Almeida - RS, padrão GovBR20.
+* SRVML-2715 - Homologação Floresta - PR, padrão MaisISS20.
+* SRVML-2715 - Homologação Mato Verde - MG, padrão Sintese.
+* SRVML-2715 - Homologação Formoso do Araguaia - TO, padrão ArrecadaNet.
+* SRVML-2715 - Homologação Barroso - MG, padrão SH3.
+* SRVML-2715 - Homologação Roca Sales - RS, padrão TecnoSistema.
+* SRVML-2715 - Homologação Cachoeira de Minas - MG, padrão Fiorilli.
+* SRVML-2715 - Rehomologação Mateus Leme - MG, mudança de padrão SOLUCAOPUBLICA para ISSDigital20.
+* SRVML-2715 - Rehomologação Santa Luzia - MG, mudança de padrão ISSINTEL para SigCorp.
+* SRVML-2715 - Rehomologação Rio Negro - PR, mudança de padrão IPM para IPM20.
+* SRVML-2715 - Rehomologação Santo Antônio do Leverger - MT, mudança de padrão FissLex para ISSDigital20.
+
+## [1.1.84.7570]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -3904,6 +3922,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
