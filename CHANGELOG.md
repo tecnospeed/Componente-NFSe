@@ -1,4 +1,13 @@
-﻿## [1.1.84.7575]
+﻿## [1.1.84.7576]
+
+**Novidades**
+
+* SRVML-2761 - Rehomologação Candelária - RS, mudança de padrão TecnoSistemas para IPM.
+* SRVML-2761 - Rehomologação Arapoti - PR, mudança de padrão Equiplano para IPM20.
+* SRVML-2761 - Rehomologação Itatiaia - RJ, mudança de padrão IssNetOnline20 para Betha20.
+* SRVML-2761 - Rehomologação Águas Frias - SC, mudança de padrão GovBR20 para IPM20.
+
+## [1.1.84.7575]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -3926,6 +3935,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
