@@ -1,4 +1,8 @@
-﻿## [1.1.84.7576]
+﻿## [1.1.84.7577]
+
+* Corre&ccedil;&otilde;es e melhorias diversos.
+
+## [1.1.84.7576]
 
 **Novidades**
 
@@ -3935,6 +3939,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
