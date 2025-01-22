@@ -1,4 +1,22 @@
-﻿## [1.1.84.7579]
+﻿## [1.1.84.7580]
+
+**Novidades**
+
+* SRVML-2857 - Rehomologação Brasnorte - MT, mudança de padrão Coplan para Fiorilli.
+* SRVML-2857 - Rehomologação São Sepé - RS, mudança de padrão IPM para IPM20.
+* SRVML-2826 - Rehomologação Santa Helena de Goiás - GO, mudança de padrão ProData para Centi.
+* SRVML-2826 - Homologação Porto Alegre do Norte - MT, padrão Agili.
+* SRVML-2826 - Homologação Dumont - SP, padrão Fiorilli.
+* SRVML-2826 - Homologação Cerqueira Cesar - SP, padrão Fiorilli.
+* SRVML-2826 - Homologação Portalegre - RN, padrão Fiorilli.
+* SRVML-2826 - Homologação São Domingos - BA, padrão Freire.
+* SRVML-2826 - Homologação Cristal - RS, padrão GovBR20.
+* SRVML-2826 - Homologação Caxambu - MG, padrão GovDigital.
+* SRVML-2826 - Homologação Curionópolis - PA, padrão IssIntel.
+* SRVML-2826 - Homologação Alvorada do Sul - PR, padrão Equiplano.
+* SRVML-2826 - Homologação Boa Vista do Cadeado - RS, padrão Betha20.
+
+## [1.1.84.7579]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -3943,6 +3961,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
