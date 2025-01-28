@@ -1,4 +1,12 @@
-﻿## [1.1.84.7580]
+﻿## [1.1.84.7582]
+
+**Novidades**
+
+* SRVML-2896 - Rehomologação Lacerdópolis - SC, mudança de padrão Betha para IPM20.
+* SRVML-2896 - Rehomologação Santa Helena - SC, mudança de padrão Betha para IPM20.
+* SRVML-2896 - Rehomologação Mongaguá - SP, mudança de padrão Ginfes para GissOnline.
+
+## [1.1.84.7580]
 
 **Novidades**
 
@@ -3961,6 +3969,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
