@@ -1,4 +1,22 @@
-﻿## [1.1.84.7582]
+﻿## [1.1.84.7583]
+
+**Novidades**
+
+* SRVML-2911 - Rehomologação Maceió - AL, mudança de padrão Ginfes para GissOnline.
+* SRVML-2911 - Rehomologação Matão - SP, mudança de padrão Ginfes para GissOnline.
+* SRVML-2911 - Rehomologação Umuarama - PR, mudança de padrão Ginfes para GissOnline.
+* SRVML-2911 - Rehomologação Santos - SP, mudança de padrão Ginfes para GissOnline.
+* SRVML-2911 - Rehomologação Juniaí - SP, mudança de padrão Ginfes para GissOnline.
+* SRVML-2911 - Rehomologação Campos dos Goytacazes - RJ, mudança de padrão Ginfes para GissOnline.
+* SRVML-2911 - Rehomologação Itu - SP, mudança de padrão Ginfes para GissOnline.
+* SRVML-2911 - Rehomologação Matão - SP, mudança de padrão Ginfes para GissOnline.
+* SRVML-2911 - Rehomologação Mineiros - GO, mudança de padrão Ginfes para GissOnline.
+* SRVML-2911 - Rehomologação Bento Gonçalves - RS, mudança de padrão Abase para MaisISS20.
+* SRVML-2911 - Rehomologação Medianeira - PR, mudança de padrão GovBR20 para MaisISS20.
+* SRVML-2911 - Rehomologação Pinhalzinho - SC, mudança de padrão IPM para IPM20.
+
+
+## [1.1.84.7582]
 
 **Novidades**
 
@@ -3969,6 +3987,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
