@@ -1,4 +1,20 @@
-﻿## [1.1.84.7583]
+﻿## [1.1.84.7587]
+
+**Novidades**
+
+* SRVML-2948 - Homologação Novo Mundo - MT, padrão Agili.
+* SRVML-2948 - Homologação Campestre - MG, padrão WebISS20.
+* SRVML-2948 - Homologação São Paulo de Potengi - RN, padrão HM2WS.
+* SRVML-2948 - Homologação Ourilândia do Norte - PA, padrão Fiorilli.
+* SRVML-2948 - Homologação Aricanduva - MG, padrão EL.
+* SRVML-2948 - Homologação Cotiporã - RS, padrão TecnoSistemas.
+* SRVML-2948 - Rehomologação Cabeceiras - GO, mudança de padrão Centi para ArrecadaNet.
+* SRVML-2948 - Rehomologação Rio Negrinho - SC, mudança de padrão IPM para IPM20.
+* SRVML-2948 - Rehomologação São Félix do Araguaia - SC, mudança de padrão Betha para Centi.
+* SRVML-2948 - Rehomologação Bom Jesus de Goiás - GO, mudança de padrão ISSWEB para ProData.
+* SRVML-2948 - Rehomologação Araputanga - MT, mudança de padrão Saturno para Fiorilli.
+
+## [1.1.84.7583]
 
 **Novidades**
 
@@ -3987,6 +4003,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
