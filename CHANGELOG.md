@@ -1,4 +1,16 @@
-﻿## [1.1.84.7600]
+﻿## [1.1.84.7601]
+
+**Novidades**
+
+* SRVML-2987 - Rehomologação Ascurra - SV, mudança de padrão IPM para IPM20.
+* SRVML-2987 - Rehomologação Apiúna - SC, mudança de padrão IPM para IPM20.
+* SRVML-2987 - Rehomologação Valente - BA, mudança de padrão Saatri para Freire.
+* SRVML-2987 - Rehomologação Pontes e Lacerda - MT, mudança de padrão Betha para Coplan.
+* SRVML-2987 - Rehomologação Martins - RN, mudança de padrão TributusWS para TresTecnosUP.
+* SRVML-2987 - Rehomologação Ilópolis - RS, mudança de padrão TecnoSistemas para Fiorilli.
+* SRVML-2987 - Rehomologação Barretos - SP, mudança de padrão SigISS para Saturno20.
+
+## [1.1.84.7600]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -4007,6 +4019,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
