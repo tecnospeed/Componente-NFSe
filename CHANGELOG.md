@@ -1,4 +1,24 @@
-﻿## [1.1.84.7601]
+﻿## [1.1.84.7606]
+
+**Novidades**
+
+* SRVML-3039 - Homologação São Luís de Montes Belos - GO, padrão Centi.
+* SRVML-3039 - Homologação Pareci Novo - RS, padrão TecnoSitemas.
+* SRVML-3039 - Homologação Jequitaí - MG, padrão Sintese.
+* SRVML-3039 - Homologação Manga - MG, padrão SIntese.
+* SRVML-3039 - Homologação Japonvar - MG, padrão Sintese.
+* SRVML-3039 - Homologação Bom Jesus do Itabapoana - RJ, padrão Fiorilli.
+* SRVML-3039 - Homologação Paraisópolis - MG, padrão Simpliss.
+* SRVML-3039 - Homologação Terra Rica - PR, padrão Equiplano.
+* SRVML-3039 - Homologação Estação - RS, padrão System.
+* SRVML-3039 - Homologação Paraipaba - CE, padrão Intersol.
+* SRVML-3039 - Homologação São Domingos das Dores - MG, padrão Fiorilli.
+* SRVML-3039 - Rehomologação Brusque - SC, mudança de padrão IPM para IPM20.
+* SRVML-3039 - Rehomologação Cristalina - GO, mudança de padrão IssWeb para Centi.
+* SRVML-3039 - Rehomologação Canarana - MT, mudança de padrão Coplan para Betha20.
+* SRVML-3039 - Rehomologação Augustinópolis - TO, mudança de padrão Fiorilli para ArrecadaNet.
+
+## [1.1.84.7601]
 
 **Novidades**
 
@@ -4019,6 +4039,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
