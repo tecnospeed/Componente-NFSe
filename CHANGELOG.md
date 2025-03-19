@@ -1,4 +1,15 @@
-﻿## [1.1.84.7606]
+﻿## [1.1.84.7607]
+
+**Novidades**
+
+* SRVML-3079 - Rehomologação Campinas - SP, mudança de padrão DSF para DSF20.
+* SRVML-3079 - Rehomologação Confressa - MT, mudança de padrão Coplan para Fiorilli.
+* SRVML-3079 - Rehomologação Casa Nova - BA, mudança de padrão Keep para Fisco20.
+* SRVML-3079 - Rehomologação Arroio do Tigre - RS, mudança de padrão IPM20 para Betha20.
+* SRVML-3079 - Rehomologação Tutóia - MA, mudança de padrão Intersol para BauhausWS.
+
+
+## [1.1.84.7606]
 
 **Novidades**
 
@@ -4039,6 +4050,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
