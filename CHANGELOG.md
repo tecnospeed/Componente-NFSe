@@ -1,4 +1,34 @@
-﻿## [1.1.84.7612]
+﻿## [1.1.84.7615]
+
+**Novidades**
+
+* SRVML-3125 - Homologação Braúna - SP, padrão Fiorilli.
+* SRVML-3125 - Homologação Pombos - PE, padrão TributusWS.
+* SRVML-3125 - Homologação Elias Fausto - SP, padrão Cecam.
+* SRVML-3125 - Homologação Bofete - SP, padrão Fiorilli.
+* SRVML-3125 - Homologação Montes Claros de Goiás - GO, padrão ArrecadaNet.
+* SRVML-3125 - Homologação Turmalina - MG, padrão Sintese.
+* SRVML-3125 - Homologação Arroio Trinta - SC, padrão Publica.
+* SRVML-3125 - Homologação Orizona - GO, padrão IssWeb.
+* SRVML-3125 - Homologação Rubiataba - GO, padrão ArrecadaNet.
+* SRVML-3125 - Homologação Manhumirim - MG, padrão Memory.
+* SRVML-3125 - Homologação Espinosa - MG, padrão Sintese.
+* SRVML-3125 - Homologação Iperó - SP, padrão Sistemas4r.
+* SRVML-3125 - Homologação Juruena - MT, padrão Agili.
+* SRVML-3125 - Homologação Monsenhor Paulo - MG, padrão Fiorilli.
+* SRVML-3125 - Rehomologação Estância Velha - RS, mudança de padrão TecnoSistemas para IPM20.
+* SRVML-3125 - Rehomologação Paulinia - SP, mudança de padrão Ginfes para GissOnline.
+* SRVML-3125 - Rehomologação Cassilândia - MS, mudança de padrão IssOnline para Fiorilli.
+* SRVML-3125 - Rehomologação São Mateus do Sul - PR, mudança de padrão Betha para MaisISS20.
+* SRVML-3125 - Rehomologação Iporá - GO, mudança de padrão ArrecadaNet para Centi.
+* SRVML-3125 - Rehomologação Pau dos Ferros - RN, mudança de padrão Trubutus para TributusWS.
+* SRVML-3125 - Rehomologação Campo Novo - RS, mudança de padrão Betha para IPM20.
+* SRVML-3125 - Rehomologação Pesqueira - PE, mudança de padrão Tributus para TributusWS.
+* SRVML-3163 - Rehomologação Guaratuba - PR, mudança de padrão Equiplano para MaisISS20.
+* SRVML-3163 - Rehomologação Correntina - BA, mudança de padrão Freire para Saatri.
+* SRVML-3163 - Rehomologação Bruadinho - MG, mudança de padrão EL para EL20.
+
+## [1.1.84.7612]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -4058,6 +4088,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
