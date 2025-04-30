@@ -1,4 +1,21 @@
-﻿## [1.1.84.7615]
+﻿## [1.1.84.7621]
+
+**Novidades**
+
+* SRVML-3187 - Rehomologação Tibagi - PR, mudança de padrão IPM para MaisISS20.
+* SRVML-3187 - Rehomologação Conceição do Castelo - ES, mudança de padrão EL para EL20.
+* SRVML-3187 - Rehomologação Ilhota - RS, mudança de padrão GovBR20 para Betha.
+* SRVML-3187 - Rehomologação Ouricuri - PE, mudança de padrão Tributus para TributusWS.
+* SRVML-3187 - Rehomologação Alenquer - PA, mudança de padrão ISSINTEL para Desenvolve.
+* SRVML-3187 - Rehomologação Naviraí - MS, mudança de padrão GovBR20 para MaisISS20.
+* SRVML-3204 - Rehomologação Imbituba- SC, mudança de padrão Betha para IPM20.
+* SRVML-3204 - Rehomologação Catanduva- SP, mudança de padrão Fiorilli para Saturno20.
+* SRVML-3204 - Rehomologação Itambé - PE, mudança de padrão SisGenfe para Fiorilli.
+* SRVML-3204 - Rehomologação Governador Lindenberg - ES, mudança de padrão EL para EL20.
+* SRVML-3204 - Rehomologação Arabuta - SC, mudança de padrão Betha para IPM20
+* SRVML-3204 - Rehomologação Serra Talhada - PE, mudança de padrão DataPublic para Tinus
+
+## [1.1.84.7615]
 
 **Novidades**
 
@@ -4088,6 +4105,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
