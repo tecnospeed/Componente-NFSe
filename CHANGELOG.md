@@ -1,4 +1,23 @@
-﻿## [1.1.84.7621]
+﻿## [1.1.84.7622]
+
+**Novidades**
+
+* SRVML-3215 - Rehomologação São José do Rio Preto - SP, mudança de padrão GINFES para GISSONLINE.
+* SRVML-3215 - Rehomologação Campo Erê - SC, mudança de padrão GOVBR20 para PUBLICA.
+* SRVML-3215 - Rehomologação Campos de Júlio - MT, mudança de padrão BETHA para FIORILLI.
+* SRVML-3228 - Homologação Encruzilhada do Sul - RS, padrão GOVBR20.
+* SRVML-3228 - Homologação Coração de Jesus - MG, padrão SINTESE.
+* SRVML-3228 - Homologação Tamandaré - PE, padrão FIORILLI.
+* SRVML-3228 - Homologação Riqueza - SC, padrão IPM20.
+* SRVML-3228 - Homologação Gaúcha do Norte - MT, padrão COPLAN.
+* SRVML-3228 - Homologação Itapecerica - MG, padrão FIORILLI.
+* SRVML-3228 - Homologação São Romão - MG, padrão DBSELLER.
+* SRVML-3236 - Rehomologação Sapiranga - RS, mudança de padrão IPM20 para DBSELLER.
+* SRVML-3236 - Rehomologação Catanduvas - SC, mudança de padrão BETHA para PUBLICA.
+* SRVML-3236 - Rehomologação Dourada - MG, mudança de padrão FUTURIZE para FIORILLI.
+* SRVML-3236 - Rehomologação Paulinia - SP, mudança de padrão GINFES para GISSONLINE.
+
+## [1.1.84.7621]
 
 **Novidades**
 
@@ -4105,6 +4124,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
