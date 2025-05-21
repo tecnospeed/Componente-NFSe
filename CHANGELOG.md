@@ -1,4 +1,12 @@
-﻿## [1.1.84.7622]
+﻿## [1.1.84.7623]
+
+**Novidades**
+
+* SRVML-3266 - Rehomologação Rio dos Cedros - SC, mudança de padrão IPM para IPM20.
+* SRVML-3266 - Rehomologação Boa Vista do Cadeado - RS, mudança de padrão BETHA para GOVBR20.
+* SRVML-3266 - Rehomologação Saudades - SC, mudança de padrão GOVBR20 para IPM20.
+
+## [1.1.84.7622]
 
 **Novidades**
 
@@ -4124,6 +4132,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
