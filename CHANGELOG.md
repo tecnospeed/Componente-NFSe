@@ -1,4 +1,25 @@
-﻿## [1.1.84.7626]
+﻿## [1.1.84.7634]
+
+**Novidades**
+
+* SRVML-3279 - Homologação Marques de Souza - RS, padrão TECNOSISTEMAS.
+* SRVML-3280 - Rehomologação Santa Tereza do Oeste - PR, mudança de padrão BETHA para MAISISS20.
+* SRVML-3280 - Rehomologação Santa Cruz do Rio Pardo - SP, mudança de padrão ISSMAPAPI para SIMPLISS20.
+* SRVML-3280 - Rehomologação Mimoso do Sul - ES, mudança de padrão EL para EL20.
+* SRVML-3280 - Rehomologação Ipuã - SP, mudança de padrão FIORILLI para SISTEMAS4R.
+* SRVML-3280 - Rehomologação Rondon - PR, mudança de padrão SYSISSONLINE para EQUIPLANO.
+* SRVML-3280 - Rehomologação Guarantã do Norte - MT, mudança de padrão COPLAN para AGILI.
+* SRVML-3302 - Rehomologação Agrolândia - SC, mudança de padrão IPM para IPM20.
+* SRVML-3302 - Rehomologação Muniz Freire - ES, mudança de padrão EL para EL20.
+* SRVML-3302 - Rehomologação Alfredo Chaves - ES, mudança de padrão EL para EL20.
+* SRVML-3302 - Rehomologação Esplanada - BA, mudança de padrão SAATRI para WEBISS20.
+* SRVML-3302 - Rehomologação Sertanópolis - PR, mudança de padrão SIMPLISS para MAISISS20.
+* SRVML-3302 - Rehomologação Apiacá - ES, mudança de padrão EL para EL20.
+* SRVML-3302 - Rehomologação Itupiranga - PA, mudança de padrão IssIntel para DESENVOLVE.
+* SRVML-3302 - Rehomologação Caravelas - BA, mudança de padrão Saatri para EL20.
+* SRVML-3302 - Rehomologação João Pessoa - PB, mudança de padrão Abrasf22 para DSF20.
+
+## [1.1.84.7626]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -4136,6 +4157,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
