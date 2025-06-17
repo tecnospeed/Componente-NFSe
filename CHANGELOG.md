@@ -1,4 +1,21 @@
-﻿## [1.1.84.7640]
+﻿## [1.1.84.7644]
+
+**Novidades**
+
+* SRVML-3323 - Homologação Vila Flores - RS, padrão TECNOSISTEMAS.
+* SRVML-3323 - Homologação Águas de Santa Bárbara - SP, padrão ISSMAPAPI.
+* SRVML-3323 - Homologação Pantano Grande - RS, padrão GOVBR20.
+* SRVML-3323 - Homologação Tapes - RS, padrão GOVBR20.
+* SRVML-3323 - Homologação Trajano de Moraes - RJ, padrão EL20.
+* SRVML-3323 - Homologação Montes Claros de Goiás - GO, padrão ARRECADANET.
+* SRVML-3323 - Homologação Itaocara - RJ, padrão EL20.
+* SRVML-3337 - Rehomologação Alvorada - RS, mudança de padrão IPM para IPM20.
+* SRVML-3337 - Rehomologação Marataízes - ES, mudança de padrão EL para EL20.
+* SRVML-3337 - Rehomologação Paranatinga - MT, mudança de padrão MAISISS20 para AGILE.
+* SRVML-3337 - Rehomologação de Marechal Deodoro - AL, do padrão GINFES para GISSONLINE.
+* SRVML-3337 - Rehomologação Ipuã - SP, mudança de padrão SISTEMAS4r para FIORILLI.
+
+## [1.1.84.7640]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -4161,6 +4178,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
