@@ -1,4 +1,18 @@
-﻿## [1.1.84.7644]
+﻿## [1.1.84.7650]
+
+**Novidades**
+
+* SRVML-3343 - Rehomologação Teresina - PI, padrão DSF para DSF20.
+* SRVML-3343 - Re-homologação Ouro - SC, padrão IPM para IPM20.
+* SRVML-3343 - Rehomologação Afonso Claudio - ES, padrão EL para EL20.
+* SRVML-3343 - Rehomologação Macaíba - RN, padrão TINUSUP para TINUSWS.
+* SRVML-3343 - Rehomologação Cajazeiras - PB, padrão Eticons para PUBLICSOFT.
+* SRVML-3343 - Rehomologação Belo Jardim - PE, padrão Tributus para TRIBUTUSWS.
+* SRVML-3343 - Rehomologação Ubiratã - PR, padrão GovBR20 para MAISS20.
+* SRVML-3343 - Rehomologação Bom Jesus dos Perdões - SP, padrão ISSOnline para SISTEMAS4R.
+* SRVML-3343 - Rehomologação Cajueiro da Praia - PI, padrão FISCO para INTERSOL.
+
+## [1.1.84.7644]
 
 **Novidades**
 
@@ -4178,6 +4192,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
