@@ -1,4 +1,21 @@
-﻿## [1.1.84.7651]
+﻿## [1.1.84.7653]
+
+**Novidades**
+
+* SRVML-3364 - Rehomologação Itabirito - MG, padrão ISSDIGITAL20 para IPM20.
+* SRVML-3364 - Rehomologação Presidente Getúlio - SC, padrão IPM para IPM20.
+* SRVML-3364 - Rehomologação Jerônimo Monteiro - ES, padrão EL para EL20.
+* SRVML-3364 - Rehomologação Pintadas - BA, padrão FISCO para FISCO20.
+* SRVML-3364 - Rehomologação Santa Luzia - MA, padrão WebISS20 para INTERSOL.
+* SRVML-3364 - Rehomologação Nossa Senhora da Glória - SE, padrão TributusWS para TributusWS.
+* SRVML-3364 - Rehomologação Viana - ES, padrão EL para EL20.
+* SRVML-3384 - Homologação Perola - PR, padrão GOVBR20.
+* SRVML-3384 - Homologação Camapua - MS, padrão FIORILLI.
+* SRVML-3384 - Homologação Ssete Quedas - MS, padrão FIORILLI.
+* SRVML-3384 - Homologação Presidente Medici - RO, padrão FIORILLI.
+* SRVML-3384 - Rehomologação Sousa - PB - padrão DataPublic para Tinus
+
+## [1.1.84.7651]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -4196,6 +4213,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
