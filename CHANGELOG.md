@@ -1,4 +1,12 @@
-﻿## [1.1.84.7653]
+﻿## [1.1.84.7654]
+
+**Novidades**
+
+* SRVML-3399 - Rehomologação Garuva - SC, padrão IPM para IPM20.
+* SRVML-3399 - Rehomologação Varzea da Roça - BA, padrão FISCO para SAATRI.
+* SRVML-3399 - Rehomologação JMineiros do Tietê - SP, padrão GOVBR20 para FIORILLI.
+
+## [1.1.84.7653]
 
 **Novidades**
 
@@ -4213,6 +4221,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
