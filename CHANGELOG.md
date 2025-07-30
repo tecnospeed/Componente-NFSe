@@ -1,4 +1,15 @@
-﻿## [1.1.84.7655]
+﻿## [1.1.84.7657]
+
+**Novidades**
+
+* SRVML-3420 - Homologação Jateí - MS, padrão AGILI.
+* SRVML-3420 - Rehomologação Urucuia - padrão ISSLEGAL para DBSELLER.
+* SRVML-3420 - Rehomologação Conceição do Jacuípe/BA - padrão FISCO para FISCO20.
+* SRVML-3420 - Rehomologação Santa Helena/PR - padrão IPM para IPM20.
+* SRVML-3420 - Rehomologação Taiobeiras - padrão EL para EL20.
+* SRVML-3420 - Rehomologação Guariba - SP, padrão ISSINTEL para FGMAISS.
+
+## [1.1.84.7655]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -4225,6 +4236,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
