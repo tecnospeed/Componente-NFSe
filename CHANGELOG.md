@@ -1,7 +1,3 @@
-﻿## [2.1.84.7668]
-
-* Corre&ccedil;&otilde;es e melhorias diversos.
-
 ## [2.1.84.7667]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
