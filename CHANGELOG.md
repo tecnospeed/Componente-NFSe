@@ -1,4 +1,146 @@
-﻿## [2.1.84.7698]
+﻿## [2.1.84.7699]
+
+**Novidades**
+
+* SRVML-3702 - Homologação São Pedro Da Serra/RS, padrão TECNOSISTEMAS.
+* SRVML-3702 - Homologação - Prado/BA - EL.
+* SRVML-3702 - Homologação - Ipaussu/SP - SISTEMAS4R.
+* SRVML-3702 - Homologação - Nísia Floresta/RN - TINUS.
+* SRVML-3702 - Homologação - Guaraciaba do Norte/CE - Intersol.
+* SRVML-3702 - Re-Homologação Rio das Ostras/RJ, mudança de padrão TIPLAN Abrasf 2.03.
+* SRVML-3702 - Homologação cidade Mirabela/MG, padrão SINTESE.
+* SRVML-3702 - Homologação Campinas do Sul/RS, SYSTEM.
+* SRVML-3702 - Re-homologação, Mangaratiba/RJ, padrão TIPLAN Abrasf 2.03.
+* SRVML-3702 - Homologação Capitólio/MG, padrão FIORILLI.
+* SRVML-3702 - Re-homologação Carandaí/MG, mudança de padrão SH3 para ISSINTEL.
+* SRVML-3702 - Rehomologação Paulo Afonso/BA, mudança de padrão ATIV para FISCO20.
+* SRVML-3702 - Rehomologação de cidade - Santa Rosa de Viterbo/SP - BETHA20.
+* SRVML-3702 - Homologação - ITAARA/RS - GovBr20.
+
+**Retificando a novidades da versão 2.1.84.7698**
+
+* SRVML-3686 - Re-homologação Guarujá/SP, mudança de padrão GINFES para GISSONLINE.
+* SRVML-3686 - Re-homologação Presidente Epitácio/SP, mudança de padrão FGMAIS para GOVBR20.
+* SRVML-3686 - Re-homologação Itapemirim/ES, mudança de padrão EL para EL20.
+* SRVML-3686 - Re-homologação Ronda Alta/RS, mudança de padrão Tcheinformatica para SIM.
+* SRVML-3686 - Re-homologação DEODAPOLIS/MS, mudança de padrão BETHA para BETHA20.
+* SRVML-3686 - Re-homologação POUSOALEGRE/MG, mudança de padrão SIGCORP para IPM20.
+* SRVML-3686 - Re-homologação Três Barras/SC, mudança de padrão IPM para IPM20.
+
+**Retificando a novidades da versão 2.1.84.7697**
+
+* SRVML-3686 - Homologação Mucugê/BA, padrão Saatri.
+* SRVML-3686 - Homologação Cristópolis/BA, padrão Saatri.
+* SRVML-3686 - Homologação Toledo/MG, padrão FUTURIZE.
+* SRVML-3686 - Homologação Nova Palma/RS, padrão GOVBR20.
+* SRVML-3686 - Re-homologação Riqueza/SC, mudança de padrão IPM20 para IPM20 modelo abrasf.
+* SRVML-3686 - Re-homologação Lagoa Santa/MG, mudança de padrão GOVDIGITAL para BETHA.
+* SRVML-3686 - Re-homologação Lagoa Santa/MG, mudança de padrão GOVDIGITAL para BETHA.
+* SRVML-3686 - Re-homologação Timbaúba/PE, mudança de padrão TRIBUTOS UPLOAD para TRIBUTOSWS.
+
+**Retificando a novidades da versão 2.1.84.7696**
+
+* SRVML-3656 - Homologação Biritiba Mirim/SP, padrão EMBRAS.
+* SRVML-3656 - Homologação Cantagalo/RJ, padrão EL20.
+* SRVML-3656 - Homologação São Gonçalo dos Campos/BA, padrão WEBISS20.
+* SRVML-3656 - Homologação Chuí/RS, padrão GOVBR20.
+* SRVML-3656 - Homologação Presidente Castello Branco/SC, padrão Betha.
+* SRVML-3656 - Homologação Ponto Novo/BA, padrão Fisco20.
+* SRVML-3656 - Homologação Itaverava/MG, padrão SH3.
+* SRVML-3656 - Homologação Santo Antônio das Missões/RS, padrão Abase.
+* SRVML-3656 - Homologação Estiva Gerbi/SP, padrão GOVBR20.
+* SRVML-3656 - Homologação Guia Lopes da Laguna/MS, padrão Fiorilli.
+* SRVML-3656 - Homologação Muzambinho/MG, padrão ERECEITA.
+* SRVML-3656 - Re-homologação Lages/SC, mudança de padrão BETHA para BETHA20.
+* SRVML-3656 - Re-homologação Jaraguá do Sul/SC, mudança de padrão BETHA para BETHA20.
+* SRVML-3656 - Re-homologação Itaquirai/MS, mudança de padrão BETHA para BETHA20.
+
+**Retificando a novidades da versão 2.1.84.7694**
+
+* SRVML-3686 - Homologação Mucugê/BA, padrão Saatri.
+* SRVML-3686 - Homologação Cristópolis/BA, padrão Saatri.
+* SRVML-3686 - Homologação Toledo/MG, padrão FUTURIZE.
+* SRVML-3686 - Homologação Nova Palma/RS, padrão GOVBR20.
+* SRVML-3686 - Re-homologação Riqueza/SC, mudança de padrão IPM20 para IPM20 modelo abrasf.
+* SRVML-3686 - Re-homologação Lagoa Santa/MG, mudança de padrão GOVDIGITAL para BETHA.
+* SRVML-3686 - Re-homologação Lagoa Santa/MG, mudança de padrão GOVDIGITAL para BETHA.
+* SRVML-3686 - Re-homologação Timbaúba/PE, mudança de padrão TRIBUTOS UPLOAD para TRIBUTOSWS.
+
+**Retificando a novidades da versão 2.1.84.7692**
+
+* SRVML-3637 - Re-homologação Caruaru/PE, mudança de padrão Ginfes para GissOnline.
+* SRVML-3637 - Re-homologação Goiânia/GO, mudança de padrão GOIANIA para ISSNETONLINE20.
+* SRVML-3637 - Re-homologação Machado/MG, mudança de padrão ERECEITA para ISSINTEL.
+* SRVML-3637 - Re-homologação Tunápolis/SC, mudança de padrão Betha.
+* SRVML-3637 - Re-homologação Curionópolis/PA, mudança de padrão ISSINTEL para ASPEC.
+* SRVML-3637 - Re-homologação Boa Esperança/MG, mudança de padrão Betha para Betha20.
+* SRVML-3637 - Re-homologação Baixo Guandu/ES, mudança de padrão EL para EL20.
+
+
+**Retificando a novidades da versão 2.1.84.7690**
+
+* SRVML-3613 - Rehomologação Vinhedo/SP, mudança de padrão PRESCON para COTIA.
+* SRVML-3613 - Rehomologação Gravatal/SC, mudança de padrão IPM para IPM20.
+* SRVML-3613 - Rehomologação Belém/PA, mudança de padrão DSF para DSF20.
+* SRVML-3613 - Homologação Guarabira/PB, padrão ELMAR.
+* SRVML-3613 - Rehomologação Paulista/PE, mudança de padrão TINUS para GISSONLINE.
+
+**Retificando a novidades da versão 2.1.84.7689**
+
+* SRVML-3602 - Rehomologação Indaial/SC, mudança de padrão IPM para IPM20.
+* SRVML-3602 - Rehomologação São Pedro do Butiá/RS, mudança de padrão BETHA para ABASE.
+* SRVML-3602 - Rehomologação Três Corações/MG, mudança de padrão EL para EL20.
+* SRVML-3602 - Rehomologação Santa Rita/MA, mudança de padrão Fiorilli para D2ti.
+* SRVML-3602 - Rehomologação Cambuquira/MG, mudança de padrão BETHA20 para BauhausWS.
+
+**Retificando a novidades da versão 2.1.84.7688**
+
+* SRVML-3588 - Homologação São Francisco de Itabapoana/RJ, padrão FIORILLI.
+* SRVML-3588 - Homologação Igaraçu do Tiete/SP, padrão FGMAIS.
+* SRVML-3588 - Homologação Santa Fé/PR, padrão MaisISS20.
+* SRVML-3588 - Homologação São José do Norte/RS, padrão GOVBR20.
+* SRVML-3588 - Homologação Condor/RS, padrão GOVBR20.
+* SRVML-3588 - Homologação Japurá/PR, padrão WEBPUBLICO.
+* SRVML-3588 - Homologação Planalto/BA, padrão FISCO20.
+* SRVML-3588 - Homologação Laranja da Terra/ES, padrão EL.
+* SRVML-3588 - Homologação Barreirinhas/MA, padrão INTERSOL.
+* SRVML-3588 - Homologação Harmonia/RS, padrão TECNOSISTEMAS.
+* SRVML-3588 - Homologação Campina das Missões/RS, padrão GOVBR.
+* SRVML-3588 - Homologação Itirapina/SP, padrão SIGISSWEB.
+* SRVML-3588 - Rehomologação Cruz das Almas/BA, mudança de padrão FISCO para WEBISS.
+
+**Retificando a novidades da versão 2.1.84.7685**
+
+* SRVML-3571 - Rehomologação Catolé do Rocha - PB, mudança de padrão TinusUP para Tinus.
+* SRVML-3571 - Rehomologação Lagarto - SE, mudança de padrão TRIBUTUS para TRIBUTUSWS.
+
+**Retificando a novidades da versão 2.1.84.7682**
+
+* SRVML-3514 - Rehomologação Andradas - MG, mudança de padrão GOVDIGITAL para BETHA.
+
+**Retificando a novidades da versão 2.1.84.7678**
+
+* SRVML-3472 - Homologação Olímpio Noronha/MG, padrão Futurize.
+* SRVML-3472 - Homologação São Pedro do Sul/RS, padrão Betha20.
+* SRVML-3472 - Homologação Inocência/MS, padrão Fiorilli.
+* SRVML-3472 - Homologação Itamogi/MG, padrão eReceita.
+* SRVML-3472 - Homologação Moeda/MG, padrão Sintese.
+* SRVML-3472 - Homologação Levy Gasparian/RJ, padrão FIORILLI.
+* SRVML-3472 - Rehomologação Comodoro/MT, mudança de padrão BETHA para FIORILLI.
+* SRVML-3472 - Rehomologação Imperatriz/MA, mudança de padrão ACTCON para BauhausWS.
+* SRVML-3472 - Rehomologação Santa Inês/MA, mudança de padrão ACTCON para D2TI.
+* SRVML-3472 - Rehomologação São Roque do Canaã/ES, mudança de padrão EL para EL20.
+* SRVML-3472 - Rehomologação Tangará da Serra/MT, mudança de padrão SATURNO20 para CENTI.
+
+**Retificando a novidades da versão 2.1.84.7660**
+
+* SRVML-3447 - Rehomologação Cachoeira Paulista/SP, mudança de padrão EMBRASUP para EMBRAS.
+* SRVML-3447 - Rehomologação Serrinha/BA, mudança de padrão GINFES para FISCO.
+* SRVML-3447 - Rehomologação Confins/MG, mudança de padrão EL para EL20.
+
+
+
+## [2.1.84.7698]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -4300,6 +4442,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
