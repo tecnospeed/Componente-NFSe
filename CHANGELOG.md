@@ -1,4 +1,24 @@
-﻿## [2.1.84.7700]
+﻿## [2.1.84.7701]
+
+**Novidades - 13/11/2025**
+
+* SRVML-3734 - Re-homologação Telêmaco Borba/PR, mudança de padrão IPM para IPM20.
+* SRVML-3734 - Re-homologação Osório/RS, mudança de padrão IPM para IPM20.
+* SRVML-3734 - Re-homologação Pouso Redondo/SC, mudança de padrão BETHA para NOVO BETHA20.
+* SRVML-3734 - Re-homologação Estreito/MA, mudança de padrão FIORILLI para ACTCON.
+* SRVML-3734 - Re-homologação Xinguara/PA, mudança de padrão ISSINTEL para DESENVOLVE.
+* SRVML-3734 - Re-homologação Santa Quiteria/CE, mudança de padrão SSINFORMATICA para INTERSOL.
+
+**Novidades - 06/11/2025**
+
+**Retificando a novidades da versão 2.1.84.7700**
+
+* SRVML-3722 - Re-homologação Bayeux/PB, mudança de padrão ISSINTEL para WEBISS.
+* SRVML-3722 - Re-homologação Crissiumal/RS, mudança de padrão BETHA para BETHA20.
+* SRVML-3722 - Re-homologação Itapoá/SC, mudança de padrão IPM para IPM20.
+* SRVML-3722 - Re-homologação Encruzilhada do Sul/RS, mudança de padrão GOVBR20 para GOVBR.
+
+## [2.1.84.7700]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -4446,6 +4466,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
