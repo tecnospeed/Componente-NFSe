@@ -1,4 +1,23 @@
-﻿## [2.1.84.7701]
+﻿## [2.1.84.7704]
+
+**Novidades - 24/11/2025**
+
+* DC-7105 - Re-homologação Atalanta/SC, mudança de leitura Schema XML Betha 1.0.
+* DC-7109 - Re-homologação Navegantes/SC, mudança de padrão BETHA para IPM.
+* DC-7118 - Re-homologação Aracruz/ES, mudança de padrão EL20 2.03 para EL20 2.04.
+* DC-7124 - Re-homologação São Bento do Sul/SC, mudança de padrão IPM para IPM20.
+* DC-7135 - Re-homologação Sapezal/MT, mudança de padrão BETHA para BETHA20.
+* DC-7138 - Re-homologação Ametista do Sul/RS, mudança de leitura Schema XML Betha 1.0.
+* DC-7158 - Re-homologação Jacinto Machado/SC, mudança de padrão BETHA para NOVO IPM20.
+
+**Novidades - 17/11/2025**
+
+* DC-7134 - Re-homologação Marituba/PA, mudança de padrão ACTCON para DESENVOLVE.
+* DC-7161 - Re-homologação Costa Rica/MS, mudança de padrão GOVBR20 para FIORILLI.
+
+
+
+## [2.1.84.7701]
 
 **Novidades - 13/11/2025**
 
@@ -4466,6 +4485,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
