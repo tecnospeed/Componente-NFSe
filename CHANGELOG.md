@@ -1,4 +1,16 @@
-﻿## [2.1.84.7704]
+﻿## [2.1.84.7705]
+
+**Novidades - 27/11/2025**
+
+* DC-7159 - Re-homologação Corumbataí/SP, mudança de padrão BETHA para BETHA20.
+* DC-7139 - Re-homologação Renascença/PR, mudança de padrão MAISISS20.
+* DC-7133 - Re-homologação Anitápolis/SC, mudança de padrão BETHA para BETHA20.
+* DC-7123 - Homologação Russas/CE, padrão INTERSOL.
+* DC-7119 - Homologação Jaguarão/RS, padrão GOVBR.
+* DC-7117 - Re-homologação Seara/SC, mudança de padrão IPM para IPM20.
+* DC-7093 - Homologação Inaciolândia/GO, padrão CENTI.
+
+## [2.1.84.7704]
 
 **Novidades - 24/11/2025**
 
@@ -4485,6 +4497,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
