@@ -1,4 +1,21 @@
-﻿## [2.1.84.7705]
+﻿## [2.1.84.7706]
+
+**Novidades - 04/12/2025**
+
+* DC-6943 - Re-homologação Artur Nogueira/SP, de padrão PRESCON para COTIA.
+* DC-7065 - Homologação Jarinu/SP, padrão GOVBR20.
+* DC-7184 - Re-homologação Porto Real/RJ, mudança de padrão ISSONLINE para MODPUBLICA.
+* DC-7185 - Re-homologação Pequi/MG, mudança de padrão BETHA para WEBISS20.
+* DC-7190 - Re-homologação Porto Belo/SC, mudança de padrão IPM para IPM20.
+* DC-7192 - Re-homologação Santa Cecília/SC, mudança de padrão BETHA para BETHA20.
+* DC-7195 - Re-homologação Açailândia/MA, mudança de padrão SIGISS para INTERSOL.
+* DC-7199 - Homologação Vila Maria/RS, padrão CITTAWEB.
+* DC-7203 - Re-homologação Itacoatiara/AM, mudança de padrão FIORILLI para BETHA20.
+* DC-7205 - Re-homologação Belo Jardim/PE, mudança de padrão TRIBUTUSWS para TINUS.
+
+
+
+## [2.1.84.7705]
 
 **Novidades - 27/11/2025**
 
@@ -4497,6 +4514,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
