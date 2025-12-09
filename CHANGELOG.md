@@ -1,4 +1,19 @@
-﻿## [2.1.84.7706]
+﻿## [2.1.84.7707]
+
+**Novidades - 11/12/2025**
+
+* DC-7092 – Homologação Águas da Prata/SP, padrão FIORILLI.
+* DC-7094 – Homologação Uchoa/SP, padrão SISTEMAS4R.
+* DC-7132 – Homologação Santa Margarida/MG, padrão Memory.
+* DC-7208 – Re-homologação Buritis/MG, mudança de padrão ISSLEGAL para FIORILLI.
+* DC-7209 – Re-homologação Cerro Grande do Sul/RS, mudança de padrão BETHA para BETHA20.
+* DC-7214 – Re-homologação Santa Inês/MA, mudança de padrão D2TI para ACTCON.
+* DC-7217 – Re-homologação Piúma/ES, mudança de padrão EL para EL20 (Abrasf 2.04).
+* DC-7219 – Re-homologação Alegre/ES, mudança de padrão EL para EL20.
+* DC-7228 – Re-homologação Alto Bela Vista/SC, mudança de padrão BETHA para IPM20.
+* DC-7230 – Re-homologação José Boiteux/SC, mudança de padrão IPM para IPM20.
+
+## [2.1.84.7706]
 
 **Novidades - 04/12/2025**
 
@@ -4514,6 +4529,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
