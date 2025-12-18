@@ -1,4 +1,16 @@
-﻿## [2.1.84.7707]
+﻿## [2.1.84.7708]
+
+**Novidades - 18/12/2025**
+
+* DC-7081 - Homologação Luís Correia/PI - padrão FIORILLI
+* DC-7129 - Homologação São João D'Aliança/GO - padrão ARRECADANET
+* DC-7207 - Re-homologação São Matheus/ES, adequação de campo para o formato nacional
+* DC-7215 - Re-homologação Guaranésia/MG, mudança de leitura de esquema XML
+* DC-7229 - Re-homologação Guaíba/RS, mudança de padrão IPM para IPM20
+* DC-7233 - Re-homologação Petrolina/PE, adequação de campo para o formato nacional
+* DC-7245 - Re-homologação Ibirama/SC, mudança de padrão IPM para IPM20
+
+## [2.1.84.7707]
 
 **Novidades - 11/12/2025**
 
@@ -4529,6 +4541,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
