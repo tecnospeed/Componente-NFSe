@@ -1,4 +1,12 @@
-﻿## [2.1.84.7708]
+﻿## [2.1.84.7709]
+
+**Novidades - 19/12/2025**
+
+- SRVML-3836 - Adequação da reforma tributária para os padrões Publica e Maringá.
+- SRVML-3835 - Adequação da reforma tributária para o padrão GISSONLINE.
+- SRVML-3834 - Adequação da reforma tributária para o padrão GINFES.
+
+## [2.1.84.7708]
 
 **Novidades - 18/12/2025**
 
@@ -4541,6 +4549,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
