@@ -1,4 +1,16 @@
-﻿## [2.1.84.7709]
+﻿## [2.1.84.7710]
+
+**Novidades - 23/12/2025**
+
+* DC-7005 - Homologação Castilho/SP - padrão FIORILLI
+* DC-7131 - Re-homologação Anastácio/MS, mudança de padrão FIORILLI para ARRECADANET
+* DC-7162 - Homologação Timbiras/MA - padrão FIORILLI
+* DC-7231 - Re-homologação Palmeira das Missões/RS, mudança de padrão IPM para IPM20
+* DC-7254 - Re-homologação Pinheiros/ES, mudança de padrão EL para EL20
+* DC-7255 - Re-homologação Pinhal/RS, mudança de padrão IPM para IPM20
+* DC-7259 - Re-homologação Mirante da Serra/RO, mudança de padrão CECAM para FIORILLI
+
+## [2.1.84.7709]
 
 **Novidades - 19/12/2025**
 
@@ -4549,6 +4561,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
