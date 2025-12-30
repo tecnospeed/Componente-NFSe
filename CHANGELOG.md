@@ -1,4 +1,13 @@
-﻿## [2.1.84.7712]
+﻿## [2.1.84.7715]
+
+**Novidades - 30/12/2025**
+
+* DC-7274 - Re-Homologação Mucuri/BA - mudança de padrão BETHA para CENTI
+* DC-7278 - Homologação Arealva/SP - padrão FIORILLI
+* DC-7279 - Homologação Praia Grande/SC - padrão IPM20
+* DC-7280 - Homologação Bom Jesus do Oeste/SC - padrão IPM20
+
+## [2.1.84.7712]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -4569,6 +4578,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
