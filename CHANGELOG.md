@@ -1,4 +1,11 @@
-﻿## [2.1.84.7720]
+﻿## [2.1.84.7724]
+
+**Novidades - 08/01/2026**
+
+* DC-7298 - Re-Homologação Santo Augusto/RS - mudança de padrão IPM para IPM20
+* DC-7308 - Re-Homologação Itabela/BA - mudança de padrão SAATRI para ATIV
+
+## [2.1.84.7720]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -4594,6 +4601,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
