@@ -1,4 +1,23 @@
-﻿## [2.1.84.7729]
+﻿## [2.1.84.7730]
+
+**Novidades**
+
+* DC-7318 - Re-homologação Alegrete/RS - mudança de padrão GOVBR20 para GOVBR30
+* DC-7318 - Re-homologação Araruama/RJ - mudança de padrão GOVBR20 para GOVBR30
+* DC-7318 - Re-homologação Campina das Missões/RS - mudança de padrão GOVBR20 para GOVBR30
+* DC-7318 - Re-homologação Cândido Godói/RS - mudança de padrão GOVBR20 para GOVBR30
+* DC-7318 - Re-homologação Coronel Vivida/PR - mudança de padrão GOVBR20 para GOVBR30
+* DC-7318 - Re-homologação Feliz/RS - mudança de padrão GOVBR20 para GOVBR30
+* DC-7318 - Re-homologação Guaporé/RS - mudança de padrão GOVBR20 para GOVBR30
+* DC-7318 - Re-homologação Ijuí/RS - mudança de padrão GOVBR20 para GOVBR30
+* DC-7318 - Re-homologação Itaperuna/RJ - mudança de padrão GOVBR20 para GOVBR30
+* DC-7318 - Re-homologação Jacarezinho/PR - mudança de padrão GOVBR20 para GOVBR30
+* DC-7318 - Re-homologação Regente Feijó/SP - mudança de padrão GOVBR20 para GOVBR30
+* DC-7318 - Re-homologação Rolândia/PR - mudança de padrão GOVBR20 para GOVBR30
+* DC-7318 - Re-homologação Saquarema/RJ - mudança de padrão GOVBR20 para GOVBR30
+* DC-7318 - Re-homologação Viamão/RS - mudança de padrão GOVBR20 para GOVBR30
+
+## [2.1.84.7729]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -4617,6 +4636,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
