@@ -1,4 +1,17 @@
-﻿## [2.1.84.7730]
+﻿## [2.1.84.7731]
+
+**Novidades - 15/01/2026**
+
+* DC-7330 - Re-homologação Dom Pedrito/RS - mudança de padrão GOVBR20 para GOVBR30
+* DC-7331 - Re-homologação Pato Branco/PR - mudança de padrão GOVBR20 para GOVBR30
+* DC-7332 - Re-homologação Rosário do Sul/RS - mudança de padrão GOVBR20 para GOVBR30
+* DC-7333 - Re-homologação Caratinga/MG - mudança de padrão GOVBR20 para GOVBR30
+* DC-7334 - Re-homologação São José do Norte/RS - mudança de padrão GOVBR20 para GOVBR30
+* DC-7335 - Re-homologação Vacaria/RS - mudança de padrão GOVBR20 para GOVBR30
+* DC-7336 - Re-homologação Chopinzinho/PR - mudança de padrão GOVBR20 para GOVBR30
+* DC-7337 - Re-homologação Getúlio Vargas/PR - mudança de padrão GOVBR20 para GOVBR30
+
+## [2.1.84.7730]
 
 **Novidades**
 
@@ -4636,6 +4649,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
