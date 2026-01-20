@@ -1,4 +1,15 @@
-﻿## [2.1.84.7733]
+﻿## [2.1.84.7734]
+
+**Novidades - 20/01/2026**
+
+* DC-7328 - Re-homologação Mirassol/SP - mudança de padrão GOVBR20 para GOVBR30
+* DC-7339 - Re-homologação Nísia Floresta/RN - mudança de padrão TINUSUP para TINUS
+* DC-7340 - Re-homologação Contagem/MG - Mudança de padrão GINFES para GOVBR30
+* DC-7341 - Re-homologação Ibiraiara/RS - mudança de padrão GOVBR20 para GOVBR30
+* DC-7342 - Re-homologação São Roque/SP - mudança de padrão GOVBR20 para GOVBR30
+* DC-7343 - Re-homologação Álvares Machado/SP - mudança de padrão GOVBR20 para GOVBR30
+
+## [2.1.84.7733]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -4653,6 +4664,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
