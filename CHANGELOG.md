@@ -1,4 +1,16 @@
-﻿## [2.1.84.7736]
+﻿## [2.1.84.7737]
+
+**Novidades - 23/01/2026**
+
+* SRVML-3947 - Re-homologação Macaé/RJ - mudança de padrão WEBISS20 para TIPLAN
+* DC-7342 - Re-homologação Americana/SP - mudança de padrão WEBISS20 para TIPLAN
+* DC-7344 - Re-homologação Mangaratiba/RJ - mudança de padrão WEBISS20 para TIPLAN
+* DC-7347 - Re-homologação Itabira/MG - mudança de padrão GOVBR20 para GOVBR30
+* DC-7348 - Re-homologação Uruguaiana/RS - Mudança de padrão GOVBR20 para GOVBR30
+* DC-7349 - Re-homologação São Gabriel/RS - mudança de padrão GOVBR20 para GOVBR30
+* DC-7352 - Re-homologação Cachoeira do Sul/RS - mudança de padrão GOVBR20 para GOVBR30
+
+## [2.1.84.7736]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -4672,6 +4684,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
