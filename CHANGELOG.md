@@ -1,4 +1,13 @@
-﻿## [2.1.84.7740]
+﻿## [2.1.84.7741]
+
+**Novidades - 28/01/2026**
+
+* DC-7354 - Re-homologação Charqueada/SP - mudança de padrão GOVBR20 para GOVBR30
+* DC-7355 - Re-homologação Entre-Ijuís/RS - Mudança de padrão GOVBR20 para GOVBR30
+* DC-7356 - Re-homologação Agudo/RS - mudança de padrão GOVBR20 para GOVBR30
+* DC-7356 - Re-homologação Ipê/RS - mudança de padrão GOVBR20 para GOVBR30
+
+## [2.1.84.7740]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -4692,6 +4701,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
