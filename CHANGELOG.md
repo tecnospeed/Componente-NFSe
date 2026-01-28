@@ -1,4 +1,8 @@
-﻿## [2.1.84.7741]
+﻿## [2.1.84.7745]
+
+* Corre&ccedil;&otilde;es e melhorias diversos.
+
+## [2.1.84.7741]
 
 **Novidades - 28/01/2026**
 
@@ -4701,6 +4705,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
