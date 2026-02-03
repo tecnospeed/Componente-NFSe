@@ -1,4 +1,14 @@
-﻿## [2.1.84.7747]
+﻿## [2.1.84.7748]
+
+**Novidades - 06/02/2026**
+
+* DC-7353 - Re-homologação Claudia/MT - Mudança de padrão AGILI para COPLAN
+* DC-7362 - Re-homologação Camboriú/SC - Mudança de padrão SIMPLE para IPM20
+* DC-7363 - Re-homologação Brasnorte/MT - Mudança de padrão FIORILLI para COPLAN
+* DC-7366 - Re-homologação São Pedro/SP - Mudança de padrão GOVBR20 para GOVBR30
+* DC-7366 - Re-homologação Porto Feliz/SP - Mudança de padrão GOVBR20 para GOVBR30
+
+## [2.1.84.7747]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -4713,6 +4723,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
