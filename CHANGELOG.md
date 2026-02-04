@@ -1,4 +1,12 @@
-﻿## [2.1.84.7748]
+﻿## [2.1.84.7750]
+
+**Novidades - 06/02/2026**
+
+* DC-7368 - Re-homologação Jarinu/SP - Mudança de padrão GOVBR20 para GOVBR30
+* DC-7368 - Re-homologação São Lourenço do Sul/RS - Mudança de padrão GOVBR20 para GOVBR30
+* DC-7369 - Re-homologação Benedito Novo/SC - Mudança de padrão IPM para IPM20
+
+## [2.1.84.7748]
 
 **Novidades - 06/02/2026**
 
@@ -4723,6 +4731,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
