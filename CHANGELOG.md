@@ -1,4 +1,21 @@
-﻿## [2.1.84.7751]
+﻿## [2.1.84.7752]
+
+**Novidades**
+
+* DC-7351 - Re-homologação Rialma/GO - Mudança de padrão ARRECADANET para CENTI
+* DC-7370 - Re-homologação Assis Chateaubriand/PR - Mudança de padrão GOVBR20 para GOVBR30
+* DC-7371 - Re-homologação Condor/RS - Mudança de padrão GOVBR20 para GOVBR30
+* DC-7372 - Homologação Restinga Seca/RS - padrão GOVBR30
+
+**Correções**
+
+
+* SRVML-4105 - Correção da descrição cidade de Embu das Artes para o padrão Osasco.
+* SRVML-4084 - Ajustes para geração de tags no XML mesmo com valores zerados par atender o esquema do padrão SIL20. 
+* SRVML-4070 - Ajuste no preenchimento de código Tributação, controle de contagem de linhas e no preenchimento de campos de IndicadorDestinatario, padrão BARUERISPWS.
+
+
+## [2.1.84.7751]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -4735,6 +4752,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
