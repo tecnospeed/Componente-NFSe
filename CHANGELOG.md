@@ -1,4 +1,13 @@
-﻿## [2.1.84.7752]
+﻿## [2.1.84.7753]
+
+**Novidades - 06/02/2026**
+
+* DC-7374 - Re-homologação Carmo do Cajuru/MG - Mudança de padrão IPM para IPM20
+* DC-7376 - Re-homologação Iporã/PR - Mudança de padrão GOVBR20 para GOVBR30
+* DC-7376 - Re-homologação Três Coroas/RS - Mudança de padrão GOVBR20 para GOVBR30
+* SRVML-4072 - Re-homologação Angra dos Reis/RJ - Mudança de padrão WEBISS20 para TIPLAN
+
+## [2.1.84.7752]
 
 **Novidades**
 
@@ -4752,6 +4761,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
