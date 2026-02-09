@@ -1,4 +1,12 @@
-﻿## [2.1.84.7753]
+﻿## [2.1.84.7754]
+
+**Novidades - 13/02/2026**
+
+* DC-7377 - Re-homologação Rolante/RS - Mudança de padrão IPM para ABASE
+* DC-7381 - Re-homologação Guarani das Missões/RS - Mudança de padrão GOVBR20 para GOVBR30
+* DC-7381 - Homologação Pejuçara/RS - Padrão GOVBR30
+
+## [2.1.84.7753]
 
 **Novidades - 06/02/2026**
 
@@ -4761,6 +4769,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
