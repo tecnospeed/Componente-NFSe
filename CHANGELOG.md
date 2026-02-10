@@ -1,4 +1,16 @@
-﻿## [2.1.84.7754]
+﻿## [2.1.84.7755]
+
+**Novidades**
+
+* SRVML-4074 - Homologação do padrão CittaWeb20 para as cidades, Nicolau Vergueiro - RS, Parai - RS, Nova Araçá - RS, Casca - RS e Vila Maria - RS.
+* SRVML-4131 - Implementação de campos de endereço de local de Prestação na cidade de Osasco SP.
+* DC-7383 - Re-homologação Teodoro Sampaio/SP - Mudança de padrão GOVBR para GOVBR30
+* DC-7384 - Re-homologação Santa Terezinha de Itaipu/PR - Mudança de padrão GOVBR para GOVBR30
+* DC-7385 - Re-homologação Paranapanema/SP - Mudança de padrão GOVBR para GOVBR30
+* DC-7386 - Re-homologação Encruzilhada do Sul/RS - Mudança de padrão GOVBR para GOVBR30
+* DC-7387 - Re-homologação Júlio de Castilhos/RS - Mudança de padrão GOVBR para GOVBR30
+
+## [2.1.84.7754]
 
 **Novidades - 13/02/2026**
 
@@ -4769,6 +4781,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
