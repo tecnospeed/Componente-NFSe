@@ -1,4 +1,19 @@
-﻿## [2.1.84.7755]
+﻿## [2.1.84.7756]
+
+**Novidades**
+
+* DC-7388 - ReHomologação Poço Fundo/MG - Mudança de padrão BETHA para FIORILLI
+* DC-7389 - Re-homologação Paraíba do Sul/RJ - Mudança de padrão GOVBR20 para GOVBR30
+* DC-7391 - Re-homologação Divinolândia/SP - Mudança de padrão GOVBR20 para GOVBR30
+* DC-7393 - Re-homologação Tapera/RS - Mudança de padrão GOVBR20 para GOVBR30
+* DC-7394 - Re-homologação Nova Petrópolis/RS - Mudança de padrão GOVBR20 para GOVBR30
+* DC-7395 - Re-homologação Caeté/MG - Mudança de padrão GOVBR20 para GOVBR30
+* DC-7396 - Re-homologação Santa Vitória do Palmar/RS - Mudança de padrão GOVBR20 para GOVBR30
+* DC-7397 - Re-homologação Triunfo/RS - Mudança de padrão GOVBR20 para GOVBR30
+* DC-7398 - Re-homologação Faxinal do Soturno/RS - Mudança de padrão GOVBR20 para GOVBR30
+* DC-7399 - Re-homologação Porecatu/PR - Mudança de padrão GOVBR20 para GOVBR30
+
+## [2.1.84.7755]
 
 **Novidades**
 
@@ -4781,6 +4796,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
