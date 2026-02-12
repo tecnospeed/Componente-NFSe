@@ -1,4 +1,14 @@
-﻿## [2.1.84.7756]
+﻿## [2.1.84.7757]
+
+
+**Correções**
+
+
+* SRVML-4115 - (GINFES) Correção da falha no tratamento do retorno da consulta de RPS em cenários de instabilidade (erros A01 e A02).
+* SRVML-4144 - (GovDigital) Adição de campo TipoRetencaoPisCofins.
+* SRVML-4008 - (Tecnosistemas) Correção de preenchimento de motivo de cancelamento
+
+## [2.1.84.7756]
 
 **Novidades**
 
@@ -4796,6 +4806,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
