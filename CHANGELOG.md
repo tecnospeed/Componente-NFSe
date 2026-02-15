@@ -566,7 +566,13 @@
 
 ## [2.1.84.7659]
 
-* Corre&ccedil;&otilde;es e melhorias diversos.
+* DC-7079 - Re-homologação Três Barras/SC - IPM para IPM20
+* DC-7078 - Re-homologação POUSOALEGRE/MG - SIGCORP para IPM20
+* DC-7076 - Re-homologação DEODAPOLIS/MS - BETHA para BETHA20
+* DC-7074 - Re-homologação Ronda Alta/RS - Tcheinformatica para SIM
+* DC-7069 - Re-homologação Itapemirim/ES - EL para EL20
+* DC-7068 - Re-homologação Presidente Epitácio/SP - FGMAIS para GOVBR20
+* DC-6887 - Re-homologação Guarujá/SP - GINFES para GISSONLINE
 
 ## [1.1.84.7658]
 
