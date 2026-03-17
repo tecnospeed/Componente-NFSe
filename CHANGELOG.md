@@ -1,4 +1,76 @@
-﻿## [2.1.84.7758]
+﻿## [2.1.84.7775]
+
+**Novidades**
+
+* SRVML-4205 - Compatibilizar o componente NFSe com o Delphi 13 Florence.
+* SRVML-4122 - Adequação a RTC, padrão SIGISS.
+* SRVML-4151 - Adequação a RTC, padrão SATURNO para RLZ.
+* SRVML-4164 - Adequação a RTC, padrão FREIRE.
+* SRVML-4180 - Adequação a RTC, padrão IPM20 modelo Abrasf 2.04
+* SRVML-4187 - Criar campo customizado para exibir a tarja de cancelamento nas cidades que herdam do padrão Nacional.
+* DC-7232 - Homologação São Miguel/RN - padrão TRIBUTUSWS
+* DC-7261 - Homologação Brasiléia/AC - padrão BETHA
+* DC-7266 - Homologação Contenda/PR - padrão MAISISS20
+* DC-7284 - Homologação Rio Pomba/MG - padrão FUTURIZE
+* DC-7362 - ReHomologação Camboriú/SC - mudança de padrão SIMPLE para IPM20 ABRASF
+* DC-7375 - ReHomologação Papanduva/SC - mudança de padrão SIMPLE para IPM20 ABRASF
+* DC-7382 - Homologação General Salgado/SP - padrão RLZ
+* DC-7405 - Re-homologação Presidente Bernardes/SP - Mudança de padrão GOVBR para GOVBR30
+* DC-7406 - Re-homologação Silva Jardim/RJ - Mudança de padrão GOVBR para GOVBR30
+* DC-7407 - Re-homologação Italva/RJ - Mudança de padrão GOVBR para GOVBR30
+* DC-7408 - Re-homologação Salto do Lontra/PR do Sul/RS - Mudança de padrão GOVBR para GOVBR30
+* DC-7409 - Re-homologação Cidade Gaúcha/PR - Mudança de padrão GOVBR para GOVBR30
+* DC-7410 - Re-homologação Victor Graeff/RS - Mudança de padrão GOVBR para GOVBR30
+* DC-7411 - Re-homologação Pinheiro Machado/RS - Mudança de padrão GOVBR para GOVBR30
+* DC-7412 - Re-homologação Picada Café/RS - Mudança de padrão GOVBR para GOVBR30
+* DC-7413 - Re-homologação Barros Cassal/RS - Mudança de padrão GOVBR para GOVBR30
+* DC-7414 - Re-homologação Severiano de Almeida/RS - Mudança de padrão GOVBR para GOVBR30
+* DC-7417 - Re-Homologação Eldorado do Sul/RS - mudança de padrão GOVBR20 para GOVBR30
+* DC-7418 - Re-Homologação Rio Pardo/RS - mudança de padrão GOVBR20 para GOVBR30
+* DC-7419 - Re-Homologação Pantano Grande/RS - mudança de padrão GOVBR20 para GOVBR30
+* DC-7420 - Re-Homologação São Gonçalo do Rio Abaixo/MG - mudança de padrão GOVBR20 para GOVBR30
+* DC-7421 - Re-Homologação Arroio do Sal/RS - mudança de padrão GOVBR20 para GOVBR30
+* DC-7422 - Re-Homologação Jesuítas/PR - mudança de padrão GOVBR20 para GOVBR30
+* DC-7423 - Re-Homologação Tavares/RS - mudança de padrão GOVBR20 para GOVBR30
+* DC-7424 - Re-Homologação Quissamã/RJ - mudança de padrão GOVBR20 para GOVBR30
+* DC-7425 - Re-Homologação Eugênio de Castro/RS - mudança de padrão GOVBR20 para GOVBR30
+* DC-7426 - Re-Homologação Butiá/RS - mudança de padrão GOVBR20 para GOVBR30
+* DC-7427 - Re-Homologação Caçapava do Sul/RS - mudança de padrão GOVBR20 para GOVBR30
+* DC-7428 - Re-Homologação Itapejara D'Oeste/PR - mudança de padrão GOVBR20 para GOVBR30
+* DC-7429 - Re-Homologação Formosa do Oeste/PR - mudança de padrão GOVBR20 para GOVBR30
+* DC-7430 - Re-Homologação Miracema/RJ - mudança de padrão GOVBR20 para GOVBR30
+* DC-7431 - Re-Homologação Cambará do Sul/RS - mudança de padrão GOVBR20 para GOVBR30
+* DC-7432 - Re-Homologação Estiva Gerbi/SP - mudança de padrão GOVBR20 para GOVBR30
+* DC-7433 - Re-Homologação Piratini/RS - mudança de padrão GOVBR20 para GOVBR30
+* DC-7434 - Re-Homologação Presidente Epitácio/SP - mudança de padrão GOVBR20 para GOVBR30
+* DC-7435 - Re-Homologação Nova Palma/RS - mudança de padrão GOVBR20 para GOVBR30
+* DC-7436 - Re-Homologação Chuí/RS - mudança de padrão GOVBR20 para GOVBR30
+* DC-7437 - Re-Homologação Perola/PR - mudança de padrão GOVBR20 para GOVBR30
+* DC-7438 - Re-Homologação Tapes/RS - mudança de padrão GOVBR20 para GOVBR30
+* DC-7439 - Re-Homologação Boa Vista do Cadeado/PR - mudança de padrão GOVBR20 para GOVBR30
+* DC-7440 - Re-Homologação Cristal/RS - mudança de padrão GOVBR20 para GOVBR30
+* DC-7441 - Re-Homologação São José do Herval/RS - mudança de padrão GOVBR20 para GOVBR30
+* DC-7442 - Re-Homologação Manoel Viana/RS - mudança de padrão GOVBR20 para GOVBR30
+* DC-7443 - Re-Homologação Santana da Boa Vista/RS - mudança de padrão GOVBR20 para GOVBR30
+* DC-7444 - ReHomologação Ribeira do Pombal/BA - mudança de padrão SIAM para WEBISS
+* DC-7445 - Homologação Itapirapuã/GO - padrão CENTI
+* DC-7448 - ReHomologação Presidente Prudente/SP - mudança padrão SIMPLISS LAYOUT NACIONAL
+* DC-7449 - ReHomologação Canguçu/RS - mudança de padrão GOVBR20 para GOVBR30
+* DC-7450 - ReHomologação Vargem Grande do Sul/SP - mudança padrão SIMPLISS LAYOUT NACIONAL
+* DC-7456 - Homologação Cidade Ocidental/GO - padrão PRODATA
+* DC-7459 - ReHomologação Palmital/SP - mudança de padrão GOVBR20 para GOVBR30
+* DC-7460 - Homologação Aragoiânia/GO - padrão ARRECADANET
+* DC-7462 - Homologação São Miguel do Guamá/PA - padrão ASPEC
+* DC-7470 - Homologação Baião/PA - padrão ASPEC
+* DC-7487 - ReHomologação Olímpia/SP - mudança de padrão GINFES para GISSONLINE
+
+**Correções**
+
+* SRVML-4029 - Ajuste na geração de impressão via tx2.
+* SRVML-4191 - Ajuste na geração de impressão via link para as cidades do padrão GISSONLINE.
+* OSRVML-16853 - Ajuste na assinatura de XML para cidades do padrão CittaWeb20.
+
+## [2.1.84.7758]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -4810,6 +4882,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
