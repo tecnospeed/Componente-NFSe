@@ -1,10 +1,22 @@
 ﻿## [2.1.84.7779]
 
-* Corre&ccedil;&otilde;es e melhorias diversos.
+**Novidades**
 
-## [2.1.84.7777]
+* DC-7461 - Homologação Itaguari/GO - padrão ARRECADANET
+* DC-7475 - Homologação Santa Fé de Goiás/GO - padrão ARRECADANET
+* DC-7485 - Homologação Campos Gerais/MG - padrão BETHA
+* DC-7491 - Homologação Iaciara/GO - padrão CENTI
+* DC-7492 - ReHomologação Confresa/MT - mudança de padrão FIORILLI para COPLAN
+* DC-7493 - ReHomologação Augusto Pestana/RS - mudança de padrão GOVBR20 para GOVBR30
+* DC-7494 - ReHomologação Santa Rita/PB - mudança de padrão DATAPUBLIC para AGILI
+* OSRV-26313 - Adequação RTC - padrão ISSDIGITAL20
 
-* Corre&ccedil;&otilde;es e melhorias diversos.
+**Correções**
+
+* OSRV-17169 - Ajuste de comunicação WebService - Alhandra/PB - ELMARWS
+* OSRV-18203 - Adequação de layout próprio na impressão do padrão SIGISS
+* OSRV-18279 - Compatibilização da impressão para o modelo Nacional - SIGCORP
+* OSRV-26839 - Correção de Falha catastrófica ao realizar assinatura de XML
 
 ## [2.1.84.7775]
 
