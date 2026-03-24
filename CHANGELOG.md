@@ -1,4 +1,11 @@
-﻿## [2.1.84.7779]
+﻿## [2.1.84.7780]
+
+**Novidades**
+
+* DC-7455 - Homologação Taquaral de Goiás/GO - padrão CENTI
+* OSRV-17591 - ReHomologação Cáceres/MT - mudança de padrão SATURNO20 para RLZ
+
+## [2.1.84.7779]
 
 **Novidades**
 
@@ -4902,6 +4909,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
