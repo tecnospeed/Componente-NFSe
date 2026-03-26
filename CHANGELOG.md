@@ -1,4 +1,12 @@
-﻿## [2.1.84.7780]
+﻿## [2.1.84.7781]
+
+**Novidades**
+
+* DC-7465 - Homologação Córrego do Ouro/GO - padrão ARRECADANET
+* DC-7467 - Homologação Ipixuna do Pará/PA - padrão D2TI
+* DC-7502 - Re-Homologação Pirenópolis/GO - mudança de padrão PRODATA para ISSWEB
+
+## [2.1.84.7780]
 
 **Novidades**
 
@@ -4909,6 +4917,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
