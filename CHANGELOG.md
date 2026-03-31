@@ -1,4 +1,12 @@
-﻿## [2.1.84.7781]
+﻿## [2.1.84.7782]
+
+* DC-7453 - Homologação Santa Isabel/GO - padrão ARRECADANET
+* DC-7497 - Homologação Porto Xavier/RS - padrão ABASE20
+* DC-7504 - Re-Homologação Jaboticatubas/MG - mudança de padrão EL para EL20
+* DC-7507 - Re-Homologação São Francisco de Assis/RS - mudança de padrão GOVBR20 para GOVBR30
+* DC-7509 - Re-Homologação Barão/RS - mudança de padrão TECNOSISTEMAS para IPM20
+
+## [2.1.84.7781]
 
 **Novidades**
 
@@ -4917,6 +4925,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
