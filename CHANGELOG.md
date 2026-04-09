@@ -1,4 +1,20 @@
-﻿## [2.1.84.7787]
+﻿## [2.1.84.7788]
+
+**Novidades**
+
+* DC-7401 - Re-Homologação Araraquara/SP - adequação layout próprio padrão COTIA.
+* DC-7513 - Re-Homologação Senador Canedo/GO - mudança de padrão FIORILLI para FIORILLI20.
+* DC-7514 - Re-Homologação Lagarto/SE - mudança de padrão TRIBUTUSWS para WEBISS20.
+* DC-7516 - Re-Homologação Jaboticaba/RS - mudança de padrão BETHA para IPM20.
+* DC-7518 - Re-Homologação Balsa Nova/PR - mudança de padrão EQUIPLANO para MAISISS20.
+* OSRV-26897 - Readequação NT007 PIS e COFINS - IPM20.
+
+**Correções**
+
+* OSRV-27424 - Ajuste na consulta de NFSe por RPS - CENTI.
+* OSRV-27354 - Ajuste na leitura de rejeições - Natal.
+
+## [2.1.84.7787]
 
 **Novidades**
 * DC-7486 - Re-Homologação Vassouras/RJ - mudança de padrão GOVBR20 para ITAFACIL
@@ -4935,6 +4951,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
