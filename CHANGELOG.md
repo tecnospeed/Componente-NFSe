@@ -1,4 +1,14 @@
-﻿## [2.1.84.7788]
+﻿## [2.1.84.7789]
+
+**Novidades**
+
+* DC-7469 - Homologação Americano do Brasil/GO - padrão CENTI
+* DC-7515 - Re-Homologação Campo Grande/MS - mudança de padrão DSF para DSF20
+* DC-7523 - Homologação Minaçu/GO - padrão CENTI
+* DC-7524 - Re-Homologação Jaguarão/RS - mudança de padrão GOVBR20 para GOVBR30
+* DC-7526 - Re-Homologação Socorro/SP - mudança de padrão GOVDIGITAL para BETHA
+
+## [2.1.84.7788]
 
 **Novidades**
 
@@ -4951,6 +4961,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
