@@ -1,4 +1,24 @@
-﻿## [2.1.84.7789]
+﻿## [2.1.84.7790]
+
+**Novidades**
+
+* DC-7505 - Homologação Vale Real/RS - padrão TECNOSISTEMAS
+* DC-7527 - Re-Homologação Grajaú/MA - mudança de padrão FISSLEX para INTERSOL
+* DC-7528 - Re-Homologação Diadema/SP - mudança de padrão GINFES para GISSONLINE
+
+**Correções**
+
+* OSRV-26917 - Ajuste na rota de cancelamento, padrão TINUS.
+* OSRV-27704 - Tratamento do retorno da consulta, padrão IIBRASIL.
+* OSRV-27692 - Ajuste de layout de comunicação - Barra Bonita/SP
+* OSRV-26808 - Ajuste de impressão para IBS e CBS - São Paulo/SP.
+* OSRV-27544 - Ajuste de impressão para constar Código de Obra e Informações Complementares, padrão SIL20.
+* OSRV-26916 - Ativação de impressão via link - Mogi Mirim/SP.
+* OSRV-16863 - Ajuste de impressão para modelo Nacional, padrão BETHA.
+* OSRV-16857 - Ajuste de impressão para constar Campo de Informações Complementares, padrão BETHA.
+* OSRV-27974 - Rehomologação cidade de Tanguá/RJ para o versão antiga.
+
+## [2.1.84.7789]
 
 **Novidades**
 
@@ -4961,6 +4981,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
