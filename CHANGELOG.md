@@ -1,4 +1,14 @@
-﻿## [2.1.84.7790]
+﻿## [2.1.84.7791]
+
+OSRV-116 - Homologação e Rehomologação D1 - Maio 1
+
+* 28307 - Re-Homologação Jaíba/MG - mudança de padrão WEBISS20 para SINTESE
+* 28308 - Re-Homologação Américo Brasiliense/SP - mudança de padrão EDDYDATA para IPM20
+* 28310 - Re-Homologação Palmeiras de Goiás/GO - mudança de padrão ARRECADANET para FIORILLI
+* 28417 - Homologação Vale Real/RS - padrão TECNOSISTEMAS
+* 28535 - Re-Homologação Mariópolis/PR - mudança de padrão GOVBR20 para GOVBR30
+
+## [2.1.84.7790]
 
 **Novidades**
 
@@ -4981,6 +4991,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
