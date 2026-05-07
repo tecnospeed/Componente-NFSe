@@ -1,4 +1,11 @@
-﻿## [2.1.84.7791]
+﻿## [2.1.84.7792]
+
+OSRV-130 - Homologação e Rehomologação D1 - Maio 2
+
+* 28622 - Re-homologação Rio Das Ostras/RJ, mudança de padrão WEBISS20 para TIPLAN
+* 28655 - Re-homologação Itaitinga/CE, mudança de padrão SSINFORMATICA para BETHA
+
+## [2.1.84.7791]
 
 OSRV-116 - Homologação e Rehomologação D1 - Maio 1
 
@@ -4991,6 +4998,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
