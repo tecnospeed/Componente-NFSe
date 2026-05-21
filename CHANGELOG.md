@@ -1,4 +1,26 @@
-﻿## [2.1.84.7796]
+﻿## [2.1.84.7797]
+
+**Novidades**
+* Disponibilização de ambiente de homologação de nova versão do padrão - Padrão ISSNETONLINE
+* Homologação BONITO/BA, padrão ATIV
+* Homologação Varzelândia/MG, padrão SINTESE
+* Re-homologação PORTO FERREIRA/SP, mudança de padrão COTIA para CONAM
+* Re-homologação ITAPEVA/MG, mudança de padrão BETHA para FIORILLI
+* Re-homologação BANDEIRANTES/PR, mudança de padrão BETHA para EQUIPLANO
+* Homologação - JENIPAPO DE MINAS/MG, padrão SINTESE
+* Homologação Coroaci/MG, padrão Futurise
+* Re-homologação Rio Claro/SP, mudança de padrão GINFES para GISSONLINE
+* Re-homologação ALEXÂNIA/GO, mudança de padrão FIORILLI para FIORILLI20
+* Re-homologação Abaeté/MG, mudança de padrão ISSLEGAL para FIORILLI
+
+**Correções**
+* Ajuste na leitura de retorno para conversão correta de situação da nota - Padrão SAATRI
+* Adequação de NT007 e RTC para múltiplos serviços - padrão INFISC
+* Correção de impressão via link (Macae/RJ) - Padrãp TIPLAN
+* Ajuste no valor Liquido do PDF - Campo Mourão/PR - IPM20
+* Ajuste no método de Cancelamento - padrão Blumenau
+
+## [2.1.84.7796]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -5010,6 +5032,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
