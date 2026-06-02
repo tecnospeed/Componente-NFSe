@@ -1,4 +1,12 @@
-﻿## [2.1.84.7801]
+﻿## [2.1.84.7802]
+
+* 29184 - Re-Homologação Rolante/RS - mudança de padrão ABASE para ABASE20
+* 29381 - Ajustes Santa Inês/MA - padrão ACTCON
+* 29517 - Re-Homologação Lajes/RN - mudança de padrão TINUSUP para TINUS
+* 29547 - Re-Homologação Barretos/SP - mudança de padrão SATURNO20 para RLZ
+* 29700 - Re-Homologação Rio Claro/SP - mudança de padrão GINFES para GISSONLINE
+
+## [2.1.84.7801]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -5040,6 +5048,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
