@@ -1,4 +1,13 @@
-﻿## [2.1.84.7810]
+﻿## [2.1.84.7811]
+
+* 30549 - Re-homologação Costa Rica/MS - mudança de padrão FIORILLI para FIORILLI20
+* 30814 - Re-homologação Guarulhos/SP - mudança de padrão GINFES para GISSONLINE
+* 31019 - Re-homologação Santa Rita/PB - mudança de padrão para AGILI
+* 31104 - Re-homologação Santo André/SP - mudança de padrão GINFES para GISSONLINE
+* 31122 - Re-homologação Mauá/SP - mudança de padrão GINFES para GISSONLINE
+* 30554 - Re-homologação Holambra/SP - mudança de padrão FIORILLI para FIORILLI20
+
+## [2.1.84.7810]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -5078,6 +5087,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
