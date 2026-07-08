@@ -1,4 +1,14 @@
-﻿## [2.1.84.7811]
+﻿## [2.1.84.7815]
+
+• 31189 - Re-homologação Giruá/RS, mudança de padrão ABASE para ABASE20
+
+• 31403 - Re-homologação Primavera do Leste/MT, mudança de padrão SATURNO20 para RLZ
+
+• 31557 - Re-homologação Tuparendi/RS, mudança de padrão ABASE para ABASE20
+
+• 31532 - Re-homologação Santo Cristo/RS, mudança de padrão ABASE para ABASE20
+
+## [2.1.84.7811]
 
 * 30549 - Re-homologação Costa Rica/MS - mudança de padrão FIORILLI para FIORILLI20
 * 30814 - Re-homologação Guarulhos/SP - mudança de padrão GINFES para GISSONLINE
@@ -5087,6 +5097,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
