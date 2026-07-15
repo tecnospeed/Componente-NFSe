@@ -1,4 +1,10 @@
-﻿## [2.1.84.7815]
+﻿## [2.1.84.7816]
+
+- 31569 - Homologação Águas Vermelhas/MG, padrão SINTESE
+- 31568 - Homologação Francisco Sá/MG, padrão SINTESE
+- 31614 - Re-homologação Catanduva/SP, mudança de padrão SATURNO20 para RLZ
+
+## [2.1.84.7815]
 
 • 31189 - Re-homologação Giruá/RS, mudança de padrão ABASE para ABASE20
 
@@ -5097,6 +5103,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
