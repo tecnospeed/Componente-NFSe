@@ -1,4 +1,13 @@
-﻿## [2.1.84.7816]
+﻿## [2.1.84.7817]
+
+- Re-homologação DIADEMA/SP, mudança de padrão GISSONLINE para NOVO GISSONLINE
+- Re-homologação Três Lagoas/MS, mudança de padrão Fiorilli para Fiorilli20
+- Re-homologação Hortolandia/SP, mudança de padrão GINFES para GISSONLINE
+- Re-homologação Caucaia/CE, mudança de padrão CAUCAIA para CAUCAIA
+- Re-homologação Corumbá/MS, mudança de padrão FIORILLI para FIORILLI20
+- Re-homologação Holambra/SP, mudança de padrão FIORILL20 para COTIA
+
+## [2.1.84.7816]
 
 - 31569 - Homologação Águas Vermelhas/MG, padrão SINTESE
 - 31568 - Homologação Francisco Sá/MG, padrão SINTESE
@@ -5103,6 +5112,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
