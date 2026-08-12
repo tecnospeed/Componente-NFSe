@@ -1,4 +1,10 @@
-﻿## [2.1.84.7828]
+﻿## [2.1.84.7830]
+
+- Re-Homologação Lajedo/PE, mudança de padrão TRIBUTUS para TRIBUTUSWS
+- Re-Homologação Porangatu/GO, mudança de padrão CENTI para ARRECADANET
+
+
+## [2.1.84.7828]
 
 - Re-homologação Icó/CE, mudança de padrão ENOTAUP para INTERSOL
 - Re-homologação Artur Nogueira/SP, mudança de padrão COTIA para GOVDIGITAL
@@ -5141,6 +5147,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
