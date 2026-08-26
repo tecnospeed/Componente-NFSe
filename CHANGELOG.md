@@ -1,4 +1,9 @@
-﻿## [2.1.84.7832]
+﻿## [2.1.84.7834]
+
+- Re-homologação Boa Vista do Burica/RS, mudança de padrão ABASE para ABASE20
+- Re-homologação Porto Mauá/RS, mudança de padrão ABASE para ABASE20
+
+## [2.1.84.7832]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -5155,6 +5160,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
