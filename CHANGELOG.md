@@ -1,4 +1,13 @@
-﻿## [2.1.84.7837]
+﻿## [2.1.84.7838]
+
+- Re-homologação São João Evangelista/MG - mudança de padrão ISSDIGITAL para EL30
+- Re-homologação Inhumas/GO - mudança de padrão ISSWEB para CENTI
+- Re-homologação Bariri/SP - mudança de padrão FIORILLI para FIORILLI20
+- Re-homologação Santa Maria/RS - mudança de padrão ISSNETONLINE20 para ISSNETONLINE30
+- Re-homologação São Martinho/RS - mudança de padrão ABASE para ABASE20
+- Re-homologação Ribeirão Preto/SP - mudança de padrão ISSNETONLINE20 para ISSNETONLINE30
+
+## [2.1.84.7837]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -5168,6 +5177,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
