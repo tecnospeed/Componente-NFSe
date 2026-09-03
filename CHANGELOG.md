@@ -1,4 +1,8 @@
-﻿## [2.1.84.7838]
+﻿## [2.1.84.7840]
+
+* Corre&ccedil;&otilde;es e melhorias diversos.
+
+## [2.1.84.7838]
 
 - Re-homologação São João Evangelista/MG - mudança de padrão ISSDIGITAL para EL30
 - Re-homologação Inhumas/GO - mudança de padrão ISSWEB para CENTI
@@ -5177,6 +5181,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
