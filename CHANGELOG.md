@@ -1,4 +1,12 @@
-﻿## [2.1.84.7842]
+﻿## [2.1.84.7843]
+
+- Re-Homologação Belém/PA, mudança de padrão DSF20 para DSF30
+- Re-Homologação Barreiras/BA, mudança de padrão EL20 para EL30
+- Re-Homologação Duque de Caxias/RJ, mudança de padrão ISSNETONLINE20 para ISSNETONLINE30
+- Re-Homologação Una/BA, mudança de padrão EL20 para EL30
+- Re-homologação Cuiaba/MT, mudança de padrão ISSNETONLINE20 para ISSNETNOLINE30
+
+## [2.1.84.7842]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
 
@@ -5189,6 +5197,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
