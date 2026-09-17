@@ -1,4 +1,13 @@
-﻿## [2.1.84.7843]
+﻿## [2.1.84.7847]
+
+- Re-homologação Bataguassu/MS, mudança de padrão FIORILLI para FIORILLI20
+- Re-homologação Buritis/MG, mudança de padrão FIORILLI para FIORILLI20
+- Re-homologação Campo Grande/MS, mudança de padrão DSF20 para DSF30
+- Re-homologação Jaru/RO, mudança de padrão FIORILLI para FIORILLI20
+- Re-homologação Sorocaba/SP, mudança de padrão DSF20 para DSF30
+
+
+## [2.1.84.7843]
 
 - Re-Homologação Belém/PA, mudança de padrão DSF20 para DSF30
 - Re-Homologação Barreiras/BA, mudança de padrão EL20 para EL30
@@ -5197,6 +5206,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
