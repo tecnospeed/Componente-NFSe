@@ -1,4 +1,15 @@
-﻿## [2.1.84.7847]
+﻿## [2.1.84.7848]
+
+- Re-homologação Teresina/PI, Mudança de padrão DSF20 para DSF30
+- Re-homologação Pirenópolis/GO, mudança de padrão ISSWEB para CENTI
+- Re-homologação Anápolis/GO, mudança de padrão ISSNETONLINE20 para ISSNETONLINE30
+- Re-homologação Itapecerica/MG, mudança de padrão FIORILLI para FIORILLI20
+- Re-homologação Campinas/SP, mudança de padrão DSF20 para DSF30
+- Re-homologação Lençóis/BA, mudança de padrão BETHA para KEEP
+- Re-homologação Nerópolis/GO, mudança de padrão ISSWEB para ARRECADANET
+- Re-homologação Ji-Paraná/RO, mudança de padrão FIORILLI para FIORILLI20
+
+## [2.1.84.7847]
 
 - Re-homologação Bataguassu/MS, mudança de padrão FIORILLI para FIORILLI20
 - Re-homologação Buritis/MG, mudança de padrão FIORILLI para FIORILLI20
@@ -5206,6 +5217,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
