@@ -1,4 +1,9 @@
-﻿## [2.1.84.7852]
+﻿## [2.1.84.7853]
+
+- Re-homologação Marília/SP, mudança de padrão SIGISS para SIGCORP20
+
+
+## [2.1.84.7852]
 
 - Re-homologação João Pessoa/PB, mudança de padrão DSF20 para DSF30
 
@@ -5238,6 +5243,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
