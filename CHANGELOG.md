@@ -1,4 +1,14 @@
-﻿## [2.1.84.7853]
+﻿## [2.1.84.7855]
+
+- Re-homologação São Vicente/SP, mudança de padrão ISSNETONLINE20 para ISSNETONLINE30
+- Re-homologação Itaúna/MG, mudança de padrão ISSNETONLINE20 para ISSNETONLINE30
+- Re-homologação Machadinho/RS, mudança de padrão GOVBR20 para GOVBR30
+- Re-homologação Ribas do Rio Pardo/MS, mudança de padrão FIORILLI para FIORILLI20
+- Re-homologação Jacutinga/MG, mudança de padrão FIORILLI para FIORILLI20
+- Re-homologação Ponta Porã/MS, mudança de padrão FIORILLI para FIORILLI20
+- Re-homologação Ariquemes/RO, mudança de padrão FIORILLI para FIORILLI20
+
+## [2.1.84.7853]
 
 - Re-homologação Marília/SP, mudança de padrão SIGISS para SIGCORP20
 
@@ -5243,6 +5253,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
