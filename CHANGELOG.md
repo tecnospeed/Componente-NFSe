@@ -1,4 +1,20 @@
-﻿## [2.1.84.7855]
+﻿## [2.1.84.7858]
+
+* Re-homologação Limoeiro/PE, mudança de padrão SISGENFE para TRIBUTUSWS
+* Re-homologação Dracena/SP, mudança de padrão ISSNETONLINE20 para ISSNETONLINE30
+* Re-homologação Cruz Alta/RS, mudança de padrão ISSNETONLINE20 para ISSNETONLINE30
+* Re-homologação Taubaté/SP, mudança de padrão SIGCORP para SIGCORP20
+* Re-homologação Caraguatatuba/SP, mudança de padrão SIGCORP para SIGCORP20
+* Re-homologação Itapira/SP, mudança de padrão SIGISS para SIGCORP20
+* Re-homologação Mogi Mirim/SP, mudança de padrão SIGCORP para SIGCORP20
+* Re-homologação Franco da Rocha/SP, mudança de padrão SIGCORP para SIGCORP20
+* Re-homologação Ipatinga/MG, mudança de padrão SIGCORP para SIGCORP20
+* Re-homologação Tucano/BA, mudança de padrão FISCO para WEBISS20
+* Re-homologação Horizonte/CE, mudança de padrão INTERSOL para INTERSOL20
+* Re-homologação Orizona/GO, mudança de padrão ISSWEB para CENTI
+* Re-homologação Jataí/GO, mudança de padrão ISSWEB para CENTI
+
+## [2.1.84.7855]
 
 - Re-homologação São Vicente/SP, mudança de padrão ISSNETONLINE20 para ISSNETONLINE30
 - Re-homologação Itaúna/MG, mudança de padrão ISSNETONLINE20 para ISSNETONLINE30
@@ -5253,6 +5269,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
