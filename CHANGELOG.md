@@ -1,4 +1,16 @@
-﻿## [2.1.84.7858]
+﻿## [2.1.84.7860]
+
+* Homologação Cristália/MG, padrão SINTESE
+* Homologação Fruta de Leite/MG, padrão SINTESE
+* Homologação Novorizonte/MG, padrão SINTESE
+* Re-homologação Itapecuru Mirim/MA, mudança de padrão SIGCORP para SIGCORP20
+* Re-homologação Barcarena/PA, mudança de padrão ISSNETONLINE20 para ISSNETONLINE30
+* Re-homologação Capivari/SP, mudança de padrão GINFES para GISSONLINE
+* Re-homologação Espírito Santo do Pinhal/SP, mudança de layout SIMPLISS
+* Re-homologação Macapá/AP, mudança de padrão ISSNETONLINE20 para ISSNETONLINE30
+* Re-homologação Parnamirim/PE, mudança de padrão DATAPUBLIC (Upload) para INTERSOL20
+
+## [2.1.84.7858]
 
 * Re-homologação Limoeiro/PE, mudança de padrão SISGENFE para TRIBUTUSWS
 * Re-homologação Dracena/SP, mudança de padrão ISSNETONLINE20 para ISSNETONLINE30
@@ -5269,6 +5281,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
