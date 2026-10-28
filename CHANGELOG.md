@@ -1,4 +1,17 @@
-﻿## [2.1.84.7860]
+﻿## [2.1.84.7861]
+
+* Re-homologação Crato/CE, mudança de padrão INTERSOL para INTERSOL20
+* Re-homologação Buritizeiro/MG, mudança de padrão DBSELLER para SINTESE
+* Re-homologação Itambé/PE, mudança de padrão FIORILLI para FIORILLI20
+* Re-homologação Rio Quente/GO, mudança de padrão FIORILLI para ARRECADANET
+* Re-homologação Tremembé/SP, mudança de padrão SIGISS para SIGCORP20
+* Re-homologação Buritis/RO, mudança de padrão FIORILLI para FIORILLI20
+* Re-homologação Domingos Martins/ES, mudança de padrão EL20 para EL30
+* Re-homologação Glória de Dourados/MS, mudança de padrão FIORILLI para FIORILLI20
+* Re-homologação Santa Maria de Itabira/MG, mudança de padrão EL20 para BETHA20
+* Re-homologação Timon/MA, mudança de padrão INTERSOL para INTERSOL20
+
+## [2.1.84.7860]
 
 * Homologação Cristália/MG, padrão SINTESE
 * Homologação Fruta de Leite/MG, padrão SINTESE
@@ -5281,6 +5294,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
