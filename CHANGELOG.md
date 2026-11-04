@@ -1,4 +1,12 @@
-﻿## [2.1.84.7861]
+﻿## [2.1.84.7862]
+
+- Re-homologação Sidrolândia/MS, mudança de padrão FIORILLI para FIORILLI20
+- Re-homologação Uraí/PR, mudança de padrão SYSISSONLINE para EQUIPLANO
+- Re-homologação Guaíra/SP, mudança de padrão FIORILLI para FIORILLI20
+- Re-homologação Piratininga/SP, mudança de padrão FIORILLI para FIORILLI20
+- Re-homologação Nova Alvorada do Sul/MS, mudança de padrão FIORILLI para FIORILLI20
+
+## [2.1.84.7861]
 
 * Re-homologação Crato/CE, mudança de padrão INTERSOL para INTERSOL20
 * Re-homologação Buritizeiro/MG, mudança de padrão DBSELLER para SINTESE
@@ -5294,6 +5302,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
