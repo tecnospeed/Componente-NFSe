@@ -1,4 +1,8 @@
-﻿## [2.1.84.7862]
+﻿## [2.1.84.7863]
+
+* Corre&ccedil;&otilde;es e melhorias diversos.
+
+## [2.1.84.7862]
 
 - Re-homologação Sidrolândia/MS, mudança de padrão FIORILLI para FIORILLI20
 - Re-homologação Uraí/PR, mudança de padrão SYSISSONLINE para EQUIPLANO
@@ -5302,6 +5306,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
