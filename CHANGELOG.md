@@ -1,4 +1,11 @@
-﻿## [2.1.84.7864]
+﻿## [2.1.84.7865]
+
+* Re-homologação Dois Córregos/SP, mudança de layout SIMPLISS
+* Re-homologação Ourilândia do Norte/PA, mudança de padrão FIORILLI para FIORILLI20
+* Re-homologação São Joaquim da Barra/SP, mudança de padrão FIORILLI para FIORILLI20
+* Re-homologação Leopoldina/MG, mudança de padrão FIORILLI para FIORILLI20
+
+## [2.1.84.7864]
 
 * Adequação RTC Volta Redonda/RJ, padrão SIMPLISS20
 * Atualização de Endereço da cidade de Jateí/MS, padrão AGILI
@@ -5314,6 +5321,7 @@ Para mais informações, acesse: https://atendimento.tecnospeed.com.br/hc/pt-br/
 ## [10.0.68.6834]
 
 * Corre&ccedil;&otilde;es e melhorias diversos.
+
 
 
 
